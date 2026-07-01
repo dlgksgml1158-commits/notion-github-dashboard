@@ -53,6 +53,10 @@ jobs:
             "https://api.github.com/issues?filter=all&state=open&per_page=50" \
             -o data-b53e82ab173f/github_issues.json
 
+      - name: Debug GitHub User Response
+        run: |
+          python3 -c "import json; d=json.load(open('data-b53e82ab173f/github_user.json')); print('message' in d and d['message'] or 'login OK: ' + d.get('login','?'))"
+
       - name: Fetch GitHub Activity
         run: |
           USERNAME=$(cat data-b53e82ab173f/github_user.json | python3 -c "import sys,json; print(json.load(sys.stdin)['login'])")
