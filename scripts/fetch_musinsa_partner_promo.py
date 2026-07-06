@@ -18,13 +18,24 @@ API_URL = "https://itgg-api.musinsa.com/po/sale/promotions"
 OUT_PATH = "data-b53e82ab173f/musinsa_partner_promotions.json"
 
 
-def fetch_promotions(partner_id, partner_pw):
+def fetch_promotions(partner_id, partner_pw, mss_mac):
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        page = browser.new_page(user_agent=(
+        context = browser.new_context(user_agent=(
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
             "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         ))
+        if mss_mac:
+            # "신뢰된 기기" 쿠키를 미리 심어서 매 실행마다 낯선 기기로 인식되어
+            # 2차 인증(OTP)이 뜨는 것을 방지 시도.
+            for domain in (".musinsa.com", "partner-sso.one.musinsa.com", "partner.musinsa.com"):
+                context.add_cookies([{
+                    "name": "mss_mac",
+                    "value": mss_mac,
+                    "domain": domain,
+                    "path": "/",
+                }])
+        page = context.new_page()
         page.goto(LOGIN_URL, wait_until="networkidle")
         page.wait_for_selector('input[name="id"]', timeout=15000)
         page.fill('input[name="id"]', partner_id)
@@ -84,10 +95,11 @@ def extract_items(payload):
 def main():
     partner_id = os.environ.get("MUSINSA_PARTNER_ID", "")
     partner_pw = os.environ.get("MUSINSA_PARTNER_PW", "")
+    mss_mac = os.environ.get("MUSINSA_MSS_MAC", "")
     items = []
     if partner_id and partner_pw:
         try:
-            payload = fetch_promotions(partner_id, partner_pw)
+            payload = fetch_promotions(partner_id, partner_pw, mss_mac)
             items = extract_items(payload)
         except Exception as e:
             print(f"Failed to fetch partner promotions: {e}")
