@@ -16,6 +16,7 @@
       --accent-n: #7c3aed;   /* Notion purple */
       --accent-g: #238636;   /* GitHub green */
       --accent-b: #1f6feb;   /* blue */
+      --accent-m: #ff3866;   /* Musinsa pink/red */
       --red:      #da3633;
     }
 
@@ -83,6 +84,7 @@
     .dot-notion { background: var(--accent-n); }
     .dot-github { background: var(--accent-g); }
     .dot-blue   { background: var(--accent-b); }
+    .dot-musinsa { background: var(--accent-m); }
 
     .card-body { padding: 0; }
 
@@ -217,6 +219,61 @@
     }
 
     .span-full { grid-column: 1 / -1; }
+
+    .promo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 12px;
+      padding: 16px;
+    }
+
+    .promo-item {
+      color: inherit;
+      text-decoration: none;
+      display: block;
+    }
+
+    .promo-thumb {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      border-radius: 6px;
+      background: var(--bg);
+      display: block;
+    }
+
+    .promo-brand {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+
+    .promo-name {
+      font-size: 12px;
+      margin-top: 2px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .promo-price {
+      margin-top: 4px;
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+    }
+
+    .promo-discount {
+      color: var(--accent-m);
+      font-weight: 700;
+      font-size: 12px;
+    }
+
+    .promo-final {
+      font-weight: 600;
+      font-size: 13px;
+    }
 
     #gate {
       position: fixed;
@@ -357,6 +414,26 @@
       <span class="dot dot-github"></span> 최근 업데이트된 Repository
     </div>
     <div class="card-body" id="github-repos">
+      <div class="loading">불러오는 중…</div>
+    </div>
+  </div>
+
+  <!-- ── 무신사 할인 특가 ── -->
+  <div class="card span-full">
+    <div class="card-header">
+      <span class="dot dot-musinsa"></span> 무신사 할인 특가
+    </div>
+    <div class="card-body" id="musinsa-promo">
+      <div class="loading">불러오는 중…</div>
+    </div>
+  </div>
+
+  <!-- ── 무신사 파트너 프로모션 일정 ── -->
+  <div class="card span-full">
+    <div class="card-header">
+      <span class="dot dot-musinsa"></span> 무신사 파트너 프로모션 할인
+    </div>
+    <div class="card-body" id="musinsa-partner-promo">
       <div class="loading">불러오는 중…</div>
     </div>
   </div>
@@ -616,6 +693,80 @@ async function renderGithubRepos() {
   `</div>`;
 }
 
+// ── 무신사 할인 특가 ──
+async function renderMusinsaPromo() {
+  const data = await load('musinsa_promo.json');
+  const el = document.getElementById('musinsa-promo');
+
+  if (!data || !Array.isArray(data.items)) {
+    el.innerHTML = '<div class="empty">musinsa_promo.json 없음 — GitHub Actions 실행 후 표시됩니다</div>';
+    return;
+  }
+
+  const items = [...data.items]
+    .sort((a, b) => (b.discountRate || 0) - (a.discountRate || 0))
+    .slice(0, 12);
+
+  if (!items.length) { el.innerHTML = '<div class="empty">항목 없음</div>'; return; }
+
+  el.innerHTML = `<div class="promo-grid">` + items.map(it => `
+    <a class="promo-item" href="${it.productUrl || '#'}" target="_blank" rel="noopener">
+      <img class="promo-thumb" src="${it.imgUrl || ''}" loading="lazy" alt="${escHtml(it.name || '')}" />
+      <div class="promo-brand">${escHtml(it.brand || '')} · ${escHtml(it.section || '')}</div>
+      <div class="promo-name">${escHtml(it.name || '')}</div>
+      <div class="promo-price">
+        ${it.discountRate ? `<span class="promo-discount">${it.discountRate}%</span>` : ''}
+        <span class="promo-final">${(it.finalPrice ?? 0).toLocaleString()}원</span>
+      </div>
+    </a>`).join('') + `</div>`;
+}
+
+// ── 무신사 파트너 프로모션 일정 ──
+function fmtPromoDate(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  if (isNaN(d)) return iso;
+  return `${d.getMonth() + 1}/${d.getDate()} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+}
+
+const PROMO_STATUS_LABEL = {
+  READY: '모집중',
+  RUNNING: '진행중',
+  RECRUIT_END: '모집마감',
+};
+
+async function renderMusinsaPartnerPromo() {
+  const data = await load('musinsa_partner_promotions.json');
+  const el = document.getElementById('musinsa-partner-promo');
+
+  if (!data || !Array.isArray(data.items) || !data.items.length) {
+    el.innerHTML = '<div class="empty">musinsa_partner_promotions.json 없음 — MUSINSA_PARTNER_ID/PW Secret 설정 후 표시됩니다</div>';
+    return;
+  }
+
+  const items = [...data.items].sort((a, b) => new Date(a.from) - new Date(b.from));
+
+  el.innerHTML = items.map(it => {
+    const label = PROMO_STATUS_LABEL[it.status] || it.status;
+    const badge = it.status === 'RUNNING'
+      ? `<span class="badge badge-open">${label}</span>`
+      : it.status === 'READY'
+        ? `<span class="badge badge-pr">${label}</span>`
+        : `<span class="badge" style="background:#21262d;color:#8b949e;border:1px solid #30363d;">${label}</span>`;
+    const period = `${fmtPromoDate(it.from)} ~ ${fmtPromoDate(it.to)}`;
+    const detail = ` · 최소할인율 ${it.minPercent ?? 0}% · 마감 ${it.recruitDeadline || ''}`;
+    return `
+      <div class="list-item">
+        <span class="list-icon">🏷️</span>
+        <div class="list-main">
+          <div class="list-title">${escHtml(it.name)}</div>
+          <div class="list-meta">${period}${detail}</div>
+        </div>
+        ${badge}
+      </div>`;
+  }).join('');
+}
+
 function escHtml(s) {
   return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
@@ -638,6 +789,8 @@ function initDashboard() {
     renderGithubEvents(),
     renderGithubIssues(),
     renderGithubRepos(),
+    renderMusinsaPromo(),
+    renderMusinsaPartnerPromo(),
     renderMeta(),
   ]);
 }
