@@ -21,12 +21,25 @@ OUT_PATH = "data-b53e82ab173f/musinsa_partner_promotions.json"
 def fetch_promotions(partner_id, partner_pw):
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        page = browser.new_page()
+        page = browser.new_page(user_agent=(
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        ))
         page.goto(LOGIN_URL, wait_until="networkidle")
+        page.wait_for_selector('input[name="id"]', timeout=15000)
         page.fill('input[name="id"]', partner_id)
         page.fill('input[name="password"]', partner_pw)
         page.click('button[type="submit"]')
-        page.wait_for_url("https://partner.musinsa.com/**", timeout=20000)
+
+        try:
+            page.wait_for_url("https://partner.musinsa.com/**", timeout=20000)
+        except Exception:
+            current_url = page.url
+            body_text = page.inner_text("body")[:800]
+            raise RuntimeError(
+                f"Login did not redirect. current_url={current_url} body_snippet={body_text!r}"
+            ) from None
+
         page.wait_for_load_state("networkidle")
 
         now = datetime.now(timezone.utc)
