@@ -6,9 +6,56 @@
 """
 import json
 import os
+import re
 from datetime import datetime, timedelta, timezone
 
+import pyotp
 from playwright.sync_api import sync_playwright
+
+
+def resolve_totp_secret(raw):
+    """MUSINSA_PARTNER_TOTP_SECRET 값에서 실제 TOTP 비밀키를 추출한다.
+
+    Authenticator 확장 프로그램의 "전체 export" 형식(JSON 배열), 단일
+    otpauth:// URI, 순수 base32 비밀키를 모두 지원한다.
+    """
+    raw = raw.strip()
+
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        data = None
+
+    if isinstance(data, list):
+        for entry in data:
+            if not isinstance(entry, dict):
+                continue
+            label = " ".join(str(entry.get(k, "")) for k in ("issuer", "label", "name", "account")).lower()
+            if "musinsa" in label or "partner" in label:
+                secret = entry.get("secret") or entry.get("key")
+                if secret:
+                    return secret
+        raise RuntimeError(
+            f"MUSINSA_PARTNER_TOTP_SECRET is a JSON list ({len(data)} entries) "
+            "but none matched 'musinsa'/'partner' in issuer/label/name/account"
+        )
+    if isinstance(data, dict):
+        secret = data.get("secret") or data.get("key")
+        if secret:
+            return secret
+
+    otp_uris = [line.strip() for line in raw.splitlines() if line.strip().startswith("otpauth://")]
+    for uri in otp_uris:
+        if "musinsa" in uri.lower() or len(otp_uris) == 1:
+            m = re.search(r"[?&]secret=([A-Za-z2-7]+)", uri)
+            if m:
+                return m.group(1)
+
+    compact = raw.replace(" ", "").replace("\n", "")
+    if re.fullmatch(r"[A-Za-z2-7]+=*", compact):
+        return compact
+
+    raise RuntimeError("Could not parse TOTP secret from MUSINSA_PARTNER_TOTP_SECRET (unrecognized format)")
 
 LOGIN_URL = (
     "https://partner-sso.one.musinsa.com/oauth/login"
@@ -18,7 +65,7 @@ API_URL = "https://itgg-api.musinsa.com/po/sale/promotions"
 OUT_PATH = "data-b53e82ab173f/musinsa_partner_promotions.json"
 
 
-def fetch_promotions(partner_id, partner_pw, mss_mac):
+def fetch_promotions(partner_id, partner_pw, mss_mac, totp_secret):
     with sync_playwright() as p:
         browser = p.chromium.launch()
         context = browser.new_context(user_agent=(
@@ -43,26 +90,35 @@ def fetch_promotions(partner_id, partner_pw, mss_mac):
         page.click('button[type="submit"]')
 
         try:
-            page.wait_for_url("https://partner.musinsa.com/**", timeout=20000)
+            page.wait_for_url("https://partner.musinsa.com/**", timeout=8000)
         except Exception:
-            current_url = page.url
-            body_text = page.inner_text("body")[:800]
-            elements = page.eval_on_selector_all(
-                "input, button, [role=tab]",
-                """els => els.map(e => ({
-                    tag: e.tagName,
-                    type: e.type || null,
-                    name: e.name || null,
-                    id: e.id || null,
-                    placeholder: e.placeholder || null,
-                    text: (e.textContent || '').trim().slice(0, 30),
-                    ariaLabel: e.getAttribute('aria-label'),
-                }))""",
-            )
-            raise RuntimeError(
-                f"Login did not redirect. current_url={current_url} "
-                f"body_snippet={body_text!r} elements={elements!r}"
-            ) from None
+            otp_input = page.locator('input[name="code"]')
+            if not totp_secret or otp_input.count() == 0:
+                current_url = page.url
+                body_text = page.inner_text("body")[:800]
+                raise RuntimeError(
+                    f"Login did not redirect and no OTP input found or no TOTP secret set. "
+                    f"current_url={current_url} body_snippet={body_text!r}"
+                ) from None
+
+            # "OTP" 라디오(첫 번째 옵션)를 선택해 앱 기반 OTP로 인증
+            radios = page.locator('input[type="radio"]')
+            if radios.count() > 0:
+                radios.first.check()
+
+            code = pyotp.TOTP(totp_secret).now()
+            otp_input.fill(code)
+            page.click('button[type="submit"]:has-text("인증하기")')
+
+            try:
+                page.wait_for_url("https://partner.musinsa.com/**", timeout=20000)
+            except Exception:
+                current_url = page.url
+                body_text = page.inner_text("body")[:800]
+                raise RuntimeError(
+                    f"Login did not redirect after OTP submission. "
+                    f"current_url={current_url} body_snippet={body_text!r}"
+                ) from None
 
         page.wait_for_load_state("networkidle")
 
@@ -109,10 +165,12 @@ def main():
     partner_id = os.environ.get("MUSINSA_PARTNER_ID", "")
     partner_pw = os.environ.get("MUSINSA_PARTNER_PW", "")
     mss_mac = os.environ.get("MUSINSA_MSS_MAC", "")
+    totp_secret_raw = os.environ.get("MUSINSA_PARTNER_TOTP_SECRET", "")
     items = []
     if partner_id and partner_pw:
         try:
-            payload = fetch_promotions(partner_id, partner_pw, mss_mac)
+            totp_secret = resolve_totp_secret(totp_secret_raw) if totp_secret_raw else ""
+            payload = fetch_promotions(partner_id, partner_pw, mss_mac, totp_secret)
             items = extract_items(payload)
         except Exception as e:
             print(f"Failed to fetch partner promotions: {e}")
