@@ -4,22 +4,89 @@
 매 실행마다 Playwright로 실제 로그인을 수행해 그 실행 시점에 유효한
 세션을 새로 발급받는다.
 """
+import base64
 import json
 import os
 import re
 from datetime import datetime, timedelta, timezone
+from urllib.parse import parse_qs, urlparse
 
 import pyotp
 from playwright.sync_api import sync_playwright
 
 
+def _read_varint(data, pos):
+    result = 0
+    shift = 0
+    while True:
+        b = data[pos]
+        pos += 1
+        result |= (b & 0x7F) << shift
+        if not (b & 0x80):
+            break
+        shift += 7
+    return result, pos
+
+
+def _parse_protobuf(data):
+    """최소한의 protobuf wire-format 파서: field_num -> [values] 딕셔너리 반환."""
+    fields = {}
+    pos = 0
+    while pos < len(data):
+        tag, pos = _read_varint(data, pos)
+        field_num, wire_type = tag >> 3, tag & 0x7
+        if wire_type == 0:
+            value, pos = _read_varint(data, pos)
+        elif wire_type == 2:
+            length, pos = _read_varint(data, pos)
+            value = data[pos:pos + length]
+            pos += length
+        elif wire_type == 5:
+            value, pos = data[pos:pos + 4], pos + 4
+        elif wire_type == 1:
+            value, pos = data[pos:pos + 8], pos + 8
+        else:
+            raise ValueError(f"Unsupported protobuf wire type {wire_type}")
+        fields.setdefault(field_num, []).append(value)
+    return fields
+
+
+def decode_migration_uri(uri):
+    """구글 Authenticator류 'otpauth-migration://offline?data=...' export 형식을 디코딩."""
+    qs = parse_qs(urlparse(uri).query)
+    raw = base64.b64decode(qs["data"][0])
+    top = _parse_protobuf(raw)
+    entries = []
+    for otp_bytes in top.get(1, []):
+        sub = _parse_protobuf(otp_bytes)
+        secret_bytes = sub.get(1, [b""])[0]
+        name = sub.get(2, [b""])[0].decode("utf-8", errors="replace")
+        issuer = sub.get(3, [b""])[0].decode("utf-8", errors="replace")
+        secret_b32 = base64.b32encode(secret_bytes).decode("ascii").rstrip("=")
+        entries.append({"name": name, "issuer": issuer, "secret": secret_b32})
+    return entries
+
+
 def resolve_totp_secret(raw):
     """MUSINSA_PARTNER_TOTP_SECRET 값에서 실제 TOTP 비밀키를 추출한다.
 
-    Authenticator 확장 프로그램의 "전체 export" 형식(JSON 배열), 단일
-    otpauth:// URI, 순수 base32 비밀키를 모두 지원한다.
+    Authenticator 확장 프로그램의 "전체 export" 형식(JSON 배열 또는
+    otpauth-migration:// 마이그레이션 링크), 단일 otpauth:// URI,
+    순수 base32 비밀키를 모두 지원한다.
     """
     raw = raw.strip()
+
+    if raw.startswith("otpauth-migration://"):
+        entries = decode_migration_uri(raw)
+        for entry in entries:
+            label = f"{entry['issuer']} {entry['name']}".lower()
+            if "musinsa" in label or "partner" in label:
+                return entry["secret"]
+        if len(entries) == 1:
+            return entries[0]["secret"]
+        raise RuntimeError(
+            f"otpauth-migration URI has {len(entries)} entries but none matched 'musinsa'/'partner'"
+        )
 
     try:
         data = json.loads(raw)
