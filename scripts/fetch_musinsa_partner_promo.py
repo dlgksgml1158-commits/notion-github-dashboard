@@ -47,8 +47,21 @@ def fetch_promotions(partner_id, partner_pw, mss_mac):
         except Exception:
             current_url = page.url
             body_text = page.inner_text("body")[:800]
+            elements = page.eval_on_selector_all(
+                "input, button, [role=tab]",
+                """els => els.map(e => ({
+                    tag: e.tagName,
+                    type: e.type || null,
+                    name: e.name || null,
+                    id: e.id || null,
+                    placeholder: e.placeholder || null,
+                    text: (e.textContent || '').trim().slice(0, 30),
+                    ariaLabel: e.getAttribute('aria-label'),
+                }))""",
+            )
             raise RuntimeError(
-                f"Login did not redirect. current_url={current_url} body_snippet={body_text!r}"
+                f"Login did not redirect. current_url={current_url} "
+                f"body_snippet={body_text!r} elements={elements!r}"
             ) from None
 
         page.wait_for_load_state("networkidle")
