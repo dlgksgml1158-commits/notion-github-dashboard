@@ -174,62 +174,70 @@ API_URL = "https://itgg-api.musinsa.com/po/sale/promotions"
 OUT_PATH = "data-b53e82ab173f/musinsa_partner_promotions.json"
 
 
-def fetch_promotions(partner_id, partner_pw, mss_mac, totp_secret):
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        context = browser.new_context(user_agent=(
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-        ))
-        if mss_mac:
-            # "신뢰된 기기" 쿠키를 미리 심어서 매 실행마다 낯선 기기로 인식되어
-            # 2차 인증(OTP)이 뜨는 것을 방지 시도.
-            for domain in (".musinsa.com", "partner-sso.one.musinsa.com", "partner.musinsa.com"):
-                context.add_cookies([{
-                    "name": "mss_mac",
-                    "value": mss_mac,
-                    "domain": domain,
-                    "path": "/",
-                }])
-        page = context.new_page()
-        page.goto(LOGIN_URL, wait_until="networkidle")
-        page.wait_for_selector('input[name="id"]', timeout=15000)
-        page.fill('input[name="id"]', partner_id)
-        page.fill('input[name="password"]', partner_pw)
-        page.click('button[type="submit"]')
+def new_authenticated_context(p, partner_id, partner_pw, mss_mac, totp_secret):
+    """로그인이 완료된 Playwright browser/context/page를 반환한다."""
+    browser = p.chromium.launch()
+    context = browser.new_context(user_agent=(
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ))
+    if mss_mac:
+        # "신뢰된 기기" 쿠키를 미리 심어서 매 실행마다 낯선 기기로 인식되어
+        # 2차 인증(OTP)이 뜨는 것을 방지 시도.
+        for domain in (".musinsa.com", "partner-sso.one.musinsa.com", "partner.musinsa.com"):
+            context.add_cookies([{
+                "name": "mss_mac",
+                "value": mss_mac,
+                "domain": domain,
+                "path": "/",
+            }])
+    page = context.new_page()
+    page.goto(LOGIN_URL, wait_until="networkidle")
+    page.wait_for_selector('input[name="id"]', timeout=15000)
+    page.fill('input[name="id"]', partner_id)
+    page.fill('input[name="password"]', partner_pw)
+    page.click('button[type="submit"]')
+
+    try:
+        page.wait_for_url("https://partner.musinsa.com/**", timeout=8000)
+    except Exception:
+        otp_input = page.locator('input[name="code"]')
+        if not totp_secret or otp_input.count() == 0:
+            current_url = page.url
+            body_text = page.inner_text("body")[:800]
+            raise RuntimeError(
+                f"Login did not redirect and no OTP input found or no TOTP secret set. "
+                f"current_url={current_url} body_snippet={body_text!r}"
+            ) from None
+
+        # "OTP" 라디오(첫 번째 옵션)를 선택해 앱 기반 OTP로 인증
+        radios = page.locator('input[type="radio"]')
+        if radios.count() > 0:
+            radios.first.check()
+
+        code = pyotp.TOTP(totp_secret).now()
+        otp_input.fill(code)
+        page.click('button[type="submit"]:has-text("인증하기")')
 
         try:
-            page.wait_for_url("https://partner.musinsa.com/**", timeout=8000)
+            page.wait_for_url("https://partner.musinsa.com/**", timeout=20000)
         except Exception:
-            otp_input = page.locator('input[name="code"]')
-            if not totp_secret or otp_input.count() == 0:
-                current_url = page.url
-                body_text = page.inner_text("body")[:800]
-                raise RuntimeError(
-                    f"Login did not redirect and no OTP input found or no TOTP secret set. "
-                    f"current_url={current_url} body_snippet={body_text!r}"
-                ) from None
+            current_url = page.url
+            body_text = page.inner_text("body")[:800]
+            raise RuntimeError(
+                f"Login did not redirect after OTP submission. "
+                f"current_url={current_url} body_snippet={body_text!r}"
+            ) from None
 
-            # "OTP" 라디오(첫 번째 옵션)를 선택해 앱 기반 OTP로 인증
-            radios = page.locator('input[type="radio"]')
-            if radios.count() > 0:
-                radios.first.check()
+    page.wait_for_load_state("networkidle")
+    return browser, context, page
 
-            code = pyotp.TOTP(totp_secret).now()
-            otp_input.fill(code)
-            page.click('button[type="submit"]:has-text("인증하기")')
 
-            try:
-                page.wait_for_url("https://partner.musinsa.com/**", timeout=20000)
-            except Exception:
-                current_url = page.url
-                body_text = page.inner_text("body")[:800]
-                raise RuntimeError(
-                    f"Login did not redirect after OTP submission. "
-                    f"current_url={current_url} body_snippet={body_text!r}"
-                ) from None
-
-        page.wait_for_load_state("networkidle")
+def fetch_promotions(partner_id, partner_pw, mss_mac, totp_secret):
+    with sync_playwright() as p:
+        browser, context, page = new_authenticated_context(
+            p, partner_id, partner_pw, mss_mac, totp_secret
+        )
 
         def _js_iso(dt):
             # JS의 Date.toISOString()과 동일한 형식(밀리초 3자리 + 'Z')으로 맞춘다.
