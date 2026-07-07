@@ -93,23 +93,47 @@ def resolve_totp_secret(raw):
     except json.JSONDecodeError:
         data = None
 
-    if isinstance(data, list):
-        for entry in data:
-            if not isinstance(entry, dict):
-                continue
-            label = " ".join(str(entry.get(k, "")) for k in ("issuer", "label", "name", "account")).lower()
-            if "musinsa" in label or "partner" in label:
-                secret = entry.get("secret") or entry.get("key")
-                if secret:
-                    return secret
+    def _collect_candidates(node, depth=0, acc=None):
+        """dict/list를 재귀 탐색해 (label, secret) 후보를 전부 모은다."""
+        if acc is None:
+            acc = []
+        if depth > 5:
+            return acc
+        if isinstance(node, dict):
+            label = " ".join(
+                str(node.get(k, "")) for k in ("issuer", "label", "name", "account", "title")
+            ).lower()
+            secret = node.get("secret") or node.get("key") or node.get("otp_secret") or node.get("otpSecret")
+            if isinstance(secret, str) and secret:
+                acc.append((label, secret))
+            for v in node.values():
+                _collect_candidates(v, depth + 1, acc)
+        elif isinstance(node, list):
+            for item in node:
+                _collect_candidates(item, depth + 1, acc)
+        return acc
+
+    def _key_shape(node, depth=0):
+        """값은 절대 노출하지 않고 구조(키 이름/타입)만 안전하게 덤프."""
+        if depth > 3:
+            return "..."
+        if isinstance(node, dict):
+            return {k: _key_shape(v, depth + 1) for k, v in node.items()}
+        if isinstance(node, list):
+            return [f"list[{len(node)}]"] + ([_key_shape(node[0], depth + 1)] if node else [])
+        return type(node).__name__
+
+    if isinstance(data, (list, dict)):
+        candidates = _collect_candidates(data)
+        matched = [s for label, s in candidates if "musinsa" in label or "partner" in label]
+        if matched:
+            return matched[0]
+        if len(candidates) == 1:
+            return candidates[0][1]
         raise RuntimeError(
-            f"MUSINSA_PARTNER_TOTP_SECRET is a JSON list ({len(data)} entries) "
-            "but none matched 'musinsa'/'partner' in issuer/label/name/account"
+            f"MUSINSA_PARTNER_TOTP_SECRET is JSON with {len(candidates)} secret candidates, "
+            f"none matched 'musinsa'/'partner'. shape={_key_shape(data)!r}"
         )
-    if isinstance(data, dict):
-        secret = data.get("secret") or data.get("key")
-        if secret:
-            return secret
 
     otp_uris = [line.strip() for line in raw.splitlines() if line.strip().startswith("otpauth://")]
     for uri in otp_uris:
