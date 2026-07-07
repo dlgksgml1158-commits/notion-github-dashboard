@@ -53,9 +53,22 @@ def main():
         # 진단 대상 페이지로 이동
         seen_urls.clear()
         page.goto("https://partner.musinsa.com/statistics/order-daily", wait_until="networkidle")
-        page.wait_for_timeout(3000)
+        page.wait_for_timeout(5000)
 
-        print("=== ALL REQUESTS AFTER NAVIGATING TO order-daily ===")
+        print("=== ALL REQUESTS AFTER INITIAL LOAD ===")
+        for u in seen_urls:
+            print(u)
+
+        # iframe 내부에서 검색 버튼 클릭 시도 (Playwright는 cross-origin iframe도 접근 가능)
+        seen_urls.clear()
+        try:
+            frame = page.frame_locator("iframe")
+            frame.get_by_text("검색", exact=True).first.click(timeout=10000)
+            page.wait_for_timeout(5000)
+            print("=== ALL REQUESTS AFTER CLICKING 검색 (jquery selector) ===")
+        except Exception as e:
+            print(f"검색 클릭 실패: {e}")
+            print("=== ALL REQUESTS (fallback, after wait) ===")
         for u in seen_urls:
             print(u)
 
