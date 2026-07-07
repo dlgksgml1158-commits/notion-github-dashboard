@@ -9,7 +9,7 @@ import json
 import os
 import re
 from datetime import datetime, timedelta, timezone
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, urlencode, urlparse
 
 import pyotp
 from playwright.sync_api import sync_playwright
@@ -231,14 +231,18 @@ def fetch_promotions(partner_id, partner_pw, mss_mac, totp_secret):
 
         page.wait_for_load_state("networkidle")
 
+        def _js_iso(dt):
+            # JS의 Date.toISOString()과 동일한 형식(밀리초 3자리 + 'Z')으로 맞춘다.
+            return dt.strftime("%Y-%m-%dT%H:%M:%S.") + f"{dt.microsecond // 1000:03d}Z"
+
         now = datetime.now(timezone.utc)
         params = {
-            "rangeFrom": now.isoformat(),
-            "rangeTo": (now + timedelta(days=60)).isoformat(),
+            "rangeFrom": _js_iso(now),
+            "rangeTo": _js_iso(now + timedelta(days=60)),
             "page": "1",
             "limit": "100",
         }
-        query = "&".join(f"{k}={v}" for k, v in params.items())
+        query = urlencode(params)
         result = page.evaluate(
             """async (url) => {
                 const r = await fetch(url, { credentials: 'include' });
