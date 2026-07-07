@@ -1,5 +1,31 @@
 [
   {
+    "id": "14454151931",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1285668162,
+      "name": "dlgksgml1158-commits/notion-github-dashboard",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/notion-github-dashboard"
+    },
+    "payload": {
+      "repository_id": 1285668162,
+      "push_id": 36743375293,
+      "ref": "refs/heads/main",
+      "head": "d8443117a8b44d47f89d065fd32ce7bf000608f2",
+      "before": "185b9a14c142755aa0830eeb124885b67963c433"
+    },
+    "public": true,
+    "created_at": "2026-07-07T00:15:26Z"
+  },
+  {
     "id": "14453898087",
     "type": "PushEvent",
     "actor": {
@@ -3129,51 +3155,5 @@
     },
     "public": true,
     "created_at": "2026-06-30T07:15:59Z"
-  },
-  {
-    "id": "11154568412",
-    "type": "PullRequestEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1280861734,
-      "name": "dlgksgml1158-commits/musinsa-dashboard",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/musinsa-dashboard"
-    },
-    "payload": {
-      "action": "merged",
-      "number": 9,
-      "pull_request": {
-        "url": "https://api.github.com/repos/dlgksgml1158-commits/musinsa-dashboard/pulls/9",
-        "id": 3961233411,
-        "number": 9,
-        "head": {
-          "ref": "claude/change-request-adi5ai",
-          "sha": "dc8b6c5e0bb7563206dcd5ab580d1d3d455a761c",
-          "repo": {
-            "id": 1280861734,
-            "url": "https://api.github.com/repos/dlgksgml1158-commits/musinsa-dashboard",
-            "name": "musinsa-dashboard"
-          }
-        },
-        "base": {
-          "ref": "main",
-          "sha": "0c15ee17caf96b8f8e84552d248827d329b8ecdd",
-          "repo": {
-            "id": 1280861734,
-            "url": "https://api.github.com/repos/dlgksgml1158-commits/musinsa-dashboard",
-            "name": "musinsa-dashboard"
-          }
-        }
-      }
-    },
-    "public": true,
-    "created_at": "2026-06-30T07:14:04Z"
   }
 ]
