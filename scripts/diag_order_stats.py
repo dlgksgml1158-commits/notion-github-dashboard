@@ -72,6 +72,32 @@ def main():
         for u in seen_urls:
             print(u)
 
+        # get_chart / search 응답 내용 직접 확인
+        chart_url = next((u for u in seen_urls if "get_chart" in u), None)
+        search_url = next((u for u in seen_urls if u.endswith("/search/")), None)
+        if chart_url:
+            body = bizest_frame.evaluate(
+                """async (url) => {
+                    const r = await fetch(url, { credentials: 'include' });
+                    return { status: r.status, text: await r.text() };
+                }""",
+                chart_url,
+            )
+            print("=== get_chart RESPONSE ===")
+            print(f"status={body['status']}")
+            print(body["text"][:3000])
+        if search_url:
+            body2 = bizest_frame.evaluate(
+                """async (url) => {
+                    const r = await fetch(url, { credentials: 'include' });
+                    return { status: r.status, text: await r.text() };
+                }""",
+                search_url,
+            )
+            print("=== search/ RESPONSE ===")
+            print(f"status={body2['status']}")
+            print(body2["text"][:3000])
+
         browser.close()
 
 
