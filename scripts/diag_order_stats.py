@@ -63,7 +63,7 @@ def main():
         seen_urls.clear()
         try:
             frame = page.frame_locator("iframe")
-            frame.get_by_text("검색", exact=True).first.click(timeout=10000)
+            frame.get_by_text("검색", exact=True).first.click(timeout=10000, force=True)
             page.wait_for_timeout(5000)
             print("=== ALL REQUESTS AFTER CLICKING 검색 (jquery selector) ===")
         except Exception as e:
