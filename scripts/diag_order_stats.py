@@ -59,25 +59,15 @@ def main():
         for u in seen_urls:
             print(u)
 
-        # iframe 내부에서 검색 버튼 클릭 시도 (Playwright는 cross-origin iframe도 접근 가능)
+        # iframe 내부 JS 함수(app_ord07_grid.search_list)를 직접 호출
         seen_urls.clear()
         try:
-            frame = page.frame_locator("iframe")
-            btn = frame.locator(
-                'button:has-text("검색"), a:has-text("검색"), input[value="검색"], [role="button"]:has-text("검색")'
-            ).first
-            btn.click(timeout=10000, force=True)
+            bizest_frame = next(f for f in page.frames if "bizest.musinsa.com" in f.url)
+            bizest_frame.evaluate("app_ord07_grid.search_list()")
             page.wait_for_timeout(5000)
-            print("=== ALL REQUESTS AFTER CLICKING 검색 (button selector) ===")
+            print("=== ALL REQUESTS AFTER CALLING app_ord07_grid.search_list() ===")
         except Exception as e:
-            print(f"검색 클릭 실패: {e}")
-            try:
-                html = frame.locator("body").inner_html(timeout=5000)
-                idx = html.find("검색")
-                print("=== HTML SNIPPET AROUND '검색' ===")
-                print(html[max(0, idx - 500):idx + 200])
-            except Exception as e2:
-                print(f"HTML 덤프도 실패: {e2}")
+            print(f"JS 함수 호출 실패: {e}")
             print("=== ALL REQUESTS (fallback, after wait) ===")
         for u in seen_urls:
             print(u)
