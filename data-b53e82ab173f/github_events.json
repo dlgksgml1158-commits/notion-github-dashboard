@@ -1,5 +1,31 @@
 [
   {
+    "id": "14454283884",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1285668162,
+      "name": "dlgksgml1158-commits/notion-github-dashboard",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/notion-github-dashboard"
+    },
+    "payload": {
+      "repository_id": 1285668162,
+      "push_id": 36743506933,
+      "ref": "refs/heads/main",
+      "head": "629d6d50a8f4956554de31c1c8018fda6130af9a",
+      "before": "4192f74fccc425f596a960790a7fda737c928a05"
+    },
+    "public": true,
+    "created_at": "2026-07-07T00:19:29Z"
+  },
+  {
     "id": "14454151931",
     "type": "PushEvent",
     "actor": {
@@ -3129,31 +3155,5 @@
     },
     "public": true,
     "created_at": "2026-06-30T07:16:07Z"
-  },
-  {
-    "id": "14095174016",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1280861734,
-      "name": "dlgksgml1158-commits/musinsa-dashboard",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/musinsa-dashboard"
-    },
-    "payload": {
-      "repository_id": 1280861734,
-      "push_id": 36383777285,
-      "ref": "refs/heads/claude/change-request-adi5ai",
-      "head": "e4b2fecab8ddb56575aa69f7a3848c23ef238a38",
-      "before": "dc8b6c5e0bb7563206dcd5ab580d1d3d455a761c"
-    },
-    "public": true,
-    "created_at": "2026-06-30T07:15:59Z"
   }
 ]

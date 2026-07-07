@@ -1,4 +1,95 @@
 {
-  "updatedAt": "2026-07-07T00:17:05.336170+00:00",
-  "items": []
+  "updatedAt": "2026-07-07T00:26:03.299166+00:00",
+  "items": [
+    {
+      "promotionId": 17473,
+      "name": "OO시간 특가 모집 (7/13 - 7/20) - 48시간 특가 (7/13 - 7/15)",
+      "status": "READY",
+      "from": "2026-07-13T02:00:00.000Z",
+      "to": "2026-07-15T02:00:00.000Z",
+      "minPercent": 10,
+      "recruitDeadline": "2026-07-10"
+    },
+    {
+      "promotionId": 17473,
+      "name": "OO시간 특가 모집 (7/13 - 7/20) - 48시간 특가 (7/15 - 7/17)",
+      "status": "READY",
+      "from": "2026-07-15T02:00:00.000Z",
+      "to": "2026-07-17T02:00:00.000Z",
+      "minPercent": 10,
+      "recruitDeadline": "2026-07-12"
+    },
+    {
+      "promotionId": 17473,
+      "name": "OO시간 특가 모집 (7/13 - 7/20) - 72시간 특가 (7/17 - 7/20)",
+      "status": "READY",
+      "from": "2026-07-17T02:00:00.000Z",
+      "to": "2026-07-20T02:00:00.000Z",
+      "minPercent": 10,
+      "recruitDeadline": "2026-07-14"
+    },
+    {
+      "promotionId": 17451,
+      "name": "8월 킥스위크 - 일반세일",
+      "status": "READY",
+      "from": "2026-08-03T02:00:00.000Z",
+      "to": "2026-08-13T02:00:00.000Z",
+      "minPercent": 10,
+      "recruitDeadline": null
+    },
+    {
+      "promotionId": 17424,
+      "name": "OO시간 특가 모집 (7/6 - 7/13) - 48시간 특가 (7/6 - 7/8)",
+      "status": "RUNNING",
+      "from": "2026-07-06T02:00:00.000Z",
+      "to": "2026-07-08T02:00:00.000Z",
+      "minPercent": 10,
+      "recruitDeadline": "2026-07-03"
+    },
+    {
+      "promotionId": 17424,
+      "name": "OO시간 특가 모집 (7/6 - 7/13) - 48시간 특가 (7/8 - 7/10)",
+      "status": "RECRUIT_END",
+      "from": "2026-07-08T02:00:00.000Z",
+      "to": "2026-07-10T02:00:00.000Z",
+      "minPercent": 10,
+      "recruitDeadline": "2026-07-05"
+    },
+    {
+      "promotionId": 17424,
+      "name": "OO시간 특가 모집 (7/6 - 7/13) - 72시간 특가 (7/10 - 7/13)",
+      "status": "READY",
+      "from": "2026-07-10T02:00:00.000Z",
+      "to": "2026-07-13T02:00:00.000Z",
+      "minPercent": 10,
+      "recruitDeadline": "2026-07-07"
+    },
+    {
+      "promotionId": 17242,
+      "name": "7월 뷰티위크 (파트너 세일 모집) - 뷰티위크 (파트너 세일 모집)",
+      "status": "RUNNING",
+      "from": "2026-07-06T02:00:00.000Z",
+      "to": "2026-07-16T02:00:00.000Z",
+      "minPercent": 5,
+      "recruitDeadline": "2026-07-03"
+    },
+    {
+      "promotionId": 17202,
+      "name": "바캉스 잡화위크 - 일반세일",
+      "status": "RUNNING",
+      "from": "2026-07-06T02:00:00.000Z",
+      "to": "2026-07-13T02:00:00.000Z",
+      "minPercent": null,
+      "recruitDeadline": null
+    },
+    {
+      "promotionId": 17100,
+      "name": "상반기 결산 빅세일 - 일반세일",
+      "status": "READY",
+      "from": "2026-07-20T01:30:00.000Z",
+      "to": "2026-07-30T02:00:00.000Z",
+      "minPercent": null,
+      "recruitDeadline": null
+    }
+  ]
 }
