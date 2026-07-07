@@ -63,11 +63,21 @@ def main():
         seen_urls.clear()
         try:
             frame = page.frame_locator("iframe")
-            frame.get_by_text("검색", exact=True).first.click(timeout=10000, force=True)
+            btn = frame.locator(
+                'button:has-text("검색"), a:has-text("검색"), input[value="검색"], [role="button"]:has-text("검색")'
+            ).first
+            btn.click(timeout=10000, force=True)
             page.wait_for_timeout(5000)
-            print("=== ALL REQUESTS AFTER CLICKING 검색 (jquery selector) ===")
+            print("=== ALL REQUESTS AFTER CLICKING 검색 (button selector) ===")
         except Exception as e:
             print(f"검색 클릭 실패: {e}")
+            try:
+                html = frame.locator("body").inner_html(timeout=5000)
+                idx = html.find("검색")
+                print("=== HTML SNIPPET AROUND '검색' ===")
+                print(html[max(0, idx - 500):idx + 200])
+            except Exception as e2:
+                print(f"HTML 덤프도 실패: {e2}")
             print("=== ALL REQUESTS (fallback, after wait) ===")
         for u in seen_urls:
             print(u)
