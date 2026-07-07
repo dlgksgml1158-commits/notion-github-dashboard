@@ -122,7 +122,25 @@ def resolve_totp_secret(raw):
     if re.fullmatch(r"[A-Za-z2-7]+=*", compact):
         return compact
 
-    raise RuntimeError("Could not parse TOTP secret from MUSINSA_PARTNER_TOTP_SECRET (unrecognized format)")
+    lines = raw.splitlines()
+    diag = {
+        "length": len(raw),
+        "line_count": len(lines),
+        "first_line_length": len(lines[0]) if lines else 0,
+        "first_10_chars_repr": repr(raw[:10]),
+        "contains_otpauth": "otpauth" in raw.lower(),
+        "contains_migration": "migration" in raw.lower(),
+        "contains_braces": raw.strip().startswith(("{", "[")),
+        "contains_comma": "," in raw,
+        "char_classes": sorted(set(
+            "digit" if c.isdigit() else
+            "upper" if c.isupper() else
+            "lower" if c.islower() else
+            repr(c)
+            for c in raw[:50]
+        )),
+    }
+    raise RuntimeError(f"Could not parse TOTP secret from MUSINSA_PARTNER_TOTP_SECRET. diag={diag!r}")
 
 LOGIN_URL = (
     "https://partner-sso.one.musinsa.com/oauth/login"
