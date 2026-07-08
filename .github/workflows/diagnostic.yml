@@ -20,10 +20,13 @@ jobs:
           pip install playwright pyotp
           playwright install --with-deps chromium
 
-      - name: Run diagnostic
-        run: python3 scripts/diag_order_list.py
+      - name: Run bestsellers fetch (test)
+        run: python3 scripts/fetch_musinsa_bestsellers.py
         env:
           MUSINSA_PARTNER_ID: ${{ secrets.MUSINSA_PARTNER_ID }}
           MUSINSA_PARTNER_PW: ${{ secrets.MUSINSA_PARTNER_PW }}
           MUSINSA_MSS_MAC: ${{ secrets.MUSINSA_MSS_MAC }}
           MUSINSA_PARTNER_TOTP_SECRET: ${{ secrets.MUSINSA_PARTNER_TOTP_SECRET }}
+
+      - name: Show result
+        run: cat data-b53e82ab173f/musinsa_bestsellers.json
