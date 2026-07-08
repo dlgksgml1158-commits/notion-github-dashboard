@@ -1,12 +1,15 @@
-"""임시 진단 스크립트: 일별 행을 클릭했을 때 열리는 상품별 주문 목록 팝업을 찾는다."""
+"""임시 진단 스크립트: 실제 날짜 데이터 행을 정확히 찾아 클릭해서
+상품별 주문 목록 팝업/API를 확인한다."""
 import json
 import os
+import re
 
 from playwright.sync_api import sync_playwright
 
 from fetch_musinsa_partner_promo import new_authenticated_context, resolve_totp_secret
 
 ORDER_DAILY_PAGE = "https://partner.musinsa.com/statistics/order-daily"
+DATE_RE = re.compile(r"20\d\d[.\-]\d\d[.\-]\d\d")
 
 
 def main():
@@ -42,35 +45,56 @@ def main():
         bizest_frame.evaluate("app_ord07_grid.search_list()")
         page.wait_for_timeout(2000)
 
-        # 그리드의 실제 DOM 행을 찾아 클릭 (open_order_list 트리거 목적)
-        try:
-            rows = bizest_frame.locator("table tr, .ag-row, [class*='row']")
-            print("ROW_COUNT_CANDIDATES:", rows.count())
+        rows = bizest_frame.locator("table tr")
+        n = rows.count()
+        print("TABLE_TR_COUNT:", n)
+        date_row_idx = None
+        for i in range(n):
+            row = rows.nth(i)
+            txt = row.inner_text().replace("\n", " | ")
+            print(f"ROW[{i}]:", txt[:150])
+            if date_row_idx is None and DATE_RE.search(txt):
+                date_row_idx = i
+
+        if date_row_idx is not None:
+            print("DATE_ROW_FOUND_AT:", date_row_idx)
+            # 그 행 안에서 클릭 가능한(날짜) 셀을 우선 클릭
+            row = rows.nth(date_row_idx)
+            cells = row.locator("td")
             clicked = False
-            for i in range(min(rows.count(), 40)):
-                row = rows.nth(i)
-                txt = row.inner_text() if row.count() else ""
-                if "2026" in txt or "." in txt:
-                    print(f"CLICKING_ROW[{i}]:", txt[:80].replace(chr(10), ' | '))
-                    row.click(timeout=3000)
-                    clicked = True
-                    page.wait_for_timeout(2500)
+            for j in range(cells.count()):
+                cell = cells.nth(j)
+                ctxt = cell.inner_text()
+                if DATE_RE.search(ctxt):
+                    print(f"CLICKING_CELL[{j}]:", ctxt)
+                    try:
+                        cell.click(timeout=3000)
+                        clicked = True
+                    except Exception as e:
+                        print("CELL_CLICK_ERROR:", e)
                     break
             if not clicked:
-                print("NO_ROW_CLICKED")
-        except Exception as e:
-            print("ROW_CLICK_ERROR:", e)
+                print("FALLBACK_CLICK_WHOLE_ROW")
+                row.click(timeout=3000)
+            page.wait_for_timeout(3000)
+        else:
+            print("NO_DATE_ROW_FOUND")
 
         print("NEW_PAGES_OPENED:", len(new_pages))
         for np_ in new_pages:
             print("  new page url:", np_.url)
+            try:
+                np_.wait_for_load_state("networkidle", timeout=5000)
+            except Exception:
+                pass
+            for fr in np_.frames:
+                print("    frame:", fr.url)
 
         print("CAPTURED_REQUESTS_AFTER_CLICK:")
         for u in sorted(set(captured))[-40:]:
             print(" -", u)
 
-        # 팝업/모달이 같은 페이지 내 iframe으로 열렸을 가능성도 체크
-        print("ALL_FRAME_URLS:")
+        print("ALL_FRAME_URLS_MAIN_PAGE:")
         for fr in page.frames:
             print(" -", fr.url)
 
