@@ -21,8 +21,6 @@ MAX_PAGES = 40
 
 
 def fetch_all_orders(page):
-    page.goto(ORDER_HISTORY_PAGE, wait_until="networkidle")
-
     responses = []
 
     def on_response(res):
@@ -34,6 +32,8 @@ def fetch_all_orders(page):
                 print(f"  [WARN] 응답 파싱 실패: {e}")
 
     page.on("response", on_response)
+
+    page.goto(ORDER_HISTORY_PAGE, wait_until="networkidle")
     page.wait_for_timeout(4000)
 
     bizest_frame = next(f for f in page.frames if "bizest.musinsa.com" in f.url)
