@@ -17,7 +17,7 @@ def main():
     totp_secret_raw = os.environ.get("MUSINSA_PARTNER_TOTP_SECRET", "")
     totp_secret = resolve_totp_secret(totp_secret_raw) if totp_secret_raw else ""
 
-    seen = []
+    search_requests = []
 
     with sync_playwright() as p:
         browser, context, page = new_authenticated_context(
@@ -25,11 +25,12 @@ def main():
         )
 
         def on_request(req):
-            if "bizest.musinsa.com" in req.url or "musinsa.com" in req.url:
-                if req.method in ("GET", "POST") and (
-                    "order" in req.url.lower() or "ord0" in req.url.lower()
-                ):
-                    seen.append(req.url)
+            if "/ord07/search" in req.url:
+                search_requests.append({
+                    "url": req.url,
+                    "method": req.method,
+                    "post_data": req.post_data,
+                })
 
         page.on("request", on_request)
 
@@ -38,39 +39,55 @@ def main():
 
         bizest_frame = next(f for f in page.frames if "bizest.musinsa.com" in f.url)
 
-        # 1) 그리드 객체 자체를 덤프해서 사용 가능한 함수/데이터 소스 이름 확인
-        grid_info = bizest_frame.evaluate(
-            """() => {
-                try {
-                    const g = window.app_ord07_grid;
-                    if (!g) return { error: 'no app_ord07_grid' };
-                    const keys = Object.keys(g).filter(k => typeof g[k] === 'function');
-                    return { keys };
-                } catch (e) { return { error: String(e) }; }
-            }"""
-        )
-        print("GRID_FUNCTION_KEYS:", json.dumps(grid_info, ensure_ascii=False))
-
-        # 2) 실제 검색 트리거
+        # search_list()가 만든 search/ 요청 캡처
         bizest_frame.evaluate("app_ord07_grid.search_list()")
         page.wait_for_timeout(3000)
 
-        print("CAPTURED_ORDER_URLS:")
-        for u in sorted(set(seen)):
-            print(" -", u)
+        print("SEARCH_REQUESTS:", json.dumps(search_requests, ensure_ascii=False))
 
-        # 3) 그리드 내부 rowData(있다면) 샘플 1건 덤프 -> 상품명 필드 존재 여부 확인
-        row_sample = bizest_frame.evaluate(
-            """() => {
-                try {
-                    const g = window.app_ord07_grid;
-                    const data = g && (g.gridOptions?.api?.getDisplayedRowAtIndex?.(0)?.data
-                        || g.rowData?.[0] || g.list?.[0] || g.data?.[0]);
-                    return data || null;
-                } catch (e) { return { error: String(e) }; }
-            }"""
-        )
-        print("ROW_SAMPLE:", json.dumps(row_sample, ensure_ascii=False))
+        # open_order_list 함수 시그니처/동작 확인 (인자 없이 호출 시 에러 메시지로 힌트 추정)
+        try:
+            open_list_result = bizest_frame.evaluate(
+                """() => {
+                    try {
+                        return { fnString: window.app_ord07_grid.open_order_list.toString().slice(0, 1500) };
+                    } catch (e) { return { error: String(e) }; }
+                }"""
+            )
+            print("OPEN_ORDER_LIST_FN:", json.dumps(open_list_result, ensure_ascii=False))
+        except Exception as e:
+            print("OPEN_ORDER_LIST_FN_ERROR:", e)
+
+        # search_list 함수 소스도 같이 덤프 (search/ 요청 URL 패턴/파라미터 이해용)
+        try:
+            search_list_src = bizest_frame.evaluate(
+                """() => {
+                    try {
+                        return { fnString: window.app_ord07_grid.search_list.toString().slice(0, 2000) };
+                    } catch (e) { return { error: String(e) }; }
+                }"""
+            )
+            print("SEARCH_LIST_FN:", json.dumps(search_list_src, ensure_ascii=False))
+        except Exception as e:
+            print("SEARCH_LIST_FN_ERROR:", e)
+
+        # 직접 재요청해서 응답 바디까지 확인 (최근 캡처된 search 요청 재현)
+        if search_requests:
+            last = search_requests[-1]
+            fetch_result = bizest_frame.evaluate(
+                """async ({url, method, postData}) => {
+                    const opts = { method, credentials: 'include' };
+                    if (postData) {
+                        opts.headers = { 'Content-Type': 'application/x-www-form-urlencoded' };
+                        opts.body = postData;
+                    }
+                    const r = await fetch(url, opts);
+                    const text = await r.text();
+                    return { status: r.status, text: text.slice(0, 3000) };
+                }""",
+                {"url": last["url"], "method": last["method"], "postData": last.get("post_data")},
+            )
+            print("SEARCH_RESPONSE_SAMPLE:", json.dumps(fetch_result, ensure_ascii=False))
 
         browser.close()
 
