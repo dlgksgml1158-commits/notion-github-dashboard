@@ -1,5 +1,4 @@
-"""임시 진단 스크립트: 일별 주문 통계 화면에서 상품별(개별 주문 라인) 데이터를
-제공하는 API가 있는지 탐색한다. 완료 후 삭제 예정."""
+"""임시 진단 스크립트: 일별 행을 클릭했을 때 열리는 상품별 주문 목록 팝업을 찾는다."""
 import json
 import os
 
@@ -17,20 +16,20 @@ def main():
     totp_secret_raw = os.environ.get("MUSINSA_PARTNER_TOTP_SECRET", "")
     totp_secret = resolve_totp_secret(totp_secret_raw) if totp_secret_raw else ""
 
-    search_requests = []
+    captured = []
 
     with sync_playwright() as p:
         browser, context, page = new_authenticated_context(
             p, partner_id, partner_pw, mss_mac, totp_secret
         )
 
+        new_pages = []
+        context.on("page", lambda pg: new_pages.append(pg))
+
         def on_request(req):
-            if "/ord07/search" in req.url:
-                search_requests.append({
-                    "url": req.url,
-                    "method": req.method,
-                    "post_data": req.post_data,
-                })
+            if "musinsa.com" in req.url and req.method in ("GET", "POST"):
+                if any(k in req.url.lower() for k in ("ord0", "order", "goods", "style")):
+                    captured.append(f"{req.method} {req.url}")
 
         page.on("request", on_request)
 
@@ -38,56 +37,42 @@ def main():
         page.wait_for_timeout(3000)
 
         bizest_frame = next(f for f in page.frames if "bizest.musinsa.com" in f.url)
+        bizest_frame.on("request", on_request)
 
-        # search_list()가 만든 search/ 요청 캡처
         bizest_frame.evaluate("app_ord07_grid.search_list()")
-        page.wait_for_timeout(3000)
+        page.wait_for_timeout(2000)
 
-        print("SEARCH_REQUESTS:", json.dumps(search_requests, ensure_ascii=False))
-
-        # open_order_list 함수 시그니처/동작 확인 (인자 없이 호출 시 에러 메시지로 힌트 추정)
+        # 그리드의 실제 DOM 행을 찾아 클릭 (open_order_list 트리거 목적)
         try:
-            open_list_result = bizest_frame.evaluate(
-                """() => {
-                    try {
-                        return { fnString: window.app_ord07_grid.open_order_list.toString().slice(0, 1500) };
-                    } catch (e) { return { error: String(e) }; }
-                }"""
-            )
-            print("OPEN_ORDER_LIST_FN:", json.dumps(open_list_result, ensure_ascii=False))
+            rows = bizest_frame.locator("table tr, .ag-row, [class*='row']")
+            print("ROW_COUNT_CANDIDATES:", rows.count())
+            clicked = False
+            for i in range(min(rows.count(), 40)):
+                row = rows.nth(i)
+                txt = row.inner_text() if row.count() else ""
+                if "2026" in txt or "." in txt:
+                    print(f"CLICKING_ROW[{i}]:", txt[:80].replace(chr(10), ' | '))
+                    row.click(timeout=3000)
+                    clicked = True
+                    page.wait_for_timeout(2500)
+                    break
+            if not clicked:
+                print("NO_ROW_CLICKED")
         except Exception as e:
-            print("OPEN_ORDER_LIST_FN_ERROR:", e)
+            print("ROW_CLICK_ERROR:", e)
 
-        # search_list 함수 소스도 같이 덤프 (search/ 요청 URL 패턴/파라미터 이해용)
-        try:
-            search_list_src = bizest_frame.evaluate(
-                """() => {
-                    try {
-                        return { fnString: window.app_ord07_grid.search_list.toString().slice(0, 2000) };
-                    } catch (e) { return { error: String(e) }; }
-                }"""
-            )
-            print("SEARCH_LIST_FN:", json.dumps(search_list_src, ensure_ascii=False))
-        except Exception as e:
-            print("SEARCH_LIST_FN_ERROR:", e)
+        print("NEW_PAGES_OPENED:", len(new_pages))
+        for np_ in new_pages:
+            print("  new page url:", np_.url)
 
-        # 직접 재요청해서 응답 바디까지 확인 (최근 캡처된 search 요청 재현)
-        if search_requests:
-            last = search_requests[-1]
-            fetch_result = bizest_frame.evaluate(
-                """async ({url, method, postData}) => {
-                    const opts = { method, credentials: 'include' };
-                    if (postData) {
-                        opts.headers = { 'Content-Type': 'application/x-www-form-urlencoded' };
-                        opts.body = postData;
-                    }
-                    const r = await fetch(url, opts);
-                    const text = await r.text();
-                    return { status: r.status, text: text.slice(0, 3000) };
-                }""",
-                {"url": last["url"], "method": last["method"], "postData": last.get("post_data")},
-            )
-            print("SEARCH_RESPONSE_SAMPLE:", json.dumps(fetch_result, ensure_ascii=False))
+        print("CAPTURED_REQUESTS_AFTER_CLICK:")
+        for u in sorted(set(captured))[-40:]:
+            print(" -", u)
+
+        # 팝업/모달이 같은 페이지 내 iframe으로 열렸을 가능성도 체크
+        print("ALL_FRAME_URLS:")
+        for fr in page.frames:
+            print(" -", fr.url)
 
         browser.close()
 
