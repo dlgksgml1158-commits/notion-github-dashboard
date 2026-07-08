@@ -20,10 +20,22 @@ jobs:
           pip install playwright pyotp
           playwright install --with-deps chromium
 
-      - name: Run diagnostic
-        run: python3 scripts/diag_order_list.py
+      - name: Run bestsellers fetch (test)
+        run: python3 scripts/fetch_musinsa_bestsellers.py
         env:
           MUSINSA_PARTNER_ID: ${{ secrets.MUSINSA_PARTNER_ID }}
           MUSINSA_PARTNER_PW: ${{ secrets.MUSINSA_PARTNER_PW }}
           MUSINSA_MSS_MAC: ${{ secrets.MUSINSA_MSS_MAC }}
           MUSINSA_PARTNER_TOTP_SECRET: ${{ secrets.MUSINSA_PARTNER_TOTP_SECRET }}
+
+      - name: Show result
+        run: python3 -c "
+          import json
+          d = json.load(open('data-b53e82ab173f/musinsa_bestsellers.json'))
+          print('startDate/endDate:', d['startDate'], d['endDate'])
+          print('items:', len(d['items']))
+          print('byDate days:', len(d['byDate']))
+          some_date = list(d['byDate'].keys())[0] if d['byDate'] else None
+          print('sample date:', some_date)
+          print('sample day items:', d['byDate'].get(some_date))
+          "

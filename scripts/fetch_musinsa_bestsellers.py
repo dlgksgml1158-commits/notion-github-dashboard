@@ -1,84 +1,106 @@
-"""무신사 파트너센터 구매확정 주문 내역(ord01)에서 상품별 판매 수량을 집계한다.
+"""무신사 파트너센터 구매확정 주문 내역(ord01)에서 상품별 판매 수량을
+전체 기간 및 일자별로 집계한다.
 
-'주문/배송 > 구매확정' 목록 화면(/order/history?S_ORD_STATE=50)이 페이지네이션
-되는 개별 주문 라인 데이터를 bizest.musinsa.com/po/order-group-admin/api/order/ord01/search
-POST API로 받아온다. 각 행이 상품명(goods_nm)/수량(qty)을 포함하므로 이를
-상품 단위로 합산해 베스트셀러 랭킹을 만든다.
+'주문/배송 > 구매확정' 목록 화면(/order/history?S_ORD_STATE=50)이 사용하는
+bizest.musinsa.com/po/order-group-admin/api/order/ord01/search POST API를
+직접 호출한다. LIMIT을 매우 크게 주면 페이지네이션 없이 한 번에 전체
+데이터를 받을 수 있음을 확인했다(실측: 90일치 2977건이 단일 응답으로 옴).
+원본 요청 바디를 그대로 재사용하고 S_SDATE/S_EDATE/LIMIT/PAGE만 치환하는
+방식이라 S_LOGISTICS_BUSINESS_TYPES[] 같은 배열 파라미터도 그대로 보존된다.
+
+각 주문 행이 날짜(ord_date)/상품명(goods_nm)/수량(qty)을 포함하므로,
+'주문 현황' 차트에서 날짜를 클릭했을 때 그날 판매된 상품을 보여줄 수 있게
+날짜별 집계(byDate)도 함께 만든다.
 """
 import json
 import os
+import re
 from collections import defaultdict
-from datetime import datetime, timezone
-from urllib.parse import parse_qs
+from datetime import datetime, timedelta, timezone
 
 from playwright.sync_api import sync_playwright
 
 from fetch_musinsa_partner_promo import new_authenticated_context, resolve_totp_secret
 
 ORDER_HISTORY_PAGE = "https://partner.musinsa.com/order/history?S_ORD_STATE=50&summary_info=Y"
+SEARCH_URL = "https://bizest.musinsa.com/po/order-group-admin/api/order/ord01/search"
 OUT_PATH = "data-b53e82ab173f/musinsa_bestsellers.json"
-TOP_N = 30
-MAX_PAGES = 40
+DAYS = 90
+FETCH_LIMIT = 5000
+TOP_N_OVERALL = 30
+TOP_N_PER_DAY = 15
 
 
 def fetch_all_orders(page):
-    responses = []
-    date_range = {"start": "", "end": ""}
+    captured_body = {"raw": None}
 
     def on_request(req):
-        if "ord01/search" in req.url and req.post_data and not date_range["start"]:
-            params = parse_qs(req.post_data)
-            date_range["start"] = (params.get("S_SDATE") or [""])[0]
-            date_range["end"] = (params.get("S_EDATE") or [""])[0]
-
-    def on_response(res):
-        if "ord01/search" in res.url:
-            try:
-                body = json.loads(res.text())
-                responses.append(body)
-            except Exception as e:
-                print(f"  [WARN] 응답 파싱 실패: {e}")
+        if "ord01/search" in req.url and req.post_data and not captured_body["raw"]:
+            captured_body["raw"] = req.post_data
 
     page.on("request", on_request)
-    page.on("response", on_response)
-
     page.goto(ORDER_HISTORY_PAGE, wait_until="networkidle")
-    page.wait_for_timeout(4000)
+    page.wait_for_timeout(3000)
 
     bizest_frame = next(f for f in page.frames if "bizest.musinsa.com" in f.url)
 
-    if not responses:
-        raise RuntimeError("초기 ord01/search 응답을 받지 못했습니다")
+    if not captured_body["raw"]:
+        raise RuntimeError("초기 ord01/search 요청을 캡처하지 못했습니다")
 
-    total = int(responses[0].get("total", 0))
-    collected = list(responses[0].get("data", []))
-    page_size = len(collected) or 1
-    num_pages = -(-total // page_size)
-    print(f"  총 {total}건, 페이지당 {page_size}건, 예상 {num_pages}페이지")
+    end = datetime.now(timezone.utc)
+    start = end - timedelta(days=DAYS)
+    start_str = start.strftime("%Y-%m-%d")
+    end_str = end.strftime("%Y-%m-%d")
 
-    for pnum in range(2, min(num_pages, MAX_PAGES) + 1):
-        before = len(responses)
-        try:
-            bizest_frame.evaluate(f"app_ord01_grid.switch_page({pnum})")
-        except Exception as e:
-            print(f"  [WARN] switch_page({pnum}) 실패, 페이지네이션 중단: {e}")
-            break
-        page.wait_for_timeout(1500)
-        if len(responses) > before:
-            new_rows = responses[-1].get("data", [])
-            collected.extend(new_rows)
-            print(f"  페이지 {pnum}: {len(new_rows)}건 수집 (누적 {len(collected)}건)")
-        else:
-            print(f"  [WARN] 페이지 {pnum} 응답 없음, 중단")
-            break
+    body = captured_body["raw"]
+    body = re.sub(r"S_SDATE=[^&]*", f"S_SDATE={start_str}", body)
+    body = re.sub(r"S_EDATE=[^&]*", f"S_EDATE={end_str}", body)
+    body = re.sub(r"LIMIT=\d+", f"LIMIT={FETCH_LIMIT}", body)
+    body = re.sub(r"PAGE=\d+", "PAGE=1", body)
 
-    return collected, total, date_range
+    result = bizest_frame.evaluate(
+        """async ({url, body}) => {
+            const r = await fetch(url, {
+                method: 'POST',
+                credentials: 'include',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body,
+            });
+            const text = await r.text();
+            return { status: r.status, text };
+        }""",
+        {"url": SEARCH_URL, "body": body},
+    )
+    if result["status"] != 200:
+        raise RuntimeError(f"HTTP {result['status']}: {result['text'][:500]}")
+
+    parsed = json.loads(result["text"])
+    total = int(parsed.get("total", 0))
+    rows = parsed.get("data", [])
+    print(f"  총 {total}건 중 {len(rows)}건 수신 ({start_str} ~ {end_str})")
+    if len(rows) < total:
+        print(f"  [WARN] FETCH_LIMIT({FETCH_LIMIT})이 총 건수보다 작습니다 — 일부 누락 가능")
+
+    return rows, total, start_str, end_str
 
 
-def aggregate_bestsellers(rows, top_n=TOP_N):
-    agg = defaultdict(lambda: {"goodsNo": "", "name": "", "styleNo": "", "qty": 0, "salesAmt": 0})
+def _agg_key(r):
+    return r.get("goods_no") or r.get("style_no") or r.get("goods_nm")
+
+
+def _new_entry():
+    return {"goodsNo": "", "name": "", "styleNo": "", "qty": 0, "salesAmt": 0}
+
+
+def _rank(agg, top_n):
+    ranked = sorted(agg.values(), key=lambda x: x["qty"], reverse=True)[:top_n]
+    return [{"rank": i + 1, **item} for i, item in enumerate(ranked)]
+
+
+def aggregate_bestsellers(rows, top_n=TOP_N_OVERALL):
+    agg = defaultdict(_new_entry)
     for r in rows:
-        key = r.get("goods_no") or r.get("style_no") or r.get("goods_nm")
+        key = _agg_key(r)
         if not key:
             continue
         entry = agg[key]
@@ -87,8 +109,27 @@ def aggregate_bestsellers(rows, top_n=TOP_N):
         entry["styleNo"] = r.get("style_no", "")
         entry["qty"] += int(r.get("qty") or 0)
         entry["salesAmt"] += int(r.get("sales_amt") or 0)
-    ranked = sorted(agg.values(), key=lambda x: x["qty"], reverse=True)[:top_n]
-    return [{"rank": i + 1, **item} for i, item in enumerate(ranked)]
+    return _rank(agg, top_n)
+
+
+def aggregate_by_date(rows, top_n=TOP_N_PER_DAY):
+    by_date = defaultdict(lambda: defaultdict(_new_entry))
+    for r in rows:
+        key = _agg_key(r)
+        if not key:
+            continue
+        raw_date = (r.get("ord_date") or "")[:10]  # "2026.07.05 08:33:23" -> "2026.07.05"
+        if not raw_date:
+            continue
+        date_iso = raw_date.replace(".", "-")
+        entry = by_date[date_iso][key]
+        entry["goodsNo"] = r.get("goods_no", "")
+        entry["name"] = r.get("goods_nm", "")
+        entry["styleNo"] = r.get("style_no", "")
+        entry["qty"] += int(r.get("qty") or 0)
+        entry["salesAmt"] += int(r.get("sales_amt") or 0)
+
+    return {date: _rank(agg, top_n) for date, agg in by_date.items()}
 
 
 def main():
@@ -97,7 +138,8 @@ def main():
     mss_mac = os.environ.get("MUSINSA_MSS_MAC", "")
     totp_secret_raw = os.environ.get("MUSINSA_PARTNER_TOTP_SECRET", "")
     items = []
-    date_range = {"start": "", "end": ""}
+    by_date = {}
+    start_date = end_date = ""
     if partner_id and partner_pw:
         try:
             totp_secret = resolve_totp_secret(totp_secret_raw) if totp_secret_raw else ""
@@ -105,10 +147,11 @@ def main():
                 browser, context, page = new_authenticated_context(
                     p, partner_id, partner_pw, mss_mac, totp_secret
                 )
-                rows, total, date_range = fetch_all_orders(page)
+                rows, total, start_date, end_date = fetch_all_orders(page)
                 browser.close()
-            print(f"수집 완료: {len(rows)}/{total}건 ({date_range['start']} ~ {date_range['end']})")
+            print(f"수집 완료: {len(rows)}/{total}건")
             items = aggregate_bestsellers(rows)
+            by_date = aggregate_by_date(rows)
         except Exception as e:
             print(f"Failed to fetch bestsellers: {e}")
     else:
@@ -116,13 +159,14 @@ def main():
 
     output = {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
-        "startDate": date_range["start"],
-        "endDate": date_range["end"],
+        "startDate": start_date,
+        "endDate": end_date,
         "items": items,
+        "byDate": by_date,
     }
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    print(f"Saved {len(items)} bestseller items to {OUT_PATH}")
+    print(f"Saved {len(items)} bestseller items + {len(by_date)} days to {OUT_PATH}")
 
 
 if __name__ == "__main__":
