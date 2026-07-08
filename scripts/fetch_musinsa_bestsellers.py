@@ -9,6 +9,7 @@ import json
 import os
 from collections import defaultdict
 from datetime import datetime, timezone
+from urllib.parse import parse_qs
 
 from playwright.sync_api import sync_playwright
 
@@ -22,6 +23,13 @@ MAX_PAGES = 40
 
 def fetch_all_orders(page):
     responses = []
+    date_range = {"start": "", "end": ""}
+
+    def on_request(req):
+        if "ord01/search" in req.url and req.post_data and not date_range["start"]:
+            params = parse_qs(req.post_data)
+            date_range["start"] = (params.get("S_SDATE") or [""])[0]
+            date_range["end"] = (params.get("S_EDATE") or [""])[0]
 
     def on_response(res):
         if "ord01/search" in res.url:
@@ -31,6 +39,7 @@ def fetch_all_orders(page):
             except Exception as e:
                 print(f"  [WARN] 응답 파싱 실패: {e}")
 
+    page.on("request", on_request)
     page.on("response", on_response)
 
     page.goto(ORDER_HISTORY_PAGE, wait_until="networkidle")
@@ -63,7 +72,7 @@ def fetch_all_orders(page):
             print(f"  [WARN] 페이지 {pnum} 응답 없음, 중단")
             break
 
-    return collected, total
+    return collected, total, date_range
 
 
 def aggregate_bestsellers(rows, top_n=TOP_N):
@@ -88,6 +97,7 @@ def main():
     mss_mac = os.environ.get("MUSINSA_MSS_MAC", "")
     totp_secret_raw = os.environ.get("MUSINSA_PARTNER_TOTP_SECRET", "")
     items = []
+    date_range = {"start": "", "end": ""}
     if partner_id and partner_pw:
         try:
             totp_secret = resolve_totp_secret(totp_secret_raw) if totp_secret_raw else ""
@@ -95,9 +105,9 @@ def main():
                 browser, context, page = new_authenticated_context(
                     p, partner_id, partner_pw, mss_mac, totp_secret
                 )
-                rows, total = fetch_all_orders(page)
+                rows, total, date_range = fetch_all_orders(page)
                 browser.close()
-            print(f"수집 완료: {len(rows)}/{total}건")
+            print(f"수집 완료: {len(rows)}/{total}건 ({date_range['start']} ~ {date_range['end']})")
             items = aggregate_bestsellers(rows)
         except Exception as e:
             print(f"Failed to fetch bestsellers: {e}")
@@ -106,6 +116,8 @@ def main():
 
     output = {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
+        "startDate": date_range["start"],
+        "endDate": date_range["end"],
         "items": items,
     }
     with open(OUT_PATH, "w", encoding="utf-8") as f:
