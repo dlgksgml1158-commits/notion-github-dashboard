@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T17:28:01.543953+00:00",
+  "updatedAt": "2026-07-09T22:53:13.304879+00:00",
   "startDate": "2026-04-10",
   "endDate": "2026-07-09",
   "items": [
@@ -8,16 +8,16 @@
       "goodsNo": "3782367",
       "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
       "styleNo": "ELP60L018",
-      "qty": 374,
-      "salesAmt": 14123890
+      "qty": 377,
+      "salesAmt": 14251080
     },
     {
       "rank": 2,
       "goodsNo": "5188096",
       "name": "스트라이프 반팔 티셔츠 (아이보리)",
       "styleNo": "EKT03S019",
-      "qty": 123,
-      "salesAmt": 3065850
+      "qty": 124,
+      "salesAmt": 3094660
     },
     {
       "rank": 3,
@@ -32,8 +32,8 @@
       "goodsNo": "5188098",
       "name": "스트라이프 반팔 티셔츠 (카키)",
       "styleNo": "EKT02S019",
-      "qty": 101,
-      "salesAmt": 2638280
+      "qty": 103,
+      "salesAmt": 2689760
     },
     {
       "rank": 5,
@@ -149,19 +149,19 @@
     },
     {
       "rank": 19,
+      "goodsNo": "4827341",
+      "name": "[2Pack] 투 턱 하프팬츠 (4Color)",
+      "styleNo": "EJP20232",
+      "qty": 29,
+      "salesAmt": 1917510
+    },
+    {
+      "rank": 20,
       "goodsNo": "6299701",
       "name": "[SET] 에센셜 와이드 셋업 [블랙]",
       "styleNo": "ELJ01_ELP0103",
       "qty": 29,
       "salesAmt": 3459450
-    },
-    {
-      "rank": 20,
-      "goodsNo": "4827341",
-      "name": "[2Pack] 투 턱 하프팬츠 (4Color)",
-      "styleNo": "EJP20232",
-      "qty": 28,
-      "salesAmt": 1858100
     },
     {
       "rank": 21,
@@ -237,11 +237,11 @@
     },
     {
       "rank": 30,
-      "goodsNo": "6065771",
-      "name": "스티치 플리츠 스트라이프 오픈 카라 셔츠 [아이보리]",
-      "styleNo": "ELD15S010",
+      "goodsNo": "4159935",
+      "name": "쿨 릴렉스 오픈 카라 반팔 셔츠 (2Color)",
+      "styleNo": "EHI0708",
       "qty": 20,
-      "salesAmt": 1045000
+      "salesAmt": 525150
     }
   ],
   "byDate": {
@@ -291,16 +291,80 @@
         "styleNo": "EJP46S010",
         "qty": 1,
         "salesAmt": 29210
+      },
+      {
+        "rank": 2,
+        "goodsNo": "3782367",
+        "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
+        "styleNo": "ELP60L018",
+        "qty": 1,
+        "salesAmt": 37130
       }
     ],
     "2026-06-30": [
       {
         "rank": 1,
+        "goodsNo": "5188098",
+        "name": "스트라이프 반팔 티셔츠 (카키)",
+        "styleNo": "EKT02S019",
+        "qty": 2,
+        "salesAmt": 51480
+      },
+      {
+        "rank": 2,
+        "goodsNo": "4752872",
+        "name": "스트레이트 데님 팬츠 (에크루)",
+        "styleNo": "EJP66L018",
+        "qty": 2,
+        "salesAmt": 62180
+      },
+      {
+        "rank": 3,
         "goodsNo": "5188096",
         "name": "스트라이프 반팔 티셔츠 (아이보리)",
         "styleNo": "EKT03S019",
+        "qty": 2,
+        "salesAmt": 56170
+      },
+      {
+        "rank": 4,
+        "goodsNo": "4159935",
+        "name": "쿨 릴렉스 오픈 카라 반팔 셔츠 (2Color)",
+        "styleNo": "EHI0708",
+        "qty": 2,
+        "salesAmt": 69000
+      },
+      {
+        "rank": 5,
+        "goodsNo": "4135048",
+        "name": "크롭 스트레이트 데님팬츠 (크림)",
+        "styleNo": "EHQ23L010",
         "qty": 1,
-        "salesAmt": 27360
+        "salesAmt": 43600
+      },
+      {
+        "rank": 6,
+        "goodsNo": "4827341",
+        "name": "[2Pack] 투 턱 하프팬츠 (4Color)",
+        "styleNo": "EJP20232",
+        "qty": 1,
+        "salesAmt": 59410
+      },
+      {
+        "rank": 7,
+        "goodsNo": "4827330",
+        "name": "투 턱 하프팬츠 (블랙)",
+        "styleNo": "EJP23S010",
+        "qty": 1,
+        "salesAmt": 29760
+      },
+      {
+        "rank": 8,
+        "goodsNo": "3782367",
+        "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
+        "styleNo": "ELP60L018",
+        "qty": 1,
+        "salesAmt": 45030
       }
     ],
     "2026-06-29": [
@@ -330,6 +394,14 @@
       },
       {
         "rank": 4,
+        "goodsNo": "3782367",
+        "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
+        "styleNo": "ELP60L018",
+        "qty": 1,
+        "salesAmt": 45030
+      },
+      {
+        "rank": 5,
         "goodsNo": "6065791",
         "name": "에센셜 플레어 슬랙스 [블랙]",
         "styleNo": "ELP03L010",
@@ -337,7 +409,7 @@
         "salesAmt": 55460
       },
       {
-        "rank": 5,
+        "rank": 6,
         "goodsNo": "4159947",
         "name": "코튼/나일론 에센셜 반팔 셔츠 (네이비)",
         "styleNo": "EHI15L010",
@@ -345,7 +417,7 @@
         "salesAmt": 39160
       },
       {
-        "rank": 6,
+        "rank": 7,
         "goodsNo": "5188098",
         "name": "스트라이프 반팔 티셔츠 (카키)",
         "styleNo": "EKT02S019",
