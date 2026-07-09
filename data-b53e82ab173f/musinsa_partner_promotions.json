@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T20:47:33.226133+00:00",
+  "updatedAt": "2026-07-09T02:54:30.622288+00:00",
   "items": [
     {
       "promotionId": 17513,
@@ -8,6 +8,15 @@
       "from": "2026-08-10T02:00:00.000Z",
       "to": "2026-08-24T02:00:00.000Z",
       "minPercent": null,
+      "recruitDeadline": null
+    },
+    {
+      "promotionId": 17499,
+      "name": "무신사 멤버스데이 - 일반세일",
+      "status": "READY",
+      "from": "2026-07-31T15:00:00.000Z",
+      "to": "2026-08-03T15:00:00.000Z",
+      "minPercent": 5,
       "recruitDeadline": null
     },
     {
@@ -126,15 +135,6 @@
       "to": "2026-07-29T02:00:00.000Z",
       "minPercent": 30,
       "recruitDeadline": "2026-07-25"
-    },
-    {
-      "promotionId": 17100,
-      "name": "상반기 결산 빅세일 - 균일가 하루특가 (9990)ㅣ7/29",
-      "status": "READY",
-      "from": "2026-07-29T02:00:00.000Z",
-      "to": "2026-07-30T02:00:00.000Z",
-      "minPercent": 30,
-      "recruitDeadline": "2026-07-26"
     }
   ]
 }
