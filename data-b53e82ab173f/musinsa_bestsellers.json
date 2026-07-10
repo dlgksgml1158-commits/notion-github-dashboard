@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-07-09T22:53:13.304879+00:00",
-  "startDate": "2026-04-10",
-  "endDate": "2026-07-09",
+  "updatedAt": "2026-07-10T10:38:29.253048+00:00",
+  "startDate": "2026-04-11",
+  "endDate": "2026-07-10",
   "items": [
     {
       "rank": 1,
       "goodsNo": "3782367",
       "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
       "styleNo": "ELP60L018",
-      "qty": 377,
-      "salesAmt": 14251080
+      "qty": 373,
+      "salesAmt": 14091020
     },
     {
       "rank": 2,
@@ -37,14 +37,6 @@
     },
     {
       "rank": 5,
-      "goodsNo": "4175717",
-      "name": "[2PACK] 수피마 코튼 스탠다드 티셔츠 (11Color)",
-      "styleNo": "EHT2333-2",
-      "qty": 66,
-      "salesAmt": 1895140
-    },
-    {
-      "rank": 6,
       "goodsNo": "4047159",
       "name": "[2PACK][스트레이트] 데님 팬츠 (5Color)",
       "styleNo": "EGP6064",
@@ -52,12 +44,20 @@
       "salesAmt": 3570900
     },
     {
-      "rank": 7,
+      "rank": 6,
       "goodsNo": "3999261",
       "name": "라이트 트러커 셔츠 자켓 (블랙)",
       "styleNo": "EHJ10B010",
       "qty": 64,
       "salesAmt": 2794190
+    },
+    {
+      "rank": 7,
+      "goodsNo": "4175717",
+      "name": "[2PACK] 수피마 코튼 스탠다드 티셔츠 (11Color)",
+      "styleNo": "EHT2333-2",
+      "qty": 64,
+      "salesAmt": 1823640
     },
     {
       "rank": 8,
@@ -80,16 +80,16 @@
       "goodsNo": "4827379",
       "name": "스탠다드 데님 하프팬츠 (블랙)",
       "styleNo": "EJP48S010",
-      "qty": 50,
-      "salesAmt": 1320220
+      "qty": 49,
+      "salesAmt": 1278620
     },
     {
       "rank": 11,
       "goodsNo": "4122240",
       "name": "쿨링 원 턱 와이드 밴딩 팬츠 (3Color)",
       "styleNo": "EHP1012",
-      "qty": 45,
-      "salesAmt": 1035000
+      "qty": 44,
+      "salesAmt": 1003950
     },
     {
       "rank": 12,
@@ -181,14 +181,6 @@
     },
     {
       "rank": 23,
-      "goodsNo": "6171125",
-      "name": "수피마 코튼 릴렉스드 티셔츠 (11Color)",
-      "styleNo": "EHT1222",
-      "qty": 24,
-      "salesAmt": 384110
-    },
-    {
-      "rank": 24,
       "goodsNo": "4159891",
       "name": "루즈 스트레이트 데님팬츠 (블리치드)",
       "styleNo": "EHQ36L010",
@@ -196,7 +188,7 @@
       "salesAmt": 736050
     },
     {
-      "rank": 25,
+      "rank": 24,
       "goodsNo": "3782454",
       "name": "코튼/나일론 에센셜 셔츠 (퍼플)",
       "styleNo": "EGD57L018",
@@ -204,7 +196,7 @@
       "salesAmt": 758620
     },
     {
-      "rank": 26,
+      "rank": 25,
       "goodsNo": "4827384",
       "name": "스탠다드 데님 하프팬츠 (인디고)",
       "styleNo": "EJP49S010",
@@ -212,7 +204,7 @@
       "salesAmt": 608590
     },
     {
-      "rank": 27,
+      "rank": 26,
       "goodsNo": "6299698",
       "name": "[SET] 에센셜 스탠다드 셋업 [블랙]",
       "styleNo": "ELJ02_ELP0203",
@@ -220,12 +212,20 @@
       "salesAmt": 2554760
     },
     {
-      "rank": 28,
+      "rank": 27,
       "goodsNo": "4135056",
       "name": "루즈 스트레이트 데님팬츠 (워시드 미디엄 블루)",
       "styleNo": "EHQ32L010",
       "qty": 21,
       "salesAmt": 700910
+    },
+    {
+      "rank": 28,
+      "goodsNo": "6171125",
+      "name": "수피마 코튼 릴렉스드 티셔츠 (11Color)",
+      "styleNo": "EHT1222",
+      "qty": 21,
+      "salesAmt": 331760
     },
     {
       "rank": 29,
@@ -245,6 +245,16 @@
     }
   ],
   "byDate": {
+    "2026-07-07": [
+      {
+        "rank": 1,
+        "goodsNo": "3782367",
+        "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
+        "styleNo": "ELP60L018",
+        "qty": 1,
+        "salesAmt": 45030
+      }
+    ],
     "2026-07-05": [
       {
         "rank": 1,
@@ -9533,128 +9543,6 @@
         "styleNo": "EHQ34L010",
         "qty": 1,
         "salesAmt": 35700
-      }
-    ],
-    "2026-04-10": [
-      {
-        "rank": 1,
-        "goodsNo": "3782367",
-        "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
-        "styleNo": "ELP60L018",
-        "qty": 5,
-        "salesAmt": 205090
-      },
-      {
-        "rank": 2,
-        "goodsNo": "6171125",
-        "name": "수피마 코튼 릴렉스드 티셔츠 (11Color)",
-        "styleNo": "EHT1222",
-        "qty": 3,
-        "salesAmt": 52350
-      },
-      {
-        "rank": 3,
-        "goodsNo": "4175717",
-        "name": "[2PACK] 수피마 코튼 스탠다드 티셔츠 (11Color)",
-        "styleNo": "EHT2333-2",
-        "qty": 2,
-        "salesAmt": 71500
-      },
-      {
-        "rank": 4,
-        "goodsNo": "4175720",
-        "name": "[2PACK] 수피마 코튼 오버사이즈 티셔츠 (11Color)",
-        "styleNo": "EHT0111-2",
-        "qty": 2,
-        "salesAmt": 50800
-      },
-      {
-        "rank": 5,
-        "goodsNo": "3998497",
-        "name": "밴드카라 크롭 데님 트러커 자켓 (스노우)",
-        "styleNo": "EHJ07B010",
-        "qty": 1,
-        "salesAmt": 39750
-      },
-      {
-        "rank": 6,
-        "goodsNo": "5357926",
-        "name": "베어 칼라 니트 가디건 [멜란지그레이]",
-        "styleNo": "EKW11L319",
-        "qty": 1,
-        "salesAmt": 44240
-      },
-      {
-        "rank": 7,
-        "goodsNo": "4752943",
-        "name": "크롭 코튼 블루종 자켓 (아이보리)",
-        "styleNo": "EJJ01B010",
-        "qty": 1,
-        "salesAmt": 85860
-      },
-      {
-        "rank": 8,
-        "goodsNo": "3782365",
-        "name": "[스트레이트] 데님 팬츠 (미디엄 블루)",
-        "styleNo": "EKP63L018",
-        "qty": 1,
-        "salesAmt": 45030
-      },
-      {
-        "rank": 9,
-        "goodsNo": "3634993",
-        "name": "[리뉴얼] 울 블렌디드 미니멀 블루종 자켓 (블랙)",
-        "styleNo": "EIU31L019",
-        "qty": 1,
-        "salesAmt": 74050
-      },
-      {
-        "rank": 10,
-        "goodsNo": "4379840",
-        "name": "컴포터블 하프 집업 스웨트셔츠 (4color)",
-        "styleNo": "EIT0104",
-        "qty": 1,
-        "salesAmt": 44550
-      },
-      {
-        "rank": 11,
-        "goodsNo": "4827331",
-        "name": "투 턱 하프팬츠 (베이지)",
-        "styleNo": "EJP22S010",
-        "qty": 1,
-        "salesAmt": 56430
-      },
-      {
-        "rank": 12,
-        "goodsNo": "4093440",
-        "name": "빈티지 워시드 코튼 워크 자켓 (카키)",
-        "styleNo": "EHJ16B010",
-        "qty": 1,
-        "salesAmt": 75600
-      },
-      {
-        "rank": 13,
-        "goodsNo": "4827379",
-        "name": "스탠다드 데님 하프팬츠 (블랙)",
-        "styleNo": "EJP48S010",
-        "qty": 1,
-        "salesAmt": 41600
-      },
-      {
-        "rank": 14,
-        "goodsNo": "6171128",
-        "name": "수피마 코튼 릴렉스드 긴팔 티셔츠 (3Color)",
-        "styleNo": "EHT3436",
-        "qty": 1,
-        "salesAmt": 14950
-      },
-      {
-        "rank": 15,
-        "goodsNo": "4198624",
-        "name": "[SET] 쿨링 이지 밴딩 팬츠 (9 COLOR)",
-        "styleNo": "EHP1016_EHP2021",
-        "qty": 1,
-        "salesAmt": 47200
       }
     ]
   }

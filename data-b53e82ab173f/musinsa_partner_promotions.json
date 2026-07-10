@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-07-09T22:52:18.959109+00:00",
+  "updatedAt": "2026-07-10T10:37:24.529991+00:00",
   "items": [
+    {
+      "promotionId": 17517,
+      "name": "신학기 잡화위크 - 일반세일",
+      "status": "READY",
+      "from": "2026-08-03T02:00:00.000Z",
+      "to": "2026-08-09T02:00:00.000Z",
+      "minPercent": null,
+      "recruitDeadline": null
+    },
     {
       "promotionId": 17513,
       "name": "26년 8월 무신사 뷰티 페스타 (파트너 세일 참여) - 일반세일",
@@ -67,7 +76,7 @@
     {
       "promotionId": 17424,
       "name": "OO시간 특가 모집 (7/6 - 7/13) - 48시간 특가 (7/8 - 7/10)",
-      "status": "RUNNING",
+      "status": "END",
       "from": "2026-07-08T02:00:00.000Z",
       "to": "2026-07-10T02:00:00.000Z",
       "minPercent": 10,
@@ -76,7 +85,7 @@
     {
       "promotionId": 17424,
       "name": "OO시간 특가 모집 (7/6 - 7/13) - 72시간 특가 (7/10 - 7/13)",
-      "status": "RECRUIT_END",
+      "status": "RUNNING",
       "from": "2026-07-10T02:00:00.000Z",
       "to": "2026-07-13T02:00:00.000Z",
       "minPercent": 10,
@@ -102,30 +111,21 @@
     },
     {
       "promotionId": 17100,
-      "name": "상반기 결산 빅세일 - 균일가 하루특가 (9990)ㅣ7/25",
+      "name": "상반기 결산 빅세일 - 일반세일",
       "status": "READY",
-      "from": "2026-07-25T02:00:00.000Z",
-      "to": "2026-07-26T02:00:00.000Z",
-      "minPercent": 30,
-      "recruitDeadline": "2026-07-22"
+      "from": "2026-07-20T01:30:00.000Z",
+      "to": "2026-07-30T02:00:00.000Z",
+      "minPercent": null,
+      "recruitDeadline": null
     },
     {
       "promotionId": 17100,
-      "name": "상반기 결산 빅세일 - 균일가 하루특가 (9990)ㅣ7/26",
+      "name": "상반기 결산 빅세일 - 균일가 하루특가 (9990)ㅣ7/29",
       "status": "READY",
-      "from": "2026-07-26T02:00:00.000Z",
-      "to": "2026-07-27T02:00:00.000Z",
+      "from": "2026-07-29T02:00:00.000Z",
+      "to": "2026-07-30T02:00:00.000Z",
       "minPercent": 30,
-      "recruitDeadline": "2026-07-23"
-    },
-    {
-      "promotionId": 17100,
-      "name": "상반기 결산 빅세일 - 균일가 하루특가 (9990)ㅣ7/27",
-      "status": "READY",
-      "from": "2026-07-27T02:00:00.000Z",
-      "to": "2026-07-28T02:00:00.000Z",
-      "minPercent": 30,
-      "recruitDeadline": "2026-07-24"
+      "recruitDeadline": "2026-07-26"
     },
     {
       "promotionId": 17100,
