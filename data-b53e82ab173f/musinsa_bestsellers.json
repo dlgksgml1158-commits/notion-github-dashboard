@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T18:08:16.243912+00:00",
+  "updatedAt": "2026-07-13T22:15:40.779836+00:00",
   "startDate": "2026-04-14",
   "endDate": "2026-07-13",
   "items": [
@@ -8,8 +8,8 @@
       "goodsNo": "3782367",
       "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
       "styleNo": "ELP60L018",
-      "qty": 349,
-      "salesAmt": 13213830
+      "qty": 352,
+      "salesAmt": 13314090
     },
     {
       "rank": 2,
@@ -213,6 +213,14 @@
     },
     {
       "rank": 27,
+      "goodsNo": "4752872",
+      "name": "스트레이트 데님 팬츠 (에크루)",
+      "styleNo": "EJP66L018",
+      "qty": 21,
+      "salesAmt": 766940
+    },
+    {
+      "rank": 28,
       "goodsNo": "6299698",
       "name": "[SET] 에센셜 스탠다드 셋업 [블랙]",
       "styleNo": "ELJ02_ELP0203",
@@ -220,7 +228,7 @@
       "salesAmt": 2554760
     },
     {
-      "rank": 28,
+      "rank": 29,
       "goodsNo": "4114163",
       "name": "시어서커 오픈 카라 반팔셔츠 (화이트)",
       "styleNo": "EHI02S010",
@@ -228,20 +236,12 @@
       "salesAmt": 624450
     },
     {
-      "rank": 29,
+      "rank": 30,
       "goodsNo": "4123713",
       "name": "루즈 스트레이트 데님팬츠 (크림)",
       "styleNo": "EHQ38L010",
       "qty": 20,
       "salesAmt": 635460
-    },
-    {
-      "rank": 30,
-      "goodsNo": "4752872",
-      "name": "스트레이트 데님 팬츠 (에크루)",
-      "styleNo": "EJP66L018",
-      "qty": 20,
-      "salesAmt": 731390
     }
   ],
   "byDate": {
@@ -323,8 +323,8 @@
         "goodsNo": "3782367",
         "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
         "styleNo": "ELP60L018",
-        "qty": 2,
-        "salesAmt": 74260
+        "qty": 5,
+        "salesAmt": 174520
       },
       {
         "rank": 2,
@@ -352,6 +352,22 @@
       },
       {
         "rank": 5,
+        "goodsNo": "4122339",
+        "name": "시어서커 하프 팬츠 (2Color)",
+        "styleNo": "EHP2829",
+        "qty": 1,
+        "salesAmt": 26700
+      },
+      {
+        "rank": 6,
+        "goodsNo": "3999264",
+        "name": "밴딩 카고 하프 팬츠 (블랙)",
+        "styleNo": "EHP17L010",
+        "qty": 1,
+        "salesAmt": 20700
+      },
+      {
+        "rank": 7,
         "goodsNo": "4077627",
         "name": "코튼/나일론 오픈 카라 셔츠 (네이비)",
         "styleNo": "EHI10S010",
@@ -359,7 +375,7 @@
         "salesAmt": 25810
       },
       {
-        "rank": 6,
+        "rank": 8,
         "goodsNo": "4047159",
         "name": "[2PACK][스트레이트] 데님 팬츠 (5Color)",
         "styleNo": "EGP6064",
@@ -367,7 +383,7 @@
         "salesAmt": 55300
       },
       {
-        "rank": 7,
+        "rank": 9,
         "goodsNo": "4123713",
         "name": "루즈 스트레이트 데님팬츠 (크림)",
         "styleNo": "EHQ38L010",
@@ -375,7 +391,7 @@
         "salesAmt": 29750
       },
       {
-        "rank": 8,
+        "rank": 10,
         "goodsNo": "3782368",
         "name": "[스트레이트] 데님 팬츠 (블랙)",
         "styleNo": "ELP61L018",
@@ -383,7 +399,7 @@
         "salesAmt": 37130
       },
       {
-        "rank": 9,
+        "rank": 11,
         "goodsNo": "6065791",
         "name": "에센셜 플레어 슬랙스 [블랙]",
         "styleNo": "ELP03L010",
@@ -391,7 +407,7 @@
         "salesAmt": 47200
       },
       {
-        "rank": 10,
+        "rank": 12,
         "goodsNo": "4827373",
         "name": "스탠다드 데님 하프팬츠 (라이트블루)",
         "styleNo": "EJP46S010",
@@ -399,7 +415,7 @@
         "salesAmt": 28920
       },
       {
-        "rank": 11,
+        "rank": 13,
         "goodsNo": "4122261",
         "name": "버뮤다 워싱 데님팬츠 (라이트블루)",
         "styleNo": "EKP27S010",
@@ -407,7 +423,7 @@
         "salesAmt": 35550
       },
       {
-        "rank": 12,
+        "rank": 14,
         "goodsNo": "4135053",
         "name": "크롭 스트레이트 데님팬츠 (미디엄 블루)",
         "styleNo": "EHQ22L010",
@@ -415,28 +431,12 @@
         "salesAmt": 27250
       },
       {
-        "rank": 13,
+        "rank": 15,
         "goodsNo": "6065771",
         "name": "스티치 플리츠 스트라이프 오픈 카라 셔츠 [아이보리]",
         "styleNo": "ELD15S010",
         "qty": 1,
         "salesAmt": 49960
-      },
-      {
-        "rank": 14,
-        "goodsNo": "4813893",
-        "name": "플리츠 반팔셔츠 (차콜)",
-        "styleNo": "EJI02S010",
-        "qty": 1,
-        "salesAmt": 37130
-      },
-      {
-        "rank": 15,
-        "goodsNo": "4752954",
-        "name": "[SET] 워시드 코튼 루즈핏 셋업 [블랙]",
-        "styleNo": "ELJ30_ELP4080",
-        "qty": 1,
-        "salesAmt": 138980
       }
     ],
     "2026-07-01": [
@@ -886,6 +886,14 @@
       },
       {
         "rank": 4,
+        "goodsNo": "4752872",
+        "name": "스트레이트 데님 팬츠 (에크루)",
+        "styleNo": "EJP66L018",
+        "qty": 1,
+        "salesAmt": 35550
+      },
+      {
+        "rank": 5,
         "goodsNo": "4827379",
         "name": "스탠다드 데님 하프팬츠 (블랙)",
         "styleNo": "EJP48S010",
@@ -893,7 +901,7 @@
         "salesAmt": 27730
       },
       {
-        "rank": 5,
+        "rank": 6,
         "goodsNo": "4827373",
         "name": "스탠다드 데님 하프팬츠 (라이트블루)",
         "styleNo": "EJP46S010",
@@ -901,7 +909,7 @@
         "salesAmt": 26020
       },
       {
-        "rank": 6,
+        "rank": 7,
         "goodsNo": "6302212",
         "name": "스트럭처 체크 립 포켓 셔츠 [그레이_퍼플]",
         "styleNo": "ELD12S010",
@@ -909,7 +917,7 @@
         "salesAmt": 48650
       },
       {
-        "rank": 7,
+        "rank": 8,
         "goodsNo": "4135059",
         "name": "와이드 스트레이트 데님팬츠 (워시드 라이트 블루)",
         "styleNo": "EHQ41L010",
@@ -917,7 +925,7 @@
         "salesAmt": 51600
       },
       {
-        "rank": 8,
+        "rank": 9,
         "goodsNo": "5188096",
         "name": "스트라이프 반팔 티셔츠 (아이보리)",
         "styleNo": "EKT03S019",
@@ -925,7 +933,7 @@
         "salesAmt": 46500
       },
       {
-        "rank": 9,
+        "rank": 10,
         "goodsNo": "4827341",
         "name": "[2Pack] 투 턱 하프팬츠 (4Color)",
         "styleNo": "EJP20232",
@@ -933,7 +941,7 @@
         "salesAmt": 93440
       },
       {
-        "rank": 10,
+        "rank": 11,
         "goodsNo": "4813893",
         "name": "플리츠 반팔셔츠 (차콜)",
         "styleNo": "EJI02S010",
