@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T22:33:49.430119+00:00",
+  "updatedAt": "2026-07-13T10:42:21.759553+00:00",
   "items": [
     {
       "promotionId": 17517,
@@ -30,12 +30,12 @@
     },
     {
       "promotionId": 17473,
-      "name": "OO시간 특가 모집 (7/13 - 7/20) - 72시간 특가 (7/17 - 7/20)",
-      "status": "READY",
-      "from": "2026-07-17T02:00:00.000Z",
-      "to": "2026-07-20T02:00:00.000Z",
+      "name": "OO시간 특가 모집 (7/13 - 7/20) - 48시간 특가 (7/13 - 7/15)",
+      "status": "RUNNING",
+      "from": "2026-07-13T02:00:00.000Z",
+      "to": "2026-07-15T02:00:00.000Z",
       "minPercent": 10,
-      "recruitDeadline": "2026-07-14"
+      "recruitDeadline": "2026-07-10"
     },
     {
       "promotionId": 17473,
@@ -48,12 +48,12 @@
     },
     {
       "promotionId": 17473,
-      "name": "OO시간 특가 모집 (7/13 - 7/20) - 48시간 특가 (7/13 - 7/15)",
-      "status": "RECRUIT_END",
-      "from": "2026-07-13T02:00:00.000Z",
-      "to": "2026-07-15T02:00:00.000Z",
+      "name": "OO시간 특가 모집 (7/13 - 7/20) - 72시간 특가 (7/17 - 7/20)",
+      "status": "READY",
+      "from": "2026-07-17T02:00:00.000Z",
+      "to": "2026-07-20T02:00:00.000Z",
       "minPercent": 10,
-      "recruitDeadline": "2026-07-10"
+      "recruitDeadline": "2026-07-14"
     },
     {
       "promotionId": 17451,
@@ -65,31 +65,13 @@
       "recruitDeadline": null
     },
     {
-      "promotionId": 17424,
-      "name": "OO시간 특가 모집 (7/6 - 7/13) - 48시간 특가 (7/6 - 7/8)",
-      "status": "END",
-      "from": "2026-07-06T02:00:00.000Z",
-      "to": "2026-07-08T02:00:00.000Z",
-      "minPercent": 10,
-      "recruitDeadline": "2026-07-03"
-    },
-    {
-      "promotionId": 17424,
-      "name": "OO시간 특가 모집 (7/6 - 7/13) - 48시간 특가 (7/8 - 7/10)",
-      "status": "END",
-      "from": "2026-07-08T02:00:00.000Z",
-      "to": "2026-07-10T02:00:00.000Z",
-      "minPercent": 10,
-      "recruitDeadline": "2026-07-05"
-    },
-    {
-      "promotionId": 17424,
-      "name": "OO시간 특가 모집 (7/6 - 7/13) - 72시간 특가 (7/10 - 7/13)",
-      "status": "RUNNING",
-      "from": "2026-07-10T02:00:00.000Z",
-      "to": "2026-07-13T02:00:00.000Z",
-      "minPercent": 10,
-      "recruitDeadline": "2026-07-07"
+      "promotionId": 17429,
+      "name": "클리어런스 위크 - 일반세일",
+      "status": "READY",
+      "from": "2026-08-10T02:00:00.000Z",
+      "to": "2026-08-20T02:00:00.000Z",
+      "minPercent": 5,
+      "recruitDeadline": null
     },
     {
       "promotionId": 17242,
@@ -101,22 +83,22 @@
       "recruitDeadline": "2026-07-03"
     },
     {
-      "promotionId": 17202,
-      "name": "바캉스 잡화위크 - 일반세일",
-      "status": "RUNNING",
-      "from": "2026-07-06T02:00:00.000Z",
-      "to": "2026-07-13T02:00:00.000Z",
-      "minPercent": null,
-      "recruitDeadline": null
+      "promotionId": 17100,
+      "name": "상반기 결산 빅세일 - 균일가 하루특가 (9990)ㅣ7/20",
+      "status": "READY",
+      "from": "2026-07-20T02:00:00.000Z",
+      "to": "2026-07-21T02:00:00.000Z",
+      "minPercent": 30,
+      "recruitDeadline": "2026-07-17"
     },
     {
       "promotionId": 17100,
-      "name": "상반기 결산 빅세일 - 일반세일",
+      "name": "상반기 결산 빅세일 - 48시간 특가 (7/20 - 7/22)",
       "status": "READY",
-      "from": "2026-07-20T01:30:00.000Z",
-      "to": "2026-07-30T02:00:00.000Z",
-      "minPercent": null,
-      "recruitDeadline": null
+      "from": "2026-07-20T02:00:00.000Z",
+      "to": "2026-07-22T02:00:00.000Z",
+      "minPercent": 10,
+      "recruitDeadline": "2026-07-17"
     },
     {
       "promotionId": 17100,
@@ -135,6 +117,24 @@
       "to": "2026-07-29T02:00:00.000Z",
       "minPercent": 30,
       "recruitDeadline": "2026-07-25"
+    },
+    {
+      "promotionId": 17100,
+      "name": "상반기 결산 빅세일 - 균일가 하루특가 (9990)ㅣ7/27",
+      "status": "READY",
+      "from": "2026-07-27T02:00:00.000Z",
+      "to": "2026-07-28T02:00:00.000Z",
+      "minPercent": 30,
+      "recruitDeadline": "2026-07-24"
+    },
+    {
+      "promotionId": 17100,
+      "name": "상반기 결산 빅세일 - 균일가 하루특가 (9990)ㅣ7/26",
+      "status": "READY",
+      "from": "2026-07-26T02:00:00.000Z",
+      "to": "2026-07-27T02:00:00.000Z",
+      "minPercent": 30,
+      "recruitDeadline": "2026-07-23"
     }
   ]
 }
