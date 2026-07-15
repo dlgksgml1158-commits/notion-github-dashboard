@@ -157,6 +157,18 @@ def main():
     else:
         print("MUSINSA_PARTNER_ID/MUSINSA_PARTNER_PW not set, skipping")
 
+    # 로그인/스크래핑이 일시적으로 실패해 빈 데이터가 나오면, 기존에 쌓아둔
+    # 데이터를 빈 값으로 덮어써서 날려버리지 않도록 이전 파일을 그대로 유지한다.
+    if not items and os.path.exists(OUT_PATH):
+        try:
+            with open(OUT_PATH, encoding="utf-8") as f:
+                prev = json.load(f)
+            if prev.get("items"):
+                print("Fetched 0 items; keeping previous bestsellers")
+                return
+        except Exception:
+            pass
+
     output = {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
         "startDate": start_date,
