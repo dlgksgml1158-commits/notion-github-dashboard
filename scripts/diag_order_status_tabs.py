@@ -20,7 +20,7 @@ TAB_FINDER_JS = """
     const out = [];
     const seen = new Set();
     const attrs = ['href', 'onclick', 'data-value', 'data-status', 'data-ord-state', 'data-tab', 'value'];
-    document.querySelectorAll('a, button, li, [onclick], [data-value], option').forEach(el => {
+    document.querySelectorAll('a, button, li, [onclick], [data-value], option, select').forEach(el => {
         for (const a of attrs) {
             const v = el.getAttribute(a);
             if (v && v.includes('ORD_STATE')) {
@@ -36,13 +36,38 @@ TAB_FINDER_JS = """
 }
 """
 
+BODY_HTML_JS = "() => document.body.innerHTML"
+
+SELECT_DUMP_JS = """
+() => Array.from(document.querySelectorAll('select')).map(s => ({
+    name: s.getAttribute('name') || s.id || '',
+    outerHTML: s.outerHTML.slice(0, 4000),
+}))
+"""
+
+KOREAN_LABEL_CONTEXT_JS = """
+() => {
+    const labels = ['배송완료', '구매확정', '배송중', '상품준비', '신규주문', '전체'];
+    const html = document.body.innerHTML;
+    const out = [];
+    for (const label of labels) {
+        let idx = html.indexOf(label);
+        while (idx !== -1 && out.length < 30) {
+            out.push(html.slice(Math.max(0, idx - 150), idx + 150));
+            idx = html.indexOf(label, idx + 1);
+        }
+    }
+    return out;
+}
+"""
+
 
 def main():
     partner_id = os.environ.get("MUSINSA_PARTNER_ID", "")
     partner_pw = os.environ.get("MUSINSA_PARTNER_PW", "")
     mss_mac = os.environ.get("MUSINSA_MSS_MAC", "")
     totp_secret_raw = os.environ.get("MUSINSA_PARTNER_TOTP_SECRET", "")
-    result = {"error": None, "tabs": [], "frame_urls": [], "html_snippets": {}}
+    result = {"error": None, "tabs": [], "frame_urls": [], "selects": {}, "label_contexts": {}}
 
     if partner_id and partner_pw:
         try:
@@ -52,7 +77,7 @@ def main():
                     p, partner_id, partner_pw, mss_mac, totp_secret
                 )
                 page.goto(ORDER_HISTORY_PAGE, wait_until="networkidle")
-                page.wait_for_timeout(3000)
+                page.wait_for_timeout(5000)
 
                 result["frame_urls"] = [f.url for f in page.frames]
                 for frame in page.frames:
@@ -65,9 +90,13 @@ def main():
                             {**t, "frameUrl": frame.url} for t in found
                         )
                     try:
-                        result["html_snippets"][frame.url] = frame.content()[:15000]
-                    except Exception:
-                        pass
+                        result["selects"][frame.url] = frame.evaluate(SELECT_DUMP_JS)
+                    except Exception as e:
+                        result["selects"][frame.url] = [{"error": str(e)}]
+                    try:
+                        result["label_contexts"][frame.url] = frame.evaluate(KOREAN_LABEL_CONTEXT_JS)
+                    except Exception as e:
+                        result["label_contexts"][frame.url] = [{"error": str(e)}]
 
                 browser.close()
         except Exception as e:
