@@ -1,12 +1,23 @@
-"""무신사 파트너센터 구매확정 주문 내역(ord01)에서 상품별 판매 수량을
-전체 기간 및 일자별로 집계한다.
+"""무신사 파트너센터 주문 내역(ord01)에서 상품별 판매 수량을 전체 기간 및
+일자별로 집계한다.
 
-'주문/배송 > 구매확정' 목록 화면(/order/history?S_ORD_STATE=50)이 사용하는
+'주문/배송' 목록 화면(/order/history)이 사용하는
 bizest.musinsa.com/po/order-group-admin/api/order/ord01/search POST API를
 직접 호출한다. LIMIT을 매우 크게 주면 페이지네이션 없이 한 번에 전체
 데이터를 받을 수 있음을 확인했다(실측: 90일치 2977건이 단일 응답으로 옴).
-원본 요청 바디를 그대로 재사용하고 S_SDATE/S_EDATE/LIMIT/PAGE만 치환하는
-방식이라 S_LOGISTICS_BUSINESS_TYPES[] 같은 배열 파라미터도 그대로 보존된다.
+원본 요청 바디를 그대로 재사용하고 S_SDATE/S_EDATE/S_ORD_STATE/LIMIT/PAGE만
+치환하는 방식이라 S_LOGISTICS_BUSINESS_TYPES[] 같은 배열 파라미터도 그대로
+보존된다.
+
+S_ORD_STATE는 "현재 정확히 이 상태인 주문"만 돌려주는 스냅샷 필터라(예:
+40=배송완료로 조회하면 이미 50=구매확정으로 넘어간 주문은 더 이상 잡히지
+않음), 구매확정(50) 단독으로만 조회하면 매우 안정적이지만 확정까지 걸리는
+기간(체감상 ~8일)만큼 최신 날짜가 항상 비어 있게 된다. 그래서 배송완료(40)
+와 구매확정(50) 두 상태를 모두 조회해 날짜별로 합치되, 구매확정 데이터가
+있으면 그걸 우선하고(더 확정적) 없는 최근 날짜만 배송완료 데이터로 채운다.
+이렇게 하면 최근 날짜는 배송완료 기준 잠정치로라도 매일 채워지고, 시간이
+지나 구매확정 데이터가 생기면 다음 실행에서 자연히 더 정확한 값으로
+덮어써진다.
 
 각 주문 행이 날짜(ord_date)/상품명(goods_nm)/수량(qty)을 포함하므로,
 '주문 현황' 차트에서 날짜를 클릭했을 때 그날 판매된 상품을 보여줄 수 있게
@@ -30,8 +41,15 @@ FETCH_LIMIT = 5000
 TOP_N_OVERALL = 30
 TOP_N_PER_DAY = 15
 
+# S_ORD_STATE 코드 (order/history 페이지의 상태 select에서 확인):
+# 10=결제완료 20=상품준비중 30=배송시작 35=배송중 40=배송완료 50=구매확정
+CONFIRMED_STATE = "50"  # 구매확정 — 최종 확정, 이후 절대 안 바뀜(가장 안정적)
+DELIVERED_STATE = "40"  # 배송완료 — 아직 확정 전이지만 지연이 훨씬 짧음(최신성 채움용)
 
-def fetch_all_orders(page):
+
+def capture_request_template(page):
+    """order/history 페이지 로드 시 나가는 최초 ord01/search 요청 바디를
+    캡처해 이후 상태값만 바꿔가며 재사용할 수 있게 한다."""
     captured_body = {"raw": None}
 
     def on_request(req):
@@ -47,16 +65,21 @@ def fetch_all_orders(page):
     if not captured_body["raw"]:
         raise RuntimeError("초기 ord01/search 요청을 캡처하지 못했습니다")
 
+    return bizest_frame, captured_body["raw"]
+
+
+def search_orders(bizest_frame, template_body, ord_state, days=DAYS):
     end = datetime.now(timezone.utc)
-    start = end - timedelta(days=DAYS)
+    start = end - timedelta(days=days)
     start_str = start.strftime("%Y-%m-%d")
     end_str = end.strftime("%Y-%m-%d")
 
-    body = captured_body["raw"]
+    body = template_body
     body = re.sub(r"S_SDATE=[^&]*", f"S_SDATE={start_str}", body)
     body = re.sub(r"S_EDATE=[^&]*", f"S_EDATE={end_str}", body)
     body = re.sub(r"LIMIT=\d+", f"LIMIT={FETCH_LIMIT}", body)
     body = re.sub(r"PAGE=\d+", "PAGE=1", body)
+    body = re.sub(r"S_ORD_STATE=[^&]*", f"S_ORD_STATE={ord_state}", body)
 
     result = bizest_frame.evaluate(
         """async ({url, body}) => {
@@ -77,7 +100,7 @@ def fetch_all_orders(page):
     parsed = json.loads(result["text"])
     total = int(parsed.get("total", 0))
     rows = parsed.get("data", [])
-    print(f"  총 {total}건 중 {len(rows)}건 수신 ({start_str} ~ {end_str})")
+    print(f"  [S_ORD_STATE={ord_state}] 총 {total}건 중 {len(rows)}건 수신 ({start_str} ~ {end_str})")
     if len(rows) < total:
         print(f"  [WARN] FETCH_LIMIT({FETCH_LIMIT})이 총 건수보다 작습니다 — 일부 누락 가능")
 
@@ -147,11 +170,21 @@ def main():
                 browser, context, page = new_authenticated_context(
                     p, partner_id, partner_pw, mss_mac, totp_secret
                 )
-                rows, total, start_date, end_date = fetch_all_orders(page)
+                bizest_frame, template = capture_request_template(page)
+                confirmed_rows, _, start_date, end_date = search_orders(
+                    bizest_frame, template, CONFIRMED_STATE
+                )
+                delivered_rows, _, _, _ = search_orders(
+                    bizest_frame, template, DELIVERED_STATE
+                )
                 browser.close()
-            print(f"수집 완료: {len(rows)}/{total}건")
-            items = aggregate_bestsellers(rows)
-            by_date = aggregate_by_date(rows)
+
+            items = aggregate_bestsellers(confirmed_rows)
+            confirmed_by_date = aggregate_by_date(confirmed_rows)
+            delivered_by_date = aggregate_by_date(delivered_rows)
+            # 구매확정 데이터가 있는 날짜는 그걸 우선하고, 아직 확정 전이라
+            # 구매확정 쪽에 없는 최근 날짜만 배송완료 데이터로 채운다.
+            by_date = {**delivered_by_date, **confirmed_by_date}
         except Exception as e:
             print(f"Failed to fetch bestsellers: {e}")
     else:
