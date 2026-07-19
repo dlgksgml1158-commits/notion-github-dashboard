@@ -1,35 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-07-19T07:17:21.930517+00:00",
+  "updatedAt": "2026-07-19T11:39:40.221301+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "케이블 크루 넥 반소매 니트 [데저트 핑크]",
-      "discountRate": 61,
-      "finalPrice": 17990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240219/3879186/3879186_17128140164770_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3879186"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 케이블 니트 슬리브리스 탑 [블랙]",
-      "discountRate": 61,
-      "finalPrice": 13900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241202/4644835/4644835_17417358691911_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4644835"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "피그먼트 오버사이즈 크루 넥 티셔츠 [크림]",
-      "discountRate": 61,
-      "finalPrice": 11590,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241206/4655010/4655010_17440726682691_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4655010"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "이자벨마랑",
@@ -95,6 +68,15 @@
     },
     {
       "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "케이블 크루 넥 반소매 니트 [데저트 핑크]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240219/3879186/3879186_17128140164770_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3879186"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드 스포츠",
       "name": "슈퍼 라이트 스탠넥 바람막이 (3color)",
       "discountRate": 0,
@@ -110,6 +92,24 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20241202/4644684/4644684_17466027996488_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4644684"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 케이블 니트 슬리브리스 탑 [블랙]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241202/4644835/4644835_17417358691911_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4644835"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "피그먼트 오버사이즈 크루 넥 티셔츠 [크림]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241206/4655010/4655010_17440726682691_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4655010"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -407,15 +407,6 @@
       "finalPrice": 24500,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250325/4943538/4943538_17817481508941_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4943538"
-    },
-    {
-      "section": "타임세일",
-      "brand": "디미트리블랙",
-      "name": "ASI 에센셜 와플 헨리넥 반팔 티셔츠_피그먼트 차콜",
-      "discountRate": 58,
-      "finalPrice": 13900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250326/4950401/4950401_17445940603774_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4950401"
     },
     {
       "section": "타임세일",
@@ -842,6 +833,15 @@
     },
     {
       "section": "타임세일",
+      "brand": "슬릭글로우",
+      "name": "러브 이모지 체크 레이어드 스웨트 팬츠[블랙]",
+      "discountRate": 44,
+      "finalPrice": 36600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260410/6292224/6292224_17764048594431_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6292224"
+    },
+    {
+      "section": "타임세일",
       "brand": "트릴리온",
       "name": "내츄럴 리조트 롤업 하프 셔츠_3color",
       "discountRate": 38,
@@ -1032,155 +1032,11 @@
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
       "brand": "마뗑킴",
-      "name": "MATIN LOGO RINGER CROP TOP IN CREAM",
-      "discountRate": 20,
-      "finalPrice": 46400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260309/6098409/6098409_17815805652958_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6098409"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "LETTERING GRAFFITI CREASE TOP IN BEIGE",
-      "discountRate": 20,
-      "finalPrice": 46400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6321575/6321575_17763268659119_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6321575"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "MATIN LOGO STITCH TWO WAY BIG BAG IN BLACK",
-      "discountRate": 28,
-      "finalPrice": 113760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6242321/6242321_17815855962797_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6242321"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "DESTROYED BERMUDA DENIM PANTS FOR MEN IN NAVY",
-      "discountRate": 28,
-      "finalPrice": 113760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5973868/5973868_17701916655496_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5973868"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "APPLIQUE FELT LOGO TOP FOR MEN IN STRONG BLACK",
-      "discountRate": 28,
-      "finalPrice": 48960,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6243105/6243105_17755385026441_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6243105"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "ASYMMETRIC DAMAGED KNIT PULLOVER IN KHAKI",
-      "discountRate": 28,
-      "finalPrice": 113760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5874023/5874023_17689811616320_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5874023"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "ASYMMETRIC LOGO KNIT PULLOVER IN BLACK",
-      "discountRate": 28,
-      "finalPrice": 120960,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5874026/5874026_17689812181051_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5874026"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "MESH LOGO WRAP MINI SKIRT IN BLACK",
-      "discountRate": 28,
-      "finalPrice": 77760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6201702/6201702_17745123199285_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6201702"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "LABEL DETAIL HALTER TANK TOP IN BLACK",
-      "discountRate": 20,
-      "finalPrice": 30400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6321548/6321548_17763272613516_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6321548"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "APPLIQUE FELT LOGO TOP FOR MEN IN GREY",
-      "discountRate": 28,
-      "finalPrice": 48960,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6243102/6243102_17755385933568_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6243102"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "CARPENTER BERMUDA DENIM PANTS IN BLUE",
-      "discountRate": 28,
-      "finalPrice": 113760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6321393/6321393_17763277658721_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6321393"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "APPLIQUE LOGO JERSEY DUFFLE BAG IN GREY",
-      "discountRate": 28,
-      "finalPrice": 77760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5873811/5873811_17677552178483_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5873811"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "TEXTURE BLOCK STRIPE KNIT PULLOVER IN LIGHT YELLOW",
-      "discountRate": 28,
-      "finalPrice": 106560,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5974133/5974133_17701896150121_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5974133"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "MATIN CAMOUFLAGE ECOBAG IN KHAKI",
-      "discountRate": 28,
-      "finalPrice": 34560,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6007636/6007636_17707160142614_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6007636"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
       "name": "DETACHABLE CARGO PANTS IN CHARCOAL",
       "discountRate": 28,
       "finalPrice": 156960,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5873886/5873886_17683693087369_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5873886"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "PANEL SEMI WIDE DENIM PANTS IN LIGHT BLUE",
-      "discountRate": 28,
-      "finalPrice": 120960,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6007660/6007660_17707162903176_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6007660"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "APPLIQUE FELT LOGO TOP IN BLACK",
-      "discountRate": 28,
-      "finalPrice": 41760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6243131/6243131_17755379479948_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6243131"
     },
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
@@ -1194,47 +1050,110 @@
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
       "brand": "마뗑킴",
-      "name": "FRONT SHIRRING RIBBON MINI BAG IN BLACK",
+      "name": "PATCHWORK CARGO BERMUDA PANTS FOR MEN IN WHITE",
       "discountRate": 28,
-      "finalPrice": 84960,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260309/6098540/6098540_17815854283438_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6098540"
+      "finalPrice": 142560,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6242714/6242714_17755422199723_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6242714"
     },
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
       "brand": "마뗑킴",
-      "name": "EYELET LOGO CANVAS ECOBAG IN BLACK",
+      "name": "COLOR BLOCK SLIM KNIT CARDIGAN IN BEIGE",
+      "discountRate": 28,
+      "finalPrice": 128160,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5974172/5974172_17707012756334_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5974172"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "OPEN BACK RIBBED KNIT DRESS IN BROWN",
+      "discountRate": 28,
+      "finalPrice": 120960,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6242936/6242936_17755409945343_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6242936"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "DESTROYED BERMUDA DENIM PANTS FOR MEN IN BLACK",
+      "discountRate": 28,
+      "finalPrice": 113760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5973872/5973872_17701915917906_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5973872"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "LABEL DETAIL HALTER TANK TOP IN GREY",
       "discountRate": 20,
-      "finalPrice": 46400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5873803/5873803_17677551363673_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5873803"
+      "finalPrice": 30400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6321547/6321547_17763273955169_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6321547"
     },
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
       "brand": "마뗑킴",
-      "name": "MATIN WASHED CAMP CAP IN BLACK",
-      "discountRate": 28,
-      "finalPrice": 48960,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6201594/6201594_17815855112009_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6201594"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 브랜드",
-      "brand": "마뗑킴",
-      "name": "APPLIQUE FELT LOGO TOP IN GREY",
+      "name": "GRAFFITI ROUND HEM CROP TOP IN CREAM",
       "discountRate": 28,
       "finalPrice": 41760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6243124/6243124_17755381933161_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6243124"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5974103/5974103_17701900561164_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5974103"
     },
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
       "brand": "마뗑킴",
-      "name": "ASYMMETRIC LOGO TOP IN BLACK",
+      "name": "3/4 SLEEVE TOP & TANK LAYERED SET IN SMOKE BLUE",
       "discountRate": 28,
-      "finalPrice": 63360,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5873978/5873978_17689835436755_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5873978"
+      "finalPrice": 48960,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6243166/6243166_17755378096082_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6243166"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "GRAFFITI ARTWORK KNIT PULLOVER IN IVORY",
+      "discountRate": 28,
+      "finalPrice": 113760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6007674/6007674_17707164821406_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6007674"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "POCKET WASHED KNIT VEST IN CHARCOAL",
+      "discountRate": 28,
+      "finalPrice": 128160,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6243222/6243222_17755370151833_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6243222"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "APPLIQUE FELT LOGO TOP IN CHARCOAL",
+      "discountRate": 28,
+      "finalPrice": 41760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6243127/6243127_17755381516220_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6243127"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "VINTAGE DIRTY WASHED DENIM PANTS IN LIGHT BLUE",
+      "discountRate": 28,
+      "finalPrice": 128160,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5873930/5873930_17683683901796_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5873930"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "STRIPE DAMAGED LOOSE PULLOVER IN BLACK",
+      "discountRate": 28,
+      "finalPrice": 120960,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5974136/5974136_17701894410306_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5974136"
     },
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
@@ -1248,38 +1167,65 @@
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
       "brand": "마뗑킴",
-      "name": "MATIN LOGO BOBBY PIN SET IN SILVER",
+      "name": "MATIN RIBBON BOBBY PIN SET IN SILVER",
       "discountRate": 28,
       "finalPrice": 20160,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5973531/5973531_17702584367815_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5973531"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5973529/5973529_17702585478918_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5973529"
     },
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
       "brand": "마뗑킴",
-      "name": "SPORTY MARYJANE SNEAKERS IN RED",
+      "name": "MESH LOGO WRAP MINI SKIRT IN BLACK",
       "discountRate": 28,
-      "finalPrice": 120960,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6007630/6007630_17774435542891_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6007630"
+      "finalPrice": 77760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6201702/6201702_17745123199285_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6201702"
     },
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
       "brand": "마뗑킴",
-      "name": "OPEN BACK RIBBED KNIT DRESS IN LIGHT GREY",
+      "name": "CARPENTER BERMUDA DENIM PANTS IN BLUE",
       "discountRate": 28,
-      "finalPrice": 120960,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6242937/6242937_17755408952015_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6242937"
+      "finalPrice": 113760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6321393/6321393_17763277658721_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6321393"
     },
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
       "brand": "마뗑킴",
-      "name": "MULTI PANEL LAYERED SKIRT IN BLACK",
+      "name": "DESTROYED BERMUDA DENIM PANTS FOR MEN IN NAVY",
       "discountRate": 28,
-      "finalPrice": 120960,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5921063/5921063_17689741475142_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5921063"
+      "finalPrice": 113760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5973868/5973868_17701916655496_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5973868"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "DISTRESSED DENIM PANTS FOR MEN IN KHAKI",
+      "discountRate": 28,
+      "finalPrice": 142560,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6201778/6201778_17830479141322_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6201778"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "TEXTURE BLOCK STRIPE KNIT PULLOVER IN NAVY",
+      "discountRate": 28,
+      "finalPrice": 106560,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5974131/5974131_17701896946491_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5974131"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "MATIN AIRY ROVER BACKPACK IN BLACK",
+      "discountRate": 28,
+      "finalPrice": 84960,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6242308/6242308_17755431560668_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6242308"
     },
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
@@ -1293,11 +1239,65 @@
     {
       "section": "쿠폰으로 만나는\n우먼 브랜드",
       "brand": "마뗑킴",
-      "name": "DART POINT DENIM PANTS IN KHAKI",
+      "name": "VINTAGE WASHED DENIM TRUCKER FOR MEN IN BLUE",
       "discountRate": 28,
-      "finalPrice": 120960,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5873925/5873925_17683683508161_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5873925"
+      "finalPrice": 192960,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5874065/5874065_17689806424011_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5874065"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "BACK POCKET PATCH DESTROYED DENIM PANTS IN BLUE",
+      "discountRate": 28,
+      "finalPrice": 128160,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5921035/5921035_17689740344694_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5921035"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "CARPENTER BERMUDA DENIM PANTS IN CHARCOAL",
+      "discountRate": 28,
+      "finalPrice": 113760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6321394/6321394_17763277456157_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6321394"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "APPLIQUE FELT LOGO TOP IN CREAM",
+      "discountRate": 28,
+      "finalPrice": 41760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6243129/6243129_17815856328332_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6243129"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "CROPPED EMBROIDERY BACK LOGO JUMPER IN STRONG BLACK",
+      "discountRate": 28,
+      "finalPrice": 171360,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5974254/5974254_17701879898928_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5974254"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "POCKET POINT SLIM FIT TOP IN CHARCOAL",
+      "discountRate": 28,
+      "finalPrice": 56160,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6243085/6243085_17755388227310_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6243085"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 브랜드",
+      "brand": "마뗑킴",
+      "name": "APPLIQUE FELT LOGO TOP FOR MEN IN GREY",
+      "discountRate": 28,
+      "finalPrice": 48960,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6243102/6243102_17755385933568_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6243102"
     },
     {
       "section": "오직 무신사 뷰티",
