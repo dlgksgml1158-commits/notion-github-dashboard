@@ -281,7 +281,10 @@ def collect_and_parse_messages(page):
             page.wait_for_selector(ROW_SELECTOR, timeout=8000)
         except Exception:
             pass
-        page.wait_for_timeout(1500)
+        # React가 DOM에 행을 그린 뒤에도 클릭 핸들러가 실제로 붙는 hydration은
+        # 조금 더 걸릴 수 있다(로컬 브라우저에서는 문제없던 클릭이 CI에서는
+        # 전부 실패했던 원인). 넉넉하게 대기한다.
+        page.wait_for_timeout(4000)
         row_count = page.locator(ROW_SELECTOR).count()
         print(
             f"keyword={kw!r} url={page.url} row_count={row_count} "
@@ -292,15 +295,24 @@ def collect_and_parse_messages(page):
             rows = page.locator(ROW_SELECTOR)
             if i >= rows.count():
                 break
-            try:
-                # tr 자체를 클릭하면 체크박스/별표 등 다른 셀에 좌표가 걸릴 수
-                # 있어 내비게이션이 안 될 때가 있다. 실제 핸들러가 붙은
-                # 제목 셀의 cursor-pointer 요소를 직접 클릭한다.
-                target = rows.nth(i).locator('td div.cursor-pointer').first
-                target.click()
-                page.wait_for_url("**/mail/inbox/messages/**", timeout=8000)
-            except Exception as e:
-                print(f"Skip row {i} for keyword {kw!r}: click/navigation failed: {e}")
+            target = rows.nth(i).locator('td div.cursor-pointer').first
+            navigated = False
+            for attempt in range(2):
+                try:
+                    # tr 자체를 클릭하면 체크박스/별표 등 다른 셀에 좌표가 걸릴
+                    # 수 있어 실제 핸들러가 붙은 제목 셀의 cursor-pointer
+                    # 요소를 직접 클릭한다. hydration 타이밍 이슈에 대비해
+                    # 실패 시 한 번 더 시도한다.
+                    target.click()
+                    page.wait_for_url("**/mail/inbox/messages/**", timeout=6000)
+                    navigated = True
+                    break
+                except Exception as e:
+                    if attempt == 0:
+                        page.wait_for_timeout(1500)
+                        continue
+                    print(f"Skip row {i} for keyword {kw!r}: click/navigation failed: {e}")
+            if not navigated:
                 continue
 
             m = re.search(r"/messages/(\d+)", page.url)
