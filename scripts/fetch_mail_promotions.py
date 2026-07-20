@@ -240,25 +240,10 @@ def login_with_cookies(context, page, cookies_json):
         )
 
 
-def collect_candidate_ids(page):
-    seen = {}
-    for kw in SEARCH_KEYWORDS:
-        page.goto(f"{INBOX_URL}?search={quote(kw)}&searchTarget=all", wait_until="domcontentloaded")
-        page.wait_for_timeout(1500)
-        hrefs = page.eval_on_selector_all(
-            'a[href*="/mail/inbox/messages/"]',
-            "els => els.map(e => e.getAttribute('href'))",
-        )
-        for href in hrefs or []:
-            m = re.search(r"/messages/(\d+)", href or "")
-            if m:
-                seen[m.group(1)] = True
-    return list(seen.keys())
+ROW_SELECTOR = 'tr[class*="_gwTableRow_"]'
 
 
-def parse_message(page, msg_id):
-    page.goto(MESSAGE_URL.format(msg_id), wait_until="domcontentloaded")
-    page.wait_for_timeout(800)
+def extract_current_message(page, msg_id):
     body_text = page.inner_text("main")
 
     lines = [l for l in body_text.splitlines() if l.strip()]
@@ -277,6 +262,52 @@ def parse_message(page, msg_id):
         "received_at": received_at,
         "body": body_text,
     }
+
+
+def collect_and_parse_messages(page):
+    """검색 결과 목록의 각 행은 정적 href/데이터 속성이 없는 React 클릭
+    핸들러(TR._gwTableRow_...)로만 상세 페이지를 연다. 그래서 목록에서
+    메일 ID만 먼저 모으는 대신, 각 행을 실제로 클릭해 이동한 뒤 그 URL에서
+    ID를 읽고 본문을 바로 추출하고, 목록으로 되돌아가는 방식을 쓴다.
+    """
+    seen_ids = set()
+    raw_messages = []
+
+    for kw in SEARCH_KEYWORDS:
+        page.goto(f"{INBOX_URL}?search={quote(kw)}&searchTarget=all", wait_until="domcontentloaded")
+        page.wait_for_timeout(1500)
+        row_count = page.locator(ROW_SELECTOR).count()
+
+        for i in range(row_count):
+            rows = page.locator(ROW_SELECTOR)
+            if i >= rows.count():
+                break
+            try:
+                rows.nth(i).click()
+                page.wait_for_url("**/mail/inbox/messages/**", timeout=8000)
+            except Exception as e:
+                print(f"Skip row {i} for keyword {kw!r}: click/navigation failed: {e}")
+                continue
+
+            m = re.search(r"/messages/(\d+)", page.url)
+            if not m:
+                page.go_back(wait_until="domcontentloaded")
+                page.wait_for_timeout(1000)
+                continue
+            msg_id = m.group(1)
+
+            if msg_id not in seen_ids:
+                seen_ids.add(msg_id)
+                page.wait_for_timeout(500)
+                try:
+                    raw_messages.append(extract_current_message(page, msg_id))
+                except Exception as e:
+                    print(f"Skip message {msg_id}: {e}")
+
+            page.go_back(wait_until="domcontentloaded")
+            page.wait_for_timeout(1000)
+
+    return raw_messages
 
 
 def build_items(raw_messages):
@@ -361,13 +392,7 @@ def main():
                 else:
                     login(page, mail_id, mail_pw)
 
-                candidate_ids = collect_candidate_ids(page)
-                raw_messages = []
-                for msg_id in candidate_ids:
-                    try:
-                        raw_messages.append(parse_message(page, msg_id))
-                    except Exception as e:
-                        print(f"Skip message {msg_id}: {e}")
+                raw_messages = collect_and_parse_messages(page)
 
                 browser.close()
 
