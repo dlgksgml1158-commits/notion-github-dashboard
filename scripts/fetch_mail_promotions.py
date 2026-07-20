@@ -230,6 +230,7 @@ def login_with_cookies(context, page, cookies_json):
     if not normalized:
         raise RuntimeError("MAILPLUG_COOKIES parsed to zero usable cookies")
 
+    print(f"Injecting {len(normalized)} cookies: {[c['name'] for c in normalized]}")
     context.add_cookies(normalized)
     page.goto(INBOX_URL, wait_until="domcontentloaded")
     page.wait_for_timeout(1500)
@@ -238,6 +239,7 @@ def login_with_cookies(context, page, cookies_json):
             "MAILPLUG_COOKIES 세션이 만료된 것 같습니다(로그인 화면으로 리다이렉트됨). "
             f"브라우저에서 다시 로그인한 뒤 쿠키를 갱신해 주세요. current_url={page.url}"
         )
+    print(f"Cookie login OK, landed on {page.url}")
 
 
 ROW_SELECTOR = 'tr[class*="_gwTableRow_"]'
@@ -275,8 +277,16 @@ def collect_and_parse_messages(page):
 
     for kw in SEARCH_KEYWORDS:
         page.goto(f"{INBOX_URL}?search={quote(kw)}&searchTarget=all", wait_until="domcontentloaded")
+        try:
+            page.wait_for_selector(ROW_SELECTOR, timeout=8000)
+        except Exception:
+            pass
         page.wait_for_timeout(1500)
         row_count = page.locator(ROW_SELECTOR).count()
+        print(
+            f"keyword={kw!r} url={page.url} row_count={row_count} "
+            f"body_snippet={page.inner_text('body')[:200]!r}"
+        )
 
         for i in range(row_count):
             rows = page.locator(ROW_SELECTOR)
