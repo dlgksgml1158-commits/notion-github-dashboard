@@ -293,7 +293,11 @@ def collect_and_parse_messages(page):
             if i >= rows.count():
                 break
             try:
-                rows.nth(i).click()
+                # tr 자체를 클릭하면 체크박스/별표 등 다른 셀에 좌표가 걸릴 수
+                # 있어 내비게이션이 안 될 때가 있다. 실제 핸들러가 붙은
+                # 제목 셀의 cursor-pointer 요소를 직접 클릭한다.
+                target = rows.nth(i).locator('td div.cursor-pointer').first
+                target.click()
                 page.wait_for_url("**/mail/inbox/messages/**", timeout=8000)
             except Exception as e:
                 print(f"Skip row {i} for keyword {kw!r}: click/navigation failed: {e}")
