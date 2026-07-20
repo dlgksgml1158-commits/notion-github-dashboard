@@ -159,15 +159,30 @@ def login(page, mail_id, mail_pw):
             f"Step2 password input not found. current_url={page.url} "
             f"body_snippet={page.inner_text('body')[:500]!r}"
         ) from None
-    page.wait_for_timeout(500)
     pw_loc.fill(mail_pw)
+    # Cloudflare Turnstile가 자동(비개입) 모드로 백그라운드 검증을 마칠 시간을
+    # 준다 — 위젯을 조작하거나 우회하지 않고, 자연스러운 완료를 기다릴 뿐이다.
+    page.wait_for_timeout(4000)
     page.locator('#loginButton').click()
 
     try:
         page.wait_for_url("**/mail/inbox**", timeout=20000)
     except Exception:
+        error_text = ""
+        try:
+            err_loc = page.locator('#errorMessage')
+            if err_loc.count() > 0:
+                error_text = err_loc.first.inner_text()
+        except Exception:
+            pass
+        button_disabled = None
+        try:
+            button_disabled = page.locator('#loginButton').get_attribute('disabled')
+        except Exception:
+            pass
         raise RuntimeError(
             f"Login did not redirect to inbox after step2 submit. current_url={page.url} "
+            f"error_message={error_text!r} login_button_disabled={button_disabled!r} "
             f"body_snippet={page.inner_text('body')[:800]!r}"
         ) from None
     page.wait_for_timeout(1500)
