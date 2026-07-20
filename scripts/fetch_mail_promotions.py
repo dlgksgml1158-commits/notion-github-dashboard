@@ -130,37 +130,48 @@ def login(page, mail_id, mail_pw):
     if "/mail/inbox" in page.url:
         return
 
-    pw_loc = page.locator('input[type="password"]')
+    # 1단계: login.mailplug.com — 이메일(id@domain) 또는 도메인 입력.
+    # MAILPLUG_ID는 반드시 전체 이메일 주소(예: name@company.com) 형식이어야
+    # 다음 화면에서 계정이 특정되어 비밀번호만 입력하면 되는 흐름으로 이어진다.
+    step1_input = page.locator('#login_input')
     try:
-        pw_loc.first.wait_for(timeout=15000)
+        step1_input.wait_for(timeout=15000)
     except Exception:
         raise RuntimeError(
-            f"Login form not found. current_url={page.url} "
+            f"Step1 login input not found. current_url={page.url} "
             f"body_snippet={page.inner_text('body')[:500]!r}"
         ) from None
 
-    id_loc = page.locator('input[type="text"], input[type="email"]')
-    if id_loc.count() == 0:
+    step1_input.fill(mail_id)
+    page.locator('.login_btn').click()
+
+    # 2단계: mc*.mailplug.com/member/login — 다른 오리진으로 리다이렉트된다.
+    try:
+        page.wait_for_url("**/member/login**", timeout=15000)
+    except Exception:
         raise RuntimeError(
-            f"Could not find id input field. current_url={page.url} "
+            f"Did not reach step2 login page. current_url={page.url} "
             f"body_snippet={page.inner_text('body')[:500]!r}"
-        )
+        ) from None
+    page.wait_for_load_state("networkidle")
 
-    id_loc.first.fill(mail_id)
-    pw_loc.first.fill(mail_pw)
-
-    submit = page.locator('button[type="submit"], input[type="submit"]')
-    if submit.count() > 0:
-        submit.first.click()
-    else:
-        pw_loc.first.press("Enter")
+    pw_loc = page.locator('#password')
+    try:
+        pw_loc.wait_for(timeout=15000)
+    except Exception:
+        raise RuntimeError(
+            f"Step2 password input not found. current_url={page.url} "
+            f"body_snippet={page.inner_text('body')[:500]!r}"
+        ) from None
+    pw_loc.fill(mail_pw)
+    page.locator('#loginButton').click()
 
     try:
         page.wait_for_url("**/mail/inbox**", timeout=20000)
     except Exception:
         raise RuntimeError(
-            f"Login did not redirect to inbox. current_url={page.url} "
-            f"body_snippet={page.inner_text('body')[:500]!r}"
+            f"Login did not redirect to inbox after step2 submit. current_url={page.url} "
+            f"body_snippet={page.inner_text('body')[:800]!r}"
         ) from None
     page.wait_for_load_state("networkidle")
 
