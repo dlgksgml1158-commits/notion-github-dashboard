@@ -125,8 +125,10 @@ def detect_brand(sender_email):
 
 
 def login(page, mail_id, mail_pw):
-    page.goto(LOGIN_URL, wait_until="networkidle")
-    page.wait_for_timeout(1000)
+    # 메일함 SPA는 실시간 알림용 폴링/웹소켓이 계속 떠 있어 networkidle이
+    # 잘 발생하지 않는다. DOM 로드 완료만 기다리고 필요한 만큼 짧게 쉰다.
+    page.goto(LOGIN_URL, wait_until="domcontentloaded")
+    page.wait_for_timeout(1500)
     if "/mail/inbox" in page.url:
         return
 
@@ -157,7 +159,7 @@ def login(page, mail_id, mail_pw):
             f"Step2 password input not found. current_url={page.url} "
             f"body_snippet={page.inner_text('body')[:500]!r}"
         ) from None
-    page.wait_for_load_state("networkidle")
+    page.wait_for_timeout(500)
     pw_loc.fill(mail_pw)
     page.locator('#loginButton').click()
 
@@ -168,14 +170,14 @@ def login(page, mail_id, mail_pw):
             f"Login did not redirect to inbox after step2 submit. current_url={page.url} "
             f"body_snippet={page.inner_text('body')[:800]!r}"
         ) from None
-    page.wait_for_load_state("networkidle")
+    page.wait_for_timeout(1500)
 
 
 def collect_candidate_ids(page):
     seen = {}
     for kw in SEARCH_KEYWORDS:
-        page.goto(f"{INBOX_URL}?search={quote(kw)}&searchTarget=all", wait_until="networkidle")
-        page.wait_for_timeout(1000)
+        page.goto(f"{INBOX_URL}?search={quote(kw)}&searchTarget=all", wait_until="domcontentloaded")
+        page.wait_for_timeout(1500)
         hrefs = page.eval_on_selector_all(
             'a[href*="/mail/inbox/messages/"]',
             "els => els.map(e => e.getAttribute('href'))",
@@ -188,8 +190,8 @@ def collect_candidate_ids(page):
 
 
 def parse_message(page, msg_id):
-    page.goto(MESSAGE_URL.format(msg_id), wait_until="networkidle")
-    page.wait_for_timeout(500)
+    page.goto(MESSAGE_URL.format(msg_id), wait_until="domcontentloaded")
+    page.wait_for_timeout(800)
     body_text = page.inner_text("main")
 
     lines = [l for l in body_text.splitlines() if l.strip()]
