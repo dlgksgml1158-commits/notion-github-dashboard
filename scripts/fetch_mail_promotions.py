@@ -188,6 +188,58 @@ def login(page, mail_id, mail_pw):
     page.wait_for_timeout(1500)
 
 
+def login_with_cookies(context, page, cookies_json):
+    """MAILPLUG_COOKIES(로그인된 브라우저에서 내보낸 쿠키 JSON)를 주입해 로그인을
+    대체한다. gw.mailplug.com은 Cloudflare Turnstile 캡차가 걸려 있어 GitHub
+    Actions 같은 클라우드 IP에서는 아이디/비밀번호 로그인 자체가 사람 확인을
+    요구해 자동화가 불가능하다 — 이를 우회하는 대신, 사람이 이미 인증을 마친
+    세션 쿠키를 재사용한다.
+    """
+    try:
+        cookies = json.loads(cookies_json)
+    except Exception as e:
+        raise RuntimeError(f"MAILPLUG_COOKIES is not valid JSON: {e}") from None
+
+    normalized = []
+    for c in cookies:
+        if not c.get("name") or "value" not in c:
+            continue
+        entry = {
+            "name": c["name"],
+            "value": c["value"],
+            "domain": c.get("domain") or ".mailplug.com",
+            "path": c.get("path") or "/",
+        }
+        if isinstance(c.get("expirationDate"), (int, float)):
+            entry["expires"] = c["expirationDate"]
+        elif isinstance(c.get("expires"), (int, float)) and c["expires"] > 0:
+            entry["expires"] = c["expires"]
+        if isinstance(c.get("httpOnly"), bool):
+            entry["httpOnly"] = c["httpOnly"]
+        if isinstance(c.get("secure"), bool):
+            entry["secure"] = c["secure"]
+        same_site = c.get("sameSite")
+        if isinstance(same_site, str):
+            same_site = same_site.capitalize()
+            if same_site == "No_restriction":
+                same_site = "None"
+            if same_site in ("Strict", "Lax", "None"):
+                entry["sameSite"] = same_site
+        normalized.append(entry)
+
+    if not normalized:
+        raise RuntimeError("MAILPLUG_COOKIES parsed to zero usable cookies")
+
+    context.add_cookies(normalized)
+    page.goto(INBOX_URL, wait_until="domcontentloaded")
+    page.wait_for_timeout(1500)
+    if "/mail/inbox" not in page.url:
+        raise RuntimeError(
+            "MAILPLUG_COOKIES 세션이 만료된 것 같습니다(로그인 화면으로 리다이렉트됨). "
+            f"브라우저에서 다시 로그인한 뒤 쿠키를 갱신해 주세요. current_url={page.url}"
+        )
+
+
 def collect_candidate_ids(page):
     seen = {}
     for kw in SEARCH_KEYWORDS:
@@ -286,11 +338,12 @@ def build_items(raw_messages):
 
 
 def main():
+    mail_cookies = os.environ.get("MAILPLUG_COOKIES", "")
     mail_id = os.environ.get("MAILPLUG_ID", "")
     mail_pw = os.environ.get("MAILPLUG_PW", "")
     items = []
 
-    if mail_id and mail_pw:
+    if mail_cookies or (mail_id and mail_pw):
         try:
             with sync_playwright() as p:
                 browser = p.chromium.launch()
@@ -299,7 +352,14 @@ def main():
                     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
                 ))
                 page = context.new_page()
-                login(page, mail_id, mail_pw)
+
+                # Turnstile 캡차 때문에 아이디/비밀번호 로그인은 GitHub Actions
+                # 클라우드 IP에서 사람 확인을 요구해 실패한다. 쿠키가 있으면
+                # 그것을 우선 쓰고, 없을 때만(진단 목적으로) 로그인을 시도한다.
+                if mail_cookies:
+                    login_with_cookies(context, page, mail_cookies)
+                else:
+                    login(page, mail_id, mail_pw)
 
                 candidate_ids = collect_candidate_ids(page)
                 raw_messages = []
@@ -315,7 +375,7 @@ def main():
         except Exception as e:
             print(f"Failed to fetch mail promotions: {e}")
     else:
-        print("MAILPLUG_ID/MAILPLUG_PW not set, skipping")
+        print("MAILPLUG_COOKIES/MAILPLUG_ID/MAILPLUG_PW not set, skipping")
 
     # 상위 스크래핑이 일시적으로 실패해 빈 데이터가 나오면, 화면이 갑자기
     # 텅 비지 않도록 기존 데이터를 그대로 유지한다.

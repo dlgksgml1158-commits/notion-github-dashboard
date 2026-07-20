@@ -29,6 +29,7 @@ jobs:
       - name: 메일함 프로모션 수집
         run: python3 scripts/fetch_mail_promotions.py
         env:
+          MAILPLUG_COOKIES: ${{ secrets.MAILPLUG_COOKIES }}
           MAILPLUG_ID: ${{ secrets.MAILPLUG_ID }}
           MAILPLUG_PW: ${{ secrets.MAILPLUG_PW }}
 
