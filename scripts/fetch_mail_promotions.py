@@ -145,16 +145,10 @@ def login(page, mail_id, mail_pw):
     step1_input.fill(mail_id)
     page.locator('.login_btn').click()
 
-    # 2단계: mc*.mailplug.com/member/login — 다른 오리진으로 리다이렉트된다.
-    try:
-        page.wait_for_url("**/member/login**", timeout=15000)
-    except Exception:
-        raise RuntimeError(
-            f"Did not reach step2 login page. current_url={page.url} "
-            f"body_snippet={page.inner_text('body')[:500]!r}"
-        ) from None
-    page.wait_for_load_state("networkidle")
-
+    # 2단계: 계정이 특정된 비밀번호 입력 화면으로 넘어간다. 이 화면의 URL 경로는
+    # 계정 상태에 따라 달라질 수 있으므로(예: login.mailplug.com/auth/login,
+    # mc*.mailplug.com/member/login 등) URL 패턴이 아니라 #password 필드의
+    # 등장 자체를 신호로 삼는다.
     pw_loc = page.locator('#password')
     try:
         pw_loc.wait_for(timeout=15000)
@@ -163,6 +157,7 @@ def login(page, mail_id, mail_pw):
             f"Step2 password input not found. current_url={page.url} "
             f"body_snippet={page.inner_text('body')[:500]!r}"
         ) from None
+    page.wait_for_load_state("networkidle")
     pw_loc.fill(mail_pw)
     page.locator('#loginButton').click()
 
