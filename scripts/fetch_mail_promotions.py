@@ -403,7 +403,10 @@ def main():
     if mail_cookies or (mail_id and mail_pw):
         try:
             with sync_playwright() as p:
-                browser = p.chromium.launch()
+                # headless 모드에서는 메일함 SPA의 행 클릭이 내비게이션으로
+                # 이어지지 않아(원인 불명, 실제 브라우저에서는 즉시 동작함),
+                # xvfb 가상 디스플레이 위에서 headful로 띄운다.
+                browser = p.chromium.launch(headless=False)
                 context = browser.new_context(user_agent=(
                     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
