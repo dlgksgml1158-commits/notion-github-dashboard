@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T22:38:01.700831+00:00",
+  "updatedAt": "2026-07-20T10:24:29.547600+00:00",
   "items": [
     {
       "promotionId": 17525,
@@ -39,12 +39,12 @@
     },
     {
       "promotionId": 17499,
-      "name": "무신사 멤버스데이 - 일반세일",
+      "name": "무신사 멤버스데이 - 균일가 하루 특가 (13330)ㅣ8/3",
       "status": "READY",
-      "from": "2026-07-31T15:00:00.000Z",
+      "from": "2026-08-02T15:00:00.000Z",
       "to": "2026-08-03T15:00:00.000Z",
-      "minPercent": 5,
-      "recruitDeadline": null
+      "minPercent": 30,
+      "recruitDeadline": "2026-07-31"
     },
     {
       "promotionId": 17499,
@@ -111,12 +111,12 @@
     },
     {
       "promotionId": 17499,
-      "name": "무신사 멤버스데이 - 균일가 하루 특가 (13330)ㅣ8/3",
+      "name": "무신사 멤버스데이 - 일반세일",
       "status": "READY",
-      "from": "2026-08-02T15:00:00.000Z",
+      "from": "2026-07-31T15:00:00.000Z",
       "to": "2026-08-03T15:00:00.000Z",
-      "minPercent": 30,
-      "recruitDeadline": "2026-07-31"
+      "minPercent": 5,
+      "recruitDeadline": null
     },
     {
       "promotionId": 17499,
@@ -128,13 +128,13 @@
       "recruitDeadline": "2026-07-31"
     },
     {
-      "promotionId": 17473,
-      "name": "OO시간 특가 모집 (7/13 - 7/20) - 72시간 특가 (7/17 - 7/20)",
-      "status": "RUNNING",
-      "from": "2026-07-17T02:00:00.000Z",
-      "to": "2026-07-20T02:00:00.000Z",
+      "promotionId": 17451,
+      "name": "8월 킥스위크 - 일반세일",
+      "status": "READY",
+      "from": "2026-08-03T02:00:00.000Z",
+      "to": "2026-08-13T02:00:00.000Z",
       "minPercent": 10,
-      "recruitDeadline": "2026-07-14"
+      "recruitDeadline": null
     }
   ]
 }
