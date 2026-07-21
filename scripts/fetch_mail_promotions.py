@@ -299,11 +299,13 @@ def collect_and_parse_messages(page):
             navigated = False
             for attempt in range(2):
                 try:
-                    # tr 자체를 클릭하면 체크박스/별표 등 다른 셀에 좌표가 걸릴
-                    # 수 있어 실제 핸들러가 붙은 제목 셀의 cursor-pointer
-                    # 요소를 직접 클릭한다. hydration 타이밍 이슈에 대비해
-                    # 실패 시 한 번 더 시도한다.
-                    target.click()
+                    # Playwright의 좌표 기반 마우스 클릭(target.click())은 이
+                    # 페이지에서 100% 내비게이션에 실패했다(실제 Chrome에서
+                    # 같은 요소를 클릭하면 즉시 성공하는 것과 대조적) —
+                    # 오버레이/스태킹 컨텍스트로 클릭 좌표가 다른 요소에
+                    # 맞았을 가능성이 있다. 좌표 대신 DOM 요소에 직접
+                    # click()을 호출해 좌표 계산 문제 자체를 없앤다.
+                    target.evaluate("el => el.click()")
                     page.wait_for_url("**/mail/inbox/messages/**", timeout=6000)
                     navigated = True
                     break
@@ -403,10 +405,7 @@ def main():
     if mail_cookies or (mail_id and mail_pw):
         try:
             with sync_playwright() as p:
-                # headless 모드에서는 메일함 SPA의 행 클릭이 내비게이션으로
-                # 이어지지 않아(원인 불명, 실제 브라우저에서는 즉시 동작함),
-                # xvfb 가상 디스플레이 위에서 headful로 띄운다.
-                browser = p.chromium.launch(headless=False)
+                browser = p.chromium.launch()
                 context = browser.new_context(user_agent=(
                     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
