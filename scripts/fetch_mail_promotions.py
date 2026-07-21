@@ -245,11 +245,30 @@ def login_with_cookies(context, page, cookies_json):
 ROW_SELECTOR = 'tr[class*="_gwTableRow_"]'
 
 
+TOOLBAR_MARKERS = ("다음 메일", "이전 메일")
+
+
 def extract_current_message(page, msg_id):
     body_text = page.inner_text("main")
 
-    lines = [l for l in body_text.splitlines() if l.strip()]
-    subject = lines[0].strip() if lines else ""
+    # 검색 결과에서 행을 클릭해 들어온 경우(하드 리로드가 아닌 클라이언트
+    # 라우팅) <main> 맨 앞에 "받은 메일함 ... 다음 메일" 툴바 텍스트가 먼저
+    # 나오고 그 다음 빈 줄 뒤에 실제 제목이 온다. 툴바 마커 이후 첫 번째
+    # 비어있지 않은 줄을 제목으로 삼는다.
+    raw_lines = body_text.split("\n")
+    lines = [l for l in raw_lines if l.strip()]
+    toolbar_idx = -1
+    for i, l in enumerate(raw_lines):
+        if l.strip() in TOOLBAR_MARKERS:
+            toolbar_idx = i
+    subject = ""
+    if toolbar_idx >= 0:
+        for l in raw_lines[toolbar_idx + 1:]:
+            if l.strip():
+                subject = l.strip()
+                break
+    if not subject:
+        subject = lines[0].strip() if lines else ""
 
     emails = EMAIL_ADDR.findall(body_text[:1000])
     sender_email = emails[0] if emails else ""
