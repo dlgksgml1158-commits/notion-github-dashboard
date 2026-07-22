@@ -14,18 +14,20 @@ import json
 import os
 import re
 from datetime import datetime, timedelta, timezone
-from urllib.parse import quote
 
 from playwright.sync_api import sync_playwright
 
 LOGIN_URL = "https://gw.mailplug.com/"
 INBOX_URL = "https://gw.mailplug.com/mail/inbox"
-MESSAGE_URL = "https://gw.mailplug.com/mail/inbox/messages/{}"
+# 담당자가 무신사·29CM 프로모션 메일만 걸러 모아두는 사용자 지정 폴더
+# ("내 메일함 > 프로모션", 사이드바 클릭 시 URL이 /mail/6 로 확인됨).
+# 이 폴더 안 메일은 이미 관련 메일로 선별돼 있으므로 받은편지함 전체를
+# 키워드로 검색할 필요가 없다.
+PROMO_FOLDER_URL = "https://gw.mailplug.com/mail/6"
 OUT_PATH = "data-b53e82ab173f/mail_promotions.json"
 
 KST = timezone(timedelta(hours=9))
-LOOKBACK_DAYS = 30
-SEARCH_KEYWORDS = ["쿠폰", "프로모션", "기획전", "특가", "세일"]
+LOOKBACK_DAYS = 60
 RELEVANT_DOMAINS = ("musinsa.com", "29cm.co.kr", "29cm.com")
 
 DATE_TOKEN = re.compile(
@@ -286,73 +288,70 @@ def extract_current_message(page, msg_id):
 
 
 def collect_and_parse_messages(page):
-    """검색 결과 목록의 각 행은 정적 href/데이터 속성이 없는 React 클릭
-    핸들러(TR._gwTableRow_...)로만 상세 페이지를 연다. 그래서 목록에서
-    메일 ID만 먼저 모으는 대신, 각 행을 실제로 클릭해 이동한 뒤 그 URL에서
-    ID를 읽고 본문을 바로 추출하고, 목록으로 되돌아가는 방식을 쓴다.
+    """프로모션 전용 폴더(/mail/6)의 각 행은 정적 href/데이터 속성이 없는
+    React 클릭 핸들러(TR._gwTableRow_...)로만 상세 페이지를 연다. 그래서
+    목록에서 메일 ID만 먼저 모으는 대신, 각 행을 실제로 클릭해 이동한 뒤
+    그 URL에서 ID를 읽고 본문을 바로 추출하고, 목록으로 되돌아가는 방식을
+    쓴다. 이 폴더는 담당자가 이미 무신사·29CM 프로모션 메일만 선별해
+    모아두므로 받은편지함 전체를 키워드로 검색할 필요가 없다.
     """
     seen_ids = set()
     raw_messages = []
 
-    for kw in SEARCH_KEYWORDS:
-        page.goto(f"{INBOX_URL}?search={quote(kw)}&searchTarget=all", wait_until="domcontentloaded")
-        try:
-            page.wait_for_selector(ROW_SELECTOR, timeout=8000)
-        except Exception:
-            pass
-        # React가 DOM에 행을 그린 뒤에도 클릭 핸들러가 실제로 붙는 hydration은
-        # 조금 더 걸릴 수 있다(로컬 브라우저에서는 문제없던 클릭이 CI에서는
-        # 전부 실패했던 원인). 넉넉하게 대기한다.
-        page.wait_for_timeout(4000)
-        row_count = page.locator(ROW_SELECTOR).count()
-        print(
-            f"keyword={kw!r} url={page.url} row_count={row_count} "
-            f"body_snippet={page.inner_text('body')[:200]!r}"
-        )
+    page.goto(PROMO_FOLDER_URL, wait_until="domcontentloaded")
+    try:
+        page.wait_for_selector(ROW_SELECTOR, timeout=8000)
+    except Exception:
+        pass
+    # React가 DOM에 행을 그린 뒤에도 클릭 핸들러가 실제로 붙는 hydration은
+    # 조금 더 걸릴 수 있어 넉넉하게 대기한다.
+    page.wait_for_timeout(4000)
+    row_count = page.locator(ROW_SELECTOR).count()
+    print(f"promo folder url={page.url} row_count={row_count}")
 
-        for i in range(row_count):
-            rows = page.locator(ROW_SELECTOR)
-            if i >= rows.count():
+    for i in range(row_count):
+        rows = page.locator(ROW_SELECTOR)
+        if i >= rows.count():
+            break
+        target = rows.nth(i).locator('td div.cursor-pointer').first
+        navigated = False
+        for attempt in range(2):
+            try:
+                # Playwright의 좌표 기반 마우스 클릭(target.click())은 이
+                # 페이지에서 내비게이션에 실패했다(실제 Chrome에서 같은
+                # 요소를 클릭하면 즉시 성공하는 것과 대조적) — 오버레이/
+                # 스태킹 컨텍스트로 클릭 좌표가 다른 요소에 맞았을 가능성이
+                # 있다. 좌표 대신 DOM 요소에 직접 click()을 호출해 좌표
+                # 계산 문제 자체를 없앤다.
+                target.evaluate("el => el.click()")
+                page.wait_for_url("**/messages/**", timeout=6000)
+                navigated = True
                 break
-            target = rows.nth(i).locator('td div.cursor-pointer').first
-            navigated = False
-            for attempt in range(2):
-                try:
-                    # Playwright의 좌표 기반 마우스 클릭(target.click())은 이
-                    # 페이지에서 100% 내비게이션에 실패했다(실제 Chrome에서
-                    # 같은 요소를 클릭하면 즉시 성공하는 것과 대조적) —
-                    # 오버레이/스태킹 컨텍스트로 클릭 좌표가 다른 요소에
-                    # 맞았을 가능성이 있다. 좌표 대신 DOM 요소에 직접
-                    # click()을 호출해 좌표 계산 문제 자체를 없앤다.
-                    target.evaluate("el => el.click()")
-                    page.wait_for_url("**/mail/inbox/messages/**", timeout=6000)
-                    navigated = True
-                    break
-                except Exception as e:
-                    if attempt == 0:
-                        page.wait_for_timeout(1500)
-                        continue
-                    print(f"Skip row {i} for keyword {kw!r}: click/navigation failed: {e}")
-            if not navigated:
-                continue
+            except Exception as e:
+                if attempt == 0:
+                    page.wait_for_timeout(1500)
+                    continue
+                print(f"Skip row {i}: click/navigation failed: {e}")
+        if not navigated:
+            continue
 
-            m = re.search(r"/messages/(\d+)", page.url)
-            if not m:
-                page.go_back(wait_until="domcontentloaded")
-                page.wait_for_timeout(1000)
-                continue
-            msg_id = m.group(1)
-
-            if msg_id not in seen_ids:
-                seen_ids.add(msg_id)
-                page.wait_for_timeout(500)
-                try:
-                    raw_messages.append(extract_current_message(page, msg_id))
-                except Exception as e:
-                    print(f"Skip message {msg_id}: {e}")
-
+        m = re.search(r"/messages/(\d+)", page.url)
+        if not m:
             page.go_back(wait_until="domcontentloaded")
             page.wait_for_timeout(1000)
+            continue
+        msg_id = m.group(1)
+
+        if msg_id not in seen_ids:
+            seen_ids.add(msg_id)
+            page.wait_for_timeout(500)
+            try:
+                raw_messages.append(extract_current_message(page, msg_id))
+            except Exception as e:
+                print(f"Skip message {msg_id}: {e}")
+
+        page.go_back(wait_until="domcontentloaded")
+        page.wait_for_timeout(1000)
 
     return raw_messages
 
