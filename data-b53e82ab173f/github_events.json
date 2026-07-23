@@ -1,5 +1,84 @@
 [
   {
+    "id": "15596503575",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1309509498,
+      "name": "dlgksgml1158-commits/musinsa-fashion-dashboard",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/musinsa-fashion-dashboard"
+    },
+    "payload": {
+      "repository_id": 1309509498,
+      "push_id": 37889165239,
+      "ref": "refs/heads/main",
+      "head": "eb03e6240bf294372d24059e343530a9c0c3bce5",
+      "before": "deb08ef861981f6720cf2900d3fecf193317f28a"
+    },
+    "public": true,
+    "created_at": "2026-07-23T04:34:52Z"
+  },
+  {
+    "id": "15596312500",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1309509498,
+      "name": "dlgksgml1158-commits/musinsa-fashion-dashboard",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/musinsa-fashion-dashboard"
+    },
+    "payload": {
+      "repository_id": 1309509498,
+      "push_id": 37888960070,
+      "ref": "refs/heads/main",
+      "head": "ae2e7cea6785ff01934c5ccc86e1c46589b37a82",
+      "before": "0b2b8ec6f1bb4fbe422d7ceb56a5b042ce511883"
+    },
+    "public": true,
+    "created_at": "2026-07-23T04:31:02Z"
+  },
+  {
+    "id": "15595839132",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1309509498,
+      "name": "dlgksgml1158-commits/musinsa-fashion-dashboard",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/musinsa-fashion-dashboard"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/main",
+      "master_branch": "main",
+      "description": "무신사·29CM 공개 데이터 기반 패션 마켓 대시보드",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-07-23T04:21:43Z"
+  },
+  {
     "id": "15506915837",
     "type": "PushEvent",
     "actor": {
@@ -2635,83 +2714,5 @@
     },
     "public": true,
     "created_at": "2026-07-08T05:47:35Z"
-  },
-  {
-    "id": "14530973092",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1280861734,
-      "name": "dlgksgml1158-commits/musinsa-dashboard",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/musinsa-dashboard"
-    },
-    "payload": {
-      "repository_id": 1280861734,
-      "push_id": 36820254874,
-      "ref": "refs/heads/main",
-      "head": "ad1ec1f43baefd8812a42e52c12be7f8408cdf6b",
-      "before": "b716cd22bf05779f5ed2d5198acbb4b6811eee84"
-    },
-    "public": true,
-    "created_at": "2026-07-08T05:43:36Z"
-  },
-  {
-    "id": "14530325165",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1285668162,
-      "name": "dlgksgml1158-commits/notion-github-dashboard",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/notion-github-dashboard"
-    },
-    "payload": {
-      "repository_id": 1285668162,
-      "push_id": 36819606410,
-      "ref": "refs/heads/main",
-      "head": "d866792f2ab0eca0591447ec95ade5e4c8c36860",
-      "before": "2ef4dec2fff4669ac328f28470c5cbcf252d09ca"
-    },
-    "public": true,
-    "created_at": "2026-07-08T05:25:26Z"
-  },
-  {
-    "id": "14530170197",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1285668162,
-      "name": "dlgksgml1158-commits/notion-github-dashboard",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/notion-github-dashboard"
-    },
-    "payload": {
-      "repository_id": 1285668162,
-      "push_id": 36819451404,
-      "ref": "refs/heads/main",
-      "head": "2ef4dec2fff4669ac328f28470c5cbcf252d09ca",
-      "before": "c40b640239d91f8a3374329d0abfd18be7e65d92"
-    },
-    "public": true,
-    "created_at": "2026-07-08T05:20:53Z"
   }
 ]
