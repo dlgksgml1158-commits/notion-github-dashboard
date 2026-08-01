@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-08-01T08:08:16.931754+00:00",
+  "updatedAt": "2026-08-01T10:28:42.867322+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -356,15 +356,6 @@
     },
     {
       "section": "타임세일",
-      "brand": "어반디타입",
-      "name": "에어라이트 하이넥 윈드브레이커_크림",
-      "discountRate": 50,
-      "finalPrice": 44900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250114/4719977/4719977_17815024231431_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4719977"
-    },
-    {
-      "section": "타임세일",
       "brand": "그로우하이드",
       "name": "밀런 웨이브 셔링 티셔츠 [반팔/긴팔]",
       "discountRate": 41,
@@ -380,6 +371,15 @@
       "finalPrice": 64350,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250210/4771885/4771885_17395072958768_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4771885"
+    },
+    {
+      "section": "타임세일",
+      "brand": "갭",
+      "name": "키예 슬라이드",
+      "discountRate": 66,
+      "finalPrice": 8900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250213/4784942/4784942_17394123147670_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4784942"
     },
     {
       "section": "타임세일",
@@ -1925,7 +1925,7 @@
       "brand": "캘빈클라인 언더웨어",
       "name": "여성 아이콘 코튼 모달 AF 비키니_QF8520ADP7A",
       "discountRate": 24,
-      "finalPrice": 34200,
+      "finalPrice": 34160,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20200407/1388643/1388643_17573141764287_500.jpg",
       "productUrl": "https://www.musinsa.com/products/1388643"
     },
@@ -2032,8 +2032,8 @@
       "section": "멤버스데이",
       "brand": "리끌로우",
       "name": "RC NIRNIR 폴더 선글라스 BLACK",
-      "discountRate": 42,
-      "finalPrice": 28710,
+      "discountRate": 53,
+      "finalPrice": 23320,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240510/4120423/4120423_17812323803749_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4120423"
     },
@@ -2066,15 +2066,6 @@
     },
     {
       "section": "멤버스데이",
-      "brand": "어반디타입",
-      "name": "에어라이트 하이넥 윈드브레이커_크림",
-      "discountRate": 50,
-      "finalPrice": 44900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250114/4719977/4719977_17815024231431_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4719977"
-    },
-    {
-      "section": "멤버스데이",
       "brand": "르아르",
       "name": "링클 시어서커 체크 반팔 셔츠 [차콜]",
       "discountRate": 41,
@@ -2099,6 +2090,15 @@
       "finalPrice": 61600,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250519/5125624/5125624_17810694503811_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5125624"
+    },
+    {
+      "section": "멤버스데이",
+      "brand": "마인드브릿지",
+      "name": "두굿_와이드 원턱 쿨맥스 밴딩 슬랙스 - 2color",
+      "discountRate": 50,
+      "finalPrice": 39900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250528/5152458/5152458_17497883296560_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5152458"
     },
     {
       "section": "멤버스데이",
@@ -2184,6 +2184,33 @@
     {
       "section": "월간 입점회",
       "brand": "하나히",
+      "name": "Polka dot round collar tee WHITE",
+      "discountRate": 37,
+      "finalPrice": 39690,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357288/6357288_17772697009710_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6357288"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Zip pocket sleeveless jacket BLACK",
+      "discountRate": 37,
+      "finalPrice": 61740,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357467/6357467_17772787209795_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6357467"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Hanahi crop top BLACK",
+      "discountRate": 37,
+      "finalPrice": 28350,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357205/6357205_17772854188861_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6357205"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
       "name": "Puffy tote bag MINT",
       "discountRate": 37,
       "finalPrice": 61740,
@@ -2202,38 +2229,83 @@
     {
       "section": "월간 입점회",
       "brand": "하나히",
-      "name": "Front shirred tiered skirt BLACK",
-      "discountRate": 37,
-      "finalPrice": 59220,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357080/6357080_17772853296292_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6357080"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Low pocket pleated skirt GREY",
-      "discountRate": 37,
-      "finalPrice": 83160,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6367320/6367320_17772859417661_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6367320"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Passport pot pocket pants GREY",
-      "discountRate": 37,
-      "finalPrice": 78120,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6356565/6356565_17772843183830_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6356565"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Pocket belt half pleated skirt BLACK",
+      "name": "Pocket belt half pleated skirt GREY",
       "discountRate": 37,
       "finalPrice": 91980,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6368357/6368357_17772783046309_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6368357"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6368360/6368360_17772783586181_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6368360"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Diagonal button pocket jacket GREY",
+      "discountRate": 37,
+      "finalPrice": 72450,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357567/6357567_17772788273019_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6357567"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Under pocket half shirts WHITE",
+      "discountRate": 37,
+      "finalPrice": 53550,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357409/6357409_17772858418882_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6357409"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Hidden pocket skirt pants GREY",
+      "discountRate": 37,
+      "finalPrice": 91350,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6356767/6356767_17772852468454_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6356767"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Double diagonal zipper backpack BLACK",
+      "discountRate": 37,
+      "finalPrice": 59850,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6368396/6368396_17775046371786_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6368396"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Under pocket half shirts GREY",
+      "discountRate": 37,
+      "finalPrice": 53550,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357407/6357407_17772857741050_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6357407"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Low pocket pleated skirt BLACK",
+      "discountRate": 37,
+      "finalPrice": 83160,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6367319/6367319_17772859009411_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6367319"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Polka dot round collar tee BLACK",
+      "discountRate": 37,
+      "finalPrice": 39690,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357285/6357285_17772855613518_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6357285"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Puffy tote bag BLACK",
+      "discountRate": 37,
+      "finalPrice": 61740,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6368445/6368445_17775037879219_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6368445"
     },
     {
       "section": "월간 입점회",
@@ -2256,173 +2328,11 @@
     {
       "section": "월간 입점회",
       "brand": "하나히",
-      "name": "Furoshiki wrap one piece BLACK",
-      "discountRate": 37,
-      "finalPrice": 70560,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6356201/6356201_17772841928653_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6356201"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Zip pocket sleeveless jacket BLACK",
-      "discountRate": 37,
-      "finalPrice": 61740,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357467/6357467_17772787209795_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6357467"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Polka dot round collar tee BLACK",
-      "discountRate": 37,
-      "finalPrice": 39690,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357285/6357285_17772855613518_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6357285"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Hanahi crop top GREY",
-      "discountRate": 37,
-      "finalPrice": 28350,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357208/6357208_17772854617916_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6357208"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Under pocket half shirts GREY",
-      "discountRate": 37,
-      "finalPrice": 53550,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357407/6357407_17772857741050_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6357407"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Under pocket half shirts WHITE",
-      "discountRate": 37,
-      "finalPrice": 53550,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357409/6357409_17772858418882_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6357409"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Polka dot round collar tee GREY",
-      "discountRate": 37,
-      "finalPrice": 39690,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357287/6357287_17772708934045_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6357287"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Hidden pocket skirt pants BLACK",
-      "discountRate": 37,
-      "finalPrice": 91350,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6356766/6356766_17772851948741_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6356766"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Shirred bolero WHITE",
-      "discountRate": 37,
-      "finalPrice": 45360,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357356/6357356_17772857130284_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6357356"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Double diagonal zipper backpack BLACK",
-      "discountRate": 37,
-      "finalPrice": 59850,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6368396/6368396_17775046371786_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6368396"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Low pocket pleated skirt BLACK",
-      "discountRate": 37,
-      "finalPrice": 83160,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6367319/6367319_17772859009411_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6367319"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Hanahi crop top WHITE",
-      "discountRate": 37,
-      "finalPrice": 28350,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357211/6357211_17772855030157_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6357211"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Puffy tote bag GREY",
-      "discountRate": 37,
-      "finalPrice": 61740,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6368446/6368446_17775036163551_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6368446"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Double pocket shorts GREY",
-      "discountRate": 37,
-      "finalPrice": 57960,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6356825/6356825_17772790767330_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6356825"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Double diagonal zipper backpack GREY",
-      "discountRate": 37,
-      "finalPrice": 59850,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6368398/6368398_17775044318169_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6368398"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
       "name": "Front shirred tiered skirt GREY",
       "discountRate": 37,
       "finalPrice": 59220,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357081/6357081_17772853659593_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6357081"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Hidden pocket skirt pants GREY",
-      "discountRate": 37,
-      "finalPrice": 91350,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6356767/6356767_17772852468454_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6356767"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Passport pot pocket pants BLACK",
-      "discountRate": 37,
-      "finalPrice": 78120,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6356562/6356562_17772842498523_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6356562"
-    },
-    {
-      "section": "월간 입점회",
-      "brand": "하나히",
-      "name": "Puffy tote bag BLACK",
-      "discountRate": 37,
-      "finalPrice": 61740,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6368445/6368445_17775037879219_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6368445"
     },
     {
       "section": "월간 입점회",
@@ -2436,11 +2346,83 @@
     {
       "section": "월간 입점회",
       "brand": "하나히",
-      "name": "Diagonal button pocket jacket GREY",
+      "name": "Hidden pocket skirt pants BLACK",
+      "discountRate": 37,
+      "finalPrice": 91350,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6356766/6356766_17772851948741_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6356766"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Puffy tote bag GREY",
+      "discountRate": 37,
+      "finalPrice": 61740,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6368446/6368446_17775036163551_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6368446"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Double diagonal zipper backpack GREY",
+      "discountRate": 37,
+      "finalPrice": 59850,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6368398/6368398_17775044318169_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6368398"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Hanahi crop top WHITE",
+      "discountRate": 37,
+      "finalPrice": 28350,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357211/6357211_17772855030157_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6357211"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Double pocket shorts GREY",
+      "discountRate": 37,
+      "finalPrice": 57960,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6356825/6356825_17772790767330_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6356825"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Passport pot pocket pants BLACK",
+      "discountRate": 37,
+      "finalPrice": 78120,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6356562/6356562_17772842498523_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6356562"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Polka dot round collar tee GREY",
+      "discountRate": 37,
+      "finalPrice": 39690,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357287/6357287_17772708934045_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6357287"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Diagonal button pocket jacket BLACK",
       "discountRate": 37,
       "finalPrice": 72450,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357567/6357567_17772788273019_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6357567"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357566/6357566_17772781053814_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6357566"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Low pocket pleated skirt GREY",
+      "discountRate": 37,
+      "finalPrice": 83160,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6367320/6367320_17772859417661_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6367320"
     },
     {
       "section": "월간 입점회",
@@ -2450,6 +2432,24 @@
       "finalPrice": 70560,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6356177/6356177_17772724274609_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6356177"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Furoshiki wrap one piece BLACK",
+      "discountRate": 37,
+      "finalPrice": 70560,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6356201/6356201_17772841928653_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6356201"
+    },
+    {
+      "section": "월간 입점회",
+      "brand": "하나히",
+      "name": "Shirred bolero WHITE",
+      "discountRate": 37,
+      "finalPrice": 45360,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6357356/6357356_17772857130284_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6357356"
     },
     {
       "section": "오직 무신사 뷰티",
