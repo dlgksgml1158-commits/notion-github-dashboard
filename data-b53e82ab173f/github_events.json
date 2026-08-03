@@ -1,5 +1,266 @@
 [
   {
+    "id": "16534766237",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1321145961,
+      "name": "dlgksgml1158-commits/stock",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/stock"
+    },
+    "payload": {
+      "repository_id": 1321145961,
+      "push_id": 38844956135,
+      "ref": "refs/heads/main",
+      "head": "c578d562dc63494e977edca9bed7d70f043dff1a",
+      "before": "de946b6034280448702d6d58aa36296aa4b60433"
+    },
+    "public": true,
+    "created_at": "2026-08-03T06:08:32Z"
+  },
+  {
+    "id": "16533930517",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1321145961,
+      "name": "dlgksgml1158-commits/stock",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/stock"
+    },
+    "payload": {
+      "repository_id": 1321145961,
+      "push_id": 38844099408,
+      "ref": "refs/heads/main",
+      "head": "9c1e797aa019f65900f99142f23c2e665548cffa",
+      "before": "ccdfca3182f0266898d0630303550a750d2a9b4b"
+    },
+    "public": true,
+    "created_at": "2026-08-03T05:59:23Z"
+  },
+  {
+    "id": "16532751863",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1321145961,
+      "name": "dlgksgml1158-commits/stock",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/stock"
+    },
+    "payload": {
+      "repository_id": 1321145961,
+      "push_id": 38842903548,
+      "ref": "refs/heads/main",
+      "head": "0fd2caf6374a3b08b56202adb8a3570d3c945d29",
+      "before": "79bca3e1d91338a361d28f867c0b0feca3d5481b"
+    },
+    "public": true,
+    "created_at": "2026-08-03T05:45:42Z"
+  },
+  {
+    "id": "16527627320",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1321145961,
+      "name": "dlgksgml1158-commits/stock",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/stock"
+    },
+    "payload": {
+      "repository_id": 1321145961,
+      "push_id": 38837671738,
+      "ref": "refs/heads/main",
+      "head": "79bca3e1d91338a361d28f867c0b0feca3d5481b",
+      "before": "588463e1dd6a34792a74064372c975582ab11c87"
+    },
+    "public": true,
+    "created_at": "2026-08-03T04:47:19Z"
+  },
+  {
+    "id": "16524652667",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1321145961,
+      "name": "dlgksgml1158-commits/stock",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/stock"
+    },
+    "payload": {
+      "repository_id": 1321145961,
+      "push_id": 38834611509,
+      "ref": "refs/heads/main",
+      "head": "c2d4062317b13f8194a51dfa3cb3b90ad119751d",
+      "before": "7e12ba58e0b18621c8ce8ecb3d46e89c8e165255"
+    },
+    "public": true,
+    "created_at": "2026-08-03T04:07:28Z"
+  },
+  {
+    "id": "16521780112",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1321145961,
+      "name": "dlgksgml1158-commits/stock",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/stock"
+    },
+    "payload": {
+      "repository_id": 1321145961,
+      "push_id": 38831641872,
+      "ref": "refs/heads/main",
+      "head": "7e12ba58e0b18621c8ce8ecb3d46e89c8e165255",
+      "before": "e02abc75f39530c351aca88965a8a215ed987169"
+    },
+    "public": true,
+    "created_at": "2026-08-03T03:27:43Z"
+  },
+  {
+    "id": "16521658904",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1321145961,
+      "name": "dlgksgml1158-commits/stock",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/stock"
+    },
+    "payload": {
+      "repository_id": 1321145961,
+      "push_id": 38831517786,
+      "ref": "refs/heads/main",
+      "head": "e02abc75f39530c351aca88965a8a215ed987169",
+      "before": "4b481a467b73df654b1e38fef78145139b80054a"
+    },
+    "public": true,
+    "created_at": "2026-08-03T03:25:35Z"
+  },
+  {
+    "id": "16521475356",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1321145961,
+      "name": "dlgksgml1158-commits/stock",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/stock"
+    },
+    "payload": {
+      "repository_id": 1321145961,
+      "push_id": 38831329655,
+      "ref": "refs/heads/main",
+      "head": "97030d34e0685bef455ffc39ea6b2ced8d1c50d3",
+      "before": "7c45d59ebc78628adf3fc6707b4fa2e84c7c3861"
+    },
+    "public": true,
+    "created_at": "2026-08-03T03:22:12Z"
+  },
+  {
+    "id": "16520880074",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1321145961,
+      "name": "dlgksgml1158-commits/stock",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/stock"
+    },
+    "payload": {
+      "repository_id": 1321145961,
+      "push_id": 38830718483,
+      "ref": "refs/heads/main",
+      "head": "7c45d59ebc78628adf3fc6707b4fa2e84c7c3861",
+      "before": "4699ac1b4b217556cc2404326fcc17abbc86e9b8"
+    },
+    "public": true,
+    "created_at": "2026-08-03T03:11:50Z"
+  },
+  {
+    "id": "16520697378",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1321145961,
+      "name": "dlgksgml1158-commits/stock",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/stock"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/main",
+      "master_branch": "main",
+      "description": "미국 업종 강도 대시보드 (Finviz 스크래핑, 하루 2회 자동 갱신)",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-08-03T03:08:30Z"
+  },
+  {
     "id": "16286640680",
     "type": "PushEvent",
     "actor": {
@@ -2339,265 +2600,5 @@
     },
     "public": true,
     "created_at": "2026-07-15T08:52:00Z"
-  },
-  {
-    "id": "14945093111",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1280861734,
-      "name": "dlgksgml1158-commits/musinsa-dashboard",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/musinsa-dashboard"
-    },
-    "payload": {
-      "repository_id": 1280861734,
-      "push_id": 37235119517,
-      "ref": "refs/heads/main",
-      "head": "3a3d95467fd14373540661db240ebf0c5157c4e7",
-      "before": "1d5d79bfa48b1fd459d75cc79a06c7dc923073f9"
-    },
-    "public": true,
-    "created_at": "2026-07-14T07:24:54Z"
-  },
-  {
-    "id": "14933125323",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1293078057,
-      "name": "dlgksgml1158-commits/calendar-todo",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/calendar-todo"
-    },
-    "payload": {
-      "repository_id": 1293078057,
-      "push_id": 37223144830,
-      "ref": "refs/heads/main",
-      "head": "5aa413c2212f2f35e78b46a40ab77bc4775e5ccb",
-      "before": "8435decd42fa6e55c59c8b0ba5a8b346407ca652"
-    },
-    "public": true,
-    "created_at": "2026-07-14T02:22:28Z"
-  },
-  {
-    "id": "14932956627",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1293078057,
-      "name": "dlgksgml1158-commits/calendar-todo",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/calendar-todo"
-    },
-    "payload": {
-      "repository_id": 1293078057,
-      "push_id": 37222976233,
-      "ref": "refs/heads/main",
-      "head": "8435decd42fa6e55c59c8b0ba5a8b346407ca652",
-      "before": "70b076e0910afbf02da4083131c5b2ab02bf7c43"
-    },
-    "public": true,
-    "created_at": "2026-07-14T02:17:29Z"
-  },
-  {
-    "id": "14932208204",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1293078057,
-      "name": "dlgksgml1158-commits/calendar-todo",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/calendar-todo"
-    },
-    "payload": {
-      "repository_id": 1293078057,
-      "push_id": 37222227165,
-      "ref": "refs/heads/main",
-      "head": "70b076e0910afbf02da4083131c5b2ab02bf7c43",
-      "before": "c9530a3ff41f050249f8ec673bd2e503a80bed54"
-    },
-    "public": true,
-    "created_at": "2026-07-14T01:56:58Z"
-  },
-  {
-    "id": "14931680361",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1293078057,
-      "name": "dlgksgml1158-commits/calendar-todo",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/calendar-todo"
-    },
-    "payload": {
-      "repository_id": 1293078057,
-      "push_id": 37221699147,
-      "ref": "refs/heads/main",
-      "head": "c9530a3ff41f050249f8ec673bd2e503a80bed54",
-      "before": "c9677200772338e0d6f64e1be1698008e608f876"
-    },
-    "public": true,
-    "created_at": "2026-07-14T01:41:56Z"
-  },
-  {
-    "id": "14930783475",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1293078057,
-      "name": "dlgksgml1158-commits/calendar-todo",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/calendar-todo"
-    },
-    "payload": {
-      "repository_id": 1293078057,
-      "push_id": 37220801825,
-      "ref": "refs/heads/main",
-      "head": "c9677200772338e0d6f64e1be1698008e608f876",
-      "before": "60b5e4349179e406e653e7fb0e82a8abdfd83633"
-    },
-    "public": true,
-    "created_at": "2026-07-14T01:15:43Z"
-  },
-  {
-    "id": "14930343823",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1293078057,
-      "name": "dlgksgml1158-commits/calendar-todo",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/calendar-todo"
-    },
-    "payload": {
-      "repository_id": 1293078057,
-      "push_id": 37220362028,
-      "ref": "refs/heads/main",
-      "head": "60b5e4349179e406e653e7fb0e82a8abdfd83633",
-      "before": "d83e14e04cd5b6ee4c27f915d9b1400749f4031f"
-    },
-    "public": true,
-    "created_at": "2026-07-14T01:03:19Z"
-  },
-  {
-    "id": "14929970610",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1293078057,
-      "name": "dlgksgml1158-commits/calendar-todo",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/calendar-todo"
-    },
-    "payload": {
-      "repository_id": 1293078057,
-      "push_id": 37219988527,
-      "ref": "refs/heads/main",
-      "head": "d83e14e04cd5b6ee4c27f915d9b1400749f4031f",
-      "before": "4396aa16ea024acb21d0c0931d7f42607453802b"
-    },
-    "public": true,
-    "created_at": "2026-07-14T00:52:51Z"
-  },
-  {
-    "id": "14929532208",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1293078057,
-      "name": "dlgksgml1158-commits/calendar-todo",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/calendar-todo"
-    },
-    "payload": {
-      "repository_id": 1293078057,
-      "push_id": 37219550092,
-      "ref": "refs/heads/main",
-      "head": "4396aa16ea024acb21d0c0931d7f42607453802b",
-      "before": "d501967822f33bc3cefbb7e09640f72b8887c35f"
-    },
-    "public": true,
-    "created_at": "2026-07-14T00:39:36Z"
-  },
-  {
-    "id": "14928994932",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1293078057,
-      "name": "dlgksgml1158-commits/calendar-todo",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/calendar-todo"
-    },
-    "payload": {
-      "repository_id": 1293078057,
-      "push_id": 37219012909,
-      "ref": "refs/heads/main",
-      "head": "d501967822f33bc3cefbb7e09640f72b8887c35f",
-      "before": "a15842b90d8325651ede6671fb2ab760f87bc952"
-    },
-    "public": true,
-    "created_at": "2026-07-14T00:23:42Z"
   }
 ]
