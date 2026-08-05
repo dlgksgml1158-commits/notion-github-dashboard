@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-08-05T02:29:32.585028+00:00",
+  "updatedAt": "2026-08-05T05:39:34.793139+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -14,39 +14,12 @@
     },
     {
       "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "부클 슬릿 넥 니티드 폴로 셔츠 [라이트 웜 그레이]",
-      "discountRate": 72,
-      "finalPrice": 13930,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240308/3933088/3933088_17134944328562_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3933088"
-    },
-    {
-      "section": "한정수량 선착순 특가",
       "brand": "젝시믹스",
       "name": "데일리페더 슬림핏 숏슬리브 펑키라임",
       "discountRate": 58,
       "finalPrice": 13440,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240429/4094160/4094160_17739843378116_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4094160"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "오클리",
-      "name": "(공용) 틴칸 리믹스 캡 - 화이트:화이트 / FOS90049912A",
-      "discountRate": 59,
-      "finalPrice": 17600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240808/4311693/4311693_17234370803148_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4311693"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "위찌",
-      "name": "글로우 업 틴트 6종",
-      "discountRate": 58,
-      "finalPrice": 5460,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250115/4723103/4723103_17823480500029_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4723103"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -110,6 +83,33 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240307/3929360/3929360_17496007929488_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3929360"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "부클 슬릿 넥 니티드 폴로 셔츠 [라이트 웜 그레이]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240308/3933088/3933088_17134944328562_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3933088"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "오클리",
+      "name": "(공용) 틴칸 리믹스 캡 - 화이트:화이트 / FOS90049912A",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240808/4311693/4311693_17234370803148_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4311693"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "위찌",
+      "name": "글로우 업 틴트 6종",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250115/4723103/4723103_17823480500029_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4723103"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -419,6 +419,15 @@
     },
     {
       "section": "타임세일",
+      "brand": "튜드먼트",
+      "name": "[7COLORS] 50s EMBROIDERED T-SHIRT",
+      "discountRate": 43,
+      "finalPrice": 23990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250409/5004882/5004882_17749404266378_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5004882"
+    },
+    {
+      "section": "타임세일",
       "brand": "오더아카이브",
       "name": "다트 버뮤다 데님 하프팬츠 로우블랙",
       "discountRate": 83,
@@ -488,15 +497,6 @@
       "finalPrice": 53000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250724/5271039/5271039_17546202891676_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5271039"
-    },
-    {
-      "section": "타임세일",
-      "brand": "블랙 퍼플",
-      "name": "맥스포트 비키 백 MaxxPort  Vicky Bag_IVORY",
-      "discountRate": 20,
-      "finalPrice": 94400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250729/5278296/5278296_17738794488251_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5278296"
     },
     {
       "section": "타임세일",
@@ -1058,12 +1058,21 @@
     },
     {
       "section": "9,900원 하루특가",
-      "brand": "필드매뉴얼",
-      "name": "테리 폴로 셔츠 샌드",
-      "discountRate": 83,
+      "brand": "프랑켄모노",
+      "name": "빈티지모노 반팔 티셔츠",
+      "discountRate": 72,
       "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20200525/1461183/1461183_1_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/1461183"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20200121/1276687/1276687_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1276687"
+    },
+    {
+      "section": "9,900원 하루특가",
+      "brand": "프랑켄모노",
+      "name": "스포티 프랑켄 반팔 티셔츠",
+      "discountRate": 72,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20200402/1382589/1382589_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1382589"
     },
     {
       "section": "9,900원 하루특가",
@@ -1073,15 +1082,6 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20200820/1558179/1558179_3_500.jpg",
       "productUrl": "https://www.musinsa.com/products/1558179"
-    },
-    {
-      "section": "9,900원 하루특가",
-      "brand": "컨스파라",
-      "name": "레저 부스트 미니 크로스백 (코듀라) LBMI0520",
-      "discountRate": 75,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20201022/1660446/1660446_17671649373641_500.png",
-      "productUrl": "https://www.musinsa.com/products/1660446"
     },
     {
       "section": "9,900원 하루특가",
@@ -1397,15 +1397,6 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240510/4121511/4121511_17827814442475_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4121511"
-    },
-    {
-      "section": "9,900원 하루특가",
-      "brand": "빌리언트",
-      "name": "오버핏 오픈 티셔츠_베이지",
-      "discountRate": 69,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240520/4140439/4140439_17161771454143_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4140439"
     },
     {
       "section": "9,900원 하루특가",
@@ -1823,15 +1814,6 @@
     },
     {
       "section": "9,900원 하루특가",
-      "brand": "다이아몬드 레이라",
-      "name": "[Machine Wash] KKAHO HIKING Short Sleeve T-shirt T105 Charcoal",
-      "discountRate": 82,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6266806/6266806_17755288640041_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6266806"
-    },
-    {
-      "section": "9,900원 하루특가",
       "brand": "무신사 스탠다드 우먼",
       "name": "우먼즈 슬림 크루 넥 티셔츠 [더스티 블루]",
       "discountRate": 38,
@@ -1865,6 +1847,15 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260507/6433502/6433502_17852240077320_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6433502"
+    },
+    {
+      "section": "9,900원 하루특가",
+      "brand": "아이엠제이",
+      "name": "[925 Silver] 베이직 컷팅 반지_1mm",
+      "discountRate": 56,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260508/6441900/6441900_17851128361873_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6441900"
     },
     {
       "section": "9,900원 하루특가",
@@ -1948,121 +1939,130 @@
       "productUrl": "https://www.musinsa.com/products/994605"
     },
     {
+      "section": "9,900원 하루특가",
+      "brand": "에이지 그레이",
+      "name": "리플렉치브웨이스트(매트네이비)",
+      "discountRate": 75,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20190326/994606/994606_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/994606"
+    },
+    {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "푸이그 - 크리스탈화이트:아쿠아 / JH8166",
+      "name": "삼바 OG - 웜클레이:클리어오렌지 / JI2682",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250109/4707217/4707217_17364976662529_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4707217"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "라이트블레이즈 - 베이지:블랙 / JH6944",
+      "discountRate": 50,
+      "finalPrice": 58990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250115/4722485/4722485_17370143602205_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4722485"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "포럼 84 로우 CL - 브라운 /  JI3284",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250221/4815323/4815323_17401287386490_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4815323"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "아디제로 아루쿠 - 퍼플:솔라그린 / JP5566",
+      "discountRate": 50,
+      "finalPrice": 83990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250407/4993342/4993342_17441867180145_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4993342"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "재팬 DECON - 크림화이트:블랙 / JR2074",
+      "discountRate": 50,
+      "finalPrice": 93990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250620/5198701/5198701_17524692991054_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5198701"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "라이벌리 럭스 로우 - 민트 / IF7185",
       "discountRate": 50,
       "finalPrice": 63990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250116/4724981/4724981_17374460614715_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4724981"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240718/4258405/4258405_17217076997093_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4258405"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "재팬 - 퍼플 / JS0252",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250217/4794343/4794343_17398669234615_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4794343"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "삼바 LT - 프리러브옐로우:그린 / IE9165",
-      "discountRate": 50,
-      "finalPrice": 68990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240704/4232330/4232330_17201433997791_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4232330"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "삼바 LT - 크리스탈화이트:다크블루 / IE9169",
-      "discountRate": 55,
-      "finalPrice": 62000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240704/4232329/4232329_17201434489316_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4232329"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "아디스타 XLG - 화이트:골드 / JH8829",
-      "discountRate": 50,
-      "finalPrice": 68990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240923/4452181/4452181_17449666091828_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4452181"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "버뮤다 - 클리어오렌지 / JI2658",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250205/4759915/4759915_17388284033467_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4759915"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "핸드볼 스페지알 - 핑크 / IG1977",
-      "discountRate": 50,
-      "finalPrice": 68990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240910/4424130/4424130_17261268620357_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4424130"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "토바코 - 다크블루 / JP9652",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250512/5102672/5102672_17471795830228_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5102672"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "아디레이서 로우 - 브라운 / JP7010",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240927/4470131/4470131_17278441763999_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4470131"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "슈퍼스타 II - 퍼플:크림화이트 / JH7100",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250409/5005252/5005252_17446209866004_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5005252"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "삼바 OG - 퍼플 / JI2736",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250418/5042965/5042965_17454034765772_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5042965"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "아딜렛 24 - 차콜:카키 / IG9305",
+      "name": "아디폼 슈퍼스타 - 화이트:블랙 / HQ8750",
       "discountRate": 51,
-      "finalPrice": 38990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240822/4358134/4358134_17246493809139_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4358134"
+      "finalPrice": 43990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230105/3008039/3008039_16733921536344_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3008039"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "가젤 인도어 - 그린 / JI2062",
+      "name": "함부르크 - 오렌지:라이트그린 / IH5460",
       "discountRate": 50,
-      "finalPrice": 78990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240627/4222748/4222748_17195430473286_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4222748"
+      "finalPrice": 68990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240808/4308752/4308752_17236093829890_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4308752"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "노라 - 화이트:그린 / IF2069",
+      "discountRate": 50,
+      "finalPrice": 53990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241004/4485596/4485596_17369298398340_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4485596"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "슈퍼스타 II - 블랙:올리브:알루미나 / JI0136",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250516/5120140/5120140_17477189524571_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5120140"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "버뮤다 - 퍼티모브:세미플래쉬아쿠아 / JS0256",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250306/4865681/4865681_17416775625060_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4865681"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "라이벌리 서머 로우 - 인디고 / IF6281",
+      "discountRate": 50,
+      "finalPrice": 63990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240321/3974325/3974325_17110029227712_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3974325"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "아디제로 아루쿠 - 레드 / JI0308",
+      "discountRate": 50,
+      "finalPrice": 83990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250407/4993336/4993336_17441868610292_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4993336"
     },
     {
       "section": "킥스위크",
@@ -2076,101 +2076,110 @@
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "가젤 비치 - 핑크:네이비 / JQ7445",
-      "discountRate": 51,
-      "finalPrice": 31990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250320/4923318/4923318_17428831429017_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4923318"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "라이벌리 럭스 로우 - 메이플베이지 / IH0255",
-      "discountRate": 50,
-      "finalPrice": 63990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241010/4501464/4501464_17292122826504_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4501464"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "스탠스미스 - 화이트:그린 / FX5502",
+      "name": "SL 72 OG  - 버건디 / ID1434",
       "discountRate": 50,
       "finalPrice": 68990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20210107/1739446/1739446_1_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/1739446"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240927/4470129/4470129_17278439849014_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4470129"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "삼바 OG - 오렌지 / JI2737",
+      "name": "핸드볼 스페지알 - 핑크 / IG1977",
       "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250418/5042966/5042966_17454034506052_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5042966"
+      "finalPrice": 68990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240910/4424130/4424130_17261268620357_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4424130"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "가젤 볼드 - 레드:오렌지 / ID1425",
+      "name": "토바코 - 오프화이트:그린 / JR2742",
       "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240911/4433366/4433366_17268098516646_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4433366"
+      "finalPrice": 68990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241010/4501455/4501455_17292124258806_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4501455"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "푸이그 - 화이트 / JH8168",
-      "discountRate": 50,
-      "finalPrice": 63990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250211/4776194/4776194_17398501659239_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4776194"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "슈퍼스타 II - 그린:블랙 / JH7699",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250312/4886033/4886033_17419433976722_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4886033"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "아디스타 쿠션 - 블랙:블루 / ID5747",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240215/3870362/3870362_17080536891659_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3870362"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "재팬 DECON - 블랙:화이트 / JR2075",
-      "discountRate": 50,
-      "finalPrice": 93990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250620/5198702/5198702_17524693553026_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5198702"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "토바코 - 클리어스카이:핑크 / JR3923",
+      "name": "핸드볼 스페지알 - 블랙:핑크 / IE5897",
       "discountRate": 60,
       "finalPrice": 59000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250312/4886039/4886039_17419437628761_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4886039"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240124/3817480/3817480_17060850399260_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3817480"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "삼바 LT OG - 화이트:블랙 / IG4279",
+      "name": "라이트블레이즈 - 크리스탈화이트 / JH6942",
+      "discountRate": 50,
+      "finalPrice": 58990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250320/4923309/4923309_17428833791271_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4923309"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "삼바 OG - 퍼플 / JI2736",
       "discountRate": 50,
       "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240705/4234924/4234924_17205039769922_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4234924"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250418/5042965/5042965_17454034765772_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5042965"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "SL 72 - 실버:크림 / JI3531",
+      "discountRate": 50,
+      "finalPrice": 63990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240719/4260515/4260515_17216336981559_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4260515"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "슈퍼스타 II - 퍼플:크림화이트 / JH7100",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250409/5005252/5005252_17446209866004_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5005252"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "슈퍼스타 II - 브라운:블랙 / JH7696",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250311/4880135/4880135_17419442775338_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4880135"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "태권도 메이 발레 - 핑크:화이트 / JQ6434",
+      "discountRate": 50,
+      "finalPrice": 68990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250701/5216294/5216294_17513484465330_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5216294"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "아디스타 쿠션 - 차콜:블루 / IG6924",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240523/4152091/4152091_17167775314936_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4152091"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "컨트리 OG - 인디고:옐로우 / ID2958",
+      "discountRate": 50,
+      "finalPrice": 68990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240131/3835008/3835008_17066891401457_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3835008"
     },
     {
       "section": "킥스위크",
@@ -2184,101 +2193,29 @@
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "삼바 LT - 세미블루:화이트 / IE9170",
+      "name": "아디폼 슈퍼스타 윈터 부츠 - 크림옐로우:블랙 / IG2177",
+      "discountRate": 67,
+      "finalPrice": 49000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241106/4593632/4593632_17310532798702_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4593632"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "캠퍼스 00s - 브라운 / JH7605",
       "discountRate": 50,
       "finalPrice": 68990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240704/4232331/4232331_17201434864165_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4232331"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241203/4648367/4648367_17334486216218_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4648367"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "삼바 OG - 블랙:화이트 / JS3832",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250605/5167855/5167855_17495263175726_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5167855"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "캠퍼스 00s - 블랙 / JH7607",
-      "discountRate": 50,
-      "finalPrice": 68990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250205/4759913/4759913_17388282559947_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4759913"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "프레데터 문디알 - 블랙:화이트 / JH9494",
-      "discountRate": 68,
-      "finalPrice": 44100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250409/5005258/5005258_17446211778743_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5005258"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "재팬 레더 미니 8105 Pearl 드래곤백",
-      "discountRate": 5,
-      "finalPrice": 531000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250225/4830587/4830587_17622994167864_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4830587"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "폼폼 더블 점프 8838 포레스트",
-      "discountRate": 10,
-      "finalPrice": 359100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220805/2700875/2700875_17622435816421_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2700875"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "루나 스몰 8021 Black 드래곤백",
-      "discountRate": 5,
-      "finalPrice": 626000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250804/5290332/5290332_17623021227848_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5290332"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "트리플 점프 롱핸들 스몰 8811 Bruciato 드래곤백",
-      "discountRate": 13,
-      "finalPrice": 485000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250227/4839464/4839464_17707736967600_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4839464"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "호보 8170 Dark Brown 드래곤백",
-      "discountRate": 5,
-      "finalPrice": 578500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250225/4830568/4830568_17794172425766_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4830568"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "트리플 점프 미니 8855 펄",
-      "discountRate": 15,
-      "finalPrice": 415600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220531/2592775/2592775_17707733156176_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2592775"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "소피 숄더백 라지 8097 Dark Brown 드래곤백",
-      "discountRate": 5,
-      "finalPrice": 597800,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240124/3817201/3817201_17622995935999_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3817201"
+      "name": "아딜렛 25 - 로얄블루 / JH5517",
+      "discountRate": 51,
+      "finalPrice": 41990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250313/4894471/4894471_17423613337667_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4894471"
     },
     {
       "section": "신학기 잡화위크",
@@ -2292,38 +2229,11 @@
     {
       "section": "신학기 잡화위크",
       "brand": "드래곤 디퓨전",
-      "name": "호보 8170 Black 드래곤백",
+      "name": "재팬 레더 미니 8105 Dark Brown 드래곤백",
       "discountRate": 5,
-      "finalPrice": 578500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250225/4830565/4830565_17715480301840_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4830565"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "산타크로체 스몰 8893 펄",
-      "discountRate": 5,
-      "finalPrice": 606900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20231116/3716205/3716205_17707742313117_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3716205"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "트리플 점프 스몰 8811 펄",
-      "discountRate": 15,
-      "finalPrice": 458100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220531/2592792/2592792_17707751352849_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2592792"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "그레이스백 스몰 8813 Dark Brown 드래곤백",
-      "discountRate": 10,
-      "finalPrice": 494100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20211102/2210563/2210563_17707755807960_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2210563"
+      "finalPrice": 531000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250225/4830585/4830585_17622993967232_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4830585"
     },
     {
       "section": "신학기 잡화위크",
@@ -2337,38 +2247,29 @@
     {
       "section": "신학기 잡화위크",
       "brand": "드래곤 디퓨전",
-      "name": "트리플 점프 스몰 8811 탄",
-      "discountRate": 15,
-      "finalPrice": 458100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20211102/2210566/2210566_17707733656287_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2210566"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "난투켓 빅 8822 Black 드래곤백",
+      "name": "산타크로체 빅 8892 White 드래곤백",
       "discountRate": 5,
-      "finalPrice": 654500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250804/5290337/5290337_17623020860624_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5290337"
+      "finalPrice": 702000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6067363/6067363_17721796359062_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6067363"
     },
     {
       "section": "신학기 잡화위크",
       "brand": "드래곤 디퓨전",
-      "name": "로잔나 8943 Pastel Pink 드래곤백",
-      "discountRate": 2,
-      "finalPrice": 528200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250217/4795619/4795619_17715479664599_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4795619"
+      "name": "트리플 점프 미니 8855 다크브라운",
+      "discountRate": 15,
+      "finalPrice": 415600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20211115/2231817/2231817_17715477943508_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2231817"
     },
     {
       "section": "신학기 잡화위크",
       "brand": "드래곤 디퓨전",
-      "name": "산타크로체 스몰 8893 화이트",
-      "discountRate": 10,
-      "finalPrice": 575100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20231116/3716204/3716204_17707741967182_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3716204"
+      "name": "루나 스몰 8021 Black 드래곤백",
+      "discountRate": 5,
+      "finalPrice": 626000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250804/5290332/5290332_17623021227848_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5290332"
     },
     {
       "section": "신학기 잡화위크",
@@ -2382,29 +2283,20 @@
     {
       "section": "신학기 잡화위크",
       "brand": "드래곤 디퓨전",
-      "name": "로잔나 8943 Black 드래곤백",
-      "discountRate": 2,
-      "finalPrice": 528200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250217/4795627/4795627_17794171978630_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4795627"
+      "name": "산타크로체 스몰 8893 다크브라운",
+      "discountRate": 10,
+      "finalPrice": 575100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20211115/2231809/2231809_17707736643536_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2231809"
     },
     {
       "section": "신학기 잡화위크",
       "brand": "드래곤 디퓨전",
-      "name": "재팬 레더 미니 8105 Black 드래곤백",
-      "discountRate": 5,
-      "finalPrice": 531000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250225/4830580/4830580_17622993557960_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4830580"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "트리플 점프 롱핸들 스몰 8811 Dark Brown 드래곤백",
-      "discountRate": 13,
-      "finalPrice": 485000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250227/4839465/4839465_17715478980521_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4839465"
+      "name": "트리플 점프 스몰 8811 펄",
+      "discountRate": 15,
+      "finalPrice": 458100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220531/2592792/2592792_17707751352849_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2592792"
     },
     {
       "section": "신학기 잡화위크",
@@ -2418,6 +2310,141 @@
     {
       "section": "신학기 잡화위크",
       "brand": "드래곤 디퓨전",
+      "name": "호보 8170 White 드래곤백",
+      "discountRate": 5,
+      "finalPrice": 578500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250225/4830574/4830574_17707754123599_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4830574"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "트리플 점프 롱핸들 스몰 8811 Bruciato 드래곤백",
+      "discountRate": 13,
+      "finalPrice": 485000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250227/4839464/4839464_17707736967600_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4839464"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "그레이스백 스몰 8813 Dark Brown 드래곤백",
+      "discountRate": 10,
+      "finalPrice": 494100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20211102/2210563/2210563_17707755807960_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2210563"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "소피 숄더백 라지 8097 Dark Brown 드래곤백",
+      "discountRate": 5,
+      "finalPrice": 597800,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240124/3817201/3817201_17622995935999_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3817201"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "로잔나 8943 Dark Brown 드래곤백",
+      "discountRate": 2,
+      "finalPrice": 528200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250217/4795625/4795625_17794171465669_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4795625"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "난투켓 빅 8822 Black 드래곤백",
+      "discountRate": 5,
+      "finalPrice": 654500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250804/5290337/5290337_17623020860624_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5290337"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "산타크로체 스몰 8893 펄",
+      "discountRate": 5,
+      "finalPrice": 606900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20231116/3716205/3716205_17707742313117_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3716205"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "트리플 점프 롱핸들 스몰 8811 Dark Brown 드래곤백",
+      "discountRate": 13,
+      "finalPrice": 485000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250227/4839465/4839465_17715478980521_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4839465"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "산타크로체 스몰 8893 화이트",
+      "discountRate": 10,
+      "finalPrice": 575100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20231116/3716204/3716204_17707741967182_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3716204"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "로잔나 8943 Black 드래곤백",
+      "discountRate": 2,
+      "finalPrice": 528200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250217/4795627/4795627_17794171978630_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4795627"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "로잔나 8943 Pastel Pink 드래곤백",
+      "discountRate": 2,
+      "finalPrice": 528200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250217/4795619/4795619_17715479664599_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4795619"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "트리플 점프 미니 8855 펄",
+      "discountRate": 15,
+      "finalPrice": 415600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220531/2592775/2592775_17707733156176_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2592775"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "트리플 점프 스몰 8811 탄",
+      "discountRate": 15,
+      "finalPrice": 458100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20211102/2210566/2210566_17707733656287_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2210566"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "재팬 레더 미니 8105 Black 드래곤백",
+      "discountRate": 5,
+      "finalPrice": 531000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250225/4830580/4830580_17622993557960_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4830580"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
+      "name": "산타크로체 스몰 8893 블랙",
+      "discountRate": 10,
+      "finalPrice": 575100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20211115/2231810/2231810_17707736172961_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2231810"
+    },
+    {
+      "section": "신학기 잡화위크",
+      "brand": "드래곤 디퓨전",
       "name": "난투켓 빅 숄더백 8822 Dark Brown 드래곤백",
       "discountRate": 5,
       "finalPrice": 654500,
@@ -2427,29 +2454,11 @@
     {
       "section": "신학기 잡화위크",
       "brand": "드래곤 디퓨전",
-      "name": "재팬 레더 미니 8105 Dark Brown 드래곤백",
-      "discountRate": 5,
-      "finalPrice": 531000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250225/4830585/4830585_17622993967232_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4830585"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "폼폼 더블 점프 8838 화이트",
-      "discountRate": 10,
-      "finalPrice": 359100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20211102/2210544/2210544_17623024732340_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2210544"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "로잔나 8943 Bordo 드래곤백",
-      "discountRate": 2,
-      "finalPrice": 528200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250217/4795635/4795635_17707748129220_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4795635"
+      "name": "호보 8170 Black 드래곤백",
+      "discountRate": 26,
+      "finalPrice": 452000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250225/4830565/4830565_17715480301840_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4830565"
     },
     {
       "section": "신학기 잡화위크",
@@ -2472,20 +2481,11 @@
     {
       "section": "신학기 잡화위크",
       "brand": "드래곤 디퓨전",
-      "name": "산타크로체 스몰 8893 다크브라운",
+      "name": "폼폼 더블 점프 8838 포레스트",
       "discountRate": 10,
-      "finalPrice": 575100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20211115/2231809/2231809_17707736643536_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2231809"
-    },
-    {
-      "section": "신학기 잡화위크",
-      "brand": "드래곤 디퓨전",
-      "name": "재팬 레더 미니 8105 Black Tan 드래곤백",
-      "discountRate": 5,
-      "finalPrice": 531000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250225/4830590/4830590_17622994505064_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4830590"
+      "finalPrice": 359100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220805/2700875/2700875_17622435816421_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2700875"
     },
     {
       "section": "오직 무신사 뷰티",
@@ -2743,8 +2743,8 @@
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "에잇세컨즈",
       "name": "셔츠 배색 저지 카디건  네이비",
-      "discountRate": 19,
-      "finalPrice": 36370,
+      "discountRate": 15,
+      "finalPrice": 38160,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260708/6809742/6809742_17846995306859_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6809742"
     },
@@ -2752,8 +2752,8 @@
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "에잇세컨즈",
       "name": "가먼트다잉 빈티지 그래픽 슬리브리스  애쉬",
-      "discountRate": 19,
-      "finalPrice": 24220,
+      "discountRate": 15,
+      "finalPrice": 25410,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260709/6810385/6810385_17840137076082_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6810385"
     },
@@ -2797,8 +2797,8 @@
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "에잇세컨즈",
       "name": "오픈칼라 슬림핏 반팔 셔츠  스카이 블루",
-      "discountRate": 19,
-      "finalPrice": 28270,
+      "discountRate": 15,
+      "finalPrice": 29660,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6843879/6843879_17841641427475_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6843879"
     },
