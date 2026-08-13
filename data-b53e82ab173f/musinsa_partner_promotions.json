@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T08:14:21.486210+00:00",
+  "updatedAt": "2026-08-13T09:57:01.729134+00:00",
   "items": [
     {
       "promotionId": 17855,
@@ -114,27 +114,27 @@
       "name": "FW26 NEW ARRIVALS - 기간특가 1회차(8/31 11:00 - 9/4 11:00)",
       "status": "READY",
       "from": "2026-08-31T02:00:00.000Z",
-      "to": "2026-09-10T02:00:00.000Z",
+      "to": "2026-09-04T02:00:00.000Z",
       "minPercent": 10,
-      "recruitDeadline": null
+      "recruitDeadline": "2026-08-28"
     },
     {
       "promotionId": 17844,
       "name": "FW26 NEW ARRIVALS - 기간특가 3회차(9/7 11:00 - 9/10 11:00)",
       "status": "READY",
-      "from": "2026-08-31T02:00:00.000Z",
+      "from": "2026-09-07T02:00:00.000Z",
       "to": "2026-09-10T02:00:00.000Z",
       "minPercent": 10,
-      "recruitDeadline": null
+      "recruitDeadline": "2026-09-04"
     },
     {
       "promotionId": 17844,
       "name": "FW26 NEW ARRIVALS - 기간특가 2회차(9/4 11:00 - 9/7 11:00)",
       "status": "READY",
-      "from": "2026-08-31T02:00:00.000Z",
-      "to": "2026-09-10T02:00:00.000Z",
+      "from": "2026-09-04T02:00:00.000Z",
+      "to": "2026-09-07T02:00:00.000Z",
       "minPercent": 10,
-      "recruitDeadline": null
+      "recruitDeadline": "2026-09-01"
     }
   ]
 }
