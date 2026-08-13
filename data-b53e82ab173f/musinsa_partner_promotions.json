@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T06:11:46.837190+00:00",
+  "updatedAt": "2026-08-13T08:14:21.486210+00:00",
   "items": [
     {
       "promotionId": 17855,
@@ -39,48 +39,12 @@
     },
     {
       "promotionId": 17852,
-      "name": "9,900원 균일가 하루특가 모집 (8/24 - 8/31) - 8/27",
+      "name": "9,900원 균일가 하루특가 모집 (8/24 - 8/31) - 8/30",
       "status": "READY",
-      "from": "2026-08-27T02:00:00.000Z",
-      "to": "2026-08-28T02:00:00.000Z",
+      "from": "2026-08-30T02:00:00.000Z",
+      "to": "2026-08-31T02:00:00.000Z",
       "minPercent": 30,
-      "recruitDeadline": "2026-08-24"
-    },
-    {
-      "promotionId": 17852,
-      "name": "9,900원 균일가 하루특가 모집 (8/24 - 8/31) - 8/24",
-      "status": "READY",
-      "from": "2026-08-24T02:00:00.000Z",
-      "to": "2026-08-25T02:00:00.000Z",
-      "minPercent": 30,
-      "recruitDeadline": "2026-08-21"
-    },
-    {
-      "promotionId": 17852,
-      "name": "9,900원 균일가 하루특가 모집 (8/24 - 8/31) - 8/25",
-      "status": "READY",
-      "from": "2026-08-25T02:00:00.000Z",
-      "to": "2026-08-26T02:00:00.000Z",
-      "minPercent": 30,
-      "recruitDeadline": "2026-08-22"
-    },
-    {
-      "promotionId": 17852,
-      "name": "9,900원 균일가 하루특가 모집 (8/24 - 8/31) - 8/26",
-      "status": "READY",
-      "from": "2026-08-26T02:00:00.000Z",
-      "to": "2026-08-27T02:00:00.000Z",
-      "minPercent": 30,
-      "recruitDeadline": "2026-08-23"
-    },
-    {
-      "promotionId": 17852,
-      "name": "9,900원 균일가 하루특가 모집 (8/24 - 8/31) - 8/28",
-      "status": "READY",
-      "from": "2026-08-28T02:00:00.000Z",
-      "to": "2026-08-29T02:00:00.000Z",
-      "minPercent": 30,
-      "recruitDeadline": "2026-08-25"
+      "recruitDeadline": "2026-08-27"
     },
     {
       "promotionId": 17852,
@@ -93,12 +57,66 @@
     },
     {
       "promotionId": 17852,
-      "name": "9,900원 균일가 하루특가 모집 (8/24 - 8/31) - 8/30",
+      "name": "9,900원 균일가 하루특가 모집 (8/24 - 8/31) - 8/28",
       "status": "READY",
-      "from": "2026-08-30T02:00:00.000Z",
-      "to": "2026-08-31T02:00:00.000Z",
+      "from": "2026-08-28T02:00:00.000Z",
+      "to": "2026-08-29T02:00:00.000Z",
       "minPercent": 30,
-      "recruitDeadline": "2026-08-27"
+      "recruitDeadline": "2026-08-25"
+    },
+    {
+      "promotionId": 17852,
+      "name": "9,900원 균일가 하루특가 모집 (8/24 - 8/31) - 8/27",
+      "status": "READY",
+      "from": "2026-08-27T02:00:00.000Z",
+      "to": "2026-08-28T02:00:00.000Z",
+      "minPercent": 30,
+      "recruitDeadline": "2026-08-24"
+    },
+    {
+      "promotionId": 17852,
+      "name": "9,900원 균일가 하루특가 모집 (8/24 - 8/31) - 8/26",
+      "status": "READY",
+      "from": "2026-08-26T02:00:00.000Z",
+      "to": "2026-08-27T02:00:00.000Z",
+      "minPercent": 30,
+      "recruitDeadline": "2026-08-23"
+    },
+    {
+      "promotionId": 17852,
+      "name": "9,900원 균일가 하루특가 모집 (8/24 - 8/31) - 8/25",
+      "status": "READY",
+      "from": "2026-08-25T02:00:00.000Z",
+      "to": "2026-08-26T02:00:00.000Z",
+      "minPercent": 30,
+      "recruitDeadline": "2026-08-22"
+    },
+    {
+      "promotionId": 17852,
+      "name": "9,900원 균일가 하루특가 모집 (8/24 - 8/31) - 8/24",
+      "status": "READY",
+      "from": "2026-08-24T02:00:00.000Z",
+      "to": "2026-08-25T02:00:00.000Z",
+      "minPercent": 30,
+      "recruitDeadline": "2026-08-21"
+    },
+    {
+      "promotionId": 17844,
+      "name": "FW26 NEW ARRIVALS - 일반세일",
+      "status": "READY",
+      "from": "2026-08-31T02:00:00.000Z",
+      "to": "2026-09-10T02:00:00.000Z",
+      "minPercent": 5,
+      "recruitDeadline": null
+    },
+    {
+      "promotionId": 17844,
+      "name": "FW26 NEW ARRIVALS - 기간특가 1회차(8/31 11:00 - 9/4 11:00)",
+      "status": "READY",
+      "from": "2026-08-31T02:00:00.000Z",
+      "to": "2026-09-10T02:00:00.000Z",
+      "minPercent": 10,
+      "recruitDeadline": null
     },
     {
       "promotionId": 17844,
@@ -116,24 +134,6 @@
       "from": "2026-08-31T02:00:00.000Z",
       "to": "2026-09-10T02:00:00.000Z",
       "minPercent": 10,
-      "recruitDeadline": null
-    },
-    {
-      "promotionId": 17844,
-      "name": "FW26 NEW ARRIVALS - 기간특가 1회차(8/31 11:00 - 9/4 11:00)",
-      "status": "READY",
-      "from": "2026-08-31T02:00:00.000Z",
-      "to": "2026-09-10T02:00:00.000Z",
-      "minPercent": 10,
-      "recruitDeadline": null
-    },
-    {
-      "promotionId": 17844,
-      "name": "FW26 NEW ARRIVALS - 일반세일",
-      "status": "READY",
-      "from": "2026-08-31T02:00:00.000Z",
-      "to": "2026-09-10T02:00:00.000Z",
-      "minPercent": 5,
       "recruitDeadline": null
     }
   ]
