@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-08-13T09:57:01.729134+00:00",
+  "updatedAt": "2026-08-13T10:58:40.491037+00:00",
   "items": [
+    {
+      "promotionId": 17907,
+      "name": "여행 잡화위크 - 일반세일",
+      "status": "READY",
+      "from": "2026-09-14T02:00:00.000Z",
+      "to": "2026-09-21T02:00:00.000Z",
+      "minPercent": null,
+      "recruitDeadline": null
+    },
     {
       "promotionId": 17855,
       "name": "경량패딩 페스티벌 - 일반세일",
@@ -126,15 +135,6 @@
       "to": "2026-09-10T02:00:00.000Z",
       "minPercent": 10,
       "recruitDeadline": "2026-09-04"
-    },
-    {
-      "promotionId": 17844,
-      "name": "FW26 NEW ARRIVALS - 기간특가 2회차(9/4 11:00 - 9/7 11:00)",
-      "status": "READY",
-      "from": "2026-09-04T02:00:00.000Z",
-      "to": "2026-09-07T02:00:00.000Z",
-      "minPercent": 10,
-      "recruitDeadline": "2026-09-01"
     }
   ]
 }
