@@ -1,5 +1,58 @@
 [
   {
+    "id": "18252900741",
+    "type": "PushEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1339007605,
+      "name": "dlgksgml1158-commits/fitfinder",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/fitfinder"
+    },
+    "payload": {
+      "repository_id": 1339007605,
+      "push_id": 40581807174,
+      "ref": "refs/heads/main",
+      "head": "c2da58ae05bb5c0924ccc31ff7ee32242fefc67a",
+      "before": "8e46fe0ff5848c0851770aca57d4f99fc413de1a"
+    },
+    "public": false,
+    "created_at": "2026-08-20T08:07:45Z"
+  },
+  {
+    "id": "18251796286",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 295408546,
+      "login": "dlgksgml1158-commits",
+      "display_login": "dlgksgml1158-commits",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dlgksgml1158-commits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
+    },
+    "repo": {
+      "id": 1340433734,
+      "name": "dlgksgml1158-commits/fitfinder-web",
+      "url": "https://api.github.com/repos/dlgksgml1158-commits/fitfinder-web"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/main",
+      "master_branch": "main",
+      "description": "FitFinder 웹앱(PWA) 정적 배포 전용 저장소",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-08-20T07:54:56Z"
+  },
+  {
     "id": "18227971136",
     "type": "PushEvent",
     "actor": {
@@ -2548,57 +2601,5 @@
     },
     "public": true,
     "created_at": "2026-07-24T03:59:39Z"
-  },
-  {
-    "id": "15675540403",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1309509498,
-      "name": "dlgksgml1158-commits/musinsa-fashion-dashboard",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/musinsa-fashion-dashboard"
-    },
-    "payload": {
-      "repository_id": 1309509498,
-      "push_id": 37969533880,
-      "ref": "refs/heads/main",
-      "head": "17f5338ac6b4b5d0c7afaef2fef76bae5960eba8",
-      "before": "3fd231f9ad2d5501104cb2a9c8becb3401f60e5d"
-    },
-    "public": true,
-    "created_at": "2026-07-24T02:27:56Z"
-  },
-  {
-    "id": "15675287693",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1309509498,
-      "name": "dlgksgml1158-commits/musinsa-fashion-dashboard",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/musinsa-fashion-dashboard"
-    },
-    "payload": {
-      "repository_id": 1309509498,
-      "push_id": 37969279971,
-      "ref": "refs/heads/main",
-      "head": "3fd231f9ad2d5501104cb2a9c8becb3401f60e5d",
-      "before": "0b4b685485361026d1f31b495ddac73ba95d0acf"
-    },
-    "public": true,
-    "created_at": "2026-07-24T02:21:47Z"
   }
 ]
