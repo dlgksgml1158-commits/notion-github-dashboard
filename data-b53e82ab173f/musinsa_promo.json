@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-08-22T03:35:36.692401+00:00",
+  "updatedAt": "2026-08-22T04:25:06.625388+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -11,15 +11,6 @@
       "finalPrice": 36000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20211230/2286481/2286481_1_500.jpg",
       "productUrl": "https://www.musinsa.com/products/2286481"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 스웨트 쇼츠 [멜란지 라이트 그레이]",
-      "discountRate": 69,
-      "finalPrice": 8410,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220302/2392462/2392462_17025368820576_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2392462"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -41,24 +32,6 @@
     },
     {
       "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 릴렉스 핏 크루 넥 티셔츠 [미드나잇 블루]",
-      "discountRate": 58,
-      "finalPrice": 6680,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241205/4651368/4651368_17465978200556_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4651368"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "위찌",
-      "name": "[2PACK] 프리앤이지 아이브로우 펜슬 3종",
-      "discountRate": 54,
-      "finalPrice": 7830,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250324/4935142/4935142_17823479794962_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4935142"
-    },
-    {
-      "section": "한정수량 선착순 특가",
       "brand": "아디다스",
       "name": "백팩 - 블랙 / KR4564",
       "discountRate": 50,
@@ -74,6 +47,15 @@
       "finalPrice": 11200,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20190201/947203/947203_16867890300627_500.jpg",
       "productUrl": "https://www.musinsa.com/products/947203"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 스웨트 쇼츠 [멜란지 라이트 그레이]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220302/2392462/2392462_17025368820576_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2392462"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -101,6 +83,24 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20241121/4629840/4629840_17331023113447_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4629840"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 릴렉스 핏 크루 넥 티셔츠 [미드나잇 블루]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241205/4651368/4651368_17465978200556_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4651368"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "위찌",
+      "name": "[2PACK] 프리앤이지 아이브로우 펜슬 3종",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250324/4935142/4935142_17823479794962_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4935142"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -1202,6 +1202,15 @@
     },
     {
       "section": "9,900원 하루특가",
+      "brand": "어널로이드",
+      "name": "피그먼트 더 후 후드 / 베이지",
+      "discountRate": 92,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230816/3469281/3469281_16921812203642_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3469281"
+    },
+    {
+      "section": "9,900원 하루특가",
       "brand": "언노운 플라넷",
       "name": "바시티 로고 크롭티 네이비",
       "discountRate": 77,
@@ -1280,24 +1289,6 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240410/4042191/4042191_17128179197016_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4042191"
-    },
-    {
-      "section": "9,900원 하루특가",
-      "brand": "와일드락",
-      "name": "CP쭈리 베이직 스웻 팬츠_다크그레이",
-      "discountRate": 85,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240410/4042195/4042195_17159174434770_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4042195"
-    },
-    {
-      "section": "9,900원 하루특가",
-      "brand": "데누",
-      "name": "[아울렛] Litton Reversible Swim Suit [Red]",
-      "discountRate": 94,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240426/4089662/4089662_17153337684916_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4089662"
     },
     {
       "section": "9,900원 하루특가",
@@ -1607,6 +1598,15 @@
     },
     {
       "section": "9,900원 하루특가",
+      "brand": "바운더리",
+      "name": "워크아웃 유니폼 배색 스웨트셔츠 [오트밀]",
+      "discountRate": 82,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5330290/5330290_17588557999677_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5330290"
+    },
+    {
+      "section": "9,900원 하루특가",
       "brand": "이스트코",
       "name": "피그먼트 컴팩트 스웨트셔츠 네이비",
       "discountRate": 85,
@@ -1667,15 +1667,6 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260120/5916404/5916404_17694917643419_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5916404"
-    },
-    {
-      "section": "9,900원 하루특가",
-      "brand": "애티튜드 애티튜드",
-      "name": "AA Logo Embroidery T-shirts Short Sleeve Black",
-      "discountRate": 75,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260122/5925488/5925488_17694969031035_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5925488"
     },
     {
       "section": "9,900원 하루특가",
@@ -1865,6 +1856,15 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6521364/6521364_17792831991587_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6521364"
+    },
+    {
+      "section": "9,900원 하루특가",
+      "brand": "세이프선데이",
+      "name": "스트랩 숄더백 (블루브리즈)",
+      "discountRate": 69,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260521/6530290/6530290_17793627258241_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6530290"
     },
     {
       "section": "9,900원 하루특가",
@@ -3129,24 +3129,6 @@
     {
       "section": "무뷰페",
       "brand": "빙그레",
-      "name": "더단백 드링크 250ml 36팩 (18팩 x 2박스) 멜론",
-      "discountRate": 34,
-      "finalPrice": 47760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250206/4764726/4764726_17811620357789_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4764726"
-    },
-    {
-      "section": "무뷰페",
-      "brand": "빙그레",
-      "name": "빙그레 더단백 드링크 다크초코 330ml 24팩",
-      "discountRate": 32,
-      "finalPrice": 49280,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251105/5689226/5689226_17811620017866_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5689226"
-    },
-    {
-      "section": "무뷰페",
-      "brand": "빙그레",
       "name": "더단백 드링크 250ml 36팩 (18팩 x 2박스) 바나나",
       "discountRate": 34,
       "finalPrice": 47760,
@@ -3165,20 +3147,29 @@
     {
       "section": "무뷰페",
       "brand": "빙그레",
+      "name": "더단백 드링크 8종 택2 골라담기",
+      "discountRate": 34,
+      "finalPrice": 47760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6002225/6002225_17811619660411_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6002225"
+    },
+    {
+      "section": "무뷰페",
+      "brand": "빙그레",
+      "name": "빙그레 더단백 드링크 다크초코 330ml 24팩",
+      "discountRate": 32,
+      "finalPrice": 49280,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251105/5689226/5689226_17811620017866_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5689226"
+    },
+    {
+      "section": "무뷰페",
+      "brand": "빙그레",
       "name": "[36팩] 더단백 드링크 250ml 커피 (18팩 x 2박스)",
       "discountRate": 34,
       "finalPrice": 47760,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240820/4346944/4346944_17811622397765_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4346944"
-    },
-    {
-      "section": "무뷰페",
-      "brand": "빙그레",
-      "name": "[36팩] 더단백 드링크 250ml 초코 (18팩 x 2박스)",
-      "discountRate": 34,
-      "finalPrice": 47760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240820/4346856/4346856_17811622522814_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4346856"
     },
     {
       "section": "무뷰페",
@@ -3192,6 +3183,15 @@
     {
       "section": "무뷰페",
       "brand": "빙그레",
+      "name": "더단백 드링크 250ml 36팩 (18팩 x 2박스) 멜론",
+      "discountRate": 34,
+      "finalPrice": 47760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250206/4764726/4764726_17811620357789_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4764726"
+    },
+    {
+      "section": "무뷰페",
+      "brand": "빙그레",
       "name": "[36팩] 더단백 드링크 250ml 딸기 (18팩 x 2박스)",
       "discountRate": 34,
       "finalPrice": 47760,
@@ -3201,11 +3201,11 @@
     {
       "section": "무뷰페",
       "brand": "빙그레",
-      "name": "더단백 드링크 8종 택2 골라담기",
+      "name": "[36팩] 더단백 드링크 250ml 초코 (18팩 x 2박스)",
       "discountRate": 34,
       "finalPrice": 47760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6002225/6002225_17811619660411_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6002225"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240820/4346856/4346856_17811622522814_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4346856"
     },
     {
       "section": "무뷰페",
