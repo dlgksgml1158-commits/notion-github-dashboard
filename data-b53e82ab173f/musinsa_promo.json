@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-08-22T06:26:43.408613+00:00",
+  "updatedAt": "2026-08-22T07:25:00.137742+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -1487,15 +1487,6 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250401/4972323/4972323_17466049978089_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4972323"
-    },
-    {
-      "section": "9,900원 하루특가",
-      "brand": "바운더리",
-      "name": "니티드 트랙 숏팬츠 [블랙]",
-      "discountRate": 86,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250401/4973653/4973653_17449623506002_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4973653"
     },
     {
       "section": "9,900원 하루특가",
@@ -3129,51 +3120,6 @@
     {
       "section": "무뷰페",
       "brand": "빙그레",
-      "name": "[36팩] 더단백 드링크 250ml 카라멜 (18팩 x 2박스)",
-      "discountRate": 34,
-      "finalPrice": 47760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240820/4347015/4347015_17811622263919_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4347015"
-    },
-    {
-      "section": "무뷰페",
-      "brand": "빙그레",
-      "name": "더단백 드링크 8종 택2 골라담기",
-      "discountRate": 34,
-      "finalPrice": 47760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6002225/6002225_17811619660411_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6002225"
-    },
-    {
-      "section": "무뷰페",
-      "brand": "빙그레",
-      "name": "빙그레 더단백 드링크 다크초코 330ml 24팩",
-      "discountRate": 32,
-      "finalPrice": 49280,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251105/5689226/5689226_17811620017866_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5689226"
-    },
-    {
-      "section": "무뷰페",
-      "brand": "빙그레",
-      "name": "더단백 드링크 250ml 36팩 민트초코",
-      "discountRate": 34,
-      "finalPrice": 47760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6355153/6355153_17768303124394_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6355153"
-    },
-    {
-      "section": "무뷰페",
-      "brand": "빙그레",
-      "name": "더단백 드링크 250ml 36팩 (18팩 x 2박스) 멜론",
-      "discountRate": 34,
-      "finalPrice": 47760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250206/4764726/4764726_17811620357789_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4764726"
-    },
-    {
-      "section": "무뷰페",
-      "brand": "빙그레",
       "name": "더단백 드링크 250ml 36팩 (18팩 x 2박스) 바나나",
       "discountRate": 34,
       "finalPrice": 47760,
@@ -3183,11 +3129,20 @@
     {
       "section": "무뷰페",
       "brand": "빙그레",
-      "name": "더단백 드링크 250ml 36팩 (18팩 x 2박스) 밀크티",
+      "name": "[36팩] 더단백 드링크 250ml 카라멜 (18팩 x 2박스)",
       "discountRate": 34,
       "finalPrice": 47760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240820/4347142/4347142_17811621483183_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4347142"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240820/4347015/4347015_17811622263919_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4347015"
+    },
+    {
+      "section": "무뷰페",
+      "brand": "빙그레",
+      "name": "[36팩] 더단백 드링크 250ml 초코 (18팩 x 2박스)",
+      "discountRate": 34,
+      "finalPrice": 47760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240820/4346856/4346856_17811622522814_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4346856"
     },
     {
       "section": "무뷰페",
@@ -3201,6 +3156,15 @@
     {
       "section": "무뷰페",
       "brand": "빙그레",
+      "name": "더단백 드링크 8종 택2 골라담기",
+      "discountRate": 34,
+      "finalPrice": 47760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6002225/6002225_17811619660411_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6002225"
+    },
+    {
+      "section": "무뷰페",
+      "brand": "빙그레",
       "name": "[36팩] 더단백 드링크 250ml 딸기 (18팩 x 2박스)",
       "discountRate": 34,
       "finalPrice": 47760,
@@ -3210,11 +3174,38 @@
     {
       "section": "무뷰페",
       "brand": "빙그레",
-      "name": "[36팩] 더단백 드링크 250ml 초코 (18팩 x 2박스)",
+      "name": "더단백 드링크 250ml 36팩 민트초코",
       "discountRate": 34,
       "finalPrice": 47760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240820/4346856/4346856_17811622522814_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4346856"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260422/6355153/6355153_17768303124394_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6355153"
+    },
+    {
+      "section": "무뷰페",
+      "brand": "빙그레",
+      "name": "더단백 드링크 250ml 36팩 (18팩 x 2박스) 밀크티",
+      "discountRate": 34,
+      "finalPrice": 47760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240820/4347142/4347142_17811621483183_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4347142"
+    },
+    {
+      "section": "무뷰페",
+      "brand": "빙그레",
+      "name": "빙그레 더단백 드링크 다크초코 330ml 24팩",
+      "discountRate": 32,
+      "finalPrice": 49280,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251105/5689226/5689226_17811620017866_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5689226"
+    },
+    {
+      "section": "무뷰페",
+      "brand": "빙그레",
+      "name": "더단백 드링크 250ml 36팩 (18팩 x 2박스) 멜론",
+      "discountRate": 34,
+      "finalPrice": 47760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250206/4764726/4764726_17811620357789_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4764726"
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
