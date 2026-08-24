@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-08-24T22:18:21.130356+00:00",
+  "updatedAt": "2026-08-24T23:16:23.325385+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -1256,6 +1256,15 @@
     },
     {
       "section": "9,900원 하루특가",
+      "brand": "핍펫",
+      "name": "Light Cotton String Pants (black)",
+      "discountRate": 89,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240118/3803688/3803688_17109114884272_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3803688"
+    },
+    {
+      "section": "9,900원 하루특가",
       "brand": "커스텀어클락",
       "name": "커브드 밴딩 CP코튼 팬츠 6 COLOR COOSPT209",
       "discountRate": 82,
@@ -1343,15 +1352,6 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240509/4116784/4116784_17818316806581_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4116784"
-    },
-    {
-      "section": "9,900원 하루특가",
-      "brand": "고스트리퍼블릭",
-      "name": "캣 오버핏 반팔 티셔츠 4Color GT-363",
-      "discountRate": 71,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240509/4116786/4116786_17864311024850_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4116786"
     },
     {
       "section": "9,900원 하루특가",
@@ -1562,21 +1562,21 @@
     },
     {
       "section": "9,900원 하루특가",
+      "brand": "오우오",
+      "name": "아미건빵SK",
+      "discountRate": 75,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241104/4585904/4585904_17866869925382_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4585904"
+    },
+    {
+      "section": "9,900원 하루특가",
       "brand": "플라즈마스페어",
       "name": "ON SKIRT _ BR",
       "discountRate": 83,
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20241210/4659574/4659574_17338205531866_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4659574"
-    },
-    {
-      "section": "9,900원 하루특가",
-      "brand": "지크립",
-      "name": "시크릿밴딩 스판 슬림핏 일자 슬랙스",
-      "discountRate": 82,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250113/4716676/4716676_17367543957867_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4716676"
     },
     {
       "section": "9,900원 하루특가",
@@ -1932,29 +1932,11 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "캘빈클라인 진",
-      "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 화이트 4RF296G YAF",
+      "name": "인더시티 릴렉스드핏 그래픽 티 화이트 4RF295G YAF",
       "discountRate": 60,
       "finalPrice": 27600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064531/6064531_17818464466984_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6064531"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "캘빈클라인 진",
-      "name": "인더시티 콘트라스트 스티치 윈드브레이커 블랙 4RF523G UB1",
-      "discountRate": 60,
-      "finalPrice": 87600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064329/6064329_17772700051901_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6064329"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "캘빈클라인 진",
-      "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 블랙 4RF296G UB1",
-      "discountRate": 60,
-      "finalPrice": 27600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064533/6064533_17818464264101_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6064533"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064525/6064525_17818464916363_500.jpeg",
+      "productUrl": "https://www.musinsa.com/products/6064525"
     },
     {
       "section": "오직 무신사 시그니처 특가",
@@ -1977,11 +1959,29 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "캘빈클라인 진",
-      "name": "인더시티 릴렉스드핏 그래픽 티 화이트 4RF295G YAF",
+      "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 화이트 4RF296G YAF",
       "discountRate": 60,
       "finalPrice": 27600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064525/6064525_17818464916363_500.jpeg",
-      "productUrl": "https://www.musinsa.com/products/6064525"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064531/6064531_17818464466984_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6064531"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "캘빈클라인 진",
+      "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 블랙 4RF296G UB1",
+      "discountRate": 60,
+      "finalPrice": 27600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064533/6064533_17818464264101_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6064533"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "캘빈클라인 진",
+      "name": "인더시티 콘트라스트 스티치 윈드브레이커 블랙 4RF523G UB1",
+      "discountRate": 60,
+      "finalPrice": 87600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064329/6064329_17772700051901_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6064329"
     },
     {
       "section": "오직 무신사 뷰티",
@@ -2174,15 +2174,6 @@
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
-      "brand": "나이키",
-      "name": "스위프트 에어로 핏 반소매 러닝 탑 W - 블랙:라이트 그린 스파크 / IH8115-014",
-      "discountRate": 10,
-      "finalPrice": 85500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6842612/6842612_17847949033163_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6842612"
-    },
-    {
-      "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "마틴콕스",
       "name": "Velafold Card Wallet - Black",
       "discountRate": 37,
@@ -2324,6 +2315,15 @@
       "finalPrice": 227050,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7058724/7058724_17865119196860_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7058724"
+    },
+    {
+      "section": "쿠폰으로 만나는 인기 추천템",
+      "brand": "노스페이스",
+      "name": "NM2DS55A 미니샷 엔더블유 BLACK",
+      "discountRate": 5,
+      "finalPrice": 113050,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7059687/7059687_17865150444343_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7059687"
     }
   ]
 }
