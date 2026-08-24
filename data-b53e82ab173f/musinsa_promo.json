@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-08-24T14:34:00.898580+00:00",
+  "updatedAt": "2026-08-24T15:31:38.087143+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -1149,15 +1149,6 @@
     {
       "section": "9,900원 하루특가",
       "brand": "유쓰배쓰",
-      "name": "22SS MONSTER GRAPHIC T-SHIRT_WHITE",
-      "discountRate": 78,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220531/2591345/2591345_2_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2591345"
-    },
-    {
-      "section": "9,900원 하루특가",
-      "brand": "유쓰배쓰",
       "name": "PUNK BOY T-SHIRT_WHITE",
       "discountRate": 77,
       "finalPrice": 9900,
@@ -1406,15 +1397,6 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240501/4099646/4099646_17145648613833_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4099646"
-    },
-    {
-      "section": "9,900원 하루특가",
-      "brand": "로파이",
-      "name": "제플린 맥스 와이드 버뮤다 팬츠 (베이지)",
-      "discountRate": 89,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240503/4104252/4104252_17852038634285_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4104252"
     },
     {
       "section": "9,900원 하루특가",
@@ -1913,6 +1895,15 @@
     },
     {
       "section": "9,900원 하루특가",
+      "brand": "걸스걸스",
+      "name": "PRETTY GIRLS TEE - LIGHT PINK",
+      "discountRate": 76,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260703/6776087/6776087_17839137801477_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6776087"
+    },
+    {
+      "section": "9,900원 하루특가",
       "brand": "트루션",
       "name": "센시톨로지 진정 장벽 마스크팩 24g (5매입)",
       "discountRate": 43,
@@ -1931,30 +1922,21 @@
     },
     {
       "section": "9,900원 하루특가",
+      "brand": "비마이티",
+      "name": "옆선 테이핑 스포티 트랙 반바지",
+      "discountRate": 71,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20180428/769341/769341_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/769341"
+    },
+    {
+      "section": "9,900원 하루특가",
       "brand": "트릴리온",
       "name": "컬러 그라데이션 오버핏 반팔티셔츠 BLACK",
       "discountRate": 76,
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20190328/997738/997738_5_500.jpg",
       "productUrl": "https://www.musinsa.com/products/997738"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "캘빈클라인 진",
-      "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 블랙 4RF296G UB1",
-      "discountRate": 60,
-      "finalPrice": 27600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064533/6064533_17818464264101_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6064533"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "캘빈클라인 진",
-      "name": "인더시티 이지핏 링거 티 화이트 4RF297G YAF",
-      "discountRate": 60,
-      "finalPrice": 27600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064539/6064539_17818464072872_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6064539"
     },
     {
       "section": "오직 무신사 시그니처 특가",
@@ -1968,11 +1950,29 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "캘빈클라인 진",
+      "name": "인더시티 90S 스트레이트핏 진 4RF965G Q1B",
+      "discountRate": 60,
+      "finalPrice": 67600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064520/6064520_17745070527160_500.jpeg",
+      "productUrl": "https://www.musinsa.com/products/6064520"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "캘빈클라인 진",
       "name": "인더시티 릴렉스드핏 그래픽 티 화이트 4RF295G YAF",
       "discountRate": 60,
       "finalPrice": 27600,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064525/6064525_17818464916363_500.jpeg",
       "productUrl": "https://www.musinsa.com/products/6064525"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "캘빈클라인 진",
+      "name": "인더시티 이지핏 링거 티 화이트 4RF297G YAF",
+      "discountRate": 60,
+      "finalPrice": 27600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064539/6064539_17818464072872_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6064539"
     },
     {
       "section": "오직 무신사 시그니처 특가",
@@ -1986,18 +1986,18 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "캘빈클라인 진",
-      "name": "인더시티 90S 스트레이트핏 진 4RF965G Q1B",
+      "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 블랙 4RF296G UB1",
       "discountRate": 60,
-      "finalPrice": 67600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064520/6064520_17745070527160_500.jpeg",
-      "productUrl": "https://www.musinsa.com/products/6064520"
+      "finalPrice": 27600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064533/6064533_17818464264101_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6064533"
     },
     {
       "section": "오직 무신사 뷰티",
       "brand": "일리윤",
       "name": "[증정] 무향 100시간 보습 세라마이드 아토 로션 564ml 2입",
-      "discountRate": 35,
-      "finalPrice": 34160,
+      "discountRate": 34,
+      "finalPrice": 34560,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20231128/3735818/3735818_17760364703569_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3735818"
     },
@@ -2174,15 +2174,6 @@
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
-      "brand": "바이오더마",
-      "name": "[2개] 아토덤 울트라 크림 500ml (저자극 보습크림) x2",
-      "discountRate": 24,
-      "finalPrice": 64260,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260715/6851308/6851308_17863288608210_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6851308"
-    },
-    {
-      "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "마틴콕스",
       "name": "Velafold Card Wallet - Black",
       "discountRate": 37,
@@ -2279,6 +2270,15 @@
       "finalPrice": 53100,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/6998399/6998399_17863356295074_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6998399"
+    },
+    {
+      "section": "쿠폰으로 만나는 인기 추천템",
+      "brand": "나이스고스트클럽",
+      "name": "JS TOMIE HELLO KITTY L FILE HOLDER_MIX(NG2GMUAB86G)",
+      "discountRate": 10,
+      "finalPrice": 8910,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/6998506/6998506_17863355558124_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6998506"
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
