@@ -1,17 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-08-24T05:32:00.172958+00:00",
+  "updatedAt": "2026-08-24T06:41:01.400803+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 베이식 크루 넥 티셔츠 [블랙]",
-      "discountRate": 35,
-      "finalPrice": 10330,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20200423/1417692/1417692_17828971603419_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/1417692"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드 우먼",
@@ -29,6 +20,15 @@
       "finalPrice": 10900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7114658/7114658_17872052557101_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7114658"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 베이식 크루 넥 티셔츠 [블랙]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20200423/1417692/1417692_17828971603419_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1417692"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -806,15 +806,6 @@
     },
     {
       "section": "타임세일",
-      "brand": "스탠다드에러",
-      "name": "87-STAN338 빈티지 문 캐슬 피그먼트 반팔 티셔츠 (3color)",
-      "discountRate": 73,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260602/6597368/6597368_17805440861394_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6597368"
-    },
-    {
-      "section": "타임세일",
       "brand": "시그니처",
       "name": "썸머 린넨 라이크 D링 버뮤다 팬츠[2COLORS]",
       "discountRate": 84,
@@ -992,6 +983,15 @@
       "finalPrice": 24320,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260730/6958712/6958712_17853932069743_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6958712"
+    },
+    {
+      "section": "타임세일",
+      "brand": "에트오소메",
+      "name": "Noir Bloom Card Wallet (Black)",
+      "discountRate": 20,
+      "finalPrice": 37600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260730/6961589/6961589_17860791094436_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6961589"
     },
     {
       "section": "타임세일",
@@ -1652,15 +1652,6 @@
     },
     {
       "section": "9,900원 하루특가",
-      "brand": "슬로우애시드",
-      "name": "워시드 콘셉트 레이어 반팔 티셔츠 [그레이쉬블루]",
-      "discountRate": 81,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250429/5077909/5077909_17485845773537_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5077909"
-    },
-    {
-      "section": "9,900원 하루특가",
       "brand": "웬즈데이오아시스 포 우먼",
       "name": "클래식 코튼 미니 스커트_IVORY(W25-SK01)",
       "discountRate": 83,
@@ -1730,6 +1721,15 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250612/5179374/5179374_17496966570776_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5179374"
+    },
+    {
+      "section": "9,900원 하루특가",
+      "brand": "걸스걸스",
+      "name": "KIKI WASHING SKIRT - KHAKI",
+      "discountRate": 90,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250612/5179413/5179413_17496973688884_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5179413"
     },
     {
       "section": "9,900원 하루특가",
@@ -1941,11 +1941,29 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "캘빈클라인 진",
+      "name": "인더시티 릴렉스드핏 그래픽 티 화이트 4RF295G YAF",
+      "discountRate": 60,
+      "finalPrice": 27600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064525/6064525_17818464916363_500.jpeg",
+      "productUrl": "https://www.musinsa.com/products/6064525"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "캘빈클라인 진",
       "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 화이트 4RF296G YAF",
       "discountRate": 60,
       "finalPrice": 27600,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064531/6064531_17818464466984_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6064531"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "캘빈클라인 진",
+      "name": "인더시티 콘트라스트 스티치 윈드브레이커 블랙 4RF523G UB1",
+      "discountRate": 60,
+      "finalPrice": 87600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064329/6064329_17772700051901_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6064329"
     },
     {
       "section": "오직 무신사 시그니처 특가",
@@ -1973,24 +1991,6 @@
       "finalPrice": 27600,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064539/6064539_17818464072872_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6064539"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "캘빈클라인 진",
-      "name": "인더시티 릴렉스드핏 그래픽 티 화이트 4RF295G YAF",
-      "discountRate": 60,
-      "finalPrice": 27600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064525/6064525_17818464916363_500.jpeg",
-      "productUrl": "https://www.musinsa.com/products/6064525"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "캘빈클라인 진",
-      "name": "인더시티 콘트라스트 스티치 윈드브레이커 블랙 4RF523G UB1",
-      "discountRate": 60,
-      "finalPrice": 87600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064329/6064329_17772700051901_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6064329"
     },
     {
       "section": "오직 무신사 뷰티",
