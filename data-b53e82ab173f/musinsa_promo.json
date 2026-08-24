@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-08-24T03:47:41.593441+00:00",
+  "updatedAt": "2026-08-24T04:37:18.720996+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -20,15 +20,6 @@
       "finalPrice": 29950,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250114/4719635/4719635_17435750001910_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4719635"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 홈 & 프로덕트",
-      "name": "[루메나컬래버] 포터블 조명 [스탠다드 블랙]",
-      "discountRate": 51,
-      "finalPrice": 23990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250918/5485735/5485735_17659636081439_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5485735"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -83,6 +74,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5360129/5360129_17564486563847_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5360129"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 홈 & 프로덕트",
+      "name": "[루메나컬래버] 포터블 조명 [스탠다드 블랙]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250918/5485735/5485735_17659636081439_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5485735"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -1175,15 +1175,6 @@
     },
     {
       "section": "9,900원 하루특가",
-      "brand": "유쓰배쓰",
-      "name": "MULTI COLOR BIKE BANDING SHORT_PEACH ORANGE",
-      "discountRate": 66,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220531/2591386/2591386_1_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2591386"
-    },
-    {
-      "section": "9,900원 하루특가",
       "brand": "플라즈마스페어",
       "name": "Biscuit Cardigan [Cream]",
       "discountRate": 85,
@@ -1923,6 +1914,15 @@
     {
       "section": "9,900원 하루특가",
       "brand": "트루션",
+      "name": "센시톨로지 진정 장벽 마스크팩 24g (5매입)",
+      "discountRate": 43,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260714/6841165/6841165_17840137545914_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6841165"
+    },
+    {
+      "section": "9,900원 하루특가",
+      "brand": "트루션",
       "name": "[3pack] 센시톨로지 더마 진정 크림 10ml 트리플 세트",
       "discountRate": 53,
       "finalPrice": 9900,
@@ -1937,24 +1937,6 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20190328/997738/997738_5_500.jpg",
       "productUrl": "https://www.musinsa.com/products/997738"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "캘빈클라인 진",
-      "name": "인더시티 이지핏 링거 티 화이트 4RF297G YAF",
-      "discountRate": 60,
-      "finalPrice": 27600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064539/6064539_17818464072872_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6064539"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "캘빈클라인 진",
-      "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 블랙 4RF296G UB1",
-      "discountRate": 60,
-      "finalPrice": 27600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064533/6064533_17818464264101_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6064533"
     },
     {
       "section": "오직 무신사 시그니처 특가",
@@ -1977,6 +1959,15 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "캘빈클라인 진",
+      "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 블랙 4RF296G UB1",
+      "discountRate": 60,
+      "finalPrice": 27600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064533/6064533_17818464264101_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6064533"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "캘빈클라인 진",
       "name": "인더시티 콘트라스트 스티치 윈드브레이커 블랙 4RF523G UB1",
       "discountRate": 60,
       "finalPrice": 87600,
@@ -1991,6 +1982,15 @@
       "finalPrice": 67600,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064520/6064520_17745070527160_500.jpeg",
       "productUrl": "https://www.musinsa.com/products/6064520"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "캘빈클라인 진",
+      "name": "인더시티 이지핏 링거 티 화이트 4RF297G YAF",
+      "discountRate": 60,
+      "finalPrice": 27600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064539/6064539_17818464072872_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6064539"
     },
     {
       "section": "오직 무신사 뷰티",
