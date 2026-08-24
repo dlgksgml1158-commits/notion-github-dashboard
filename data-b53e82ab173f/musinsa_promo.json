@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-08-24T12:33:47.032570+00:00",
+  "updatedAt": "2026-08-24T13:43:53.424686+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -1814,6 +1814,15 @@
     },
     {
       "section": "9,900원 하루특가",
+      "brand": "버클다운",
+      "name": "심플 오버핏 일렉트로닉 BD 프린티드 하프넥 티셔츠 (WHITE)",
+      "discountRate": 78,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6205911/6205911_17828021171981_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6205911"
+    },
+    {
+      "section": "9,900원 하루특가",
       "brand": "라비엘",
       "name": "판테놀 시카앰플 병풀 급속진정 붉은기완화 트러블케어 30ml",
       "discountRate": 68,
@@ -1838,15 +1847,6 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6267946/6267946_17763295505669_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6267946"
-    },
-    {
-      "section": "9,900원 하루특가",
-      "brand": "트릴리온",
-      "name": "파인애플 헨리넥 반팔 니트_카키",
-      "discountRate": 81,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260407/6270906/6270906_17756382161835_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6270906"
     },
     {
       "section": "9,900원 하루특가",
@@ -1941,11 +1941,11 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "캘빈클라인 진",
-      "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 화이트 4RF296G YAF",
+      "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 블랙 4RF296G UB1",
       "discountRate": 60,
       "finalPrice": 27600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064531/6064531_17818464466984_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6064531"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064533/6064533_17818464264101_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6064533"
     },
     {
       "section": "오직 무신사 시그니처 특가",
@@ -1959,20 +1959,20 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "캘빈클라인 진",
+      "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 화이트 4RF296G YAF",
+      "discountRate": 60,
+      "finalPrice": 27600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064531/6064531_17818464466984_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6064531"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "캘빈클라인 진",
       "name": "인더시티 릴렉스드핏 그래픽 티 화이트 4RF295G YAF",
       "discountRate": 60,
       "finalPrice": 27600,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064525/6064525_17818464916363_500.jpeg",
       "productUrl": "https://www.musinsa.com/products/6064525"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "캘빈클라인 진",
-      "name": "인더시티 콘트라스트 스티치 윈드브레이커 블랙 4RF523G UB1",
-      "discountRate": 60,
-      "finalPrice": 87600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064329/6064329_17772700051901_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6064329"
     },
     {
       "section": "오직 무신사 시그니처 특가",
@@ -1986,11 +1986,11 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "캘빈클라인 진",
-      "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 블랙 4RF296G UB1",
+      "name": "인더시티 콘트라스트 스티치 윈드브레이커 블랙 4RF523G UB1",
       "discountRate": 60,
-      "finalPrice": 27600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064533/6064533_17818464264101_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6064533"
+      "finalPrice": 87600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064329/6064329_17772700051901_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6064329"
     },
     {
       "section": "오직 무신사 뷰티",
