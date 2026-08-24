@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-08-24T18:28:41.807991+00:00",
+  "updatedAt": "2026-08-24T19:22:56.190379+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -1184,15 +1184,6 @@
     },
     {
       "section": "9,900원 하루특가",
-      "brand": "니티드",
-      "name": "테일 후디 니트 BLACK",
-      "discountRate": 89,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230221/3096845/3096845_16778113617458_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3096845"
-    },
-    {
-      "section": "9,900원 하루특가",
       "brand": "위크나인",
       "name": "파라다이스 반팔 래쉬가드 3color",
       "discountRate": 64,
@@ -1496,6 +1487,15 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240624/4214168/4214168_17191647068468_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4214168"
+    },
+    {
+      "section": "9,900원 하루특가",
+      "brand": "바벨웍스",
+      "name": "투크랙 오버핏",
+      "discountRate": 78,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240801/4290897/4290897_17225181966959_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4290897"
     },
     {
       "section": "9,900원 하루특가",
@@ -1941,29 +1941,20 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "캘빈클라인 진",
+      "name": "인더시티 릴렉스드핏 그래픽 티 화이트 4RF295G YAF",
+      "discountRate": 60,
+      "finalPrice": 27600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064525/6064525_17818464916363_500.jpeg",
+      "productUrl": "https://www.musinsa.com/products/6064525"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "캘빈클라인 진",
       "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 화이트 4RF296G YAF",
       "discountRate": 60,
       "finalPrice": 27600,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064531/6064531_17818464466984_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6064531"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "캘빈클라인 진",
-      "name": "인더시티 이지핏 링거 티 화이트 4RF297G YAF",
-      "discountRate": 60,
-      "finalPrice": 27600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064539/6064539_17818464072872_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6064539"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "캘빈클라인 진",
-      "name": "인더시티 90S 스트레이트핏 진 4RF965G Q1B",
-      "discountRate": 60,
-      "finalPrice": 67600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064520/6064520_17745070527160_500.jpeg",
-      "productUrl": "https://www.musinsa.com/products/6064520"
     },
     {
       "section": "오직 무신사 시그니처 특가",
@@ -1977,20 +1968,29 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "캘빈클라인 진",
-      "name": "인더시티 릴렉스드핏 그래픽 티 화이트 4RF295G YAF",
-      "discountRate": 60,
-      "finalPrice": 27600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064525/6064525_17818464916363_500.jpeg",
-      "productUrl": "https://www.musinsa.com/products/6064525"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "캘빈클라인 진",
       "name": "인더시티 오버핏 콘트라스트 스티치 그래픽 티 블랙 4RF296G UB1",
       "discountRate": 60,
       "finalPrice": 27600,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064533/6064533_17818464264101_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6064533"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "캘빈클라인 진",
+      "name": "인더시티 90S 스트레이트핏 진 4RF965G Q1B",
+      "discountRate": 60,
+      "finalPrice": 67600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064520/6064520_17745070527160_500.jpeg",
+      "productUrl": "https://www.musinsa.com/products/6064520"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "캘빈클라인 진",
+      "name": "인더시티 이지핏 링거 티 화이트 4RF297G YAF",
+      "discountRate": 60,
+      "finalPrice": 27600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260227/6064539/6064539_17818464072872_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6064539"
     },
     {
       "section": "오직 무신사 뷰티",
