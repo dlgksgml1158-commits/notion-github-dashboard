@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-08-30T18:19:53.370706+00:00",
+  "updatedAt": "2026-08-30T21:46:39.657277+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -1104,6 +1104,15 @@
     {
       "section": "9,900원 하루특가",
       "brand": "어널로이드",
+      "name": "믹스드 니트 팬츠 / 베이지",
+      "discountRate": 92,
+      "finalPrice": 9900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220518/2566581/2566581_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2566581"
+    },
+    {
+      "section": "9,900원 하루특가",
+      "brand": "어널로이드",
       "name": "메쉬 아가일 니트 원피스 / 블랙",
       "discountRate": 91,
       "finalPrice": 9900,
@@ -1617,15 +1626,6 @@
     {
       "section": "9,900원 하루특가",
       "brand": "와일드락",
-      "name": "카모 버뮤다 카펜터 팬츠_빈티지 카모",
-      "discountRate": 83,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250414/5020637/5020637_17466021517506_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5020637"
-    },
-    {
-      "section": "9,900원 하루특가",
-      "brand": "와일드락",
       "name": "크리스피 나일론 카고 쇼츠_7 COL",
       "discountRate": 80,
       "finalPrice": 9900,
@@ -1932,20 +1932,11 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "인사일런스",
-      "name": "메카닉 데님 팬츠 BLACK",
+      "name": "드레이프 A-2 블루종 BLACK",
       "discountRate": 42,
-      "finalPrice": 84240,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260206/5993358/5993358_17708723097144_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5993358"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "인사일런스",
-      "name": "하드 덕 빈티지 워크 팬츠 CHARCOAL",
-      "discountRate": 41,
-      "finalPrice": 103550,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260220/6038258/6038258_17718958867968_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6038258"
+      "finalPrice": 128700,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260220/6038215/6038215_17718944549385_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6038215"
     },
     {
       "section": "오직 무신사 시그니처 특가",
@@ -1955,6 +1946,15 @@
       "finalPrice": 84240,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240808/4310902/4310902_17714759145212_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4310902"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "인사일런스",
+      "name": "메카닉 데님 팬츠 BLACK",
+      "discountRate": 42,
+      "finalPrice": 84240,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260206/5993358/5993358_17708723097144_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5993358"
     },
     {
       "section": "오직 무신사 시그니처 특가",
@@ -1977,6 +1977,15 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "인사일런스",
+      "name": "[INSILENCE X KKST] 디태처블 울 블레이저 BLACK",
+      "discountRate": 50,
+      "finalPrice": 99500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220216/2365614/2365614_16780784792701_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2365614"
+    },
+    {
+      "section": "오직 무신사 시그니처 특가",
+      "brand": "인사일런스",
       "name": "빈티지 스웨트셔츠 VINTAGE NAVY",
       "discountRate": 42,
       "finalPrice": 64350,
@@ -1986,20 +1995,20 @@
     {
       "section": "오직 무신사 시그니처 특가",
       "brand": "인사일런스",
-      "name": "드레이프 A-2 블루종 BLACK",
-      "discountRate": 42,
-      "finalPrice": 128700,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260220/6038215/6038215_17718944549385_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6038215"
-    },
-    {
-      "section": "오직 무신사 시그니처 특가",
-      "brand": "인사일런스",
       "name": "[2 PACK] 워시드 하이 덴시티 셔츠",
       "discountRate": 30,
       "finalPrice": 139000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250416/5033535/5033535_17447803425476_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5033535"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "[SET] 베스트 미니어처 세트 (컨트롤 장벽 로션 50ml + 컨트롤 장벽 클렌저 30ml + 리본 속광 크림 30ml)",
+      "discountRate": 3,
+      "finalPrice": 32300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748888/6748888_17839358709148_500.png",
+      "productUrl": "https://www.musinsa.com/products/6748888"
     },
     {
       "section": "오직 무신사 뷰티",
@@ -2022,101 +2031,11 @@
     {
       "section": "오직 무신사 뷰티",
       "brand": "리바이포유",
-      "name": "[SET/X2] 화잘먹 매끈결 부스팅 더블 기획 세트 (히알프렙™ 수분 결 패드 60매*2 + 히알프렙™ 수분 탱글 앰플 45ml*2 + 버킷 파우치)",
-      "discountRate": 33,
-      "finalPrice": 80400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6911020/6911020_17872752039749_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6911020"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "[SET] 쿨링 진정 장벽 세트 (컨트롤 장벽 로션 150ml + 컨트롤 장벽 클렌저 150ml + 7초 진정 앰플 패드 100매)",
-      "discountRate": 30,
-      "finalPrice": 72800,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748644/6748644_17827279274217_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6748644"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "히알프렙™ 수분 잠금 크림 60ml x 2개 [총 120ml]",
-      "discountRate": 25,
-      "finalPrice": 43500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6910523/6910523_17872751115082_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6910523"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
       "name": "컨트롤 장벽 클렌저 340ml (+증정)컨트롤 장벽 클렌저 30ml",
       "discountRate": 15,
       "finalPrice": 36500,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7038628/7038628_17863532521274_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7038628"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "히알프렙™ 수분 탱글 앰플 45ml",
-      "discountRate": 15,
-      "finalPrice": 26300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6881450/6881450_17872750360107_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6881450"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "[SET] 화잘먹 수분광 부스팅 기획 세트 (히알프렙™ 수분광 버블 세럼 95ml + 히알프렙™ 수분 탱글 앰플 45ml)",
-      "discountRate": 30,
-      "finalPrice": 41600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6910874/6910874_17872751240326_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6910874"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "컨트롤 장벽 클렌저 150ml x 2개 [총 300ml] (+증정)컨트롤 장벽 클렌저 30ml",
-      "discountRate": 20,
-      "finalPrice": 33600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748988/6748988_17827964697595_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6748988"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "히알프렙™ 수분광 버블 세럼 95ml x 2개 [총 190ml]",
-      "discountRate": 25,
-      "finalPrice": 42700,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6910478/6910478_17872750856555_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6910478"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "[SET] 수분 촉촉 딥클렌징 세트 (컨트롤 장벽 클렌저 150ml + 버블 클리어 포밍워시 155ml + 원스텝 클렌징 오일 200ml)",
-      "discountRate": 25,
-      "finalPrice": 56200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748787/6748787_17827292164411_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6748787"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "히알프렙™ 수분광 버블 세럼 95ml",
-      "discountRate": 15,
-      "finalPrice": 24200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6881440/6881440_17872750177530_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6881440"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "7초 진정 앰플 패드 100매 x 2개 [총 200매] (+증정)컨트롤 장벽 로션 20ml+컨트롤 장벽 크림 20ml",
-      "discountRate": 30,
-      "finalPrice": 75600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6749003/6749003_17827323047970_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6749003"
     },
     {
       "section": "오직 무신사 뷰티",
@@ -2130,20 +2049,56 @@
     {
       "section": "오직 무신사 뷰티",
       "brand": "리바이포유",
-      "name": "히알프렙™ 수분 결 패드 60매 x 2개 [총 120매]",
-      "discountRate": 25,
-      "finalPrice": 43500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6910455/6910455_17872750710447_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6910455"
+      "name": "7초 진정 앰플 패드 100매 x 2개 [총 200매] (+증정)컨트롤 장벽 로션 20ml+컨트롤 장벽 크림 20ml",
+      "discountRate": 30,
+      "finalPrice": 75600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6749003/6749003_17827323047970_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6749003"
     },
     {
       "section": "오직 무신사 뷰티",
       "brand": "리바이포유",
-      "name": "[SET] 베스트 미니어처 세트 (컨트롤 장벽 로션 50ml + 컨트롤 장벽 클렌저 30ml + 리본 속광 크림 30ml)",
-      "discountRate": 3,
-      "finalPrice": 32300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748888/6748888_17839358709148_500.png",
-      "productUrl": "https://www.musinsa.com/products/6748888"
+      "name": "컨트롤 장벽 클렌저 150ml x 2개 [총 300ml] (+증정)컨트롤 장벽 클렌저 30ml",
+      "discountRate": 20,
+      "finalPrice": 33600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748988/6748988_17827964697595_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6748988"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "[SET] 수분 촉촉 딥클렌징 세트 (컨트롤 장벽 클렌저 150ml + 버블 클리어 포밍워시 155ml + 원스텝 클렌징 오일 200ml)",
+      "discountRate": 25,
+      "finalPrice": 56200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748787/6748787_17827292164411_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6748787"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "히알프렙™ 수분 잠금 크림 60ml x 2개 [총 120ml]",
+      "discountRate": 25,
+      "finalPrice": 43500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6910523/6910523_17872751115082_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6910523"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "[SET] 쿨링 진정 장벽 세트 (컨트롤 장벽 로션 150ml + 컨트롤 장벽 클렌저 150ml + 7초 진정 앰플 패드 100매)",
+      "discountRate": 30,
+      "finalPrice": 72800,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748644/6748644_17827279274217_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6748644"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "[SET] 화잘먹 수분광 부스팅 기획 세트 (히알프렙™ 수분광 버블 세럼 95ml + 히알프렙™ 수분 탱글 앰플 45ml)",
+      "discountRate": 30,
+      "finalPrice": 41600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6910874/6910874_17872751240326_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6910874"
     },
     {
       "section": "오직 무신사 뷰티",
@@ -2162,6 +2117,51 @@
       "finalPrice": 42000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6910998/6910998_17872751717694_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6910998"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "히알프렙™ 수분광 버블 세럼 95ml",
+      "discountRate": 15,
+      "finalPrice": 24200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6881440/6881440_17872750177530_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6881440"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "[SET/X2] 화잘먹 매끈결 부스팅 더블 기획 세트 (히알프렙™ 수분 결 패드 60매*2 + 히알프렙™ 수분 탱글 앰플 45ml*2 + 버킷 파우치)",
+      "discountRate": 33,
+      "finalPrice": 80400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6911020/6911020_17872752039749_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6911020"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "히알프렙™ 수분광 버블 세럼 95ml x 2개 [총 190ml]",
+      "discountRate": 25,
+      "finalPrice": 42700,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6910478/6910478_17872750856555_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6910478"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "히알프렙™ 수분 결 패드 60매 x 2개 [총 120매]",
+      "discountRate": 25,
+      "finalPrice": 43500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6910455/6910455_17872750710447_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6910455"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "히알프렙™ 수분 탱글 앰플 45ml",
+      "discountRate": 15,
+      "finalPrice": 26300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6881450/6881450_17872750360107_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6881450"
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
