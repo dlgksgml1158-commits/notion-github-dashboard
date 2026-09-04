@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-09-03T22:05:52.686464+00:00",
+  "updatedAt": "2026-09-04T00:35:33.727869+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -218,6 +218,15 @@
       "finalPrice": 17190,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20231215/3758185/3758185_17067714979436_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3758185"
+    },
+    {
+      "section": "타임세일",
+      "brand": "미즈노",
+      "name": "(공용) 웨이브 라이더 10 - 쉬프팅 샌드:쉬프팅 샌드:스노우 화이트 / D1GA243102",
+      "discountRate": 50,
+      "finalPrice": 79990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240306/3926180/3926180_17096928412163_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3926180"
     },
     {
       "section": "타임세일",
@@ -452,15 +461,6 @@
       "finalPrice": 109200,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260302/6068944/6068944_17724609876652_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6068944"
-    },
-    {
-      "section": "타임세일",
-      "brand": "그루브라임",
-      "name": "베이직 트윌 풀 밴딩 4부 쇼츠 팬츠 (19COLOR) (LRAMCNH750P)",
-      "discountRate": 66,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260305/6084722/6084722_17726894871828_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6084722"
     },
     {
       "section": "타임세일",
@@ -2814,65 +2814,65 @@
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "도쿄 - 클리어핑크:나이트인디고 / JQ7108",
+      "name": "가젤 로우 프로 - 메사:브라운데저트 / JS2661",
       "discountRate": 50,
-      "finalPrice": 68990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5329559/5329559_17557566215639_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5329559"
+      "finalPrice": 83990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5329561/5329561_17561987570103_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5329561"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "컨트리 II - 실버:크림 / JH5599",
-      "discountRate": 50,
-      "finalPrice": 68990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240724/4270591/4270591_17222303864009_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4270591"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "아디폼 메가제인 - 그레이 / KH7912",
-      "discountRate": 40,
-      "finalPrice": 76990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6233624/6233624_17785740909739_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6233624"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "슈퍼스타 II - 브라운:블랙 / JH7696",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250311/4880135/4880135_17419442775338_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4880135"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "몬트리올 - 할로실버:마블 / KK1145",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260310/6105244/6105244_17731931703723_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6105244"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "토바코 - 올리브스트라타:샌드 / IH9113",
+      "name": "슈퍼스타 II - 블랙 / IH1612",
       "discountRate": 30,
       "finalPrice": 103990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6365122/6365122_17772530870588_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6365122"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260311/6114140/6114140_17732832564949_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6114140"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "가젤 85 - 스칼렛:다크블루 / ID0846",
+      "name": "도쿄 - 레드:클리어핑크 / JQ7109",
+      "discountRate": 45,
+      "finalPrice": 75990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5329560/5329560_17585960906658_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5329560"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "태권도 -오프화이트:브라운 / JR3956",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250318/4909420/4909420_17437536154987_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4909420"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "몬트리올 - 블랙:카키 / IH9120",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251217/5835213/5835213_17660299789318_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5835213"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "아디스타 컨트롤 5 - 블랙:솔라옐로우 / KI5225",
       "discountRate": 50,
       "finalPrice": 78990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240109/3782420/3782420_17048530218059_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3782420"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5943436/5943436_17756273746761_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5943436"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "삼바 OG - 오르빗그린 / JR9447",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250721/5258974/5258974_17555838042173_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5258974"
     },
     {
       "section": "킥스위크",
@@ -2886,173 +2886,47 @@
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "캠퍼스 00s - 브라운 / JH7605",
+      "name": "아디스타 XLG - 화이트:골드 / JH8829",
       "discountRate": 50,
       "finalPrice": 68990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241203/4648367/4648367_17334486216218_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4648367"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240923/4452181/4452181_17449666091828_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4452181"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "캠퍼스 00s - 쉐도우브라운 / JS3777",
-      "discountRate": 45,
-      "finalPrice": 86990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5391595/5391595_17585935555341_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5391595"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "삼바 LT - 프리러브옐로우:그린 / IE9165",
+      "name": "컨트리 II - 그린 / IE6475",
       "discountRate": 50,
       "finalPrice": 68990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240704/4232330/4232330_17201433997791_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4232330"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240925/4462794/4462794_17278436962005_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4462794"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "가젤 로우 프로  - 미드그린:옐로우 / JQ7105",
-      "discountRate": 46,
-      "finalPrice": 91990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5329557/5329557_17556593572736_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5329557"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "재팬 DECON - 화이트:블루:레드 / JR2076",
-      "discountRate": 50,
-      "finalPrice": 93990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250620/5198703/5198703_17524692104394_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5198703"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "토바코 - 블랙 / HQ9183",
-      "discountRate": 30,
-      "finalPrice": 103990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5391587/5391587_17579055892767_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5391587"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "이탈리아 70s - 브라운:블랙 / HQ9349",
-      "discountRate": 50,
-      "finalPrice": 78990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5329355/5329355_17573230816631_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5329355"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "삼바 제인 - 블랙:화이트 / KZ6690",
-      "discountRate": 33,
-      "finalPrice": 99990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260529/6570995/6570995_17829726150294_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6570995"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "가젤 로우 프로  - 다크브라운:크림화이트 / JS2662",
-      "discountRate": 50,
-      "finalPrice": 83990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5321121/5321121_17555052123912_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5321121"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "삼바 LT - 크리스탈화이트:다크블루 / IE9169",
+      "name": "핸드볼 스페지알 - 그린:옐로우 / ID1430",
       "discountRate": 50,
       "finalPrice": 68990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240704/4232329/4232329_17201434489316_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4232329"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240906/4414680/4414680_17258656061786_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4414680"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "아디스타 컨트롤 5 - 블랙 / KI5226",
-      "discountRate": 50,
-      "finalPrice": 78990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260127/5943435/5943435_17756277254897_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5943435"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "슈퍼스타 부츠 - 그레이 / IH9329",
+      "name": "슈퍼스타 부츠 - 블랙 / JQ3172",
       "discountRate": 45,
       "finalPrice": 124990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251127/5782123/5782123_17642264385221_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5782123"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251021/5622112/5622112_17612652867375_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5622112"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "토바코 - 메이플베이지:올리브 / IH9083",
-      "discountRate": 30,
-      "finalPrice": 103990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251217/5835215/5835215_17664695837948_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5835215"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "아디제로 아디오스 OG - 다크브라운:원더화이트 / KJ8876",
-      "discountRate": 45,
-      "finalPrice": 86990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5391593/5391593_17605025002180_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5391593"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "슈퍼스타 82 고어텍스 - 클라우드화이트:블랙 / KI7820",
-      "discountRate": 30,
-      "finalPrice": 117990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260303/6070077/6070077_17726069107912_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6070077"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "핸드볼 스페지알 - 네이비:오렌지 / IH7952",
-      "discountRate": 50,
-      "finalPrice": 68990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240906/4414681/4414681_17258658271323_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4414681"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "슈퍼스타 II - 그린:블랙 / JH7699",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250312/4886033/4886033_17419433976722_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4886033"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "가젤 볼드 - 레드:오렌지 / ID1425",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240911/4433366/4433366_17268098516646_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4433366"
-    },
-    {
-      "section": "킥스위크",
-      "brand": "아디다스",
-      "name": "재팬 - 퍼플 / JS0252",
-      "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250217/4794343/4794343_17398669234615_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4794343"
+      "name": "삼바 제인 - 화이트:블랙 /  KZ6691",
+      "discountRate": 33,
+      "finalPrice": 99990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260529/6570996/6570996_17829725894501_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6570996"
     },
     {
       "section": "킥스위크",
@@ -3066,20 +2940,146 @@
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "몬트리올 - 베이지브라운:블랙 / KI0956",
+      "name": "가젤 85 - 스칼렛:다크블루 / ID0846",
       "discountRate": 50,
-      "finalPrice": 73990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251217/5835214/5835214_17660301765960_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5835214"
+      "finalPrice": 78990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240109/3782420/3782420_17048530218059_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3782420"
     },
     {
       "section": "킥스위크",
       "brand": "아디다스",
-      "name": "아디폼 메가제인 - 차콜 / KH7911",
-      "discountRate": 40,
-      "finalPrice": 76990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6233623/6233623_17785740177902_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6233623"
+      "name": "컨트리 II - 딥블루 / IE6474",
+      "discountRate": 50,
+      "finalPrice": 68990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240925/4462795/4462795_17278436493777_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4462795"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "슈퍼스타 82 고어텍스 - 블랙:화이트 / KI7819",
+      "discountRate": 30,
+      "finalPrice": 117990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260303/6070076/6070076_17726068548112_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6070076"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "아디제로 아디오스 OG - 다크브라운:원더화이트 / KJ8876",
+      "discountRate": 45,
+      "finalPrice": 86990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5391593/5391593_17605025002180_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5391593"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "컨트리 II - 실버:크림 / JH5599",
+      "discountRate": 50,
+      "finalPrice": 68990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240724/4270591/4270591_17222303864009_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4270591"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "토바코 - 블루:아이스텐저린 / IH9114",
+      "discountRate": 30,
+      "finalPrice": 103990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260424/6371066/6371066_17772580532327_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6371066"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "재팬 - 블랙 / IH5490",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250116/4724980/4724980_17374460473775_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4724980"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "슈퍼스타 부츠 - 브라운 / IH9330",
+      "discountRate": 45,
+      "finalPrice": 124990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251127/5782124/5782124_17642264667343_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5782124"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "태권도 - 클리어스카이 / JR3954",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250306/4865682/4865682_17436715714890_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4865682"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "재팬 - 화이트:그린 / JI2663",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250321/4928404/4928404_17434083427522_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4928404"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "토바코 - 네이비 / JR2743",
+      "discountRate": 30,
+      "finalPrice": 103990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241010/4501456/4501456_17291354778321_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4501456"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "슈퍼스타 II  - 화이트:블랙:골드 / JS4010",
+      "discountRate": 50,
+      "finalPrice": 73990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250818/5329556/5329556_17556594783814_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5329556"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "아디제로 아디오스 OG - 블랙 / KI0966",
+      "discountRate": 35,
+      "finalPrice": 102990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5391590/5391590_17605023987461_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5391590"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "슈퍼스타 부츠 - 그레이 / IH9329",
+      "discountRate": 45,
+      "finalPrice": 124990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251127/5782123/5782123_17642264385221_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5782123"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "슈퍼스타 부츠 - 샌드브라운 / JS0703",
+      "discountRate": 45,
+      "finalPrice": 124990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251021/5622113/5622113_17621339011392_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5622113"
+    },
+    {
+      "section": "킥스위크",
+      "brand": "아디다스",
+      "name": "토바코 - 메이플베이지:올리브 / IH9083",
+      "discountRate": 30,
+      "finalPrice": 103990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251217/5835215/5835215_17664695837948_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5835215"
     }
   ]
 }
