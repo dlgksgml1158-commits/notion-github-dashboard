@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-09-13T02:29:45.605510+00:00",
+  "updatedAt": "2026-09-13T07:52:30.093420+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -14,24 +14,6 @@
     },
     {
       "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "라이트웨이트 직각 크루 삭스 7팩 [블랙]",
-      "discountRate": 60,
-      "finalPrice": 8310,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220927/2821593/2821593_17138495440988_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2821593"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "크링클 라지 웨이스트 백 [그레이]",
-      "discountRate": 70,
-      "finalPrice": 8910,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240311/3938150/3938150_17230191821383_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3938150"
-    },
-    {
-      "section": "한정수량 선착순 특가",
       "brand": "아모멘토",
       "name": "TURTLE T-SHIRTS_BLACK",
       "discountRate": 50,
@@ -41,30 +23,30 @@
     },
     {
       "section": "한정수량 선착순 특가",
-      "brand": "오클리",
-      "name": "(공용) 패커블 백팩 - 블랙아웃 / FOS90195702E",
-      "discountRate": 60,
-      "finalPrice": 39590,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250925/5528039/5528039_17635307189086_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5528039"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "바버 501",
-      "name": "쉐이빙 부스터 밤 66ml 모음",
-      "discountRate": 52,
-      "finalPrice": 6350,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260323/6176270/6176270_17763217202962_500.png",
-      "productUrl": "https://www.musinsa.com/products/6176270"
-    },
-    {
-      "section": "한정수량 선착순 특가",
       "brand": "챔피온",
       "name": "C로고 후드 티셔츠 Normal Navy",
       "discountRate": 0,
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20220819/2729649/2729649_17430482614169_500.jpg",
       "productUrl": "https://www.musinsa.com/products/2729649"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "라이트웨이트 직각 크루 삭스 7팩 [블랙]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220927/2821593/2821593_17138495440988_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2821593"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "크링클 라지 웨이스트 백 [그레이]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240311/3938150/3938150_17230191821383_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3938150"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -113,6 +95,15 @@
     },
     {
       "section": "한정수량 선착순 특가",
+      "brand": "오클리",
+      "name": "(공용) 패커블 백팩 - 블랙아웃 / FOS90195702E",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250925/5528039/5528039_17635307189086_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5528039"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "크록스",
       "name": "클래식 스웨이드 모크 - 샌드스톤 / 212097-0LH",
       "discountRate": 0,
@@ -128,6 +119,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260106/5870522/5870522_17677546957237_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5870522"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "바버 501",
+      "name": "쉐이빙 부스터 밤 66ml 모음",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260323/6176270/6176270_17763217202962_500.png",
+      "productUrl": "https://www.musinsa.com/products/6176270"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -1041,38 +1041,92 @@
     {
       "section": "쿠폰으로 만나는\n가을 상의 아이템",
       "brand": "쿠어",
+      "name": "스트라이프 롱 슬리브 티셔츠 (화이트)",
+      "discountRate": 10,
+      "finalPrice": 64800,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240215/3871679/3871679_17388105851719_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3871679"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "컷오프 오가닉 코튼 아우터 셔츠 (에크루)",
+      "discountRate": 10,
+      "finalPrice": 130500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220412/2482780/2482780_2_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2482780"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "엑스트라 파인 메리노 울 카라 니트 (다크그레이시그린)",
+      "discountRate": 10,
+      "finalPrice": 144000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240215/3871720/3871720_17388943098900_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3871720"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "오버사이즈 롱라인 린넨 셔츠 (블랙)",
+      "discountRate": 10,
+      "finalPrice": 116100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220210/2352989/2352989_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2352989"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "하이넥 루프 니트 집업 (월넛브라운)",
+      "discountRate": 10,
+      "finalPrice": 220500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230821/3480493/3480493_16929401053666_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3480493"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "페이크 스웨이드 오버사이즈 셔츠 (블랙)",
+      "discountRate": 10,
+      "finalPrice": 144000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240829/4384467/4384467_17252783523215_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4384467"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "컨트라스트 포켓 오버사이즈드 데님 셔츠 (워시드블루)",
+      "discountRate": 10,
+      "finalPrice": 135000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230220/3094538/3094538_16777431350534_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3094538"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "린넨 로우 컷 셔츠 (그레이)",
+      "discountRate": 10,
+      "finalPrice": 128700,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240425/4086675/4086675_17143535761261_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4086675"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "탑필 캐시 울 카라 가디건 (딥퍼플)",
+      "discountRate": 10,
+      "finalPrice": 139500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220906/2774651/2774651_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2774651"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
       "name": "도비 윈도우 페인 체크 버튼다운 셔츠 (베이지)",
       "discountRate": 10,
       "finalPrice": 177300,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250214/4790421/4790421_17404590538759_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4790421"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "엑스트라 파인 메리노 울 카라 니트 (워시드더스티핑크)",
-      "discountRate": 10,
-      "finalPrice": 144000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240215/3871782/3871782_17388943133669_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3871782"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "오버사이즈 롱라인 린넨 셔츠 (화이트)",
-      "discountRate": 10,
-      "finalPrice": 116100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220210/2352998/2352998_1_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2352998"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "후디드 크링클 아노락 셔츠 (블랙)",
-      "discountRate": 10,
-      "finalPrice": 144000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230203/3058304/3058304_16758407900956_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3058304"
     },
     {
       "section": "쿠폰으로 만나는\n가을 상의 아이템",
@@ -1095,47 +1149,20 @@
     {
       "section": "쿠폰으로 만나는\n가을 상의 아이템",
       "brand": "쿠어",
-      "name": "크로셰 오픈 칼라 니트 (크림)",
+      "name": "워시드 데님 더블 포켓 셔츠 (워시드블루)",
       "discountRate": 10,
-      "finalPrice": 117000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220210/2352379/2352379_1_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2352379"
+      "finalPrice": 156600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250204/4755935/4755935_17388944482620_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4755935"
     },
     {
       "section": "쿠폰으로 만나는\n가을 상의 아이템",
       "brand": "쿠어",
-      "name": "캐시팝 트위드 크루넥 니트 (번트브라운블루)",
+      "name": "페이퍼 버튼다운 셔츠 (라이트블루그레이)",
       "discountRate": 10,
-      "finalPrice": 99000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240130/3833444/3833444_17067542105313_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3833444"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "탑필 울 라운드 니트 (더스티그린)",
-      "discountRate": 10,
-      "finalPrice": 69300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20200813/1548448/1548448_2_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/1548448"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "크로셰 오픈 칼라 니트 (그레이시더스티그린)",
-      "discountRate": 10,
-      "finalPrice": 117000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220210/2352368/2352368_1_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2352368"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "테리 오픈 칼라 가디건 (판고그레이)",
-      "discountRate": 10,
-      "finalPrice": 134100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220210/2352387/2352387_1_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2352387"
+      "finalPrice": 94500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240130/3833408/3833408_17067545393352_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3833408"
     },
     {
       "section": "쿠폰으로 만나는\n가을 상의 아이템",
@@ -1149,6 +1176,15 @@
     {
       "section": "쿠폰으로 만나는\n가을 상의 아이템",
       "brand": "쿠어",
+      "name": "탑필 캐시미어 라운드 니트 (브라운)",
+      "discountRate": 10,
+      "finalPrice": 98100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20200813/1548474/1548474_3_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1548474"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
       "name": "엑스트라 파인 메리노 울 카라 니트 (그레이시더스티그린)",
       "discountRate": 10,
       "finalPrice": 144000,
@@ -1158,227 +1194,119 @@
     {
       "section": "쿠폰으로 만나는\n가을 상의 아이템",
       "brand": "쿠어",
-      "name": "린넨 블렌드 로우컷 롱 슬리브 스웨터 (내추럴)",
-      "discountRate": 10,
-      "finalPrice": 135000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250214/4790437/4790437_17395135458677_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4790437"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "링클 플레어드 체크 셔츠 (베이지체크)",
-      "discountRate": 10,
-      "finalPrice": 121500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250414/5022474/5022474_17446039782907_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5022474"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "크로셰 후디드 집업 스웨터 (크림)",
-      "discountRate": 10,
-      "finalPrice": 162000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220210/2352401/2352401_1_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2352401"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "그라데이션 핀턱 카라 가디건 (그린)",
-      "discountRate": 10,
-      "finalPrice": 265500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230912/3553882/3553882_16945827010688_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3553882"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "오버핏 울 가디건 (그레이)",
-      "discountRate": 10,
-      "finalPrice": 112500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20210216/1795634/1795634_5_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/1795634"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "테리 오픈 칼라 가디건 (다크그레이)",
-      "discountRate": 10,
-      "finalPrice": 157500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230206/3062276/3062276_16764441947522_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3062276"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "탑필 울 라운드 니트 (블루그레이)",
-      "discountRate": 10,
-      "finalPrice": 72900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20200813/1548451/1548451_17242900824914_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/1548451"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "데미지 언발란스 풀오버 니트 (화이트)",
-      "discountRate": 10,
-      "finalPrice": 139500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220210/2353006/2353006_1_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2353006"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "트위드 피셔맨 풀오버 니트 (네이비)",
+      "name": "페이퍼 버튼다운 셔츠 (브라운)",
       "discountRate": 10,
       "finalPrice": 94500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230203/3058260/3058260_16758385685068_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3058260"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240130/3833407/3833407_17067545551267_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3833407"
     },
     {
       "section": "쿠폰으로 만나는\n가을 상의 아이템",
       "brand": "쿠어",
-      "name": "오버사이즈 플렌티풀 셔츠 (다크브라운)",
+      "name": "오버사이즈 롱라인 린넨 셔츠 (화이트)",
+      "discountRate": 10,
+      "finalPrice": 116100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220210/2352998/2352998_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2352998"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "컷오프 트위드 아우터 셔츠 (라이트브라운)",
+      "discountRate": 10,
+      "finalPrice": 135000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220210/2352946/2352946_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2352946"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "크로셰 오픈 칼라 니트 (크림)",
       "discountRate": 10,
       "finalPrice": 117000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230214/3082758/3082758_16771184289162_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3082758"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220210/2352379/2352379_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2352379"
     },
     {
       "section": "쿠폰으로 만나는\n가을 상의 아이템",
       "brand": "쿠어",
-      "name": "오버핏 울 가디건 (블랙)",
-      "discountRate": 10,
-      "finalPrice": 112500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20210216/1795629/1795629_3_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/1795629"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "에어리 알파카 카라 니트 (멜란지그레이)",
-      "discountRate": 10,
-      "finalPrice": 153000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250214/4790497/4790497_17395136795255_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4790497"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "브이넥 코튼 블렌드 헤비 니쥬 가디건 (카키브라운)",
-      "discountRate": 10,
-      "finalPrice": 175500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240206/3851889/3851889_17072963524324_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3851889"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "넵트 코튼 투 포켓 셔츠 자켓 (화이트)",
-      "discountRate": 10,
-      "finalPrice": 153000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240130/3833414/3833414_17067544111062_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3833414"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "페이크 스웨이드 오버사이즈 셔츠 (블랙)",
-      "discountRate": 10,
-      "finalPrice": 144000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240829/4384467/4384467_17252783523215_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4384467"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "그런지 크루넥 스웨터 (베이비퍼플)",
-      "discountRate": 10,
-      "finalPrice": 148500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230206/3062161/3062161_16764440845892_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3062161"
-    },
-    {
-      "section": "쿠폰으로 만나는\n가을 상의 아이템",
-      "brand": "쿠어",
-      "name": "탑필 울 라운드 니트 (블랙)",
+      "name": "탑필 울 라운드 니트 (웜샌드)",
       "discountRate": 10,
       "finalPrice": 72900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20200813/1548435/1548435_17242901841332_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/1548435"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20200813/1548457/1548457_17242898672828_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1548457"
     },
     {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "[SET] 쿨링 진정 장벽 세트 (컨트롤 장벽 로션 150ml + 컨트롤 장벽 클렌저 150ml + 7초 진정 앰플 패드 100매)",
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "테리 오픈 칼라 가디건 (멜란지핑크)",
       "discountRate": 10,
-      "finalPrice": 93600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748644/6748644_17827279274217_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6748644"
+      "finalPrice": 157500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230206/3062284/3062284_16764443565163_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3062284"
     },
     {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "[SET] 수분 촉촉 딥클렌징 세트 (컨트롤 장벽 클렌저 150ml + 버블 클리어 포밍워시 155ml + 원스텝 클렌징 오일 200ml)",
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "오버핏 울 가디건 (그린)",
       "discountRate": 10,
-      "finalPrice": 67500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748787/6748787_17827292164411_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6748787"
+      "finalPrice": 112500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220210/2351365/2351365_2_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2351365"
     },
     {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "컨트롤 장벽 클렌저 340ml (+증정)컨트롤 장벽 클렌저 30ml",
-      "discountRate": 15,
-      "finalPrice": 36500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7038628/7038628_17863532521274_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7038628"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "컨트롤 장벽 로션 150ml x 2개 [총 300ml] (+증정)컨트롤 장벽 로션 20ml",
-      "discountRate": 15,
-      "finalPrice": 49300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748954/6748954_17827964926870_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6748954"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "히알프렙™ 수분광 버블 세럼 95ml",
-      "discountRate": 15,
-      "finalPrice": 24200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6881440/6881440_17872750177530_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6881440"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "컨트롤 장벽 클렌저 150ml x 2개 [총 300ml] (+증정)컨트롤 장벽 클렌저 30ml",
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "피스 다이드 립 니트 후디 집업 (틸블루)",
       "discountRate": 10,
-      "finalPrice": 37800,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748988/6748988_17827964697595_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6748988"
+      "finalPrice": 229500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240215/3871870/3871870_17080511114532_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3871870"
     },
     {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "히알프렙™ 수분 잠금 크림 60ml",
-      "discountRate": 15,
-      "finalPrice": 24600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6881462/6881462_17872750496420_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6881462"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "리바이포유",
-      "name": "7초 진정 앰플 패드 100매 x 2개 [총 200매] (+증정)컨트롤 장벽 로션 20ml+컨트롤 장벽 크림 20ml",
-      "discountRate": 20,
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "포플린 히든 버튼 드레스 셔츠 (다크네이비)",
+      "discountRate": 10,
       "finalPrice": 86400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6749003/6749003_17827323047970_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6749003"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220308/2407173/2407173_2_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2407173"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "캐시팝 트위드 크루넥 니트 (월넛브라운)",
+      "discountRate": 10,
+      "finalPrice": 99000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240130/3833442/3833442_17067542478311_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3833442"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "에센셜 니트 후드 집업 (블랙)",
+      "discountRate": 10,
+      "finalPrice": 170100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240830/4390350/4390350_17252781495618_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4390350"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "엑스트라 파인 메리노 울 카라 니트 (블랙)",
+      "discountRate": 10,
+      "finalPrice": 144000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240215/3871693/3871693_17080524710905_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3871693"
+    },
+    {
+      "section": "쿠폰으로 만나는\n가을 상의 아이템",
+      "brand": "쿠어",
+      "name": "오버핏 울 가디건 (웜샌드)",
+      "discountRate": 10,
+      "finalPrice": 112500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20210216/1795635/1795635_3_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1795635"
     },
     {
       "section": "오직 무신사 뷰티",
@@ -1392,11 +1320,254 @@
     {
       "section": "오직 무신사 뷰티",
       "brand": "리바이포유",
+      "name": "7초 진정 앰플 패드 100매 x 2개 [총 200매] (+증정)컨트롤 장벽 로션 20ml+컨트롤 장벽 크림 20ml",
+      "discountRate": 20,
+      "finalPrice": 86400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6749003/6749003_17827323047970_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6749003"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
       "name": "히알프렙™ 수분 탱글 앰플 45ml",
       "discountRate": 15,
       "finalPrice": 26300,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6881450/6881450_17872750360107_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6881450"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "컨트롤 장벽 클렌저 150ml x 2개 [총 300ml] (+증정)컨트롤 장벽 클렌저 30ml",
+      "discountRate": 10,
+      "finalPrice": 37800,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748988/6748988_17827964697595_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6748988"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "[SET] 쿨링 진정 장벽 세트 (컨트롤 장벽 로션 150ml + 컨트롤 장벽 클렌저 150ml + 7초 진정 앰플 패드 100매)",
+      "discountRate": 10,
+      "finalPrice": 93600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748644/6748644_17827279274217_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6748644"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "히알프렙™ 수분광 버블 세럼 95ml",
+      "discountRate": 15,
+      "finalPrice": 24200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6881440/6881440_17872750177530_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6881440"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "컨트롤 장벽 클렌저 340ml (+증정)컨트롤 장벽 클렌저 30ml",
+      "discountRate": 15,
+      "finalPrice": 36500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7038628/7038628_17863532521274_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7038628"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "히알프렙™ 수분 잠금 크림 60ml",
+      "discountRate": 15,
+      "finalPrice": 24600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6881462/6881462_17872750496420_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6881462"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "컨트롤 장벽 로션 150ml x 2개 [총 300ml] (+증정)컨트롤 장벽 로션 20ml",
+      "discountRate": 15,
+      "finalPrice": 49300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748954/6748954_17827964926870_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6748954"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "리바이포유",
+      "name": "[SET] 수분 촉촉 딥클렌징 세트 (컨트롤 장벽 클렌저 150ml + 버블 클리어 포밍워시 155ml + 원스텝 클렌징 오일 200ml)",
+      "discountRate": 10,
+      "finalPrice": 67500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748787/6748787_17827292164411_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6748787"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "남성 제로스팟 다운자켓_KH",
+      "discountRate": 60,
+      "finalPrice": 99000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240905/4410991/4410991_17255236975563_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4410991"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "남성 베이직 퀼팅형 라운드넥 다운자켓_CH",
+      "discountRate": 64,
+      "finalPrice": 79000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240925/4462416/4462416_17272425239910_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4462416"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "남성 제로스팟 다운자켓_GY",
+      "discountRate": 61,
+      "finalPrice": 96030,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240905/4410988/4410988_17255236864192_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4410988"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "남성 루클라 하이넥 튜브 다운자켓#1",
+      "discountRate": 57,
+      "finalPrice": 129000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250904/5400821/5400821_17569500714913_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5400821"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "남성 루클라 하이넥 튜브 다운자켓#1_BK",
+      "discountRate": 57,
+      "finalPrice": 129000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388048/5388048_17567802300083_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5388048"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "여성 제로스팟 다운자켓_BK",
+      "discountRate": 60,
+      "finalPrice": 99000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240905/4411149/4411149_17255239985045_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4411149"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "여성 제로스팟 다운자켓#2_DU",
+      "discountRate": 54,
+      "finalPrice": 115000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388110/5388110_17567803091435_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5388110"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "공용 클라이밍 스톤마스터 라이트 다운자켓#3_(5color)",
+      "discountRate": 15,
+      "finalPrice": 254000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908583/6908583_17853877119438_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6908583"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "남성 제로스팟 후디 다운자켓#1_LE",
+      "discountRate": 53,
+      "finalPrice": 149000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250916/5469943/5469943_17580048307088_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5469943"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "여성 웰딩 라운드넥 다운 자켓_KH",
+      "discountRate": 53,
+      "finalPrice": 98100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250313/4892005/4892005_17418260938044_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4892005"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "남성 제로스팟 다운자켓_DB",
+      "discountRate": 60,
+      "finalPrice": 99000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240905/4410985/4410985_17255236792248_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4410985"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "남성 루클라 셔츠 튜브 다운자켓#1_BK",
+      "discountRate": 56,
+      "finalPrice": 109000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388040/5388040_17567802167667_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5388040"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "여성 제로스팟 다운자켓#2_DI",
+      "discountRate": 54,
+      "finalPrice": 115000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388115/5388115_17567803159192_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5388115"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "여성 제로스팟 다운자켓#2_BK",
+      "discountRate": 54,
+      "finalPrice": 115000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388121/5388121_17567803229891_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5388121"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "여성 웰딩 라운드넥 다운 자켓_DU",
+      "discountRate": 53,
+      "finalPrice": 98100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250313/4892002/4892002_17418260855256_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4892002"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "여성 제로스팟 후디 다운자켓#2_RP",
+      "discountRate": 53,
+      "finalPrice": 149000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250916/5470039/5470039_17580051020910_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5470039"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "남성 제로스팟 후디 다운자켓#1_NA",
+      "discountRate": 53,
+      "finalPrice": 149000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250916/5469938/5469938_17580048172496_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5469938"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "여성 루클라 벨트 튜브 다운자켓#2_LT",
+      "discountRate": 59,
+      "finalPrice": 139000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388133/5388133_17610102685456_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5388133"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "여성 제로스팟 다운자켓_PI",
+      "discountRate": 60,
+      "finalPrice": 99000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240905/4411140/4411140_17255239861198_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4411140"
     },
     {
       "section": "경량 패딩 페스티벌",
@@ -1419,38 +1590,11 @@
     {
       "section": "경량 패딩 페스티벌",
       "brand": "블랙야크",
-      "name": "공용 스퀘어퀼팅 다운자켓 G2#3_BK",
-      "discountRate": 50,
-      "finalPrice": 129000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251017/5608415/5608415_17610098687185_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5608415"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "여성 제로스팟 후디 다운자켓#2_RP",
-      "discountRate": 53,
-      "finalPrice": 149000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250916/5470039/5470039_17580051020910_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5470039"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "남성 베이직 퀼팅형 라운드넥 다운자켓_CH",
-      "discountRate": 64,
-      "finalPrice": 79000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240925/4462416/4462416_17272425239910_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4462416"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "남성 제로스팟 후디 다운자켓#1_NA",
-      "discountRate": 53,
-      "finalPrice": 149000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250916/5469938/5469938_17580048172496_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5469938"
+      "name": "여성 에센셜 초경량 다운자켓#2_DU",
+      "discountRate": 49,
+      "finalPrice": 95830,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250925/5529035/5529035_17587749829150_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5529035"
     },
     {
       "section": "경량 패딩 페스티벌",
@@ -1464,164 +1608,11 @@
     {
       "section": "경량 패딩 페스티벌",
       "brand": "블랙야크",
-      "name": "여성 제로스팟 다운자켓#2_DI",
-      "discountRate": 54,
-      "finalPrice": 115000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388115/5388115_17567803159192_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5388115"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "여성 웰딩 라운드넥 다운 자켓_KH",
-      "discountRate": 53,
-      "finalPrice": 98100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250313/4892005/4892005_17418260938044_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4892005"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "남성 라이트 하이넥 다운 자켓_DT",
-      "discountRate": 57,
-      "finalPrice": 80100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250313/4891902/4891902_17418255754553_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4891902"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "여성 제로스팟 다운자켓_PI",
-      "discountRate": 60,
-      "finalPrice": 99000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240905/4411140/4411140_17255239861198_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4411140"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "남성 루클라 하이넥 튜브 다운자켓#1_BK",
-      "discountRate": 57,
-      "finalPrice": 129000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388048/5388048_17567802300083_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5388048"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
       "name": "여성 제로스팟 다운자켓_CM",
       "discountRate": 60,
       "finalPrice": 99000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240905/4411144/4411144_17255239918747_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4411144"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "남성 제로스팟 다운자켓_KH",
-      "discountRate": 60,
-      "finalPrice": 99000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240905/4410991/4410991_17255236975563_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4410991"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "공용 클라이밍 스톤마스터 라이트 다운자켓#3_(5color)",
-      "discountRate": 15,
-      "finalPrice": 254000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908583/6908583_17853877119438_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6908583"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "여성 제로스팟 다운자켓_BK",
-      "discountRate": 60,
-      "finalPrice": 99000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240905/4411149/4411149_17255239985045_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4411149"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "남성 루클라 하이넥 튜브 다운자켓#1",
-      "discountRate": 57,
-      "finalPrice": 129000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250904/5400821/5400821_17569500714913_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5400821"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "남성 제로스팟 다운자켓#1_SV",
-      "discountRate": 54,
-      "finalPrice": 115000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388058/5388058_17567802420878_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5388058"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "남성 제로스팟 다운자켓_DB",
-      "discountRate": 60,
-      "finalPrice": 99000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240905/4410985/4410985_17255236792248_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4410985"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "남성 에센셜 초경량 다운자켓#1_AS",
-      "discountRate": 49,
-      "finalPrice": 95830,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250925/5529005/5529005_17587748862308_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5529005"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "여성 에센셜 초경량 다운자켓#2_DU",
-      "discountRate": 49,
-      "finalPrice": 95830,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250925/5529035/5529035_17587749829150_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5529035"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "여성 에센셜 초경량 다운자켓#2_BK",
-      "discountRate": 49,
-      "finalPrice": 95830,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250925/5529039/5529039_17587749887712_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5529039"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "남성 루클라 셔츠 튜브 다운자켓#1_BK",
-      "discountRate": 56,
-      "finalPrice": 109000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388040/5388040_17567802167667_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5388040"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "남성 제로스팟 후디 다운자켓#1_LE",
-      "discountRate": 53,
-      "finalPrice": 149000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250916/5469943/5469943_17580048307088_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5469943"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "여성 제로스팟 다운자켓#2_DU",
-      "discountRate": 54,
-      "finalPrice": 115000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388110/5388110_17567803091435_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5388110"
     },
     {
       "section": "경량 패딩 페스티벌",
@@ -1635,38 +1626,47 @@
     {
       "section": "경량 패딩 페스티벌",
       "brand": "블랙야크",
-      "name": "여성 루클라 벨트 튜브 다운자켓#2_LT",
-      "discountRate": 59,
-      "finalPrice": 139000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388133/5388133_17610102685456_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5388133"
+      "name": "남성 루클라 하이넥 튜브 다운자켓#1_AS",
+      "discountRate": 57,
+      "finalPrice": 129000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388052/5388052_17610103305894_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5388052"
     },
     {
       "section": "경량 패딩 페스티벌",
       "brand": "블랙야크",
-      "name": "여성 제로스팟 다운자켓#2_BK",
+      "name": "남성 라이트 하이넥 다운 자켓_DT",
+      "discountRate": 57,
+      "finalPrice": 80100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250313/4891902/4891902_17418255754553_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4891902"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "남성 제로스팟 다운자켓#1",
       "discountRate": 54,
       "finalPrice": 115000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388121/5388121_17567803229891_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5388121"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250904/5400828/5400828_17569500831984_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5400828"
     },
     {
       "section": "경량 패딩 페스티벌",
       "brand": "블랙야크",
-      "name": "여성 제로스팟 후디 다운자켓#2_LE",
+      "name": "공용 스퀘어퀼팅 다운자켓 G2#3_BK",
+      "discountRate": 50,
+      "finalPrice": 129000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251017/5608415/5608415_17610098687185_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5608415"
+    },
+    {
+      "section": "경량 패딩 페스티벌",
+      "brand": "블랙야크",
+      "name": "남성 제로스팟 후디 다운자켓#1_BK",
       "discountRate": 53,
       "finalPrice": 149000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250916/5470037/5470037_17580050962376_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5470037"
-    },
-    {
-      "section": "경량 패딩 페스티벌",
-      "brand": "블랙야크",
-      "name": "여성 루클라 벨트 튜브 다운자켓#2_BK",
-      "discountRate": 59,
-      "finalPrice": 139000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5388126/5388126_17567803295691_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5388126"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250916/5469941/5469941_17580048236706_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5469941"
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
