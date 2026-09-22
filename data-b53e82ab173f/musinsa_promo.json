@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-09-22T19:27:10.293661+00:00",
+  "updatedAt": "2026-09-22T22:35:47.850147+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -95,15 +95,6 @@
     },
     {
       "section": "한정수량 선착순 특가",
-      "brand": "막스마라",
-      "name": "로고 자수 코튼 트렌치 코트 - 네로 / 2511021012600009",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250401/4971091/4971091_17445996052591_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4971091"
-    },
-    {
-      "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드 홈 & 프로덕트",
       "name": "[루메나컬래버] 포터블 조명 선물 세트 [2PACK]",
       "discountRate": 0,
@@ -140,6 +131,15 @@
     },
     {
       "section": "타임특가",
+      "brand": "브렌슨",
+      "name": "(Renew Ver.) 와이드 스웨트 팬츠 ( 5Color ) ( 기모선택 )",
+      "discountRate": 30,
+      "finalPrice": 24400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20210105/1736085/1736085_17292148923657_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1736085"
+    },
+    {
+      "section": "타임특가",
       "brand": "프리플라",
       "name": "clo2333 Everyday Square Flats - 2 Colors",
       "discountRate": 65,
@@ -158,12 +158,39 @@
     },
     {
       "section": "타임특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 레이어드 미니 스코츠 [차콜 그레이]",
+      "discountRate": 25,
+      "finalPrice": 29920,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241231/4687212/4687212_17467727936774_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4687212"
+    },
+    {
+      "section": "타임특가",
+      "brand": "낫소",
+      "name": "아일린 독일군 스니커즈 - 3color",
+      "discountRate": 57,
+      "finalPrice": 15900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250109/4708803/4708803_17827018624877_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4708803"
+    },
+    {
+      "section": "타임특가",
       "brand": "시그니처",
       "name": "더블턱 와이드 트레이닝 팬츠[블랙]",
       "discountRate": 55,
       "finalPrice": 22400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250213/4787237/4787237_17872918845118_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4787237"
+    },
+    {
+      "section": "타임특가",
+      "brand": "슈퍼서브",
+      "name": "스페이스 에일리언 래글런 긴팔티 - 그레이/네이비",
+      "discountRate": 54,
+      "finalPrice": 25020,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250224/4825766/4825766_17407297824059_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4825766"
     },
     {
       "section": "타임특가",
@@ -185,6 +212,15 @@
     },
     {
       "section": "타임특가",
+      "brand": "시그니처",
+      "name": "라운드넥 크롭 니트 가디건[네이비]",
+      "discountRate": 40,
+      "finalPrice": 29900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5314369/5314369_17755496090186_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5314369"
+    },
+    {
+      "section": "타임특가",
       "brand": "쿠톤",
       "name": "모먼트 피그먼트 오버핏 반팔 티셔츠",
       "discountRate": 40,
@@ -200,6 +236,15 @@
       "finalPrice": 21000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250819/5338367/5338367_17652429676327_500.png",
       "productUrl": "https://www.musinsa.com/products/5338367"
+    },
+    {
+      "section": "타임특가",
+      "brand": "갭",
+      "name": "아크로 스니커즈 브라운",
+      "discountRate": 43,
+      "finalPrice": 33900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250822/5355236/5355236_17558465575334_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5355236"
     },
     {
       "section": "타임특가",
@@ -293,30 +338,21 @@
     },
     {
       "section": "타임특가",
+      "brand": "슬로우애시드",
+      "name": "아카이브 에디션 쇼퍼백 [4COLOR]",
+      "discountRate": 35,
+      "finalPrice": 48100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260414/6307091/6307091_17800206731839_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6307091"
+    },
+    {
+      "section": "타임특가",
       "brand": "미세키서울 맨",
       "name": "Asymmetric curved long sleeve CHARCOAL",
       "discountRate": 25,
       "finalPrice": 69750,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6876626/6876626_17883981138133_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6876626"
-    },
-    {
-      "section": "타임특가",
-      "brand": "엔와이엑스엑스",
-      "name": "95 BASIC L/S PURPLE",
-      "discountRate": 30,
-      "finalPrice": 25200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260721/6888269/6888269_17866099198416_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6888269"
-    },
-    {
-      "section": "타임특가",
-      "brand": "엔와이엑스엑스",
-      "name": "95 BASIC L/S BLACK",
-      "discountRate": 30,
-      "finalPrice": 25200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260721/6888450/6888450_17866098331284_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6888450"
     },
     {
       "section": "타임특가",
@@ -335,6 +371,15 @@
       "finalPrice": 25620,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6965900/6965900_17882322630884_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6965900"
+    },
+    {
+      "section": "타임특가",
+      "brand": "언탭트 스튜디오",
+      "name": "340G 사이드라인 와이드 스웨트 트레이닝 팬츠 3Color",
+      "discountRate": 40,
+      "finalPrice": 25620,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6965984/6965984_17882320475191_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6965984"
     },
     {
       "section": "타임특가",
@@ -365,30 +410,12 @@
     },
     {
       "section": "타임특가",
-      "brand": "마인드브릿지",
-      "name": "스웨이드 세미 오버핏 트러커 - 2color",
-      "discountRate": 20,
-      "finalPrice": 159200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6978452/6978452_17900424964534_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6978452"
-    },
-    {
-      "section": "타임특가",
-      "brand": "마인드브릿지",
-      "name": "스웨이드 세미 오버핏 블루종 - 2color",
-      "discountRate": 20,
-      "finalPrice": 159200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6978461/6978461_17899645438483_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6978461"
-    },
-    {
-      "section": "타임특가",
-      "brand": "마인드브릿지",
-      "name": "[COUTURE]브라운 워싱 레더 집업 세미 오버핏 트러커",
-      "discountRate": 20,
-      "finalPrice": 175200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6978466/6978466_17897052755089_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6978466"
+      "brand": "언탭트 스튜디오",
+      "name": "2WAY 에센셜 라이트 경량 후드 패딩 자켓 3Color",
+      "discountRate": 40,
+      "finalPrice": 51000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6966637/6966637_17883349766267_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6966637"
     },
     {
       "section": "타임특가",
@@ -428,12 +455,12 @@
     },
     {
       "section": "타임특가",
-      "brand": "수아레",
-      "name": "핀터 크롭 스웻 팬츠 - 3 COLOR",
-      "discountRate": 42,
-      "finalPrice": 34000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6987908/6987908_17866900533567_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6987908"
+      "brand": "필루미네이트",
+      "name": "피그먼트 스트라이프 롱 슬리브-3Color",
+      "discountRate": 34,
+      "finalPrice": 35900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6990878/6990878_17895206433374_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6990878"
     },
     {
       "section": "타임특가",
@@ -446,21 +473,21 @@
     },
     {
       "section": "타임특가",
-      "brand": "론론",
-      "name": "WASHED VINTAGE COTTON BLOUSON BLUE",
-      "discountRate": 44,
-      "finalPrice": 122760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7002549/7002549_17891096006350_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7002549"
+      "brand": "스탠다드에러",
+      "name": "87-STAN266 나일론 트랙 배색 커브드 라인 윈드브레이커 블랙",
+      "discountRate": 62,
+      "finalPrice": 29900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7000209/7000209_17884891295083_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7000209"
     },
     {
       "section": "타임특가",
-      "brand": "론론",
-      "name": "WASHED VINTAGE COTTON BLOUSON CHARCOAL",
-      "discountRate": 44,
-      "finalPrice": 122760,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7002550/7002550_17894376934621_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7002550"
+      "brand": "기호",
+      "name": "오블리크 패널 스니커즈 블랙",
+      "discountRate": 37,
+      "finalPrice": 106470,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7011133/7011133_17864358013234_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7011133"
     },
     {
       "section": "타임특가",
@@ -474,38 +501,20 @@
     {
       "section": "타임특가",
       "brand": "아이돈워너셀",
-      "name": "Layered Henley Neck Long Sleeve Black",
-      "discountRate": 35,
-      "finalPrice": 54600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260808/7031679/7031679_17877237021534_500.png",
-      "productUrl": "https://www.musinsa.com/products/7031679"
-    },
-    {
-      "section": "타임특가",
-      "brand": "아이돈워너셀",
-      "name": "Layered Henley Neck Long Sleeve Burgundy",
-      "discountRate": 35,
-      "finalPrice": 54600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260808/7031682/7031682_17877236109633_500.png",
-      "productUrl": "https://www.musinsa.com/products/7031682"
-    },
-    {
-      "section": "타임특가",
-      "brand": "드로우핏",
-      "name": "액티브 에어웨이트 윈드브레이커 자켓 [4color]",
-      "discountRate": 30,
-      "finalPrice": 75600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7034282/7034282_17872748506356_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7034282"
-    },
-    {
-      "section": "타임특가",
-      "brand": "아이돈워너셀",
       "name": "Shift Curved Sweat Pants Brown",
       "discountRate": 35,
       "finalPrice": 64350,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7045015/7045015_17885065464560_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7045015"
+    },
+    {
+      "section": "타임특가",
+      "brand": "미세키서울 맨",
+      "name": "Double pocket short field jacket CHARCOAL",
+      "discountRate": 30,
+      "finalPrice": 208600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7050490/7050490_17894399932618_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7050490"
     },
     {
       "section": "타임특가",
@@ -515,15 +524,6 @@
       "finalPrice": 29900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7056605/7056605_17887510111011_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7056605"
-    },
-    {
-      "section": "타임특가",
-      "brand": "스켈리웩",
-      "name": "백 엠보 스웨트 조거 팬츠[블랙]",
-      "discountRate": 40,
-      "finalPrice": 32900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7056742/7056742_17887515326085_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7056742"
     },
     {
       "section": "타임특가",
@@ -590,15 +590,6 @@
     },
     {
       "section": "타임특가",
-      "brand": "언노운 플라넷",
-      "name": "피그먼트 스트라이프 오버핏 롱슬리브 티셔츠 블루",
-      "discountRate": 40,
-      "finalPrice": 41880,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7071538/7071538_17883299150503_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7071538"
-    },
-    {
-      "section": "타임특가",
       "brand": "데이",
       "name": "워싱 코튼 카라 자켓_BROWN",
       "discountRate": 39,
@@ -617,12 +608,30 @@
     },
     {
       "section": "타임특가",
+      "brand": "데이",
+      "name": "세미크롭 골지 긴팔 헨리넥 티셔츠_5 COLOR",
+      "discountRate": 41,
+      "finalPrice": 25250,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7072533/7072533_17884180644235_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7072533"
+    },
+    {
+      "section": "타임특가",
       "brand": "슬릭글로우",
-      "name": "33 레터링 스웨트 팬츠[스카이블루]",
+      "name": "와플 스트라이프 팬츠[블랙]",
+      "discountRate": 37,
+      "finalPrice": 34400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7073375/7073375_17888404756079_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7073375"
+    },
+    {
+      "section": "타임특가",
+      "brand": "트릴리온",
+      "name": "바라클라바 와플 풀오버 후디_3color",
       "discountRate": 30,
       "finalPrice": 34900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7073441/7073441_17888526833972_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7073441"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7074155/7074155_17883157563871_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7074155"
     },
     {
       "section": "타임특가",
@@ -644,30 +653,12 @@
     },
     {
       "section": "타임특가",
-      "brand": "수아레",
-      "name": "미니멀 컴포트 밴딩 팬츠 블랙",
-      "discountRate": 41,
-      "finalPrice": 42700,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260814/7079957/7079957_17866891975622_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7079957"
-    },
-    {
-      "section": "타임특가",
       "brand": "시그니처",
       "name": "머슬핏 리브드 사선 헨리넥 긴팔 티셔츠[그레이]",
       "discountRate": 44,
       "finalPrice": 27900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260814/7082087/7082087_17881641603253_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7082087"
-    },
-    {
-      "section": "타임특가",
-      "brand": "해비즘",
-      "name": "HVSM STRIPE THIN ZIP UP HOOD(WINE)",
-      "discountRate": 49,
-      "finalPrice": 45660,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260814/7086342/7086342_17867078132872_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7086342"
     },
     {
       "section": "타임특가",
@@ -680,24 +671,6 @@
     },
     {
       "section": "타임특가",
-      "brand": "히어리",
-      "name": "플라워 프린팅 원숄더 롱슬리브_빈티지플라워",
-      "discountRate": 50,
-      "finalPrice": 31190,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7098794/7098794_17870593820347_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7098794"
-    },
-    {
-      "section": "타임특가",
-      "brand": "센테어",
-      "name": "[2PACK] 리브드 머슬핏 헨리넥 긴팔 티셔츠  _5color",
-      "discountRate": 54,
-      "finalPrice": 31930,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7102173/7102173_17871066249765_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7102173"
-    },
-    {
-      "section": "타임특가",
       "brand": "슬로우애시드",
       "name": "로버 버튼 프렌치 워크 팬츠 [빈티지 블루]",
       "discountRate": 25,
@@ -707,30 +680,12 @@
     },
     {
       "section": "타임특가",
-      "brand": "마틴콕스",
-      "name": "Nissi - Coffee Brown",
-      "discountRate": 44,
-      "finalPrice": 53200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7106443/7106443_17872891642958_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7106443"
-    },
-    {
-      "section": "타임특가",
       "brand": "스켈리웩",
       "name": "워시드 새깅 플레어 진[블랙]",
       "discountRate": 52,
       "finalPrice": 49900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7107159/7107159_17887585023365_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7107159"
-    },
-    {
-      "section": "타임특가",
-      "brand": "디미트리블랙",
-      "name": "VLAD 커브드 밴딩 카고 팬츠_(코튼 FADE) 3 COLOR",
-      "discountRate": 40,
-      "finalPrice": 33900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7108769/7108769_17872951020904_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7108769"
     },
     {
       "section": "타임특가",
@@ -762,20 +717,20 @@
     {
       "section": "타임특가",
       "brand": "오오엠엘",
-      "name": "스터드 브이넥 스웻셔츠(멜란지 그레이)",
-      "discountRate": 45,
-      "finalPrice": 30090,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7126635/7126635_17876340458690_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7126635"
-    },
-    {
-      "section": "타임특가",
-      "brand": "오오엠엘",
       "name": "스터드 브이넥 스웻셔츠(오트밀)",
       "discountRate": 45,
       "finalPrice": 30090,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7126695/7126695_17876341108011_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7126695"
+    },
+    {
+      "section": "타임특가",
+      "brand": "드릭스",
+      "name": "절개 라이트 후디 패딩 자켓_5color",
+      "discountRate": 40,
+      "finalPrice": 51300,
+      "imgUrl": "https://image.msscdn.net/images/prd_img/20260821/7131273/detail_7131273_17885069194130_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7131273"
     },
     {
       "section": "타임특가",
@@ -914,6 +869,15 @@
     },
     {
       "section": "타임특가",
+      "brand": "마하그리드",
+      "name": "CHECK FLEECE ANORAK[BROWN]",
+      "discountRate": 50,
+      "finalPrice": 39500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260828/7193067/7193067_17889255691023_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7193067"
+    },
+    {
+      "section": "타임특가",
       "brand": "비버리힐스 폴로클럽",
       "name": "남성 시그니처 베이직 로고 맨투맨 4Color TS168",
       "discountRate": 65,
@@ -929,15 +893,6 @@
       "finalPrice": 38500,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260831/7202539/7202539_17882452512392_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7202539"
-    },
-    {
-      "section": "타임특가",
-      "brand": "고스트리퍼블릭",
-      "name": "절개 래글런 세미크롭 후드집업 2Color GHZ-279",
-      "discountRate": 51,
-      "finalPrice": 26010,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260901/7213369/7213369_17896186081765_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7213369"
     },
     {
       "section": "타임특가",
@@ -974,6 +929,15 @@
       "finalPrice": 29900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260901/7217545/7217545_17882541034550_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7217545"
+    },
+    {
+      "section": "타임특가",
+      "brand": "요세미티",
+      "name": "YMT 로고 자수 세미크롭 후드집업 3Color YHZ-2Y05",
+      "discountRate": 41,
+      "finalPrice": 33900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260901/7217664/7217664_17894517526601_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7217664"
     },
     {
       "section": "타임특가",
@@ -1022,12 +986,48 @@
     },
     {
       "section": "타임특가",
+      "brand": "언탭트 스튜디오",
+      "name": "340G 유니버스 오버랩 에센셜 벌룬 오버핏 후드 티셔츠 3Color",
+      "discountRate": 40,
+      "finalPrice": 34140,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260904/7250031/7250031_17885059767917_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7250031"
+    },
+    {
+      "section": "타임특가",
+      "brand": "리",
+      "name": "우먼 에어라이트 후드 다운 버터",
+      "discountRate": 10,
+      "finalPrice": 179100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260906/7259294/7259294_17888550772451_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7259294"
+    },
+    {
+      "section": "타임특가",
       "brand": "지크립",
       "name": "에센셜 2way 레이어드 배색 후드집업 3Color",
       "discountRate": 53,
       "finalPrice": 25770,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260909/7284616/7284616_17889218596339_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7284616"
+    },
+    {
+      "section": "타임특가",
+      "brand": "마하그리드",
+      "name": "mah FLEECE PANTS[MINT]",
+      "discountRate": 50,
+      "finalPrice": 44500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260909/7290772/7290772_17896966864690_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7290772"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "무신사 스탠다드",
+      "name": "사피아노 신세틱 레더 벨트_30mm",
+      "discountRate": 31,
+      "finalPrice": 10990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20191112/1220731/1220731_17816824726051_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1220731"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1046,6 +1046,15 @@
       "finalPrice": 35500,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20210917/2140335/2140335_9_500.jpg",
       "productUrl": "https://www.musinsa.com/products/2140335"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "시그니처",
+      "name": "더블턱 와이드 슬랙스[블랙]",
+      "discountRate": 51,
+      "finalPrice": 29000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220524/2578996/2578996_17870331293023_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2578996"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1130,12 +1139,39 @@
     },
     {
       "section": "26 추석 시그니처특가",
+      "brand": "리메인세컨드",
+      "name": "레트로 오버핏 코튼 플란넬 포켓 체크 셔츠 [그린]",
+      "discountRate": 62,
+      "finalPrice": 22300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250108/4705635/4705635_17670774272725_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4705635"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "락피쉬웨더웨어",
+      "name": "BELLA QUILTED MARYJANES - 9 colors",
+      "discountRate": 20,
+      "finalPrice": 67200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250131/4747689/4747689_17893695434456_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4747689"
+    },
+    {
+      "section": "26 추석 시그니처특가",
       "brand": "수아레",
       "name": "크로매틱 워셔블 가디건 - 7 COLOR",
       "discountRate": 57,
       "finalPrice": 29550,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250131/4748645/4748645_17585135560920_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4748645"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "커스텀어클락",
+      "name": "소프트 베이직 라운드 가디건 그레이 COOSCD020GRAY",
+      "discountRate": 40,
+      "finalPrice": 35400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250204/4757410/4757410_17890046125390_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4757410"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1157,12 +1193,39 @@
     },
     {
       "section": "26 추석 시그니처특가",
+      "brand": "비터셀즈",
+      "name": "포디 플리스 하프 집업-3Colors",
+      "discountRate": 30,
+      "finalPrice": 76300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250724/5270140/5270140_17557512212341_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5270140"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "드로우핏",
+      "name": "[패션플래닛X드로우핏] 세미 와이드 치노 팬츠 [6color]",
+      "discountRate": 30,
+      "finalPrice": 46200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250728/5275962/5275962_17564335392185_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5275962"
+    },
+    {
+      "section": "26 추석 시그니처특가",
       "brand": "무르",
       "name": "Bento bag(18color)",
       "discountRate": 70,
       "finalPrice": 34800,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250801/5287010/5287010_17846161376018_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5287010"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "비긴202",
+      "name": "루보 트위스트 팬츠 [토프 베이지]",
+      "discountRate": 40,
+      "finalPrice": 77400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250804/5290840/5290840_17702664238173_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5290840"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1190,6 +1253,15 @@
       "finalPrice": 124030,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5316820/5316820_17882200711573_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5316820"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "효지",
+      "name": "FW 워셔블 케이블 크롭 헨리넥 니트 (8컬러)",
+      "discountRate": 49,
+      "finalPrice": 32950,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250817/5328224/5328224_17882470563523_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5328224"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1265,6 +1337,15 @@
     },
     {
       "section": "26 추석 시그니처특가",
+      "brand": "그랜디오시티",
+      "name": "[짐웨어] 우먼 부츠 컷 팬츠 (2컬러)",
+      "discountRate": 51,
+      "finalPrice": 18900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260212/6017182/6017182_17708707243809_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6017182"
+    },
+    {
+      "section": "26 추석 시그니처특가",
       "brand": "누아트 스튜디오",
       "name": "보스턴 스웨이드 슬라이드 클로그_3colors",
       "discountRate": 65,
@@ -1328,6 +1409,15 @@
     },
     {
       "section": "26 추석 시그니처특가",
+      "brand": "셋업이엑스이",
+      "name": "SKELETON RAGLAN TOP / MINT",
+      "discountRate": 40,
+      "finalPrice": 44400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941652/6941652_17877360886574_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6941652"
+    },
+    {
+      "section": "26 추석 시그니처특가",
       "brand": "웬즈데이오아시스 포 우먼",
       "name": "[무신사 에디션 X 세니] 도트 셔츠 레이어드 카디건_3COLOR",
       "discountRate": 45,
@@ -1383,11 +1473,29 @@
     {
       "section": "26 추석 시그니처특가",
       "brand": "미세키서울",
+      "name": "Layered placket long sleeve BLACK",
+      "discountRate": 30,
+      "finalPrice": 68600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968399/6968399_17877238851695_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6968399"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "미세키서울",
       "name": "Layered placket long sleeve CHARCOAL",
       "discountRate": 30,
       "finalPrice": 68600,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968434/6968434_17877238346364_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6968434"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "미세키서울",
+      "name": "Asymmetric shirring button shirt WHITE",
+      "discountRate": 30,
+      "finalPrice": 89600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968500/6968500_17877226361869_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6968500"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1397,51 +1505,6 @@
       "finalPrice": 55250,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6970058/6970058_17893504439093_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6970058"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "트릴리온",
-      "name": "에센셜 피그먼트 스냅 크롭 후디_5color",
-      "discountRate": 41,
-      "finalPrice": 33990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6970660/6970660_17864360117218_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6970660"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "트릴리온",
-      "name": "에센셜 CP 원턱 스웨트 팬츠_3color",
-      "discountRate": 44,
-      "finalPrice": 23990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6970664/6970664_17872073077264_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6970664"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "트릴리온",
-      "name": "세미 와이드 릴렉스 데님 팬츠_5color",
-      "discountRate": 48,
-      "finalPrice": 25990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6970665/6970665_17864379201570_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6970665"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "트릴리온",
-      "name": "[논페이드] 커브드 로우 다트 데님 팬츠_블랙",
-      "discountRate": 54,
-      "finalPrice": 29990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6970667/6970667_17872090501542_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6970667"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "트릴리온",
-      "name": "[논페이드] 12oz TYPE 1 데님 트러커 자켓_인디고",
-      "discountRate": 45,
-      "finalPrice": 42990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6970676/6970676_17872080384404_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6970676"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1472,42 +1535,6 @@
     },
     {
       "section": "26 추석 시그니처특가",
-      "brand": "트릴리온",
-      "name": "[6.5CM UP] 논슬립 러기드 스웨이드 뮬_브라운",
-      "discountRate": 58,
-      "finalPrice": 39990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260802/6976459/6976459_17859010788931_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6976459"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "트릴리온",
-      "name": "[6.5CM UP] 논슬립 러기드 스웨이드 뮬_블랙",
-      "discountRate": 58,
-      "finalPrice": 39990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260802/6976462/6976462_17859011190578_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6976462"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "마인드브릿지",
-      "name": "[ON]코튼100% 커브드 와이드 코튼 데일리 데님 팬츠 - 3color",
-      "discountRate": 55,
-      "finalPrice": 35900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6978438/6978438_17897052276579_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6978438"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "마인드브릿지",
-      "name": "[ON]스웨이드 스탠 에리 오버핏 바이커 트러커 - 2color",
-      "discountRate": 55,
-      "finalPrice": 89100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260803/6978446/6978446_17894371996632_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6978446"
-    },
-    {
-      "section": "26 추석 시그니처특가",
       "brand": "필루미네이트",
       "name": "핀 스트라이프 헨리넥 롱 슬리브-3Color",
       "discountRate": 37,
@@ -1526,24 +1553,6 @@
     },
     {
       "section": "26 추석 시그니처특가",
-      "brand": "수아레",
-      "name": "데일리 크롭 카라 니트 - 5 COLOR",
-      "discountRate": 46,
-      "finalPrice": 28080,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6987920/6987920_17866906940704_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6987920"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "트릴리온",
-      "name": "코듀로이 프렌치 워크 자켓_4color",
-      "discountRate": 41,
-      "finalPrice": 49990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260805/7003262/7003262_17864278746396_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7003262"
-    },
-    {
-      "section": "26 추석 시그니처특가",
       "brand": "언더오프",
       "name": "세미 오버 크롭핏 라운드 가디건 브라운",
       "discountRate": 51,
@@ -1553,12 +1562,12 @@
     },
     {
       "section": "26 추석 시그니처특가",
-      "brand": "노이즈",
-      "name": "레이어드 다이애그널 버튼 후드 티_[YELLOW]",
-      "discountRate": 50,
-      "finalPrice": 49800,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260810/7039089/7039089_17877259194886_500.png",
-      "productUrl": "https://www.musinsa.com/products/7039089"
+      "brand": "워크온바디오프",
+      "name": "아르코 세미 와이드 커브드 트윌 팬츠 [브라운]",
+      "discountRate": 45,
+      "finalPrice": 45450,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7011461/7011461_17881637060449_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7011461"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1580,30 +1589,12 @@
     },
     {
       "section": "26 추석 시그니처특가",
-      "brand": "오픈야드(오와이)",
-      "name": "LOGO PATCH HOODIE ZIP UP - MINT",
-      "discountRate": 40,
-      "finalPrice": 71400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7047362/7047362_17867140274459_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7047362"
-    },
-    {
-      "section": "26 추석 시그니처특가",
       "brand": "데이",
       "name": "스웨이드 레더 바이커 자켓_BROWN",
       "discountRate": 41,
       "finalPrice": 49750,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7048338/7048338_17864299914069_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7048338"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "레프트서울",
-      "name": "맨즈 어반 램스킨 자켓 [블랙]",
-      "discountRate": 50,
-      "finalPrice": 154500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7050672/7050672_17890059336842_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7050672"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1769,33 +1760,6 @@
     },
     {
       "section": "26 추석 시그니처특가",
-      "brand": "슈펜",
-      "name": "버클 폴딩 미들부츠 4cm(HPWXAFFV01 RE) HPWXAGF902",
-      "discountRate": 29,
-      "finalPrice": 49900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7105295/7105295_17890979240524_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7105295"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "디미트리블랙",
-      "name": "[리뉴얼] 라이트 쉘 경량 PCK 다운 자켓_립스탑 그레이",
-      "discountRate": 34,
-      "finalPrice": 79900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7108772/7108772_17872798994322_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7108772"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "디미트리블랙",
-      "name": "[10주년기획] © 모두의 Comfortemp® 미드웨이트 패딩_4 COLOR",
-      "discountRate": 48,
-      "finalPrice": 69900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260819/7108774/7108774_17885055232191_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7108774"
-    },
-    {
-      "section": "26 추석 시그니처특가",
       "brand": "미드나잇 무브",
       "name": "pt letter zip up (purple)",
       "discountRate": 40,
@@ -1824,11 +1788,29 @@
     {
       "section": "26 추석 시그니처특가",
       "brand": "이스케이프프롬",
+      "name": "나폴레옹 디테일 사이드 지퍼 후드집업 버건디",
+      "discountRate": 43,
+      "finalPrice": 63960,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7133984/7133984_17878857974530_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7133984"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "이스케이프프롬",
       "name": "나폴레옹 디테일 사이드 지퍼 후드집업 그레이",
       "discountRate": 43,
       "finalPrice": 63960,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7133986/7133986_17878858849711_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7133986"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "이스케이프프롬",
+      "name": "나폴레옹 디테일 스웻팬츠 그레이",
+      "discountRate": 43,
+      "finalPrice": 56910,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7133997/7133997_17878859143874_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7133997"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1841,21 +1823,21 @@
     },
     {
       "section": "26 추석 시그니처특가",
+      "brand": "엘엠알",
+      "name": "오프숄더 레터링 그래픽 후드 긴팔 티셔츠 IVORY",
+      "discountRate": 57,
+      "finalPrice": 25900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260823/7140082/7140082_17882429704304_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7140082"
+    },
+    {
+      "section": "26 추석 시그니처특가",
       "brand": "노드랩스",
       "name": "DEV:12 플리스 후드 하프집업_그레이",
       "discountRate": 26,
       "finalPrice": 95900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260824/7144341/7144341_17884821505984_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7144341"
-    },
-    {
-      "section": "26 추석 시그니처특가",
-      "brand": "무신사 스탠다드 스포츠",
-      "name": "벤트 시어로프트 패딩자켓 (4color)",
-      "discountRate": 20,
-      "finalPrice": 95920,
-      "imgUrl": "https://image.msscdn.net/images/prd_img/20260824/7146424/detail_7146424_17899549855002_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7146424"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1901,6 +1883,15 @@
       "finalPrice": 28900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7161042/7161042_17879097376793_500.png",
       "productUrl": "https://www.musinsa.com/products/7161042"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "후브스",
+      "name": "시어쉘 인시전 패딩 자켓-7Color",
+      "discountRate": 35,
+      "finalPrice": 64350,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260827/7179316/7179316_17893543340587_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7179316"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1950,15 +1941,6 @@
     {
       "section": "추석 뷰티 빅세일",
       "brand": "셀렉스",
-      "name": "[18개] 프로핏 드링크 딸기초코 250ml",
-      "discountRate": 51,
-      "finalPrice": 25420,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250512/5104161/5104161_17872788492922_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5104161"
-    },
-    {
-      "section": "추석 뷰티 빅세일",
-      "brand": "셀렉스",
       "name": "[혼합 22개입] 프로핏 드링크 바나나 250ml 18개 + 딸기초코 4입",
       "discountRate": 56,
       "finalPrice": 25420,
@@ -1968,11 +1950,20 @@
     {
       "section": "추석 뷰티 빅세일",
       "brand": "셀렉스",
-      "name": "밀세라  콜라겐 구미 젤리 1박스 (10g x 10포)",
-      "discountRate": 40,
-      "finalPrice": 14900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5318999/5318999_17557595719112_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5318999"
+      "name": "[18개] 프로핏 드링크 딸기초코 250ml",
+      "discountRate": 51,
+      "finalPrice": 25420,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250512/5104161/5104161_17872788492922_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5104161"
+    },
+    {
+      "section": "추석 뷰티 빅세일",
+      "brand": "셀렉스",
+      "name": "[24개] 셀렉스 식물성 프로틴 당솔브 혈당밸런스 음료 오곡맛 190ml+당솔브 미숫가루 266G 1통",
+      "discountRate": 44,
+      "finalPrice": 27120,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260511/6454372/6454372_17891125534546_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6454372"
     },
     {
       "section": "추석 뷰티 빅세일",
@@ -1995,20 +1986,11 @@
     {
       "section": "추석 뷰티 빅세일",
       "brand": "셀렉스",
-      "name": "[24개] 셀렉스 식물성 프로틴 당솔브 혈당밸런스 음료 오곡맛 190ml+당솔브 미숫가루 266G 1통",
-      "discountRate": 44,
-      "finalPrice": 27120,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260511/6454372/6454372_17891125534546_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6454372"
-    },
-    {
-      "section": "추석 뷰티 빅세일",
-      "brand": "셀렉스",
-      "name": "루테인 300mg 1개월분(30정), 3개월분(90정) 택 1",
-      "discountRate": 50,
-      "finalPrice": 12000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941449/6941449_17852275449750_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6941449"
+      "name": "밀세라  콜라겐 구미 젤리 1박스 (10g x 10포)",
+      "discountRate": 40,
+      "finalPrice": 14900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5318999/5318999_17557595719112_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5318999"
     },
     {
       "section": "추석 뷰티 빅세일",
@@ -2022,29 +2004,11 @@
     {
       "section": "추석 뷰티 빅세일",
       "brand": "셀렉스",
-      "name": "비타민C 500mg 1개월분(60정), 3개월분(180정) 택 1",
-      "discountRate": 50,
-      "finalPrice": 18900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6945672/6945672_17852863550931_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6945672"
-    },
-    {
-      "section": "추석 뷰티 빅세일",
-      "brand": "셀렉스",
-      "name": "썬화이버 당솔브 혈당케어 스틱 3박스 (30일분)+당솔브 미숫가루 266G 1통",
-      "discountRate": 63,
-      "finalPrice": 27900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5920493/5920493_17891124799522_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5920493"
-    },
-    {
-      "section": "추석 뷰티 빅세일",
-      "brand": "셀렉스",
-      "name": "썬화이버 당솔브 혈당케어 선물세트 (175g X 3통)",
-      "discountRate": 45,
-      "finalPrice": 54800,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260116/5901636/5901636_17687821353243_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5901636"
+      "name": "[24개] 셀렉스 식물성 프로틴 당솔브 혈당밸런스 음료 초당옥수수맛 190ml",
+      "discountRate": 34,
+      "finalPrice": 31900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260511/6454374/6454374_17786377081191_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6454374"
     },
     {
       "section": "추석 뷰티 빅세일",
@@ -2054,6 +2018,24 @@
       "finalPrice": 18900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6945626/6945626_17852860932877_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6945626"
+    },
+    {
+      "section": "추석 뷰티 빅세일",
+      "brand": "셀렉스",
+      "name": "비타민C 500mg 1개월분(60정), 3개월분(180정) 택 1",
+      "discountRate": 50,
+      "finalPrice": 18900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6945672/6945672_17852863550931_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6945672"
+    },
+    {
+      "section": "추석 뷰티 빅세일",
+      "brand": "셀렉스",
+      "name": "루테인 300mg 1개월분(30정), 3개월분(90정) 택 1",
+      "discountRate": 50,
+      "finalPrice": 12000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941449/6941449_17852275449750_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6941449"
     },
     {
       "section": "추석 뷰티 빅세일",
@@ -2076,20 +2058,11 @@
     {
       "section": "추석 뷰티 빅세일",
       "brand": "셀렉스",
-      "name": "테아닌 400mg 1개월분(60정), 3개월분(180정) 택 1",
-      "discountRate": 39,
+      "name": "알티지 오메가3 400mg 1개월분(60정), 3개월분(180정) 택 1",
+      "discountRate": 41,
       "finalPrice": 27000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941525/6941525_17852277661378_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6941525"
-    },
-    {
-      "section": "추석 뷰티 빅세일",
-      "brand": "셀렉스",
-      "name": "[24개] 셀렉스 식물성 프로틴 당솔브 혈당밸런스 음료 초당옥수수맛 190ml",
-      "discountRate": 34,
-      "finalPrice": 31900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260511/6454374/6454374_17786377081191_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6454374"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941675/6941675_17852282917702_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6941675"
     },
     {
       "section": "추석 뷰티 빅세일",
@@ -2110,229 +2083,31 @@
       "productUrl": "https://www.musinsa.com/products/6945708"
     },
     {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 티셔츠 브라운 UP2F4810-2 T-SHIRT BROWN",
-      "discountRate": 15,
-      "finalPrice": 182750,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260619/6700402/6700402_17890062519288_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6700402"
+      "section": "추석 뷰티 빅세일",
+      "brand": "셀렉스",
+      "name": "썬화이버 당솔브 혈당케어 스틱 3박스 (30일분)+당솔브 미숫가루 266G 1통",
+      "discountRate": 63,
+      "finalPrice": 27900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5920493/5920493_17891124799522_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5920493"
+    },
+    {
+      "section": "추석 뷰티 빅세일",
+      "brand": "셀렉스",
+      "name": "테아닌 400mg 1개월분(60정), 3개월분(180정) 택 1",
+      "discountRate": 39,
+      "finalPrice": 27000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941525/6941525_17852277661378_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6941525"
     },
     {
       "section": "무신사 월간 입점회",
       "brand": "언더커버",
-      "name": "(M) 티셔츠 블랙 UB0D3803 T-SHIRT BLACK",
-      "discountRate": 15,
-      "finalPrice": 102000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519557/6519557_17866025086382_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519557"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 풀오버 차콜 UP2F4808 PULLOVER T.CHARCOAL",
-      "discountRate": 15,
-      "finalPrice": 488750,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260707/6800057/6800057_17890061619824_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6800057"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 풀오버 블랙 UC2F4806 PULLOVER BLACK",
-      "discountRate": 15,
-      "finalPrice": 590750,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6987492/6987492_17890057759659_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6987492"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(U) 파우치 오프 화이트 UC1F1P02 POUCH OFF WHITE",
-      "discountRate": 40,
-      "finalPrice": 154110,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187690/6187690_17889412259511_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187690"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 블루종 베이지 UB0D4201 BLOUSON BEIGE",
-      "discountRate": 15,
-      "finalPrice": 420750,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519489/6519489_17866074313181_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519489"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 비니 차콜 UC2F4H02 BEANIE CHARCOAL",
-      "discountRate": 15,
-      "finalPrice": 242250,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6987497/6987497_17890057111328_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6987497"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(U) 파우치 블랙 UC1F1K01-3 POUCH BLACK",
-      "discountRate": 15,
-      "finalPrice": 80750,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187684/6187684_17889415388023_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187684"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 셔츠 카키 그린 UP2F4406 SHIRT KHAKIGREEN",
-      "discountRate": 15,
-      "finalPrice": 509150,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260713/6832270/6832270_17890060747643_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6832270"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 풀오버 네이비 UB0D4801-1 PULLOVER NAVY",
-      "discountRate": 15,
-      "finalPrice": 178500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519539/6519539_17884993159407_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519539"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 셔츠 차콜 UC1F4402 SHIRT CHARCOAL",
-      "discountRate": 41,
-      "finalPrice": 309400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6319192/6319192_17866015726354_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6319192"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(U) 백 레드 UC1F4B03 BAG RED",
-      "discountRate": 41,
-      "finalPrice": 232050,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519594/6519594_17866014023301_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519594"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(U) 백 블랙 UC1F1B05 BAG BLACK",
-      "discountRate": 40,
-      "finalPrice": 169580,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187680/6187680_17884991460756_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187680"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 캡 블랙 UB0D6H04-2 CAP BLACK",
-      "discountRate": 15,
-      "finalPrice": 118150,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260707/6800075/6800075_17866008878454_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6800075"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 풀오버 베이지 UC1F4801 PULLOVER BEIGE",
-      "discountRate": 40,
-      "finalPrice": 332610,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187559/6187559_17866017801296_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187559"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 블루종 네이비 UB0D4201 BLOUSON NAVY",
-      "discountRate": 15,
-      "finalPrice": 420750,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519492/6519492_17866020565202_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519492"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 티셔츠 블랙 UC1F3805 T-SHIRT BLACK",
-      "discountRate": 40,
-      "finalPrice": 94610,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187497/6187497_17866022493917_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187497"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 셔츠 브라운 UC1F4402 SHIRT BROWN",
-      "discountRate": 41,
-      "finalPrice": 309400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6319191/6319191_17866015167012_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6319191"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 캡 네이비 UB0D6H04-2 CAP NAVY",
-      "discountRate": 15,
-      "finalPrice": 118150,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260707/6800074/6800074_17866010167624_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6800074"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(U) 백 블루 UC1F4B02 BAG BLUE",
-      "discountRate": 41,
-      "finalPrice": 267750,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519583/6519583_17884989429881_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519583"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 티셔츠 화이트 UB0D3802 T-SHIRT WHITE",
-      "discountRate": 15,
-      "finalPrice": 102000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519568/6519568_17866026458036_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519568"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 티셔츠 블랙 UB0D3801 T-SHIRT BLACK",
-      "discountRate": 15,
-      "finalPrice": 102000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519555/6519555_17866023450959_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519555"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(U) 파우치 블랙 UC1F1P04 POUCH BLACK",
-      "discountRate": 40,
-      "finalPrice": 104130,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187692/6187692_17889409704913_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187692"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 후디 카키 그레이 UC1F4802 HOODIE KHAKI GRAY",
-      "discountRate": 40,
-      "finalPrice": 356410,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187393/6187393_17866016778067_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187393"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 티셔츠 오프 화이트 UP2F4803 T-SHIRT OFF WHITE",
+      "name": "(M) 티셔츠 블랙 UP2F4803 T-SHIRT BLACK",
       "discountRate": 15,
       "finalPrice": 318750,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260619/6700394/6700394_17890062298430_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6700394"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260619/6700395/6700395_17890061857217_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6700395"
     },
     {
       "section": "무신사 월간 입점회",
@@ -2346,11 +2121,209 @@
     {
       "section": "무신사 월간 입점회",
       "brand": "언더커버",
+      "name": "(U) 백 오프 화이트 UC1F1B01 BAG OFF WHITE",
+      "discountRate": 40,
+      "finalPrice": 154110,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187677/6187677_17884991607856_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6187677"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
       "name": "(M) 비니 그레이 베이지 UC2F4H02 BEANIE GRAY BEIGE",
       "discountRate": 15,
       "finalPrice": 242250,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6987496/6987496_17890057501796_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6987496"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 파우치 블랙 UC1F1K01-4 POUCH BLACK",
+      "discountRate": 15,
+      "finalPrice": 80750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187686/6187686_17889414184180_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6187686"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 블루종 블랙 UC1F4205 BLOUSON BLACK",
+      "discountRate": 41,
+      "finalPrice": 374850,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6319168/6319168_17866014679620_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6319168"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 티셔츠 화이트 UB0D3803 T-SHIRT WHITE",
+      "discountRate": 15,
+      "finalPrice": 102000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519558/6519558_17884993942397_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519558"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 블루종 블랙 UB0D4201 BLOUSON BLACK",
+      "discountRate": 15,
+      "finalPrice": 420750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519490/6519490_17866019434924_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519490"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 셔츠 카키 그린 UP2F4406 SHIRT KHAKIGREEN",
+      "discountRate": 15,
+      "finalPrice": 509150,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260713/6832270/6832270_17890060747643_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6832270"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 파우치 블랙 UC1F1K01-3 POUCH BLACK",
+      "discountRate": 15,
+      "finalPrice": 80750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187684/6187684_17889415388023_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6187684"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 풀오버 블랙 UC2F4806 PULLOVER BLACK",
+      "discountRate": 15,
+      "finalPrice": 590750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6987492/6987492_17890057759659_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6987492"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 풀오버 차콜 UP2F4808 PULLOVER T.CHARCOAL",
+      "discountRate": 15,
+      "finalPrice": 488750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260707/6800057/6800057_17890061619824_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6800057"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 풀오버 네이비 UB0D4801-1 PULLOVER NAVY",
+      "discountRate": 15,
+      "finalPrice": 178500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519539/6519539_17884993159407_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519539"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 티셔츠 화이트 UC1F4893 T-SHIRT WHITE",
+      "discountRate": 40,
+      "finalPrice": 187430,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6319216/6319216_17866023032599_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6319216"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 가디건 그레이 UP2F4903 CARDIGAN GRAY",
+      "discountRate": 15,
+      "finalPrice": 607750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7010858/7010858_17890060049246_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7010858"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 백 블루 UC1F4B02 BAG BLUE",
+      "discountRate": 41,
+      "finalPrice": 267750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519583/6519583_17884989429881_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519583"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 셔츠 라이트 베이지 UC1F4402 SHIRT L.G.BEIGE",
+      "discountRate": 41,
+      "finalPrice": 309400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6319193/6319193_17866016247787_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6319193"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 백 오프 화이트 UC1F1B02 BAG OFF WHITE",
+      "discountRate": 40,
+      "finalPrice": 169580,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187679/6187679_17884991996142_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6187679"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 풀오버 오프 화이트 UP2F4802 PULLOVER OFF WHITE",
+      "discountRate": 15,
+      "finalPrice": 395250,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7010856/7010856_17890060933343_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7010856"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 백 레드 UC1F4B03 BAG RED",
+      "discountRate": 41,
+      "finalPrice": 232050,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519594/6519594_17866014023301_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519594"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 티셔츠 브라운 UP2F4810-2 T-SHIRT BROWN",
+      "discountRate": 15,
+      "finalPrice": 182750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260619/6700402/6700402_17890062519288_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6700402"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 셔츠 블랙 UP1F4405 SHIRT BLACK CK",
+      "discountRate": 40,
+      "finalPrice": 342130,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187457/6187457_17866027077514_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6187457"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 블루종 네이비 UB0D4201 BLOUSON NAVY",
+      "discountRate": 15,
+      "finalPrice": 420750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519492/6519492_17866020565202_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519492"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 후디 카키 그레이 UC1F4802 HOODIE KHAKI GRAY",
+      "discountRate": 40,
+      "finalPrice": 356410,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187393/6187393_17866016778067_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6187393"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 백 블랙 UC1F1B05 BAG BLACK",
+      "discountRate": 40,
+      "finalPrice": 169580,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187680/6187680_17884991460756_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6187680"
     },
     {
       "section": "무신사 월간 입점회",
@@ -2364,20 +2337,38 @@
     {
       "section": "무신사 월간 입점회",
       "brand": "언더커버",
-      "name": "(M) 티셔츠 블랙 UB0D3802 T-SHIRT BLACK",
-      "discountRate": 15,
-      "finalPrice": 102000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519566/6519566_17866025608173_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519566"
+      "name": "(U) 백 블랙 UC1F4B03 BAG BLACK",
+      "discountRate": 41,
+      "finalPrice": 232050,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519589/6519589_17884989710566_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519589"
     },
     {
       "section": "무신사 월간 입점회",
       "brand": "언더커버",
-      "name": "(M) 블루종 블랙 UC1F4205 BLOUSON BLACK",
+      "name": "(M) 티셔츠 블랙 UB0D3801 T-SHIRT BLACK",
+      "discountRate": 15,
+      "finalPrice": 102000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519555/6519555_17866023450959_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519555"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 백 블랙 UC1F4B01 BAG BLACK",
       "discountRate": 41,
-      "finalPrice": 374850,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6319168/6319168_17866014679620_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6319168"
+      "finalPrice": 327250,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519577/6519577_17866012816995_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519577"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 풀오버 블랙 UB0D4801-1 PULLOVER BLACK",
+      "discountRate": 15,
+      "finalPrice": 178500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519535/6519535_17884992495071_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519535"
     }
   ]
 }
