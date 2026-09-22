@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-09-22T10:43:00.681005+00:00",
+  "updatedAt": "2026-09-22T15:19:06.867659+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -11,6 +11,15 @@
       "finalPrice": 243000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20230616/3367799/3367799_16901653027199_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3367799"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "마르니",
+      "name": "로고 버킷햇 - 아주르 / CLZC0110S2UTC34200B52",
+      "discountRate": 80,
+      "finalPrice": 124000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240404/4026445/4026445_17138589518873_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4026445"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -56,15 +65,6 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20230904/3527879/3527879_16957419727579_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3527879"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "마르니",
-      "name": "로고 버킷햇 - 아주르 / CLZC0110S2UTC34200B52",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240404/4026445/4026445_17138589518873_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4026445"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -142,8 +142,8 @@
       "section": "타임특가",
       "brand": "프리플라",
       "name": "clo2333 Everyday Square Flats - 2 Colors",
-      "discountRate": 63,
-      "finalPrice": 50460,
+      "discountRate": 65,
+      "finalPrice": 48950,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20210825/2085603/2085603_17585041277635_500.jpg",
       "productUrl": "https://www.musinsa.com/products/2085603"
     },
@@ -230,6 +230,15 @@
     },
     {
       "section": "타임특가",
+      "brand": "블랑시에르",
+      "name": "로사 룩시페르 BM257N1104 빈티지 남자목걸이",
+      "discountRate": 38,
+      "finalPrice": 16750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251124/5767567/5767567_17639620508863_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5767567"
+    },
+    {
+      "section": "타임특가",
       "brand": "유희",
       "name": "STAR PATTERN LAYERED BANDING TRACK PANTS_BLACK",
       "discountRate": 62,
@@ -313,8 +322,8 @@
       "section": "타임특가",
       "brand": "셋업이엑스이",
       "name": "DEEP V-NECK BUTTON TOP / MINT",
-      "discountRate": 40,
-      "finalPrice": 55570,
+      "discountRate": 25,
+      "finalPrice": 69460,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6942776/6942776_17887690354182_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6942776"
     },
@@ -659,15 +668,6 @@
       "finalPrice": 45660,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260814/7086342/7086342_17867078132872_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7086342"
-    },
-    {
-      "section": "타임특가",
-      "brand": "푸마",
-      "name": "스프린트 헤어리 스웨이드 (40611302)",
-      "discountRate": 77,
-      "finalPrice": 34000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7093686/7093686_17870342065622_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7093686"
     },
     {
       "section": "타임특가",
@@ -2112,218 +2112,11 @@
     {
       "section": "무신사 월간 입점회",
       "brand": "언더커버",
-      "name": "(M) 후디 그레이 퍼플 UC1F4802 HOODIE GRAY PURPLE",
-      "discountRate": 40,
-      "finalPrice": 356410,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187383/6187383_17866017313636_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187383"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 셔츠 블랙 UP1F4405 SHIRT BLACK CK",
-      "discountRate": 40,
-      "finalPrice": 342130,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187457/6187457_17866027077514_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187457"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 캡 블랙 UB0D6H04-1 CAP BLACK",
-      "discountRate": 15,
-      "finalPrice": 118150,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260707/6800073/6800073_17866007371728_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6800073"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 가디건 그레이 UP2F4903 CARDIGAN GRAY",
-      "discountRate": 15,
-      "finalPrice": 607750,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7010858/7010858_17890060049246_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7010858"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 풀오버 탑 그레이 UB0D4801-1 PULLOVER TOP GRAY",
-      "discountRate": 15,
-      "finalPrice": 178500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519537/6519537_17884992798928_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519537"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 풀오버 그레이 퍼플 UC1F4801 PULLOVER GRAY PURPLE",
-      "discountRate": 40,
-      "finalPrice": 332610,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187555/6187555_17866018334748_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187555"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 티셔츠 네이비 UB0D3803 T-SHIRT NAVY",
-      "discountRate": 15,
-      "finalPrice": 102000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519559/6519559_17884993390062_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519559"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(U) 백 블랙 UC1F1B05 BAG BLACK",
-      "discountRate": 40,
-      "finalPrice": 169580,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187680/6187680_17884991460756_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187680"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 셔츠 차콜 UC1F4402 SHIRT CHARCOAL",
+      "name": "(U) 백 아이보리 UC1F4B02 BAG IVORY",
       "discountRate": 41,
-      "finalPrice": 309400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6319192/6319192_17866015726354_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6319192"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(U) 백 오프 화이트 UC1F1B02 BAG OFF WHITE",
-      "discountRate": 40,
-      "finalPrice": 169580,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187679/6187679_17884991996142_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187679"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(U) 백 오프 화이트 UC1F1B04 BAG OFF WHITE",
-      "discountRate": 40,
-      "finalPrice": 407580,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260529/6575870/6575870_17884996034188_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6575870"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 셔츠 카키 그린 UP2F4406 SHIRT KHAKIGREEN",
-      "discountRate": 15,
-      "finalPrice": 509150,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260713/6832270/6832270_17890060747643_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6832270"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(U) 백 아이보리 UC1F4B03 BAG IVORY",
-      "discountRate": 41,
-      "finalPrice": 232050,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519592/6519592_17884990799565_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519592"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 풀오버 베이지 UC1F4801 PULLOVER BEIGE",
-      "discountRate": 40,
-      "finalPrice": 332610,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187559/6187559_17866017801296_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187559"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 티셔츠 블랙 UB0D3803 T-SHIRT BLACK",
-      "discountRate": 15,
-      "finalPrice": 102000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519557/6519557_17866025086382_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519557"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 티셔츠 블랙 UB0D3802 T-SHIRT BLACK",
-      "discountRate": 15,
-      "finalPrice": 102000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519566/6519566_17866025608173_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519566"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(U) 파우치 블랙 UC1F1K01-2 POUCH BLACK",
-      "discountRate": 15,
-      "finalPrice": 80750,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187682/6187682_17889416651200_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187682"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 셔츠 브라운 UC1F4402 SHIRT BROWN",
-      "discountRate": 41,
-      "finalPrice": 309400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6319191/6319191_17866015167012_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6319191"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 티셔츠 화이트 UB0D3803 T-SHIRT WHITE",
-      "discountRate": 15,
-      "finalPrice": 102000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519558/6519558_17884993942397_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519558"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 티셔츠 블랙 UC1F3805 T-SHIRT BLACK",
-      "discountRate": 40,
-      "finalPrice": 94610,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187497/6187497_17866022493917_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187497"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(U) 백 블랙 UC1F4B01 BAG BLACK",
-      "discountRate": 41,
-      "finalPrice": 327250,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519577/6519577_17866012816995_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519577"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 풀오버 네이비 UB0D4801-1 PULLOVER NAVY",
-      "discountRate": 15,
-      "finalPrice": 178500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519539/6519539_17884993159407_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519539"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 티셔츠 블랙 UB0D3801 T-SHIRT BLACK",
-      "discountRate": 15,
-      "finalPrice": 102000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519555/6519555_17866023450959_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519555"
-    },
-    {
-      "section": "무신사 월간 입점회",
-      "brand": "언더커버",
-      "name": "(M) 티셔츠 화이트 UB0D3802 T-SHIRT WHITE",
-      "discountRate": 15,
-      "finalPrice": 102000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519568/6519568_17866026458036_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519568"
+      "finalPrice": 267750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519585/6519585_17866013475250_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519585"
     },
     {
       "section": "무신사 월간 입점회",
@@ -2337,11 +2130,101 @@
     {
       "section": "무신사 월간 입점회",
       "brand": "언더커버",
-      "name": "(U) 백 레드 UC1F4B03 BAG RED",
+      "name": "(U) 백 오프 화이트 UC1F1B01 BAG OFF WHITE",
+      "discountRate": 40,
+      "finalPrice": 154110,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187677/6187677_17884991607856_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6187677"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 티셔츠 네이비 UB0D3803 T-SHIRT NAVY",
+      "discountRate": 15,
+      "finalPrice": 102000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519559/6519559_17884993390062_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519559"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 블라우스 그레이 UC1F4408-1 BLOUSE GRAY CK",
+      "discountRate": 40,
+      "finalPrice": 544430,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187433/6187433_17866021964140_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6187433"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 티셔츠 블랙 UP2F4803 T-SHIRT BLACK",
+      "discountRate": 15,
+      "finalPrice": 318750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260619/6700395/6700395_17890061857217_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6700395"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 셔츠 브라운 UC1F4402 SHIRT BROWN",
       "discountRate": 41,
-      "finalPrice": 232050,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519594/6519594_17866014023301_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6519594"
+      "finalPrice": 309400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6319191/6319191_17866015167012_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6319191"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 셔츠 차콜 UC1F4402 SHIRT CHARCOAL",
+      "discountRate": 41,
+      "finalPrice": 309400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6319192/6319192_17866015726354_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6319192"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 파우치 오프 화이트 UC1F1P02 POUCH OFF WHITE",
+      "discountRate": 40,
+      "finalPrice": 154110,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187690/6187690_17889412259511_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6187690"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 백 오프 화이트 UC1F1B04 BAG OFF WHITE",
+      "discountRate": 40,
+      "finalPrice": 407580,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260529/6575870/6575870_17884996034188_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6575870"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 백 블루 UC1F4B02 BAG BLUE",
+      "discountRate": 41,
+      "finalPrice": 267750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519583/6519583_17884989429881_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519583"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 풀오버 베이지 UC1F4801 PULLOVER BEIGE",
+      "discountRate": 40,
+      "finalPrice": 332610,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187559/6187559_17866017801296_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6187559"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 블루종 베이지 UB0D4201 BLOUSON BEIGE",
+      "discountRate": 15,
+      "finalPrice": 420750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519489/6519489_17866074313181_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519489"
     },
     {
       "section": "무신사 월간 입점회",
@@ -2355,29 +2238,146 @@
     {
       "section": "무신사 월간 입점회",
       "brand": "언더커버",
-      "name": "(M) 셔츠 라이트 베이지 UC1F4402 SHIRT L.G.BEIGE",
+      "name": "(M) 티셔츠 화이트 UB0D3803 T-SHIRT WHITE",
+      "discountRate": 15,
+      "finalPrice": 102000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519558/6519558_17884993942397_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519558"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 블루종 레드 UB0D4201 BLOUSON RED",
+      "discountRate": 15,
+      "finalPrice": 420750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519493/6519493_17866021413141_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519493"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 백 레드 UC1F4B03 BAG RED",
       "discountRate": 41,
-      "finalPrice": 309400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6319193/6319193_17866016247787_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6319193"
+      "finalPrice": 232050,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519594/6519594_17866014023301_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519594"
     },
     {
       "section": "무신사 월간 입점회",
       "brand": "언더커버",
-      "name": "(U) 백 오프 화이트 UC1F1B01 BAG OFF WHITE",
-      "discountRate": 40,
-      "finalPrice": 154110,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187677/6187677_17884991607856_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187677"
+      "name": "(M) 티셔츠 블랙 UB0D3803 T-SHIRT BLACK",
+      "discountRate": 15,
+      "finalPrice": 102000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519557/6519557_17866025086382_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519557"
     },
     {
       "section": "무신사 월간 입점회",
       "brand": "언더커버",
-      "name": "(M) 후디 카키 그레이 UC1F4802 HOODIE KHAKI GRAY",
+      "name": "(M) 비니 그레이 베이지 UC2F4H02 BEANIE GRAY BEIGE",
+      "discountRate": 15,
+      "finalPrice": 242250,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6987496/6987496_17890057501796_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6987496"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 셔츠 카키 그린 UP2F4406 SHIRT KHAKIGREEN",
+      "discountRate": 15,
+      "finalPrice": 509150,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260713/6832270/6832270_17890060747643_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6832270"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 백 블랙 UC1F4B01 BAG BLACK",
+      "discountRate": 41,
+      "finalPrice": 327250,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519577/6519577_17866012816995_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519577"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(U) 백 블랙 UC1F4B02 BAG BLACK",
+      "discountRate": 41,
+      "finalPrice": 267750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519582/6519582_17884989069900_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519582"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 블루종 블랙 UC1F4205 BLOUSON BLACK",
+      "discountRate": 41,
+      "finalPrice": 374850,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6319168/6319168_17866014679620_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6319168"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 티셔츠 오프 화이트 UP2F4803 T-SHIRT OFF WHITE",
+      "discountRate": 15,
+      "finalPrice": 318750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260619/6700394/6700394_17890062298430_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6700394"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 후디 그레이 퍼플 UC1F4802 HOODIE GRAY PURPLE",
       "discountRate": 40,
       "finalPrice": 356410,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187393/6187393_17866016778067_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6187393"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6187383/6187383_17866017313636_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6187383"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 블루종 브라운 UB0D4201 BLOUSON BROWN",
+      "discountRate": 15,
+      "finalPrice": 420750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519491/6519491_17866019948812_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519491"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 블루종 네이비 UB0D4201 BLOUSON NAVY",
+      "discountRate": 15,
+      "finalPrice": 420750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519492/6519492_17866020565202_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519492"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 캡 블랙 UB0D6H04-2 CAP BLACK",
+      "discountRate": 15,
+      "finalPrice": 118150,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260707/6800075/6800075_17866008878454_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6800075"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 티셔츠 블랙 UB0D3801 T-SHIRT BLACK",
+      "discountRate": 15,
+      "finalPrice": 102000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260520/6519555/6519555_17866023450959_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6519555"
+    },
+    {
+      "section": "무신사 월간 입점회",
+      "brand": "언더커버",
+      "name": "(M) 가디건 그레이 UP2F4903 CARDIGAN GRAY",
+      "discountRate": 15,
+      "finalPrice": 607750,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7010858/7010858_17890060049246_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7010858"
     }
   ]
 }
