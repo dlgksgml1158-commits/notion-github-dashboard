@@ -2468,57 +2468,5 @@
     },
     "public": false,
     "created_at": "2026-08-25T01:33:54Z"
-  },
-  {
-    "id": "18789093171",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1340433734,
-      "name": "dlgksgml1158-commits/fitfinder-web",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/fitfinder-web"
-    },
-    "payload": {
-      "repository_id": 1340433734,
-      "push_id": 41112663825,
-      "ref": "refs/heads/main",
-      "head": "af312bfc4b72341ccc3215dfcf2499cc458df24d",
-      "before": "418a79b6e7befb438a8300ef93fbae18b038c983"
-    },
-    "public": true,
-    "created_at": "2026-08-25T01:34:54Z"
-  },
-  {
-    "id": "18780910138",
-    "type": "PushEvent",
-    "actor": {
-      "id": 295408546,
-      "login": "dlgksgml1158-commits",
-      "display_login": "dlgksgml1158-commits",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dlgksgml1158-commits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/295408546?"
-    },
-    "repo": {
-      "id": 1339007605,
-      "name": "dlgksgml1158-commits/fitfinder",
-      "url": "https://api.github.com/repos/dlgksgml1158-commits/fitfinder"
-    },
-    "payload": {
-      "repository_id": 1339007605,
-      "push_id": 41113620746,
-      "ref": "refs/heads/main",
-      "head": "7e2bae5a4c077d011e50b2617427e2a2d312265e",
-      "before": "267ff408585b34c9b10d249e33889436957bc171"
-    },
-    "public": false,
-    "created_at": "2026-08-25T01:50:43Z"
   }
 ]
