@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-09-26T08:12:20.909946+00:00",
+  "updatedAt": "2026-09-26T13:32:46.723369+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -77,24 +77,6 @@
     },
     {
       "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "케이블 브이 넥 크리켓 니트 [네이비]",
-      "discountRate": 63,
-      "finalPrice": 29290,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250701/5215643/5215643_17576343704093_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5215643"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 리브드 슬림 헨리 넥 니트 [미디엄 그레이]",
-      "discountRate": 20,
-      "finalPrice": 28720,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251029/5661387/5661387_17683669395321_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5661387"
-    },
-    {
-      "section": "한정수량 선착순 특가",
       "brand": "디젤",
       "name": "J 델빈 재킷 - 블랙 / A120940CLAI9XXB",
       "discountRate": 0,
@@ -119,6 +101,24 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250618/5192160/5192160_17502131960380_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5192160"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "케이블 브이 넥 크리켓 니트 [네이비]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250701/5215643/5215643_17576343704093_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5215643"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 리브드 슬림 헨리 넥 니트 [미디엄 그레이]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251029/5661387/5661387_17683669395321_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5661387"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -2112,128 +2112,56 @@
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "워시드 루즈핏 트윌 카고 팬츠 Camo",
-      "discountRate": 19,
-      "finalPrice": 88290,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6005614/6005614_17715552212435_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6005614"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "나일론 포켓 패커블 백팩 Black",
-      "discountRate": 36,
-      "finalPrice": 50670,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260305/6084335/6084335_17841788661985_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6084335"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "[3PACK] 베이직 드로즈 Black",
-      "discountRate": 27,
-      "finalPrice": 28350,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260317/6143092/6143092_17745016102549_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6143092"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "TC 베이직 백팩 Black",
-      "discountRate": 37,
-      "finalPrice": 43470,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251002/5566368/5566368_17593801408092_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5566368"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "그리드 체크 라이트 윈드브레이커 Sky Blue",
-      "discountRate": 14,
-      "finalPrice": 84690,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6005543/6005543_17872887286274_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6005543"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "트리 로고 트러커 메쉬 캡 Black",
-      "discountRate": 19,
-      "finalPrice": 47790,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240228/3909315/3909315_17841796372141_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3909315"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "가먼트 다이드 세미 크롭 집업 후디 Black",
-      "discountRate": 19,
-      "finalPrice": 104490,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968036/6968036_17872903242657_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6968036"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "BIB 덕 캔버스 오버롤 팬츠 Brown",
-      "discountRate": 15,
-      "finalPrice": 84600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240312/3940871/3940871_17102073745483_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3940871"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "언더 바 후디 Oatmeal Melange",
+      "name": "베이직 로고 후드 집업 Melange Gray",
       "discountRate": 19,
       "finalPrice": 72090,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968048/6968048_17889267302412_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6968048"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317255/5317255_17557332252924_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5317255"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "247 루즈핏 워크팬츠 Desert Sand",
+      "name": "릴렉스드 데님 후드 집업 Khaki Tinted Blue",
       "discountRate": 32,
-      "finalPrice": 53330,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317284/5317284_17556778719420_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5317284"
+      "finalPrice": 100580,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317270/5317270_17761466796747_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5317270"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "247 루즈핏 워크팬츠 Black",
+      "name": "오리지널 874 워크팬츠 Black",
+      "discountRate": 30,
+      "finalPrice": 41300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7056673/7056673_17896217195331_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7056673"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "베이직 헨리넥 롱슬리브 Grey",
       "discountRate": 32,
-      "finalPrice": 53330,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317285/5317285_17556779535573_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5317285"
+      "finalPrice": 33120,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260317/6143100/6143100_17745015051762_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6143100"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "코튼 플란넬 셔츠 Red",
-      "discountRate": 46,
-      "finalPrice": 64260,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240913/4439843/4439843_17326934080053_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4439843"
+      "name": "트윌 워크 재킷 Black",
+      "discountRate": 15,
+      "finalPrice": 170100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240913/4439849/4439849_17325800650698_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4439849"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "파인 스트라이프 포켓 롱슬리브 Gray",
-      "discountRate": 19,
-      "finalPrice": 55890,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6005586/6005586_17748414537279_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6005586"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "3M 시어 푸퍼 재킷 Purple",
-      "discountRate": 19,
-      "finalPrice": 136890,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968012/6968012_17872901095811_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6968012"
+      "name": "멀티 로고 헤비웨이트 후드 Melange",
+      "discountRate": 41,
+      "finalPrice": 63770,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240228/3909302/3909302_17097954332101_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3909302"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
@@ -2247,24 +2175,6 @@
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "42283 루즈핏 워크쇼츠 Dark Brown",
-      "discountRate": 28,
-      "finalPrice": 39600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240219/3880601/3880601_17751977772471_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3880601"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "더블니 85283 루즈핏 워크팬츠 Charcoal",
-      "discountRate": 30,
-      "finalPrice": 52500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7056689/7056689_17896217321053_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7056689"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
       "name": "루즈핏 원 턱 카고 스웨트 쇼츠 Melange",
       "discountRate": 23,
       "finalPrice": 52830,
@@ -2274,110 +2184,200 @@
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "BIB 덕 캔버스 오버롤 팬츠 Black",
-      "discountRate": 32,
-      "finalPrice": 66830,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250407/4992208/4992208_17439910949493_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4992208"
+      "name": "워시드 루즈핏 트윌 카고 팬츠 Camo",
+      "discountRate": 19,
+      "finalPrice": 88290,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6005614/6005614_17715552212435_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6005614"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "베이직 로고 후드 집업 Black",
+      "name": "워시드 더블니 카펜터 트윌 쇼츠 Khaki",
       "discountRate": 19,
       "finalPrice": 72090,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317254/5317254_17883392388165_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5317254"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250401/4970534/4970534_17806379205950_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4970534"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "42283 루즈핏 워크쇼츠 Dark Navy",
+      "name": "트리 로고 스웨트셔츠 Navy",
+      "discountRate": 15,
+      "finalPrice": 58950,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317233/5317233_17557339834908_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5317233"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "873 슬림핏 워크팬츠 Black",
+      "discountRate": 28,
+      "finalPrice": 42480,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240104/3776133/3776133_17083927292762_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3776133"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "트리 로고 티셔츠 Black",
+      "discountRate": 10,
+      "finalPrice": 44100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250327/4953858/4953858_17434798589822_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4953858"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "42283 루즈핏 워크쇼츠 Dark Brown",
       "discountRate": 28,
       "finalPrice": 39600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240219/3880600/3880600_17751977316537_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3880600"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240219/3880601/3880601_17751977772471_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3880601"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "오리지널 874 워크팬츠 Khaki Brown",
-      "discountRate": 23,
-      "finalPrice": 45180,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260325/6191112/6191112_17751957878882_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6191112"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "오리지널 874 워크팬츠 Dark Brown",
-      "discountRate": 30,
-      "finalPrice": 41300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7056682/7056682_17896218492988_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7056682"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "나일론 포켓 패커블 스트링 백 Mint",
-      "discountRate": 32,
-      "finalPrice": 39870,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260305/6084341/6084341_17748427272473_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6084341"
-    },
-    {
-      "section": "쿠폰으로 만나는\n베스트 브랜드",
-      "brand": "디키즈",
-      "name": "그리드 체크 라이트 윈드브레이커 Black",
+      "name": "워시드 트러커 재킷 Dark Navy",
       "discountRate": 19,
-      "finalPrice": 80190,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250220/4808332/4808332_17719827365375_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4808332"
+      "finalPrice": 104490,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967997/6967997_17878996860848_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967997"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "33999 점프수트 커버올 Khaki",
+      "name": "트리 로고 후디 Gray",
       "discountRate": 15,
-      "finalPrice": 72630,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240415/4052795/4052795_17131546145716_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4052795"
+      "finalPrice": 67500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250220/4808320/4808320_17883394986624_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4808320"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "워시드 트러커 재킷 Black",
-      "discountRate": 10,
-      "finalPrice": 116100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967996/6967996_17888412310886_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6967996"
+      "name": "나바호 플리스 재킷 Green",
+      "discountRate": 14,
+      "finalPrice": 135950,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967968/6967968_17890083688479_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967968"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "[2PACK] 베이직 폰트 로고 티셔츠 Black/Black",
+      "name": "브룩스턴 벨트 Black",
+      "discountRate": 36,
+      "finalPrice": 18630,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250923/5513524/5513524_17587892335108_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5513524"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "[3PACK] 배너 로고 미드 삭스 White",
+      "discountRate": 19,
+      "finalPrice": 14580,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260317/6143085/6143085_17745015535786_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6143085"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "빅로고 워시드 볼캡 Camo",
       "discountRate": 32,
-      "finalPrice": 33120,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260317/6143104/6143104_17745010450826_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6143104"
+      "finalPrice": 46620,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260305/6084331/6084331_17748423689741_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6084331"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "스몰 로고 베이직 볼캡 Navy",
-      "discountRate": 32,
-      "finalPrice": 23670,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260305/6084333/6084333_17748424210896_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6084333"
+      "name": "백 트리 로고 후디 Black",
+      "discountRate": 19,
+      "finalPrice": 72090,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968042/6968042_17879011308476_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6968042"
     },
     {
       "section": "쿠폰으로 만나는\n베스트 브랜드",
       "brand": "디키즈",
-      "name": "33999 점프수트 커버올 Black",
+      "name": "백 모노 로고 후디 Light Grey Melange",
+      "discountRate": 19,
+      "finalPrice": 72090,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968041/6968041_17879010887633_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6968041"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "스타 포인트 후디 Charcoal",
+      "discountRate": 19,
+      "finalPrice": 63990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6005577/6005577_17749193284141_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6005577"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "유틸리티 워시드 데님 초어 재킷 Medium Blue",
+      "discountRate": 37,
+      "finalPrice": 103950,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4845123/4845123_17411615616077_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4845123"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "트윌 워크 재킷 Brown",
+      "discountRate": 37,
+      "finalPrice": 125370,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6320929/6320929_17808930494800_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6320929"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "베이직 로고 후드 집업 Navy",
+      "discountRate": 14,
+      "finalPrice": 76140,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317256/5317256_17883392803339_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5317256"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "더블니 카펜터 트윌 워크팬츠 Black",
+      "discountRate": 41,
+      "finalPrice": 69620,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240913/4439812/4439812_17267187273370_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4439812"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "G.W.C 가드닝 셔츠 Black",
       "discountRate": 15,
-      "finalPrice": 72630,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240220/3882589/3882589_17083946554260_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3882589"
+      "finalPrice": 114570,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260312/6123522/6123522_17745736170787_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6123522"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "멀티 스트라이프 롱슬리브 Black",
+      "discountRate": 19,
+      "finalPrice": 55890,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6005591/6005591_17748415151702_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6005591"
+    },
+    {
+      "section": "쿠폰으로 만나는\n베스트 브랜드",
+      "brand": "디키즈",
+      "name": "네프 카펜터 팬츠 Charcoal",
+      "discountRate": 19,
+      "finalPrice": 104490,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968080/6968080_17879015805905_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6968080"
     }
   ]
 }
