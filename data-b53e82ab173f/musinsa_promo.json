@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-09-29T06:28:40.203941+00:00",
+  "updatedAt": "2026-09-29T19:02:14.609529+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -38,15 +38,6 @@
       "finalPrice": 165000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240202/3844109/3844109_17144389193039_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3844109"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 슬림 크루 넥 긴소매 티셔츠 [데저트 핑크]",
-      "discountRate": 50,
-      "finalPrice": 9950,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240716/4251983/4251983_17248114381383_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4251983"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -104,6 +95,15 @@
     },
     {
       "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 슬림 크루 넥 긴소매 티셔츠 [데저트 핑크]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240716/4251983/4251983_17248114381383_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4251983"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드",
       "name": "코튼 미니멀 블루종 재킷 [다크 그레이]",
       "discountRate": 0,
@@ -119,15 +119,6 @@
       "finalPrice": 14400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240123/3816971/3816971_17853946614676_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3816971"
-    },
-    {
-      "section": "72시간 특가",
-      "brand": "플레이스 스튜디오",
-      "name": "올데이 클래식 코튼 스트라이프 베이직 셔츠_3COLOR",
-      "discountRate": 60,
-      "finalPrice": 16800,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250205/4761199/4761199_17682062324910_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4761199"
     },
     {
       "section": "72시간 특가",
@@ -173,6 +164,15 @@
       "finalPrice": 21000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250819/5338804/5338804_17652427108212_500.png",
       "productUrl": "https://www.musinsa.com/products/5338804"
+    },
+    {
+      "section": "72시간 특가",
+      "brand": "갭",
+      "name": "아크로 스니커즈 브라운",
+      "discountRate": 43,
+      "finalPrice": 33900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250822/5355236/5355236_17558465575334_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5355236"
     },
     {
       "section": "72시간 특가",
@@ -546,15 +546,6 @@
     {
       "section": "72시간 특가",
       "brand": "낫 유어 로즈",
-      "name": "시어 스카프 세트 드레스 (그레이)",
-      "discountRate": 44,
-      "finalPrice": 89040,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260815/7088306/7088306_17877257319138_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7088306"
-    },
-    {
-      "section": "72시간 특가",
-      "brand": "낫 유어 로즈",
       "name": "스카프 링클 블라우스 (베이지)",
       "discountRate": 44,
       "finalPrice": 72240,
@@ -722,6 +713,15 @@
       "finalPrice": 158400,
       "imgUrl": "https://image.msscdn.net/images/prd_img/20260825/7160484/detail_7160484_17878305105500_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7160484"
+    },
+    {
+      "section": "72시간 특가",
+      "brand": "플리즈노팔로우",
+      "name": "Nari Shirring Long Sleeve Tie Top (Melange Grey)",
+      "discountRate": 20,
+      "finalPrice": 86400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7160757/7160757_17878052323153_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7160757"
     },
     {
       "section": "72시간 특가",
@@ -909,7 +909,7 @@
       "name": "커브드 카펜터 데님팬츠 (생지)",
       "discountRate": 40,
       "finalPrice": 36000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260904/7248106/7248106_17900623275382_500.jpg",
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260904/7248106/7248106_17906645479714_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7248106"
     },
     {
@@ -1049,15 +1049,6 @@
     },
     {
       "section": "26 추석 시그니처특가",
-      "brand": "폴라초이스",
-      "name": "바하 리퀴드 엑스폴리언트 118ml",
-      "discountRate": 25,
-      "finalPrice": 29250,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220831/2758160/2758160_17675756049025_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2758160"
-    },
-    {
-      "section": "26 추석 시그니처특가",
       "brand": "1989스탠다드",
       "name": "MAIN LOGO 후드 (STHSTD-0017)",
       "discountRate": 65,
@@ -1118,6 +1109,15 @@
       "finalPrice": 25900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20241014/4512577/4512577_17900374433288_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4512577"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "무르",
+      "name": "누오보 미니 호보백(17color)",
+      "discountRate": 50,
+      "finalPrice": 58000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241217/4668951/4668951_17906625651595_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4668951"
     },
     {
       "section": "26 추석 시그니처특가",
@@ -1914,74 +1914,20 @@
     {
       "section": "추석 애프터 뷰티 세일",
       "brand": "셀렉스",
-      "name": "루테인 300mg 1개월분(30정), 3개월분(90정) 택 1",
+      "name": "비타민C 500mg 1개월분(60정), 3개월분(180정) 택 1",
       "discountRate": 50,
-      "finalPrice": 12000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941449/6941449_17852275449750_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6941449"
-    },
-    {
-      "section": "추석 애프터 뷰티 세일",
-      "brand": "셀렉스",
-      "name": "[혼합 22개입] 프로핏 드링크 밀크바닐라 250ml 18개 + 딸기초코 4입",
-      "discountRate": 45,
-      "finalPrice": 31370,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240610/4187568/4187568_17900415682964_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4187568"
-    },
-    {
-      "section": "추석 애프터 뷰티 세일",
-      "brand": "셀렉스",
-      "name": "알티지 오메가3 400mg 1개월분(60정), 3개월분(180정) 택 1",
-      "discountRate": 41,
-      "finalPrice": 27000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941675/6941675_17852282917702_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6941675"
-    },
-    {
-      "section": "추석 애프터 뷰티 세일",
-      "brand": "셀렉스",
-      "name": "[24개] 셀렉스 식물성 프로틴 당솔브 혈당밸런스 음료 오곡맛 190ml+당솔브 미숫가루 266G 1통",
-      "discountRate": 44,
-      "finalPrice": 27120,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260511/6454372/6454372_17891125534546_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6454372"
-    },
-    {
-      "section": "추석 애프터 뷰티 세일",
-      "brand": "셀렉스",
-      "name": "[혼합 22개입] 프로핏 드링크 바나나 250ml 18개 + 딸기초코 4입",
-      "discountRate": 45,
-      "finalPrice": 31370,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241114/4615761/4615761_17900416395317_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4615761"
-    },
-    {
-      "section": "추석 애프터 뷰티 세일",
-      "brand": "셀렉스",
-      "name": "마그네슘 500mg 1개월분(60정), 3개월분(180정) 택 1",
-      "discountRate": 44,
       "finalPrice": 18900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6945626/6945626_17852860932877_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6945626"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6945672/6945672_17852863550931_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6945672"
     },
     {
       "section": "추석 애프터 뷰티 세일",
       "brand": "셀렉스",
-      "name": "테아닌 400mg 1개월분(60정), 3개월분(180정) 택 1",
-      "discountRate": 39,
-      "finalPrice": 27000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941525/6941525_17852277661378_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6941525"
-    },
-    {
-      "section": "추석 애프터 뷰티 세일",
-      "brand": "셀렉스",
-      "name": "밀세라  콜라겐 구미 젤리 1박스 (10g x 10포)",
-      "discountRate": 40,
-      "finalPrice": 14900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5318999/5318999_17557595719112_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5318999"
+      "name": "카테킨 400mg 1개월분(60정), 3개월분(180정) 택 1",
+      "discountRate": 52,
+      "finalPrice": 22900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941840/6941840_17852303318608_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6941840"
     },
     {
       "section": "추석 애프터 뷰티 세일",
@@ -1995,6 +1941,15 @@
     {
       "section": "추석 애프터 뷰티 세일",
       "brand": "셀렉스",
+      "name": "[24개] 셀렉스 식물성 프로틴 당솔브 혈당밸런스 음료 오곡맛 190ml+당솔브 미숫가루 266G 1통",
+      "discountRate": 44,
+      "finalPrice": 27120,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260511/6454372/6454372_17891125534546_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6454372"
+    },
+    {
+      "section": "추석 애프터 뷰티 세일",
+      "brand": "셀렉스",
       "name": "프로핏 100% 웨이프로틴(WPI) 클리어파우더 레몬",
       "discountRate": 42,
       "finalPrice": 45820,
@@ -2004,20 +1959,11 @@
     {
       "section": "추석 애프터 뷰티 세일",
       "brand": "셀렉스",
-      "name": "밀세라 콜라겐 파우더 스틱 1박스 (2.9g X 28포)",
-      "discountRate": 54,
-      "finalPrice": 20900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250717/5254561/5254561_17557622675993_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5254561"
-    },
-    {
-      "section": "추석 애프터 뷰티 세일",
-      "brand": "셀렉스",
-      "name": "비타민C 500mg 1개월분(60정), 3개월분(180정) 택 1",
-      "discountRate": 50,
-      "finalPrice": 18900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6945672/6945672_17852863550931_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6945672"
+      "name": "테아닌 400mg 1개월분(60정), 3개월분(180정) 택 1",
+      "discountRate": 39,
+      "finalPrice": 27000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941525/6941525_17852277661378_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6941525"
     },
     {
       "section": "추석 애프터 뷰티 세일",
@@ -2031,11 +1977,65 @@
     {
       "section": "추석 애프터 뷰티 세일",
       "brand": "셀렉스",
+      "name": "알티지 오메가3 400mg 1개월분(60정), 3개월분(180정) 택 1",
+      "discountRate": 41,
+      "finalPrice": 27000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941675/6941675_17852282917702_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6941675"
+    },
+    {
+      "section": "추석 애프터 뷰티 세일",
+      "brand": "셀렉스",
+      "name": "루테인 300mg 1개월분(30정), 3개월분(90정) 택 1",
+      "discountRate": 50,
+      "finalPrice": 12000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6941449/6941449_17852275449750_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6941449"
+    },
+    {
+      "section": "추석 애프터 뷰티 세일",
+      "brand": "셀렉스",
+      "name": "마그네슘 500mg 1개월분(60정), 3개월분(180정) 택 1",
+      "discountRate": 44,
+      "finalPrice": 18900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6945626/6945626_17852860932877_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6945626"
+    },
+    {
+      "section": "추석 애프터 뷰티 세일",
+      "brand": "셀렉스",
+      "name": "밀세라  콜라겐 구미 젤리 1박스 (10g x 10포)",
+      "discountRate": 40,
+      "finalPrice": 14900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5318999/5318999_17557595719112_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5318999"
+    },
+    {
+      "section": "추석 애프터 뷰티 세일",
+      "brand": "셀렉스",
       "name": "면역 프로바이오틱스 유산균&아연 250mg 1개월분(30정), 3개월분(90정) 택 1",
       "discountRate": 49,
       "finalPrice": 22900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6945797/6945797_17852870868401_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6945797"
+    },
+    {
+      "section": "추석 애프터 뷰티 세일",
+      "brand": "셀렉스",
+      "name": "[혼합 22개입] 프로핏 드링크 바나나 250ml 18개 + 딸기초코 4입",
+      "discountRate": 45,
+      "finalPrice": 31370,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241114/4615761/4615761_17900416395317_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4615761"
+    },
+    {
+      "section": "추석 애프터 뷰티 세일",
+      "brand": "셀렉스",
+      "name": "밀세라 콜라겐 파우더 스틱 1박스 (2.9g X 28포)",
+      "discountRate": 54,
+      "finalPrice": 20900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250717/5254561/5254561_17557622675993_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5254561"
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
@@ -2288,6 +2288,15 @@
       "finalPrice": 208080,
       "imgUrl": "https://image.msscdn.net/images/prd_img/20260904/7249959/detail_7249959_17889421497791_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7249959"
+    },
+    {
+      "section": "쿠폰으로 만나는 인기 추천템",
+      "brand": "마크모크",
+      "name": "Simkung 심쿵 하트 장식 플랫_7colors",
+      "discountRate": 30,
+      "finalPrice": 69500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260908/7271165/7271165_17888398772142_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7271165"
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
