@@ -1,133 +1,115 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-03T22:34:45.183276+00:00",
+  "updatedAt": "2026-10-04T02:17:55.418511+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
-      "brand": "오에이엠씨",
-      "name": "크릭 스머지 베스트 - 그린 / 23E28OAU17COTOA043324",
-      "discountRate": 82,
-      "finalPrice": 365000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230322/3170764/3170764_16841100530780_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3170764"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "이알엘",
-      "name": "크로켓 니트 가디건 - 핑크 / ERL06N103PINK",
-      "discountRate": 85,
-      "finalPrice": 80400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230607/3349603/3349603_16877495847400_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3349603"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "이알엘",
-      "name": "테이브 패딩 베스트 - 그린 / ERL06J007GREEN",
-      "discountRate": 79,
-      "finalPrice": 408000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230724/3422876/3422876_16909545935058_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3422876"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "마르니",
-      "name": "트로피칼 울 셔츠 - 베르디그리스 / CUMU0278QSTW83900B67",
-      "discountRate": 80,
-      "finalPrice": 215000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20231113/3705130/3705130_17011431685748_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3705130"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "생로랑",
-      "name": "크롭 터틀넥 니트 - 블랙 / 802477Y76UX1000",
-      "discountRate": 77,
-      "finalPrice": 301000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240823/4366044/4366044_17260212984855_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4366044"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "루스",
-      "name": "(W) 리가토니 쇼츠 초크 RIGATONI CHALK",
-      "discountRate": 85,
-      "finalPrice": 49500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250204/4753831/4753831_17386326779750_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4753831"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "오리온",
-      "name": "마켓오 브라우니 황치즈 12P 240g + 브라우니 12p +  촉촉한초코칩 16p + 오뜨 치즈 12p",
-      "discountRate": 20,
-      "finalPrice": 22900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7334175/7334175_17909277470608_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7334175"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "트위스트 세미 벌룬 데님 팬츠 [크림]",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220927/2823285/2823285_16733390499800_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2823285"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "루드",
-      "name": "크레페 사틴 수베니어 재킷 - 브라운:크림 / RHPF23JA021536761676",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230906/3533663/3533663_16957406206470_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3533663"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "마르니",
-      "name": "트렁크 나노 체인 크로스백 - 바닐라 / SBMP0085U0LV520Z680Y",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20231214/3756732/3756732_17050498811738_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3756732"
-    },
-    {
-      "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 슬림 스퀘어 넥 긴소매 티셔츠 [블랙]",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240702/4227316/4227316_17248137172882_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4227316"
+      "name": "우먼즈 세미  오버사이즈 스웨트셔츠 [미디엄 그레이]",
+      "discountRate": 50,
+      "finalPrice": 14950,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20200226/1323998/1323998_17028208851772_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1323998"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "마스콥",
+      "name": "티주카 니트 - 누아르 / W23935KNNOIR",
+      "discountRate": 86,
+      "finalPrice": 65000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230126/3039989/3039989_16786933914861_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3039989"
     },
     {
       "section": "한정수량 선착순 특가",
       "brand": "스탠드 스튜디오",
-      "name": "코코 재킷 - 블랙:베이지 / 62263907788810",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241015/4519581/4519581_17298147354269_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4519581"
+      "name": "파올라 리버시블 페이크 퍼 시어링 코트 - 베이지 / 61963906612270",
+      "discountRate": 80,
+      "finalPrice": 183000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20231207/3747790/3747790_17050524070263_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3747790"
     },
     {
       "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드",
-      "name": "코튼 텐셀 에센셜 가디건 [라이트 웜 그레이]",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241202/4644571/4644571_17423628987255_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4644571"
+      "name": "와이드 멀티 포켓 카고 데님 팬츠 [애시드 그레이]",
+      "discountRate": 60,
+      "finalPrice": 27690,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240105/3779122/3779122_17138543901238_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3779122"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "마르니",
+      "name": "퍼스벳 뮬 - 블랙 / SBMR003300P508800N99",
+      "discountRate": 80,
+      "finalPrice": 311000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240213/3863020/3863020_17091038915192_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3863020"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "마르니",
+      "name": "퍼스벳 크리스크로스 샌들 - 멀티 / FBMS013801P6744ZO754",
+      "discountRate": 80,
+      "finalPrice": 215000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240226/3900971/3900971_17103888691882_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3900971"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "[시티 레저] CN 오버사이즈 멀티 포켓 셔츠 [네이비]",
+      "discountRate": 61,
+      "finalPrice": 26990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240708/4237239/4237239_17273415749688_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4237239"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "발렌티노",
+      "name": "트왈 이코노그라프 패턴 나일론 패딩 - 네이비 / 5V3CNA319VFYE6",
+      "discountRate": 74,
+      "finalPrice": 1232000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240719/4260196/4260196_17230159673969_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4260196"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "마르니",
+      "name": "퍼 퍼스벳 레더 샌들 - 블랙 / FBMS005801P909300N99",
+      "discountRate": 80,
+      "finalPrice": 241000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240729/4278301/4278301_17229046926028_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4278301"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "알렉산더 맥퀸",
+      "name": "페더 프린트 디테일 와이드 팬츠 - 블랙:아이스 핑크 / 700838QCALD1293",
+      "discountRate": 82,
+      "finalPrice": 341000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240903/4398719/4398719_17261112585970_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4398719"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "리메인",
+      "name": "(W) 투 레이어 셔츠 베이비 블루 TWO LAYER SHIRT BABY BLUE",
+      "discountRate": 85,
+      "finalPrice": 52350,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250205/4759856/4759856_17387314896126_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4759856"
     },
     {
       "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드 홈 & 프로덕트",
-      "name": "논슬립 3단 바지걸이 6팩 [블랙]",
+      "name": "지퍼 압축 파우치 20인치팩 [블랙]",
       "discountRate": 0,
       "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250710/5240266/5240266_17538497955502_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5240266"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250219/4804588/4804588_17484100027757_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4804588"
     },
     {
       "section": "48시간 특가",
@@ -2202,6 +2184,87 @@
     {
       "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
       "brand": "아메스 월드와이드",
+      "name": "PUNCHED CARDIGAN IVORY",
+      "discountRate": 55,
+      "finalPrice": 42770,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250922/5507058/5507058_17587923669584_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5507058"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "RUGBY STRIPE SWEATSHIRT NAVY",
+      "discountRate": 51,
+      "finalPrice": 43610,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260212/6021253/6021253_17708959598442_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6021253"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "CROP V NECK ARGYLE CARDIGAN GREY",
+      "discountRate": 51,
+      "finalPrice": 38710,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251023/5636436/5636436_17612816906433_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5636436"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "STRIPE KNIT HOODIE ZIP-UP BLACK",
+      "discountRate": 65,
+      "finalPrice": 34300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240930/4478098/4478098_17285423042419_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4478098"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "PUNCHED CARDIGAN BROWN",
+      "discountRate": 55,
+      "finalPrice": 42770,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250922/5507056/5507056_17738833177034_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5507056"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "KNIT LEGGINGS PANTS IVORY",
+      "discountRate": 68,
+      "finalPrice": 24890,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240930/4477839/4477839_17276845402806_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4477839"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "LACE SHIRRING DRESS BLUE",
+      "discountRate": 54,
+      "finalPrice": 49600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260212/6021227/6021227_17708943634850_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6021227"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "BIG TYPO SWEATSHIRT PINK",
+      "discountRate": 58,
+      "finalPrice": 28980,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250808/5306162/5306162_17558410541287_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5306162"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "CROP V NECK ARGYLE CARDIGAN BROWN",
+      "discountRate": 51,
+      "finalPrice": 38710,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251023/5636432/5636432_17612817517955_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5636432"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
       "name": "LACE SHIRRING DRESS BROWN",
       "discountRate": 54,
       "finalPrice": 49600,
@@ -2211,11 +2274,11 @@
     {
       "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
       "brand": "아메스 월드와이드",
-      "name": "ANGELS TWO TONE HOODIE NAVY",
-      "discountRate": 58,
-      "finalPrice": 33180,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250808/5306188/5306188_17558410197164_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5306188"
+      "name": "CORDUROY EASY PANTS PINK",
+      "discountRate": 79,
+      "finalPrice": 22890,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251023/5636347/5636347_17612828194809_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5636347"
     },
     {
       "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
@@ -2238,155 +2301,11 @@
     {
       "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
       "brand": "아메스 월드와이드",
-      "name": "BASIC RAGLAN PULLOVER KNIT BLUE",
-      "discountRate": 44,
-      "finalPrice": 31360,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240829/4385402/4385402_17588522624591_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4385402"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "LACE SHIRRING DRESS BLUE",
-      "discountRate": 54,
-      "finalPrice": 49600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260212/6021227/6021227_17708943634850_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6021227"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "CROP V NECK ARGYLE CARDIGAN GREY",
-      "discountRate": 51,
-      "finalPrice": 38710,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251023/5636436/5636436_17612816906433_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5636436"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
       "name": "ANGELS TWO TONE HOODIE LIGHT GREY",
       "discountRate": 58,
       "finalPrice": 33180,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250808/5306186/5306186_17558410274898_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5306186"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "PUNCHED CARDIGAN BROWN",
-      "discountRate": 55,
-      "finalPrice": 42770,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250922/5507056/5507056_17738833177034_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5507056"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "BASIC APPLIQUE SWEATSHIRT RED",
-      "discountRate": 51,
-      "finalPrice": 28910,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260126/5936647/5936647_17694880654625_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5936647"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "BIG TYPO SWEATSHIRT PINK",
-      "discountRate": 58,
-      "finalPrice": 28980,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250808/5306162/5306162_17558410541287_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5306162"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "CORDUROY EASY PANTS PINK",
-      "discountRate": 79,
-      "finalPrice": 22890,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251023/5636347/5636347_17612828194809_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5636347"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "CORDUROY EASY PANTS BLACK",
-      "discountRate": 79,
-      "finalPrice": 22890,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251023/5636353/5636353_17612827236902_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5636353"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "CROP V NECK ARGYLE CARDIGAN BROWN",
-      "discountRate": 51,
-      "finalPrice": 38710,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251023/5636432/5636432_17612817517955_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5636432"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "CROP COWICHAN CARDIGAN RED",
-      "discountRate": 69,
-      "finalPrice": 40320,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240930/4478110/4478110_17458941567154_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4478110"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "PUNCHED CARDIGAN IVORY",
-      "discountRate": 55,
-      "finalPrice": 42770,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250922/5507058/5507058_17587923669584_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5507058"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "RUGBY STRIPE SWEATSHIRT NAVY",
-      "discountRate": 51,
-      "finalPrice": 43610,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260212/6021253/6021253_17708959598442_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6021253"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "CROP COWICHAN CARDIGAN BROWN",
-      "discountRate": 69,
-      "finalPrice": 40320,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240930/4478115/4478115_17458941152339_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4478115"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "KNIT LEGGINGS PANTS IVORY",
-      "discountRate": 68,
-      "finalPrice": 24890,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240930/4477839/4477839_17276845402806_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4477839"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "BIG TYPO SWEATSHIRT BLACK",
-      "discountRate": 58,
-      "finalPrice": 28980,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250808/5306163/5306163_17558410476213_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5306163"
-    },
-    {
-      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
-      "brand": "아메스 월드와이드",
-      "name": "KNIT LEGGINGS PANTS BROWN",
-      "discountRate": 68,
-      "finalPrice": 24890,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240930/4477833/4477833_17276845331270_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4477833"
     },
     {
       "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
@@ -2400,11 +2319,11 @@
     {
       "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
       "brand": "아메스 월드와이드",
-      "name": "DOT PULLOVER KNIT BEIGE",
-      "discountRate": 54,
-      "finalPrice": 40500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251023/5636408/5636408_17738830588524_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5636408"
+      "name": "KNIT LEGGINGS PANTS BROWN",
+      "discountRate": 68,
+      "finalPrice": 24890,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240930/4477833/4477833_17276845331270_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4477833"
     },
     {
       "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
@@ -2414,6 +2333,69 @@
       "finalPrice": 40320,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240930/4478114/4478114_17285518131663_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4478114"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "CROP COWICHAN CARDIGAN RED",
+      "discountRate": 69,
+      "finalPrice": 40320,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240930/4478110/4478110_17458941567154_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4478110"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "ANGELS TWO TONE HOODIE NAVY",
+      "discountRate": 58,
+      "finalPrice": 33180,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250808/5306188/5306188_17558410197164_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5306188"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "BASIC APPLIQUE SWEATSHIRT RED",
+      "discountRate": 51,
+      "finalPrice": 28910,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260126/5936647/5936647_17694880654625_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5936647"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "DOT PULLOVER KNIT BEIGE",
+      "discountRate": 54,
+      "finalPrice": 40500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251023/5636408/5636408_17738830588524_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5636408"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "CORDUROY EASY PANTS BLACK",
+      "discountRate": 79,
+      "finalPrice": 22890,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251023/5636353/5636353_17612827236902_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5636353"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "BIG TYPO SWEATSHIRT BLACK",
+      "discountRate": 58,
+      "finalPrice": 28980,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250808/5306163/5306163_17558410476213_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5306163"
+    },
+    {
+      "section": "쿠폰으로 만나는\n우먼 인기 브랜드",
+      "brand": "아메스 월드와이드",
+      "name": "BASIC RAGLAN PULLOVER KNIT BLUE",
+      "discountRate": 44,
+      "finalPrice": 31360,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240829/4385402/4385402_17588522624591_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4385402"
     }
   ]
 }
