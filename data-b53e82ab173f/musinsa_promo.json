@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-06T22:06:12.045592+00:00",
+  "updatedAt": "2026-10-07T01:56:13.387708+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -29,6 +29,15 @@
       "finalPrice": 360000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20241106/4592629/4592629_17313826611128_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4592629"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "앰부시",
+      "name": "AMB 그래픽 로고 크루넥 맨투맨 - 네이비 / 1211533229",
+      "discountRate": 83,
+      "finalPrice": 90000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250401/4971051/4971051_17447677934046_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4971051"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -1076,15 +1085,6 @@
     },
     {
       "section": "26 추석 시그니처특가",
-      "brand": "시그니처",
-      "name": "더블턱 와이드 슬랙스[블랙]",
-      "discountRate": 51,
-      "finalPrice": 29000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220524/2578996/2578996_17870331293023_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2578996"
-    },
-    {
-      "section": "26 추석 시그니처특가",
       "brand": "수아레",
       "name": "(XXL 추가) 데일리 라운드 니트 - 12 COLOR",
       "discountRate": 53,
@@ -1775,6 +1775,15 @@
       "finalPrice": 56750,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7071862/7071862_17883115245091_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7071862"
+    },
+    {
+      "section": "26 추석 시그니처특가",
+      "brand": "트릴리온",
+      "name": "워셔블 사이드 헨리넥 레이어드 니트_4color",
+      "discountRate": 47,
+      "finalPrice": 29900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7122634/7122634_17888679647196_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7122634"
     },
     {
       "section": "26 추석 시그니처특가",
