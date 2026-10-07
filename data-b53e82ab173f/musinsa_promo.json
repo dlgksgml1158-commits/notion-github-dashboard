@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-07T15:57:30.274873+00:00",
+  "updatedAt": "2026-10-07T21:01:41.291636+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -1238,15 +1238,6 @@
     },
     {
       "section": "하루특가",
-      "brand": "알리스",
-      "name": "[데일리룸X알리스] 페이디드 그레인 코튼 블루종 자켓 [빈티지블랙]",
-      "discountRate": 46,
-      "finalPrice": 88560,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250901/5386035/5386035_17604946767281_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5386035"
-    },
-    {
-      "section": "하루특가",
       "brand": "엘리메노",
       "name": "EL 베이직 절개 테이핑 트랙 팬츠 2Color",
       "discountRate": 43,
@@ -1541,6 +1532,15 @@
       "finalPrice": 39100,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260826/7166434/7166434_17879084908025_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7166434"
+    },
+    {
+      "section": "하루특가",
+      "brand": "라 메종 스튜디오",
+      "name": "스타 듀크 헨리넥 멜란그레이(FCG3TS955M)",
+      "discountRate": 46,
+      "finalPrice": 31800,
+      "imgUrl": "https://image.msscdn.net/images/prd_img/20260826/7171646/detail_7171646_17899528220364_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7171646"
     },
     {
       "section": "하루특가",
@@ -2850,33 +2850,6 @@
     {
       "section": "추석 앙코르 뷰티 세일",
       "brand": "에스트라",
-      "name": "아토베리어365 로션 150ml 2개",
-      "discountRate": 28,
-      "finalPrice": 47520,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240326/3992843/3992843_17827953245436_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3992843"
-    },
-    {
-      "section": "추석 앙코르 뷰티 세일",
-      "brand": "에스트라",
-      "name": "아토베리어365 로션 150ml",
-      "discountRate": 20,
-      "finalPrice": 26400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20211012/2172337/2172337_17827952704914_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2172337"
-    },
-    {
-      "section": "추석 앙코르 뷰티 세일",
-      "brand": "에스트라",
-      "name": "아토베리어365 젠틀 포밍클렌저 150ml x2",
-      "discountRate": 28,
-      "finalPrice": 28800,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260116/5901469/5901469_17894332467667_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5901469"
-    },
-    {
-      "section": "추석 앙코르 뷰티 세일",
-      "brand": "에스트라",
       "name": "아토베리어365 하이드로 에센스 200ml",
       "discountRate": 24,
       "finalPrice": 24320,
@@ -2886,11 +2859,38 @@
     {
       "section": "추석 앙코르 뷰티 세일",
       "brand": "에스트라",
+      "name": "아토베리어365 세라-히알 속수분 앰플 30ml 2개",
+      "discountRate": 28,
+      "finalPrice": 47520,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241216/4667518/4667518_17679360056885_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4667518"
+    },
+    {
+      "section": "추석 앙코르 뷰티 세일",
+      "brand": "에스트라",
+      "name": "아토베리어365 하이드로 에센스 200ml 2개",
+      "discountRate": 28,
+      "finalPrice": 46080,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241010/4500413/4500413_17854836845961_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4500413"
+    },
+    {
+      "section": "추석 앙코르 뷰티 세일",
+      "brand": "에스트라",
       "name": "아토베리어365 하이드로 수딩크림 80ml",
       "discountRate": 20,
       "finalPrice": 26400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20220804/2697167/2697167_17800120501610_500.jpg",
       "productUrl": "https://www.musinsa.com/products/2697167"
+    },
+    {
+      "section": "추석 앙코르 뷰티 세일",
+      "brand": "에스트라",
+      "name": "더마UV365 장벽수분 무기자차 선크림 40ml",
+      "discountRate": 24,
+      "finalPrice": 23560,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230523/3316501/3316501_17827953843390_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3316501"
     },
     {
       "section": "추석 앙코르 뷰티 세일",
@@ -2913,20 +2913,11 @@
     {
       "section": "추석 앙코르 뷰티 세일",
       "brand": "에스트라",
-      "name": "테라크네365 클리어 딥 클렌징 폼 200g",
-      "discountRate": 24,
-      "finalPrice": 17480,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20211012/2172781/2172781_17515928039172_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2172781"
-    },
-    {
-      "section": "추석 앙코르 뷰티 세일",
-      "brand": "에스트라",
-      "name": "아토베리어365 세라-히알 속수분 앰플 30ml",
+      "name": "아토베리어365 바디로션 400ml",
       "discountRate": 24,
       "finalPrice": 25080,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241216/4667517/4667517_17878775197351_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4667517"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220303/2395890/2395890_17337211171131_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2395890"
     },
     {
       "section": "추석 앙코르 뷰티 세일",
@@ -2940,47 +2931,20 @@
     {
       "section": "추석 앙코르 뷰티 세일",
       "brand": "에스트라",
-      "name": "아토베리어365 클렌징폼 200g",
+      "name": "에이시카 365 크림 pH4.5 60ml",
       "discountRate": 24,
-      "finalPrice": 16720,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260116/5901473/5901473_17878787162855_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5901473"
+      "finalPrice": 22800,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230306/3124238/3124238_17878783476999_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3124238"
     },
     {
       "section": "추석 앙코르 뷰티 세일",
       "brand": "에스트라",
-      "name": "아토베리어365 하이드로 에센스 200ml 2개",
-      "discountRate": 28,
-      "finalPrice": 46080,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241010/4500413/4500413_17854836845961_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4500413"
-    },
-    {
-      "section": "추석 앙코르 뷰티 세일",
-      "brand": "에스트라",
-      "name": "테라크네365 수딩 액티브 모이스처라이저  60ml",
+      "name": "테라크네365 클리어 딥 클렌징 폼 200g",
       "discountRate": 24,
-      "finalPrice": 25080,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230321/3163916/3163916_17466857629594_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3163916"
-    },
-    {
-      "section": "추석 앙코르 뷰티 세일",
-      "brand": "에스트라",
-      "name": "에이시카 365 수분토너 pH4.5 200ml + 크림 pH4.5 60ml",
-      "discountRate": 24,
-      "finalPrice": 44080,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241209/4656391/4656391_17878782950375_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4656391"
-    },
-    {
-      "section": "추석 앙코르 뷰티 세일",
-      "brand": "에스트라",
-      "name": "리제덤365 밀도탄력 캡슐크림 50ML",
-      "discountRate": 24,
-      "finalPrice": 34200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20231024/3654107/3654107_17878785457114_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3654107"
+      "finalPrice": 17480,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20211012/2172781/2172781_17515928039172_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2172781"
     },
     {
       "section": "추석 앙코르 뷰티 세일",
@@ -2994,65 +2958,56 @@
     {
       "section": "추석 앙코르 뷰티 세일",
       "brand": "에스트라",
-      "name": "에이시카 365 크림 pH4.5 60ml",
-      "discountRate": 24,
-      "finalPrice": 22800,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230306/3124238/3124238_17878783476999_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3124238"
+      "name": "아토베리어365 크림미스트 120ML 2개",
+      "discountRate": 26,
+      "finalPrice": 34230,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241010/4500417/4500417_17743987564083_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4500417"
     },
     {
       "section": "추석 앙코르 뷰티 세일",
       "brand": "에스트라",
-      "name": "아토베리어365 하이드로 수딩크림 80ml X 3개",
+      "name": "아토베리어365 클렌징폼 200g",
+      "discountRate": 24,
+      "finalPrice": 16720,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260116/5901473/5901473_17878787162855_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5901473"
+    },
+    {
+      "section": "추석 앙코르 뷰티 세일",
+      "brand": "에스트라",
+      "name": "테라크네365 액티브 세럼 30ml",
       "discountRate": 30,
-      "finalPrice": 69300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7009774/7009774_17908122473652_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7009774"
+      "finalPrice": 29400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230829/3509837/3509837_17466856290254_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3509837"
     },
     {
       "section": "추석 앙코르 뷰티 세일",
       "brand": "에스트라",
-      "name": "더마UV365 장벽수분 무기자차 선크림 40ml",
+      "name": "아토베리어365 젠틀 포밍클렌저 150ml",
       "discountRate": 24,
-      "finalPrice": 23560,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230523/3316501/3316501_17827953843390_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3316501"
+      "finalPrice": 15200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260116/5901463/5901463_17878786563344_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5901463"
     },
     {
       "section": "추석 앙코르 뷰티 세일",
       "brand": "에스트라",
-      "name": "아토베리어365 세라-히알 속수분 앰플 30ml 2개",
+      "name": "아토베리어365 로션 150ml",
+      "discountRate": 20,
+      "finalPrice": 26400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20211012/2172337/2172337_17827952704914_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2172337"
+    },
+    {
+      "section": "추석 앙코르 뷰티 세일",
+      "brand": "에스트라",
+      "name": "아토베리어365 로션 150ml 2개",
       "discountRate": 28,
       "finalPrice": 47520,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241216/4667518/4667518_17679360056885_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4667518"
-    },
-    {
-      "section": "추석 앙코르 뷰티 세일",
-      "brand": "에스트라",
-      "name": "더마UV365 장벽수분 무기자차 선크림 40ml *2",
-      "discountRate": 28,
-      "finalPrice": 44640,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240314/3951459/3951459_17827954534977_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3951459"
-    },
-    {
-      "section": "추석 앙코르 뷰티 세일",
-      "brand": "에스트라",
-      "name": "에이시카 365 흔적진정세럼 pH4.5  40ml  2개",
-      "discountRate": 28,
-      "finalPrice": 54720,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230306/3124321/3124321_17878776769130_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3124321"
-    },
-    {
-      "section": "추석 앙코르 뷰티 세일",
-      "brand": "에스트라",
-      "name": "아토베리어365 클렌징폼 200g x2",
-      "discountRate": 28,
-      "finalPrice": 31680,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260116/5901474/5901474_17894331276901_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5901474"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240326/3992843/3992843_17827953245436_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3992843"
     },
     {
       "section": "추석 앙코르 뷰티 세일",
@@ -3066,6 +3021,33 @@
     {
       "section": "추석 앙코르 뷰티 세일",
       "brand": "에스트라",
+      "name": "아토베리어365 젠틀 포밍클렌저 150ml x2",
+      "discountRate": 28,
+      "finalPrice": 28800,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260116/5901469/5901469_17894332467667_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5901469"
+    },
+    {
+      "section": "추석 앙코르 뷰티 세일",
+      "brand": "에스트라",
+      "name": "아토베리어365 세라-히알 속수분 앰플 30ml",
+      "discountRate": 24,
+      "finalPrice": 25080,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241216/4667517/4667517_17878775197351_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4667517"
+    },
+    {
+      "section": "추석 앙코르 뷰티 세일",
+      "brand": "에스트라",
+      "name": "아토베리어365 하이드로 수딩크림 80ml X 3개",
+      "discountRate": 30,
+      "finalPrice": 69300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7009774/7009774_17908122473652_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7009774"
+    },
+    {
+      "section": "추석 앙코르 뷰티 세일",
+      "brand": "에스트라",
       "name": "아토베리어365 로션 150ml 3개",
       "discountRate": 30,
       "finalPrice": 69300,
@@ -3075,11 +3057,47 @@
     {
       "section": "추석 앙코르 뷰티 세일",
       "brand": "에스트라",
-      "name": "아토베리어365 클렌징밀크 200ml",
-      "discountRate": 22,
-      "finalPrice": 22510,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260116/5901475/5901475_17878788193561_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5901475"
+      "name": "더마 UV365 레드진정 톤업 선크림 40ml * 2",
+      "discountRate": 28,
+      "finalPrice": 44640,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240314/3951469/3951469_17827955532969_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3951469"
+    },
+    {
+      "section": "추석 앙코르 뷰티 세일",
+      "brand": "에스트라",
+      "name": "테라크네365 클리어 딥 클렌징 폼 200g x2",
+      "discountRate": 28,
+      "finalPrice": 33120,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251105/5686483/5686483_17623078258889_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5686483"
+    },
+    {
+      "section": "추석 앙코르 뷰티 세일",
+      "brand": "에스트라",
+      "name": "아토베리어365 클렌징폼 200g x2",
+      "discountRate": 28,
+      "finalPrice": 31680,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260116/5901474/5901474_17894331276901_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5901474"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "트리 로고 집업 후디 Melange Gray",
+      "discountRate": 19,
+      "finalPrice": 80190,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317251/5317251_17877088288118_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5317251"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "더블니 85283 루즈핏 워크팬츠 Black",
+      "discountRate": 28,
+      "finalPrice": 54000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20231103/3684419/3684419_17751985153031_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3684419"
     },
     {
       "section": "온 & 오프 페스티벌",
@@ -3093,128 +3111,11 @@
     {
       "section": "온 & 오프 페스티벌",
       "brand": "디키즈",
-      "name": "더블니 85283 루즈핏 워크팬츠 Khaki Gray",
-      "discountRate": 28,
-      "finalPrice": 54000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260325/6191106/6191106_17761478623466_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6191106"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "오리지널 874 워크팬츠 Khaki Brown",
-      "discountRate": 23,
-      "finalPrice": 45180,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260325/6191112/6191112_17751957878882_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6191112"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "더블니 85283 루즈핏 워크팬츠 Khaki Brown",
-      "discountRate": 28,
-      "finalPrice": 54000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260325/6191108/6191108_17761478428112_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6191108"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "오리지널 874 워크팬츠 Khaki Gray",
-      "discountRate": 23,
-      "finalPrice": 45180,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260325/6191109/6191109_17751957823462_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6191109"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
       "name": "베이직 로고 후드 집업 Black",
       "discountRate": 19,
       "finalPrice": 72090,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317254/5317254_17883392388165_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5317254"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "베이직 로고 후드 집업 Melange Gray",
-      "discountRate": 19,
-      "finalPrice": 72090,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317255/5317255_17557332252924_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5317255"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "스톤워시드 덕 캔버스 더블니 팬츠 Brown Duck",
-      "discountRate": 37,
-      "finalPrice": 56070,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4845147/4845147_17437240126234_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4845147"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "토마스빌 루즈핏 데님팬츠 Black",
-      "discountRate": 15,
-      "finalPrice": 64080,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240312/3940891/3940891_17102075100371_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3940891"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "1993 카펜터 데님 팬츠 Indigo Blue",
-      "discountRate": 32,
-      "finalPrice": 53330,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250327/4953847/4953847_17470341672644_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4953847"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "트리 로고 집업 후디 Black",
-      "discountRate": 19,
-      "finalPrice": 80190,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317250/5317250_17877087407614_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5317250"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "873 슬림핏 워크팬츠 Charcoal",
-      "discountRate": 15,
-      "finalPrice": 50400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240104/3776134/3776134_17083927357631_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3776134"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "(XL,XXL) 아이젠하워 레귤러핏 워크 재킷 Black",
-      "discountRate": 15,
-      "finalPrice": 84600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240104/3776137/3776137_17084892914908_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3776137"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "나일론 시어링 봄버 재킷 Camel",
-      "discountRate": 32,
-      "finalPrice": 120830,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250908/5419471/5419471_17629928875792_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5419471"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "더블니 85283 루즈핏 데님팬츠 Vintage Blue",
-      "discountRate": 19,
-      "finalPrice": 60750,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240219/3880591/3880591_17170275081878_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3880591"
     },
     {
       "section": "온 & 오프 페스티벌",
@@ -3228,20 +3129,29 @@
     {
       "section": "온 & 오프 페스티벌",
       "brand": "디키즈",
-      "name": "1993 카펜터 데님 팬츠 Tinted Khaki",
-      "discountRate": 32,
-      "finalPrice": 53330,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250327/4953846/4953846_17470341606442_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4953846"
+      "name": "베이직 로고 후드 집업 Melange Gray",
+      "discountRate": 19,
+      "finalPrice": 72090,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317255/5317255_17557332252924_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5317255"
     },
     {
       "section": "온 & 오프 페스티벌",
       "brand": "디키즈",
-      "name": "오리지널 874 워크팬츠 White",
-      "discountRate": 23,
-      "finalPrice": 45180,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317277/5317277_17751980535900_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5317277"
+      "name": "트리 로고 집업 후디 Black",
+      "discountRate": 19,
+      "finalPrice": 80190,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317250/5317250_17877087407614_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5317250"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "더블니 85283 루즈핏 워크팬츠 Khaki Gray",
+      "discountRate": 28,
+      "finalPrice": 54000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260325/6191106/6191106_17761478623466_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6191106"
     },
     {
       "section": "온 & 오프 페스티벌",
@@ -3255,56 +3165,29 @@
     {
       "section": "온 & 오프 페스티벌",
       "brand": "디키즈",
-      "name": "블록 헤비 다운 재킷 Khaki Gray",
-      "discountRate": 46,
-      "finalPrice": 129060,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250923/5513448/5513448_17629928292057_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5513448"
+      "name": "(XL,XXL) 아이젠하워 레귤러핏 워크 재킷 Black",
+      "discountRate": 15,
+      "finalPrice": 84600,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240104/3776137/3776137_17084892914908_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3776137"
     },
     {
       "section": "온 & 오프 페스티벌",
       "brand": "디키즈",
-      "name": "우먼스 트러커 루즈핏 데님 팬츠 Indigo",
-      "discountRate": 37,
-      "finalPrice": 62370,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250923/5513466/5513466_17587890592577_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5513466"
+      "name": "우먼스 아이젠하워 크롭 재킷 Black",
+      "discountRate": 15,
+      "finalPrice": 76050,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250327/4953937/4953937_17458004321896_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4953937"
     },
     {
       "section": "온 & 오프 페스티벌",
       "brand": "디키즈",
-      "name": "더블니 85283 루즈핏 데님팬츠 Light Denim",
-      "discountRate": 19,
-      "finalPrice": 60750,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240219/3880596/3880596_17170275141228_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3880596"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "247 루즈핏 워크팬츠 Black",
-      "discountRate": 32,
-      "finalPrice": 53330,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317285/5317285_17556779535573_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5317285"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "캔버스 더블니 카고 팬츠 Black",
-      "discountRate": 37,
-      "finalPrice": 93870,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250908/5419343/5419343_17576400159285_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5419343"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
-      "name": "오리지널 874 워크팬츠 Wood Ash",
-      "discountRate": 23,
-      "finalPrice": 45180,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260317/6143288/6143288_17751957546162_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6143288"
+      "name": "트리 로고 스웨트셔츠 Melange Gray",
+      "discountRate": 15,
+      "finalPrice": 58950,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317232/5317232_17557338743051_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5317232"
     },
     {
       "section": "온 & 오프 페스티벌",
@@ -3318,29 +3201,47 @@
     {
       "section": "온 & 오프 페스티벌",
       "brand": "디키즈",
-      "name": "웨이브 로고 데님 후드 집업 Black Denim",
-      "discountRate": 37,
-      "finalPrice": 85050,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4845126/4845126_17411615470633_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4845126"
+      "name": "873 슬림핏 워크팬츠 Black",
+      "discountRate": 28,
+      "finalPrice": 42480,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240104/3776133/3776133_17083927292762_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3776133"
     },
     {
       "section": "온 & 오프 페스티벌",
       "brand": "디키즈",
-      "name": "웨이브 로고 데님 후드 집업 Medium Blue",
-      "discountRate": 37,
-      "finalPrice": 85050,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4845125/4845125_17411615407236_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4845125"
+      "name": "디키즈 X 마스터마인드 카펜터 팬츠 CAMEL",
+      "discountRate": 20,
+      "finalPrice": 191200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250708/5233064/5233064_17526437144925_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5233064"
     },
     {
       "section": "온 & 오프 페스티벌",
       "brand": "디키즈",
-      "name": "BIB 덕 캔버스 오버롤 팬츠 Brown",
+      "name": "48799 점프수트 커버올 Dark Navy",
       "discountRate": 15,
       "finalPrice": 84600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240312/3940871/3940871_17102073745483_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3940871"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240220/3882592/3882592_17083946690660_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3882592"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "유틸리티 후드 재킷 Black",
+      "discountRate": 37,
+      "finalPrice": 169470,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250923/5513454/5513454_17587890805633_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5513454"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "더블니 85283 루즈핏 워크팬츠 Khaki Brown",
+      "discountRate": 28,
+      "finalPrice": 54000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260325/6191108/6191108_17761478428112_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6191108"
     },
     {
       "section": "온 & 오프 페스티벌",
@@ -3350,6 +3251,105 @@
       "finalPrice": 77220,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250908/5419373/5419373_17629922059405_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5419373"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "1993 카펜터 데님 팬츠 Indigo Blue",
+      "discountRate": 32,
+      "finalPrice": 53330,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250327/4953847/4953847_17470341672644_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4953847"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "오리지널 874 워크팬츠 Khaki Brown",
+      "discountRate": 23,
+      "finalPrice": 45180,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260325/6191112/6191112_17751957878882_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6191112"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "19294 카펜터 라이트 데님 팬츠 Tinted Khaki",
+      "discountRate": 15,
+      "finalPrice": 64080,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4845149/4845149_17411616082382_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4845149"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "블록 헤비 다운 재킷 Black",
+      "discountRate": 46,
+      "finalPrice": 129060,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250923/5513446/5513446_17629927988301_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5513446"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "1993 카펜터 데님 팬츠 Tinted Khaki",
+      "discountRate": 32,
+      "finalPrice": 53330,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250327/4953846/4953846_17470341606442_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4953846"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "트러커 오버핏 데님 재킷 Archive Wash",
+      "discountRate": 32,
+      "finalPrice": 114080,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250908/5419438/5419438_17629917726992_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5419438"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "247 루즈핏 워크팬츠 Black",
+      "discountRate": 32,
+      "finalPrice": 53330,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317285/5317285_17556779535573_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5317285"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "오리지널 874 워크팬츠 Wood Ash",
+      "discountRate": 23,
+      "finalPrice": 45180,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260317/6143288/6143288_17751957546162_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6143288"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "오리지널 874 워크팬츠 White",
+      "discountRate": 23,
+      "finalPrice": 45180,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5317277/5317277_17751980535900_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5317277"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "스톤워시드 덕 캔버스 더블니 팬츠 Brown Duck",
+      "discountRate": 37,
+      "finalPrice": 56070,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250228/4845147/4845147_17437240126234_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4845147"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "BIB 오버롤 팬츠 Hickory Stripe",
+      "discountRate": 15,
+      "finalPrice": 76050,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240312/3940872/3940872_17102073802888_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3940872"
     }
   ]
 }
