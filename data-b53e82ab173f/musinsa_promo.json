@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-07T21:01:41.291636+00:00",
+  "updatedAt": "2026-10-08T01:27:53.768026+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -11,15 +11,6 @@
       "finalPrice": 323000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20231114/3709063/3709063_17023486468168_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3709063"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "에름 파리",
-      "name": "(M) 썬더버드 스웨이드 핑크/화이트 THUNDERBIRDS SUEDE PINK/WHITE",
-      "discountRate": 85,
-      "finalPrice": 68250,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240313/3945988/3945988_17102872151135_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3945988"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -65,6 +56,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20230919/3574573/3574573_16951909415547_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3574573"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "에름 파리",
+      "name": "(M) 썬더버드 스웨이드 핑크/화이트 THUNDERBIRDS SUEDE PINK/WHITE",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240313/3945988/3945988_17102872151135_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3945988"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -1085,6 +1085,15 @@
     },
     {
       "section": "하루특가",
+      "brand": "너스",
+      "name": "Burn Black Coat",
+      "discountRate": 35,
+      "finalPrice": 129350,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241024/4552254/4552254_17297407047551_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4552254"
+    },
+    {
+      "section": "하루특가",
       "brand": "세컨모놀로그",
       "name": "W.(SET)Sheer Shirt Bustier Set [SKYBLUE]_SEWSH002SKYBLUE",
       "discountRate": 45,
@@ -1505,15 +1514,6 @@
       "finalPrice": 20900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7159952/7159952_17887460779566_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7159952"
-    },
-    {
-      "section": "하루특가",
-      "brand": "워크온바디오프",
-      "name": "베르 세미 오버핏 스웨이드 블루종 자켓 [브라운]",
-      "discountRate": 45,
-      "finalPrice": 93500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7161142/7161142_17879025195199_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7161142"
     },
     {
       "section": "하루특가",
