@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-08T21:11:57.363817+00:00",
+  "updatedAt": "2026-10-09T01:36:22.328682+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -59,15 +59,6 @@
     },
     {
       "section": "한정수량 선착순 특가",
-      "brand": "푸마",
-      "name": "스피드캣 OG - 베이퍼그레이:레드 / 398846-49",
-      "discountRate": 55,
-      "finalPrice": 61990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250922/5502485/5502485_17585975593379_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5502485"
-    },
-    {
-      "section": "한정수량 선착순 특가",
       "brand": "웰던",
       "name": "펑크 테디 반소매 티셔츠 - 화이트 / WDTT126775UWH",
       "discountRate": 55,
@@ -110,6 +101,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5360133/5360133_17564486421876_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5360133"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "푸마",
+      "name": "스피드캣 OG - 베이퍼그레이:레드 / 398846-49",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250922/5502485/5502485_17585975593379_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5502485"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -691,8 +691,8 @@
       "section": "킥스 페스티벌",
       "brand": "아디다스",
       "name": "도쿄 - 아우라커피 / HQ2887",
-      "discountRate": 5,
-      "finalPrice": 131690,
+      "discountRate": 11,
+      "finalPrice": 123290,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7152801/7152801_17876379758247_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7152801"
     },
@@ -745,8 +745,8 @@
       "section": "킥스 페스티벌",
       "brand": "아디다스",
       "name": "삼바 제인 - 블랙:화이트 / JQ6445",
-      "discountRate": 42,
-      "finalPrice": 85820,
+      "discountRate": 50,
+      "finalPrice": 74000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250514/5111643/5111643_17473052278969_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5111643"
     },
