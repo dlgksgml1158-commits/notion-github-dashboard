@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-10T06:34:33.237979+00:00",
+  "updatedAt": "2026-10-10T13:10:56.854594+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -38,15 +38,6 @@
       "finalPrice": 53000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260306/6092240/6092240_17730205790120_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6092240"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "멜릭서",
-      "name": "비건 립 트리트먼트",
-      "discountRate": 51,
-      "finalPrice": 11800,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260323/6177348/6177348_17760554156421_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6177348"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -119,6 +110,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260105/5867526/5867526_17682941209380_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5867526"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "멜릭서",
+      "name": "비건 립 트리트먼트",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260323/6177348/6177348_17760554156421_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6177348"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -1789,8 +1789,8 @@
       "section": "킥스 페스티벌",
       "brand": "아디다스",
       "name": "아디스타 컨트롤 3 - 블랙:실버 / HQ2665",
-      "discountRate": 45,
-      "finalPrice": 64990,
+      "discountRate": 50,
+      "finalPrice": 59970,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260113/5888823/5888823_17683562496399_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5888823"
     },
@@ -1843,8 +1843,8 @@
       "section": "킥스 페스티벌",
       "brand": "아디다스",
       "name": "아디스타 컨트롤 3 - 화이트:실버 / HQ2721",
-      "discountRate": 45,
-      "finalPrice": 64990,
+      "discountRate": 50,
+      "finalPrice": 59970,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260113/5888824/5888824_17683562828677_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5888824"
     },
