@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-10T13:10:56.854594+00:00",
+  "updatedAt": "2026-10-10T18:08:34.774438+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -11,15 +11,6 @@
       "finalPrice": 65990,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250311/4878500/4878500_17421838178690_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4878500"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "챔피온",
-      "name": "C로고 쿼터랭스 삭스 3PACK Black",
-      "discountRate": 35,
-      "finalPrice": 9700,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5308755/5308755_17548891950601_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5308755"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -95,6 +86,15 @@
     },
     {
       "section": "한정수량 선착순 특가",
+      "brand": "챔피온",
+      "name": "C로고 쿼터랭스 삭스 3PACK Black",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5308755/5308755_17548891950601_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5308755"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드 홈 & 프로덕트",
       "name": "UV살균 무드등 미니 가습기",
       "discountRate": 0,
@@ -146,6 +146,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260611/6653232/6653232_17816020309509_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6653232"
+    },
+    {
+      "section": "72시간 특가",
+      "brand": "지프",
+      "name": "[190g] M-Logo 그래픽 반팔 티 (JR5TSU173WH)",
+      "discountRate": 41,
+      "finalPrice": 22990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20200318/1356896/1356896_17732884284217_500.png",
+      "productUrl": "https://www.musinsa.com/products/1356896"
     },
     {
       "section": "72시간 특가",
@@ -686,15 +695,6 @@
       "finalPrice": 42690,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260910/7300661/7300661_17891075073849_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7300661"
-    },
-    {
-      "section": "72시간 특가",
-      "brand": "마이스",
-      "name": "SLUB OVERSIZED HENLEY T-SHIRT / PURPLE",
-      "discountRate": 50,
-      "finalPrice": 29330,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7305054/7305054_17890923260114_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7305054"
     },
     {
       "section": "72시간 특가",
@@ -1410,20 +1410,20 @@
     {
       "section": "온 & 오프 페스티벌",
       "brand": "디키즈",
-      "name": "플리스 포켓 집업 후디 Navy",
-      "discountRate": 33,
-      "finalPrice": 85790,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250908/5419373/5419373_17629922059405_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5419373"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "디키즈",
       "name": "와펜 스몰 로고 후드티 Black",
       "discountRate": 5,
       "finalPrice": 71200,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250908/5419357/5419357_17576399679706_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5419357"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "디키즈",
+      "name": "더블니 85283 루즈핏 데님팬츠 Indigo Blue",
+      "discountRate": 10,
+      "finalPrice": 67500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250407/4992215/4992215_17439911355840_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4992215"
     },
     {
       "section": "오직 무신사 뷰티",
