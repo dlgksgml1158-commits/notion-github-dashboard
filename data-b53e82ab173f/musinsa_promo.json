@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-11T15:13:36.302305+00:00",
+  "updatedAt": "2026-10-11T19:49:36.154642+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -146,6 +146,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6199241/6199241_17763242409493_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6199241"
+    },
+    {
+      "section": "72시간 특가",
+      "brand": "지프",
+      "name": "[190g] M-Logo 그래픽 반팔 티 (JR5TSU173WH)",
+      "discountRate": 41,
+      "finalPrice": 22990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20200318/1356896/1356896_17732884284217_500.png",
+      "productUrl": "https://www.musinsa.com/products/1356896"
     },
     {
       "section": "72시간 특가",
@@ -686,15 +695,6 @@
       "finalPrice": 42690,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260910/7300661/7300661_17891075073849_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7300661"
-    },
-    {
-      "section": "72시간 특가",
-      "brand": "마이스",
-      "name": "SLUB OVERSIZED HENLEY T-SHIRT / PURPLE",
-      "discountRate": 50,
-      "finalPrice": 29330,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7305054/7305054_17890923260114_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7305054"
     },
     {
       "section": "72시간 특가",
