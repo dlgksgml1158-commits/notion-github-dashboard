@@ -1,17 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-11T08:05:45.619707+00:00",
+  "updatedAt": "2026-10-11T15:13:36.302305+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 크롭 MA-1 보머 재킷 [카키]",
-      "discountRate": 65,
-      "finalPrice": 34970,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220708/2653657/2653657_16953491115730_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2653657"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "락피쉬웨더웨어",
@@ -47,6 +38,15 @@
       "finalPrice": 62190,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250821/5346691/5346691_17557578552110_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5346691"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 크롭 MA-1 보머 재킷 [카키]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220708/2653657/2653657_16953491115730_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2653657"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -1681,8 +1681,8 @@
       "section": "킥스 페스티벌",
       "brand": "아디다스",
       "name": "재팬 - 블랙 / IH5490",
-      "discountRate": 55,
-      "finalPrice": 66990,
+      "discountRate": 57,
+      "finalPrice": 64360,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250116/4724980/4724980_17374460473775_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4724980"
     },
@@ -1969,8 +1969,8 @@
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "아틀리에 나인",
       "name": "(JK-3075)SUEDE SET-UP CLASSIC HALF JACKET",
-      "discountRate": 30,
-      "finalPrice": 195300,
+      "discountRate": 32,
+      "finalPrice": 189450,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260904/7246902/7246902_17899483242895_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7246902"
     },
@@ -2093,15 +2093,6 @@
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
-      "brand": "후아유",
-      "name": "Field Jacket / WHJKG4991M",
-      "discountRate": 35,
-      "finalPrice": 58240,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7328258/7328258_17900626482421_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7328258"
-    },
-    {
-      "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "에잇세컨즈",
       "name": "홀터넥 레이어드 셔츠  아이보리",
       "discountRate": 19,
@@ -2162,6 +2153,15 @@
       "finalPrice": 72820,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260928/7405178/7405178_17907268942645_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7405178"
+    },
+    {
+      "section": "쿠폰으로 만나는 인기 추천템",
+      "brand": "에잇세컨즈",
+      "name": "페이크 스웨이드 테일러드 재킷  브라운",
+      "discountRate": 19,
+      "finalPrice": 89020,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260928/7405198/7405198_17907269462652_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7405198"
     }
   ]
 }
