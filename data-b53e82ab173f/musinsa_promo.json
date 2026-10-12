@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-12T03:39:37.727767+00:00",
+  "updatedAt": "2026-10-12T11:30:59.926351+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -29,15 +29,6 @@
       "finalPrice": 53290,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20251030/5667154/5667154_17624808840486_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5667154"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "크록스",
-      "name": "클래식 부츠 - 네이비 / 208363-410",
-      "discountRate": 67,
-      "finalPrice": 26430,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260213/6025578/6025578_17732822791523_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6025578"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -131,6 +122,15 @@
     },
     {
       "section": "한정수량 선착순 특가",
+      "brand": "크록스",
+      "name": "클래식 부츠 - 네이비 / 208363-410",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260213/6025578/6025578_17732822791523_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6025578"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "팀버랜드",
       "name": "(남성) 헤리티지 목토 GTX 미드 - 라이트 그린 스웨이드 / A2JU5-EBM",
       "discountRate": 0,
@@ -203,12 +203,12 @@
     },
     {
       "section": "48시간 특가",
-      "brand": "디미트리블랙",
-      "name": "2WAY OG 페이드 워싱 디트로이트 퀼팅 자켓_블랙",
-      "discountRate": 83,
-      "finalPrice": 14900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240816/4335940/4335940_17669886028944_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4335940"
+      "brand": "토피",
+      "name": "퍼티그 비조 캔버스 코튼 팬츠 (BROWN)",
+      "discountRate": 38,
+      "finalPrice": 36550,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240812/4318326/4318326_17255032477103_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4318326"
     },
     {
       "section": "48시간 특가",
@@ -218,15 +218,6 @@
       "finalPrice": 67410,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240821/4353152/4353152_17260139958871_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4353152"
-    },
-    {
-      "section": "48시간 특가",
-      "brand": "디미트리블랙",
-      "name": "2WAY 에센셜 그라데이션 헤어리 후드집업_핑크",
-      "discountRate": 83,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240909/4421496/4421496_17309668261090_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4421496"
     },
     {
       "section": "48시간 특가",
@@ -272,6 +263,15 @@
       "finalPrice": 27220,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250428/5074412/5074412_17567037816040_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5074412"
+    },
+    {
+      "section": "48시간 특가",
+      "brand": "마이딥블루메모리즈",
+      "name": "Mm Symbol Logo T-Shirts (CHARCOAL / PINK)",
+      "discountRate": 38,
+      "finalPrice": 30140,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250630/5213385/5213385_17568827763121_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5213385"
     },
     {
       "section": "48시간 특가",
@@ -583,8 +583,8 @@
       "section": "48시간 특가",
       "brand": "포에버21",
       "name": "라운드넥 심플 트위드 자켓 (FTDCJK013)",
-      "discountRate": 75,
-      "finalPrice": 19900,
+      "discountRate": 78,
+      "finalPrice": 17400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260828/7190065/7190065_17878843859730_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7190065"
     },
@@ -657,7 +657,7 @@
       "name": "에센셜 무드 라운드 가디건_7Color",
       "discountRate": 61,
       "finalPrice": 34900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260903/7242905/7242905_17894542257575_500.jpg",
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260903/7242905/7242905_17917786702022_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7242905"
     },
     {
@@ -845,7 +845,7 @@
       "brand": "레이지비",
       "name": "컨투어 밴딩 트랙 쉐도우 와이드 스트링 나일론 팬츠 M (3컬러)",
       "discountRate": 50,
-      "finalPrice": 40860,
+      "finalPrice": 40600,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260918/7365588/7365588_17899866603544_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7365588"
     },
@@ -855,7 +855,7 @@
       "name": "더블 트랙 스트럭처 오버핏 투웨이 스트링 바람막이 자켓 W (3컬러)",
       "discountRate": 50,
       "finalPrice": 43830,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260918/7366170/7366170_17900658296589_500.jpg",
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260918/7366170/7366170_17917863793762_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7366170"
     },
     {
@@ -1184,6 +1184,15 @@
     },
     {
       "section": "무뷰페 시그니처 특가",
+      "brand": "바닐라코",
+      "name": "스머징 립 펜슬 (13-color)",
+      "discountRate": 30,
+      "finalPrice": 9800,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230724/3421211/3421211_17860005474035_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3421211"
+    },
+    {
+      "section": "무뷰페 시그니처 특가",
       "brand": "에스트라",
       "name": "아토베리어365 하이드로 에센스 200ml",
       "discountRate": 24,
@@ -1231,8 +1240,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "보다나",
       "name": "포켓 미니 판고데기",
-      "discountRate": 16,
-      "finalPrice": 30900,
+      "discountRate": 29,
+      "finalPrice": 26400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240304/3918739/3918739_17883955714186_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3918739"
     },
@@ -1339,8 +1348,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "셀렉스",
       "name": "[혼합 22개입] 프로핏 드링크 모카초콜릿 250ml 18개 + 딸기초코 4입",
-      "discountRate": 54,
-      "finalPrice": 26270,
+      "discountRate": 41,
+      "finalPrice": 33920,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240610/4187469/4187469_17907275259807_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4187469"
     },
@@ -1348,8 +1357,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "셀렉스",
       "name": "[혼합 22개입] 프로핏 드링크 밀크바닐라 250ml 18개 + 딸기초코 4입",
-      "discountRate": 54,
-      "finalPrice": 26270,
+      "discountRate": 41,
+      "finalPrice": 33920,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240610/4187568/4187568_17907275676578_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4187568"
     },
@@ -1411,8 +1420,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "셀렉스",
       "name": "[혼합 22개입] 프로핏 드링크 바나나 250ml 18개 + 딸기초코 4입",
-      "discountRate": 54,
-      "finalPrice": 26270,
+      "discountRate": 41,
+      "finalPrice": 33920,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20241114/4615761/4615761_17907275756102_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4615761"
     },
@@ -1586,15 +1595,6 @@
       "finalPrice": 57000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250929/5542396/5542396_17912569728457_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5542396"
-    },
-    {
-      "section": "무뷰페 시그니처 특가",
-      "brand": "정샘물",
-      "name": "에센셜 물 마이크로 피팅 미스트 55ml 리필 듀오 기획세트 (공병 1개 + 리필 55ml x 2개)",
-      "discountRate": 25,
-      "finalPrice": 24000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251016/5599240/5599240_17914374372721_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5599240"
     },
     {
       "section": "무뷰페 시그니처 특가",
@@ -1942,8 +1942,8 @@
       "section": "무뷰페",
       "brand": "셀렉스",
       "name": "[36개] 프로핏 드링크 250ML(딸기초코, 모카초콜릿, 밀크바나나, 바나나 중 택 2)",
-      "discountRate": 52,
-      "finalPrice": 50070,
+      "discountRate": 47,
+      "finalPrice": 55170,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260902/7228728/7228728_17883329702412_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7228728"
     },
@@ -1978,8 +1978,8 @@
       "section": "무뷰페",
       "brand": "셀렉스",
       "name": "[혼합 22개입] 프로핏 드링크 모카초콜릿 250ml 18개 + 딸기초코 4입",
-      "discountRate": 54,
-      "finalPrice": 26270,
+      "discountRate": 41,
+      "finalPrice": 33920,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240610/4187469/4187469_17907275259807_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4187469"
     },
@@ -1987,8 +1987,8 @@
       "section": "무뷰페",
       "brand": "셀렉스",
       "name": "[18개+4개 혼합] 프로핏 드링크 딸기초코 250ml 18개 + 모카초콜릿 4입",
-      "discountRate": 51,
-      "finalPrice": 25420,
+      "discountRate": 35,
+      "finalPrice": 33920,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250512/5104161/5104161_17914315402866_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5104161"
     },
@@ -1996,8 +1996,8 @@
       "section": "무뷰페",
       "brand": "셀렉스",
       "name": "[혼합 22개입] 프로핏 드링크 밀크바닐라 250ml 18개 + 딸기초코 4입",
-      "discountRate": 54,
-      "finalPrice": 26270,
+      "discountRate": 41,
+      "finalPrice": 33920,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240610/4187568/4187568_17907275676578_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4187568"
     },
@@ -2014,8 +2014,8 @@
       "section": "무뷰페",
       "brand": "셀렉스",
       "name": "[혼합 22개입] 프로핏 드링크 바나나 250ml 18개 + 딸기초코 4입",
-      "discountRate": 54,
-      "finalPrice": 26270,
+      "discountRate": 41,
+      "finalPrice": 33920,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20241114/4615761/4615761_17907275756102_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4615761"
     },
@@ -2385,7 +2385,7 @@
       "name": "Pinched Cowl Top - Ivory",
       "discountRate": 24,
       "finalPrice": 62320,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260807/7020436/7020436_17875335036022_500.jpg",
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260807/7020436/7020436_17917836120246_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7020436"
     },
     {
@@ -2573,7 +2573,7 @@
       "brand": "아디다스",
       "name": "도쿄 - 아우라커피 / HQ2887",
       "discountRate": 5,
-      "finalPrice": 131690,
+      "finalPrice": 131990,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7152801/7152801_17876379758247_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7152801"
     },
