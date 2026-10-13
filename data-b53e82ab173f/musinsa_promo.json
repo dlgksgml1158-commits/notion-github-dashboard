@@ -1,17 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-13T09:56:00.530820+00:00",
+  "updatedAt": "2026-10-13T17:18:45.054674+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "[힛탠다드] 우먼즈 속기모 슬림 크루 넥 긴소매 티셔츠 [다크 그레이]",
-      "discountRate": 25,
-      "finalPrice": 15680,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240702/4227365/4227365_17301935804915_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4227365"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "푸마",
@@ -20,15 +11,6 @@
       "finalPrice": 49190,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260219/6030955/6030955_17715598631297_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6030955"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "일소",
-      "name": "모링가 퓨리파잉 포어 패드 60매",
-      "discountRate": 38,
-      "finalPrice": 14300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260403/6254043/6254043_17760455036759_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6254043"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -74,6 +56,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240624/4215129/4215129_17217835217106_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4215129"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "[힛탠다드] 우먼즈 속기모 슬림 크루 넥 긴소매 티셔츠 [다크 그레이]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240702/4227365/4227365_17301935804915_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4227365"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -137,6 +128,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6237858/6237858_17751831703527_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6237858"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "일소",
+      "name": "모링가 퓨리파잉 포어 패드 60매",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260403/6254043/6254043_17760455036759_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6254043"
     },
     {
       "section": "48시간 특가",
@@ -1222,8 +1222,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "보다나",
       "name": "포켓 미니 판고데기",
-      "discountRate": 11,
-      "finalPrice": 33000,
+      "discountRate": 29,
+      "finalPrice": 26400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240304/3918739/3918739_17883955714186_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3918739"
     },
@@ -2400,15 +2400,6 @@
     {
       "section": "온 & 오프 페스티벌",
       "brand": "락케이크",
-      "name": "Lace Line 2way Jogger - Brown",
-      "discountRate": 60,
-      "finalPrice": 39200,
-      "imgUrl": "https://image.msscdn.net/images/prd_img/20260918/7369680/detail_7369680_17897252659753_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7369680"
-    },
-    {
-      "section": "온 & 오프 페스티벌",
-      "brand": "락케이크",
       "name": "Lace Halter Sleeveless - White",
       "discountRate": 32,
       "finalPrice": 29920,
@@ -2477,6 +2468,15 @@
       "finalPrice": 69920,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260831/7204826/7204826_17890339895741_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7204826"
+    },
+    {
+      "section": "온 & 오프 페스티벌",
+      "brand": "락케이크",
+      "name": "Romantic Graphic Zip Up Hoodie - Black",
+      "discountRate": 24,
+      "finalPrice": 90440,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260807/7020701/7020701_17875339373367_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7020701"
     },
     {
       "section": "킥스 페스티벌",
@@ -2680,8 +2680,8 @@
       "section": "킥스 페스티벌",
       "brand": "아디다스",
       "name": "가젤 로우 프로  - 블랙 / JR8886",
-      "discountRate": 40,
-      "finalPrice": 100990,
+      "discountRate": 42,
+      "finalPrice": 97780,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250805/5292848/5292848_17544650534446_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5292848"
     },
