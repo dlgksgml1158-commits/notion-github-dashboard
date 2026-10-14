@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-14T12:38:26.005987+00:00",
+  "updatedAt": "2026-10-14T17:42:19.098349+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -1094,15 +1094,6 @@
     },
     {
       "section": "48시간 특가",
-      "brand": "디미트리블랙",
-      "name": "VLAD TYPE-A 트랙 아트웍 후드 티셔츠_오트밀",
-      "discountRate": 81,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240109/3783075/3783075_17171332852681_500.png",
-      "productUrl": "https://www.musinsa.com/products/3783075"
-    },
-    {
-      "section": "48시간 특가",
       "brand": "리메인세컨드",
       "name": "베이식 오버핏 싱글 블레이저 자켓 [블랙]",
       "discountRate": 54,
@@ -1154,15 +1145,6 @@
       "finalPrice": 34090,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240919/4443930/4443930_17358861004525_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4443930"
-    },
-    {
-      "section": "48시간 특가",
-      "brand": "갭",
-      "name": "댄디 캐주얼 블랙",
-      "discountRate": 65,
-      "finalPrice": 27900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241030/4572560/4572560_17302544823386_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4572560"
     },
     {
       "section": "48시간 특가",
@@ -1223,7 +1205,7 @@
       "brand": "무르",
       "name": "Maree Bag mini (8color)",
       "discountRate": 40,
-      "finalPrice": 66850,
+      "finalPrice": 67240,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250415/5030385/5030385_17452140196648_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5030385"
     },
@@ -1271,6 +1253,15 @@
       "finalPrice": 35900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250812/5314388/5314388_17894497345507_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5314388"
+    },
+    {
+      "section": "48시간 특가",
+      "brand": "버던트",
+      "name": "보아 플리스 데님 봄버 자켓 [블랙]",
+      "discountRate": 70,
+      "finalPrice": 32700,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5319985/5319985_17687847444762_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5319985"
     },
     {
       "section": "48시간 특가",
@@ -1361,6 +1352,15 @@
       "finalPrice": 36200,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250901/5386361/5386361_17757874049728_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5386361"
+    },
+    {
+      "section": "48시간 특가",
+      "brand": "디미트리블랙",
+      "name": "[리뉴얼] 라이트 쉘 경량 PCK 다운 자켓_오트밀",
+      "discountRate": 39,
+      "finalPrice": 73900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250904/5401052/5401052_17872888634860_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5401052"
     },
     {
       "section": "48시간 특가",
@@ -2149,8 +2149,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "보다나",
       "name": "포켓 미니 판고데기",
-      "discountRate": 29,
-      "finalPrice": 26400,
+      "discountRate": 15,
+      "finalPrice": 31350,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240304/3918739/3918739_17883955714186_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3918739"
     },
