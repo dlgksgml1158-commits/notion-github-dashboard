@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-14T06:56:58.927673+00:00",
+  "updatedAt": "2026-10-14T12:38:26.005987+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -14,15 +14,6 @@
     },
     {
       "section": "한정수량 선착순 특가",
-      "brand": "디젤",
-      "name": "K 필 비니 - 그레이 / A132720AJBJ96X",
-      "discountRate": 75,
-      "finalPrice": 60000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240812/4320020/4320020_17240547116808_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4320020"
-    },
-    {
-      "section": "한정수량 선착순 특가",
       "brand": "유희",
       "name": "YOUHEE RIBBON HOODIE CHARCOAL",
       "discountRate": 30,
@@ -32,21 +23,21 @@
     },
     {
       "section": "한정수량 선착순 특가",
-      "brand": "챔피온",
-      "name": "더블 스트라이프 풀랭스 삭스 3PACK Black",
-      "discountRate": 40,
-      "finalPrice": 15000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250922/5506928/5506928_17586073430146_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5506928"
-    },
-    {
-      "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드",
       "name": "메리노 울 블렌드 하이게이지 크루 넥 니트 [더스티 베이지]",
       "discountRate": 0,
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20220907/2778668/2778668_1_500.jpg",
       "productUrl": "https://www.musinsa.com/products/2778668"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "디젤",
+      "name": "K 필 비니 - 그레이 / A132720AJBJ96X",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240812/4320020/4320020_17240547116808_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4320020"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -119,6 +110,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250912/5453049/5453049_17591020842215_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5453049"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "챔피온",
+      "name": "더블 스트라이프 풀랭스 삭스 3PACK Black",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250922/5506928/5506928_17586073430146_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5506928"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -218,6 +218,15 @@
       "finalPrice": 29900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240808/4308184/4308184_17240877659937_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4308184"
+    },
+    {
+      "section": "수요 하루특가",
+      "brand": "디미트리블랙",
+      "name": "2WAY 에센셜 그라데이션 헤어리 후드집업_핑크",
+      "discountRate": 38,
+      "finalPrice": 36900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240909/4421496/4421496_17309668261090_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4421496"
     },
     {
       "section": "수요 하루특가",
@@ -479,15 +488,6 @@
       "finalPrice": 29900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7056594/7056594_17899701354568_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7056594"
-    },
-    {
-      "section": "수요 하루특가",
-      "brand": "스켈리웩",
-      "name": "ET BONE FINGER 스웨트 팬츠[차콜]",
-      "discountRate": 46,
-      "finalPrice": 29900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260812/7056595/7056595_17899703427020_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7056595"
     },
     {
       "section": "수요 하루특가",
