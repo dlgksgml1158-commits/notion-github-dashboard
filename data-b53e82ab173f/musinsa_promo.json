@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-13T22:08:41.635923+00:00",
+  "updatedAt": "2026-10-14T01:30:01.062515+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -1112,6 +1112,15 @@
     },
     {
       "section": "무뷰페 시그니처 특가",
+      "brand": "일리윤",
+      "name": "[증정] 프레쉬 모이스춰 립앤아이리무버 300ml 2입",
+      "discountRate": 38,
+      "finalPrice": 28320,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220621/2625601/2625601_17400125988820_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2625601"
+    },
+    {
+      "section": "무뷰페 시그니처 특가",
       "brand": "라보에이치",
       "name": "탈모증상완화 샴푸 두피강화 (본품+리필) 400ml 2입 기획 + 증정",
       "discountRate": 48,
@@ -1253,15 +1262,6 @@
       "finalPrice": 28410,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240314/3953077/3953077_17896085202881_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3953077"
-    },
-    {
-      "section": "무뷰페 시그니처 특가",
-      "brand": "에스트라",
-      "name": "아토베리어365 크림 80ml 2개",
-      "discountRate": 28,
-      "finalPrice": 47520,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240326/3992824/3992824_17827952271859_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3992824"
     },
     {
       "section": "무뷰페 시그니처 특가",
@@ -1428,15 +1428,6 @@
     {
       "section": "무뷰페 시그니처 특가",
       "brand": "에스트라",
-      "name": "아토베리어365 크림 80ml 3개",
-      "discountRate": 30,
-      "finalPrice": 69300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241209/4656181/4656181_17827957833163_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4656181"
-    },
-    {
-      "section": "무뷰페 시그니처 특가",
-      "brand": "에스트라",
       "name": "아토베리어365 세라-히알 속수분 앰플 30ml",
       "discountRate": 24,
       "finalPrice": 25080,
@@ -1478,6 +1469,15 @@
       "finalPrice": 32000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250305/4862519/4862519_17809814486435_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4862519"
+    },
+    {
+      "section": "무뷰페 시그니처 특가",
+      "brand": "라보에이치",
+      "name": "댄드러프클리닉 비듬/각질/가려움 두피케어 샴푸 (본품+리필) 400ml 2입 기획 + 증정",
+      "discountRate": 44,
+      "finalPrice": 30110,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250317/4902502/4902502_17788207147461_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4902502"
     },
     {
       "section": "무뷰페 시그니처 특가",
