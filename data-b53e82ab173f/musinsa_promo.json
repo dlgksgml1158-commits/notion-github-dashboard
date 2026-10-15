@@ -1,17 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-15T15:25:30.069254+00:00",
+  "updatedAt": "2026-10-15T19:35:59.908020+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 벨루어 코듀로이 라운지 팬츠 [블랙]",
-      "discountRate": 25,
-      "finalPrice": 32930,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220906/2773124/2773124_1_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2773124"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "아모멘토",
@@ -38,6 +29,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20211105/2219058/2219058_17138367391449_500.jpg",
       "productUrl": "https://www.musinsa.com/products/2219058"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 벨루어 코듀로이 라운지 팬츠 [블랙]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220906/2773124/2773124_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2773124"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -320,6 +320,15 @@
     },
     {
       "section": "48시간 특가",
+      "brand": "커스텀어클락",
+      "name": "린넨 오버핏 롱 슬리브 셔츠 5 COLOR COOSSH192",
+      "discountRate": 68,
+      "finalPrice": 19900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250414/5025534/5025534_17799299745333_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5025534"
+    },
+    {
+      "section": "48시간 특가",
       "brand": "무르",
       "name": "Maree Bag mini (8color)",
       "discountRate": 34,
@@ -416,15 +425,6 @@
       "finalPrice": 33600,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5320092/5320092_17687848876506_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5320092"
-    },
-    {
-      "section": "48시간 특가",
-      "brand": "버던트",
-      "name": "가먼트다잉 트윌 세미크롭 블루종 집업 자켓 [카키]",
-      "discountRate": 70,
-      "finalPrice": 27300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5320096/5320096_17687901408778_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5320096"
     },
     {
       "section": "48시간 특가",
