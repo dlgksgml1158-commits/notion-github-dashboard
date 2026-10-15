@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-15T10:39:08.445190+00:00",
+  "updatedAt": "2026-10-15T15:25:30.069254+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -11,15 +11,6 @@
       "finalPrice": 32930,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20220906/2773124/2773124_1_500.jpg",
       "productUrl": "https://www.musinsa.com/products/2773124"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "튜드먼트",
-      "name": "STRIPE CREWNECK CARDIGAN IVORY",
-      "discountRate": 70,
-      "finalPrice": 38700,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20231214/3755921/3755921_17398727653808_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3755921"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -47,6 +38,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20211105/2219058/2219058_17138367391449_500.jpg",
       "productUrl": "https://www.musinsa.com/products/2219058"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "튜드먼트",
+      "name": "STRIPE CREWNECK CARDIGAN IVORY",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20231214/3755921/3755921_17398727653808_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3755921"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -317,15 +317,6 @@
       "finalPrice": 25200,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250324/4936593/4936593_17688002287397_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4936593"
-    },
-    {
-      "section": "48시간 특가",
-      "brand": "버던트",
-      "name": "캠퍼스 피그먼트 블록코어 긴팔 티셔츠 [블랙]",
-      "discountRate": 80,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250325/4939318/4939318_17687987859772_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4939318"
     },
     {
       "section": "48시간 특가",
@@ -753,6 +744,15 @@
     {
       "section": "48시간 특가",
       "brand": "오찌",
+      "name": "로미타 S2 글로우 투스트랩 블랙 OZSQGA388B",
+      "discountRate": 25,
+      "finalPrice": 67430,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967454/6967454_17893510001964_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967454"
+    },
+    {
+      "section": "48시간 특가",
+      "brand": "오찌",
       "name": "3300 슬라우치 플랫폼 레더 부츠 블랙 OZPUGA393A",
       "discountRate": 25,
       "finalPrice": 81750,
@@ -1159,8 +1159,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "메디힐",
       "name": "[2pack] 에센셜 마스크팩 진정듀오 (티트리 10매/마데카소사이드 10매)",
-      "discountRate": 50,
-      "finalPrice": 19950,
+      "discountRate": 48,
+      "finalPrice": 21000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20230130/3046025/3046025_17905747153055_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3046025"
     },
@@ -1249,8 +1249,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "보다나",
       "name": "포켓 미니 판고데기",
-      "discountRate": 15,
-      "finalPrice": 31350,
+      "discountRate": 11,
+      "finalPrice": 33000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240304/3918739/3918739_17883955714186_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3918739"
     },
@@ -1267,8 +1267,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "메디힐",
       "name": "[200매] 더마 토너 패드 본품 100매 + 리필 100매 (교차가능)",
-      "discountRate": 41,
-      "finalPrice": 28410,
+      "discountRate": 38,
+      "finalPrice": 29900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240314/3953077/3953077_17896085202881_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3953077"
     },
@@ -1591,8 +1591,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "메디힐",
       "name": "[2개] 마데카소사이드 수분 선세럼 흔적 리페어 더블 기획세트",
-      "discountRate": 35,
-      "finalPrice": 22710,
+      "discountRate": 32,
+      "finalPrice": 23900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20251217/5837298/5837298_17884037023231_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5837298"
     },
@@ -1780,8 +1780,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "메디힐",
       "name": "[300매] 더마 토너 패드 리필 3개 기획세트 (교차가능)",
-      "discountRate": 41,
-      "finalPrice": 38950,
+      "discountRate": 38,
+      "finalPrice": 41000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260518/6497741/6497741_17908350470926_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6497741"
     },
@@ -1870,8 +1870,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "메디힐",
       "name": "[총 30매] 에센셜 마스크 팩 7종 30매 (7종 택 3/교차 가능)",
-      "discountRate": 53,
-      "finalPrice": 28410,
+      "discountRate": 50,
+      "finalPrice": 29900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260622/6707858/6707858_17884036331533_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6707858"
     },
