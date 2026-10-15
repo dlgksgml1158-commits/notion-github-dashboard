@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-15T05:26:12.214548+00:00",
+  "updatedAt": "2026-10-15T10:39:08.445190+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -29,15 +29,6 @@
       "finalPrice": 34500,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240827/4375033/4375033_17248265825796_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4375033"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "푸마",
-      "name": "스피드캣 프리미엄 - 라이트그레이:실버 / 403902-02",
-      "discountRate": 65,
-      "finalPrice": 54990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250612/5179869/5179869_17502352935488_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5179869"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -92,6 +83,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250411/5016075/5016075_17536854056815_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5016075"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "푸마",
+      "name": "스피드캣 프리미엄 - 라이트그레이:실버 / 403902-02",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250612/5179869/5179869_17502352935488_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5179869"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -306,7 +306,7 @@
       "name": "루즈핏 체크 긴팔 셔츠 [5color]",
       "discountRate": 39,
       "finalPrice": 30510,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250314/4900216/4900216_17877996164541_500.jpg",
+      "imgUrl": "https://image.msscdn.net/images/prd_img/20250314/4900216/detail_4900216_17745087230452_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4900216"
     },
     {
@@ -981,7 +981,7 @@
       "name": "레이크 패딩 후드 자켓 라이트그레이",
       "discountRate": 20,
       "finalPrice": 135200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7335885/7335885_17897056042009_500.jpg",
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7335885/7335885_17920437100879_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7335885"
     },
     {
@@ -1249,8 +1249,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "보다나",
       "name": "포켓 미니 판고데기",
-      "discountRate": 11,
-      "finalPrice": 33000,
+      "discountRate": 15,
+      "finalPrice": 31350,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240304/3918739/3918739_17883955714186_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3918739"
     },
@@ -1350,7 +1350,7 @@
       "name": "아토베리어365 하이드로 수딩크림 80ml 2개",
       "discountRate": 28,
       "finalPrice": 47520,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240513/4124823/4124823_17897071037963_500.jpg",
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240513/4124823/4124823_17920494463351_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4124823"
     },
     {
@@ -1607,15 +1607,6 @@
     },
     {
       "section": "무뷰페 시그니처 특가",
-      "brand": "웰라쥬",
-      "name": "리얼 히알루로닉 100 토너 500ml",
-      "discountRate": 32,
-      "finalPrice": 23630,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251223/5848372/5848372_17677449181750_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5848372"
-    },
-    {
-      "section": "무뷰페 시그니처 특가",
       "brand": "제이엠더블유",
       "name": "[헤어스크런치 증정] BLDC 헤어 드라이기 음이온 케어부스터 오트베이지",
       "discountRate": 52,
@@ -1748,6 +1739,15 @@
       "finalPrice": 55000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260430/6405586/6405586_17841779513390_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6405586"
+    },
+    {
+      "section": "무뷰페 시그니처 특가",
+      "brand": "웰라쥬",
+      "name": "리얼 히알루로닉 블루 100 앰플 60ml 2개 (+수딩크림 20ml 증정)",
+      "discountRate": 20,
+      "finalPrice": 40000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260506/6427117/6427117_17914501461785_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6427117"
     },
     {
       "section": "무뷰페 시그니처 특가",
@@ -1935,7 +1935,7 @@
       "name": "아토베리어365 하이드로 수딩크림 80ml X 3개",
       "discountRate": 30,
       "finalPrice": 69300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7009774/7009774_17908122473652_500.jpg",
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260806/7009774/7009774_17920492649675_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7009774"
     },
     {
