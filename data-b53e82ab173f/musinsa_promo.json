@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-15T22:48:41.537254+00:00",
+  "updatedAt": "2026-10-16T00:55:10.083101+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -1553,6 +1553,15 @@
     },
     {
       "section": "무뷰페 시그니처 특가",
+      "brand": "미쟝센",
+      "name": "오래가는 예쁜컬러 헬로버블 셀프 염색 26종 1입",
+      "discountRate": 43,
+      "finalPrice": 9110,
+      "imgUrl": "https://image.msscdn.net/images/prd_img/20250610/5173332/detail_5173332_17881439248086_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5173332"
+    },
+    {
+      "section": "무뷰페 시그니처 특가",
       "brand": "라보에이치",
       "name": "[증정] 두피강화클리닉 쿨링&노세범 샴푸 (본품+리필) 400ml 2입 기획",
       "discountRate": 49,
@@ -1751,21 +1760,12 @@
     },
     {
       "section": "무뷰페 시그니처 특가",
-      "brand": "하이뮨",
-      "name": "프로틴 밸런스 액티브 밀크쉐이크 X 더블샷커피 세트(각 1박스/ 총 36팩) +아미노포텐 체험팩 증정",
-      "discountRate": 47,
-      "finalPrice": 55000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260430/6405583/6405583_17841780111151_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6405583"
-    },
-    {
-      "section": "무뷰페 시그니처 특가",
-      "brand": "하이뮨",
-      "name": "프로틴 밸런스 액티브 딸기 X 딥초코 세트(각 1박스/ 총 36팩) +아미노포텐 체험팩 증정",
-      "discountRate": 47,
-      "finalPrice": 55000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260430/6405586/6405586_17841779513390_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6405586"
+      "brand": "더랩바이블랑두",
+      "name": "블루클레이 셔벗 모공 제로팩",
+      "discountRate": 32,
+      "finalPrice": 16900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260429/6396490/6396490_17788129128051_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6396490"
     },
     {
       "section": "무뷰페 시그니처 특가",
