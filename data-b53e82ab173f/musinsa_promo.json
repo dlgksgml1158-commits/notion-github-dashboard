@@ -1,17 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-16T05:19:13.465022+00:00",
+  "updatedAt": "2026-10-16T10:25:59.534668+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "앨빈클로",
-      "name": "[DE LUXE] 데일리 재니스 브이넥 니트 DLX1512 (4 COLOR)",
-      "discountRate": 63,
-      "finalPrice": 22320,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241101/4581355/4581355_17337277566056_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4581355"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "리브러쉬",
@@ -56,6 +47,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240925/4464049/4464049_17290467666166_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4464049"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "앨빈클로",
+      "name": "[DE LUXE] 데일리 재니스 브이넥 니트 DLX1512 (4 COLOR)",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241101/4581355/4581355_17337277566056_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4581355"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -164,15 +164,6 @@
       "finalPrice": 23900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240422/4072132/4072132_17137526006998_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4072132"
-    },
-    {
-      "section": "72시간 특가",
-      "brand": "디미트리블랙",
-      "name": "2WAY 에센셜 그라데이션 헤어리 후드집업_블루 아이보리",
-      "discountRate": 83,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240909/4421498/4421498_17309667922947_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4421498"
     },
     {
       "section": "72시간 특가",
@@ -374,6 +365,15 @@
     },
     {
       "section": "72시간 특가",
+      "brand": "엑스톤즈",
+      "name": "XJ143 밀리터리 빈티지 워싱 롱 M-65 필드 자켓 (CHARCOAL)",
+      "discountRate": 40,
+      "finalPrice": 143400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7095103/7095103_17921253146240_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7095103"
+    },
+    {
+      "section": "72시간 특가",
       "brand": "트릴리온",
       "name": "캐시미어 울 발마칸 롱 코트_2color",
       "discountRate": 43,
@@ -502,8 +502,8 @@
       "section": "72시간 특가",
       "brand": "무아무아",
       "name": "레이스 배색 홀터넥 티셔츠 [버건디]",
-      "discountRate": 65,
-      "finalPrice": 20720,
+      "discountRate": 61,
+      "finalPrice": 23310,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260908/7273212/7273212_17900604855915_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7273212"
     },
@@ -567,7 +567,7 @@
       "name": "W 패디드 필드 자켓 (CHARCOAL)",
       "discountRate": 33,
       "finalPrice": 79730,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7334850/7334850_17894588511447_500.jpg",
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7334850/7334850_17921331053335_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7334850"
     },
     {
@@ -1818,7 +1818,7 @@
       "name": "[300매] 더마 토너 패드 리필 3개 기획세트 (교차가능)",
       "discountRate": 38,
       "finalPrice": 41000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260518/6497741/6497741_17908350470926_500.jpg",
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260518/6497741/6497741_17921288533093_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6497741"
     },
     {
@@ -2482,8 +2482,8 @@
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "무아무아",
       "name": "자카드 니트 후드 집업 [오트밀]",
-      "discountRate": 57,
-      "finalPrice": 41680,
+      "discountRate": 52,
+      "finalPrice": 46890,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260811/7049392/7049392_17897177184487_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7049392"
     },
@@ -2495,15 +2495,6 @@
       "finalPrice": 109900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7154070/7154070_17901291102518_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7154070"
-    },
-    {
-      "section": "쿠폰으로 만나는 인기 추천템",
-      "brand": "길라아카이브",
-      "name": "FUR HOOD LIGHT PADDED JACKET_BLACK",
-      "discountRate": 19,
-      "finalPrice": 193590,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7161281/7161281_17908170326265_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7161281"
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
@@ -2607,15 +2598,6 @@
     {
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "일리고",
-      "name": "뷔스티에 레이어 원피스 블랙",
-      "discountRate": 20,
-      "finalPrice": 82800,
-      "imgUrl": "https://image.msscdn.net/images/prd_img/20260915/7335965/detail_7335965_17914264172515_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7335965"
-    },
-    {
-      "section": "쿠폰으로 만나는 인기 추천템",
-      "brand": "일리고",
       "name": "플랩 버클 스커트 팬츠 블랙",
       "discountRate": 20,
       "finalPrice": 73800,
@@ -2643,9 +2625,18 @@
     {
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "트위",
+      "name": "벤즈 오간자 레이어드 스웨이드 롱 스커트",
+      "discountRate": 28,
+      "finalPrice": 35920,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260918/7363106/7363106_17896986840648_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7363106"
+    },
+    {
+      "section": "쿠폰으로 만나는 인기 추천템",
+      "brand": "트위",
       "name": "리에 베이직 골지 니트 긴팔 가디건",
-      "discountRate": 40,
-      "finalPrice": 23920,
+      "discountRate": 28,
+      "finalPrice": 28720,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260918/7363275/7363275_17897003239993_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7363275"
     },
@@ -2702,6 +2693,15 @@
       "finalPrice": 50920,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260922/7391468/7391468_17900538050453_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7391468"
+    },
+    {
+      "section": "쿠폰으로 만나는 인기 추천템",
+      "brand": "티엔지티",
+      "name": "Herringbone Tailored Double Coat (Greyish Beige) TNCO6F102I2",
+      "discountRate": 14,
+      "finalPrice": 298400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260923/7400045/7400045_17909118665723_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7400045"
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
