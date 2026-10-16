@@ -1,17 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-16T10:25:59.534668+00:00",
+  "updatedAt": "2026-10-16T15:05:02.730458+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "리브러쉬",
-      "name": "[충치케어] 에델바이스 고불소 천연 치약 120g",
-      "discountRate": 29,
-      "finalPrice": 8500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260323/6178380/6178380_17860810983871_500.png",
-      "productUrl": "https://www.musinsa.com/products/6178380"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "데싱디바",
@@ -137,6 +128,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6002026/6002026_17707747881821_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6002026"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "리브러쉬",
+      "name": "[충치케어] 에델바이스 고불소 천연 치약 120g",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260323/6178380/6178380_17860810983871_500.png",
+      "productUrl": "https://www.musinsa.com/products/6178380"
     },
     {
       "section": "72시간 특가",
@@ -1553,6 +1553,15 @@
     },
     {
       "section": "무뷰페 시그니처 특가",
+      "brand": "미쟝센",
+      "name": "오래가는 예쁜컬러 헬로버블 셀프 염색 26종 1입",
+      "discountRate": 43,
+      "finalPrice": 9110,
+      "imgUrl": "https://image.msscdn.net/images/prd_img/20250610/5173332/detail_5173332_17881439248086_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5173332"
+    },
+    {
+      "section": "무뷰페 시그니처 특가",
       "brand": "라보에이치",
       "name": "[증정] 두피강화클리닉 쿨링&노세범 샴푸 (본품+리필) 400ml 2입 기획",
       "discountRate": 49,
@@ -1568,15 +1577,6 @@
       "finalPrice": 42500,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250729/5277686/5277686_17609419161893_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5277686"
-    },
-    {
-      "section": "무뷰페 시그니처 특가",
-      "brand": "제이엠더블유",
-      "name": "[블랙 에디션][거치대 기획패키지] 에어젯 울트라 프로 전문가용 1700W 터보 BLDC 항공모터 헤어 드라이기 매트블랙",
-      "discountRate": 60,
-      "finalPrice": 63200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250918/5485556/5485556_17871883341033_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5485556"
     },
     {
       "section": "무뷰페 시그니처 특가",
@@ -1636,8 +1636,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "제이엠더블유",
       "name": "[헤어스크런치 증정] BLDC 헤어 드라이기 음이온 케어부스터 오트베이지",
-      "discountRate": 52,
-      "finalPrice": 75920,
+      "discountRate": 40,
+      "finalPrice": 94900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260107/5873031/5873031_17900631553595_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5873031"
     },
