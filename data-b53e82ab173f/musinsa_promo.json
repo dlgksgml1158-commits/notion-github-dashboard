@@ -1,151 +1,160 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-17T23:40:55.262361+00:00",
+  "updatedAt": "2026-10-18T02:28:01.032367+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
+      "brand": "캐피탈 라디오 튠즈",
+      "name": "NIRVAN APPLE 스웨트셔츠 cream",
+      "discountRate": 76,
+      "finalPrice": 14160,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20200929/1631930/1631930_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1631930"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "플랫 테리 오버사이즈 후디드 스웨트셔츠 [미디엄 그레이]",
+      "discountRate": 62,
+      "finalPrice": 18190,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220809/2705821/2705821_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2705821"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "튜드먼트",
-      "name": "STRIPE CREWNECK CARDIGAN NAVY",
+      "name": "PUNCHING KNIT CARDIGAN NAVY",
       "discountRate": 70,
-      "finalPrice": 38700,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20231214/3755920/3755920_17090154737588_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3755920"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "보테가베네타",
-      "name": "라이트 울 터틀넥 니트 - 블랙 / 751881V32A01000",
-      "discountRate": 81,
-      "finalPrice": 293000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240624/4215235/4215235_17216077710185_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4215235"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "유희",
-      "name": "YOUHEE RIBBON HOODIE MELANGE GREY",
-      "discountRate": 50,
-      "finalPrice": 44500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240814/4332102/4332102_17243806227709_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4332102"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "스탠드 스튜디오",
-      "name": "레나 재킷 - 블랙 / 66354915589900",
-      "discountRate": 79,
-      "finalPrice": 177000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241104/4585289/4585289_17315466996723_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4585289"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "닥터마틴",
-      "name": "1460 블랙 스무스 화이트 스티치 / 24758001",
-      "discountRate": 40,
-      "finalPrice": 155990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250722/5262018/5262018_17531595052624_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5262018"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 웨이스트 스트랩 딥 턱 와이드 슬랙스 [카키 브라운]",
-      "discountRate": 33,
-      "finalPrice": 39920,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251118/5745832/5745832_17683674909649_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5745832"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "에이지오디",
-      "name": "베이직 와이드 스웨트 팬츠 [그레이]",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230412/3228860/3228860_17665601538863_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3228860"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "백 사틴 초어 재킷 [그레이쉬 블루]",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240620/4209559/4209559_17241974364562_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4209559"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "에센셜 체크 머플러 3 [그레이/블루]",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240716/4251011/4251011_17302761406348_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4251011"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "오클리",
-      "name": "(공용) 아이콘 RC 백팩 - 블랙아웃 / FOS90147902E",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240808/4311703/4311703_17234365973244_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4311703"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "마가렛 호웰",
-      "name": "청키 립 스카프 - 올리브 / UHAC0545A24KZCOLV",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241202/4645277/4645277_17337944137675_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4645277"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "그램 아운스 파운드",
-      "name": "Maple 6-Panel Cap_Charcoal Grey",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250320/4923589/4923589_17512722944734_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4923589"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "웨스턴 패딩 베스트 [블랙]",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250701/5215583/5215583_17593714609808_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5215583"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "크록스",
-      "name": "클래식 플랫폼 퍼즈 라인드 클로그 - 본 / 212854-2Y2",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250911/5443622/5443622_17588726771695_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5443622"
+      "finalPrice": 44700,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20231214/3755925/3755925_17403755795944_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3755925"
     },
     {
       "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드 홈 & 프로덕트",
-      "name": "40수 200g 호텔 수건 5팩 [세이지그린]",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260206/5988514/5988514_17794065282766_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5988514"
+      "name": "논슬립 형태유지 엣지 옷걸이 10팩 [블랙]",
+      "discountRate": 20,
+      "finalPrice": 10320,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240828/4381206/4381206_17324928535298_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4381206"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "스탠드 스튜디오",
+      "name": "어거스타 재킷 - 블랙 / 66308866589900",
+      "discountRate": 78,
+      "finalPrice": 145000,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241015/4519576/4519576_17298148181869_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4519576"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "브이투",
+      "name": "코듀로이 카고 카펜터 와이드 팬츠_카키",
+      "discountRate": 70,
+      "finalPrice": 17900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241024/4551128/4551128_17307839236042_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4551128"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "코튼 미니멀 블루종 재킷 [라이트 베이지]",
+      "discountRate": 61,
+      "finalPrice": 34990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20241115/4617221/4617221_17417577594994_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4617221"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "요세미티",
+      "name": "커브드 벌룬 카펜터 데님팬츠 더스트블루 YLP-603",
+      "discountRate": 53,
+      "finalPrice": 24900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250819/5336677/5336677_17561742073220_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5336677"
     },
     {
       "section": "한정수량 선착순 특가",
       "brand": "아디다스",
-      "name": "슈퍼스타 80 ADV - 블랙:크림화이트 / KK5003",
+      "name": "테렉스 아그라빅 SL M - 화이트:블랙 / KH8800",
+      "discountRate": 44,
+      "finalPrice": 105240,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260527/6553953/6553953_17809962609065_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6553953"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "코듀라 메신저 백_라지 [블랙]",
       "discountRate": 0,
       "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260624/6724550/6724550_17823770088546_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6724550"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20200915/1604114/1604114_17355433935477_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1604114"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "캐피탈 라디오 튠즈",
+      "name": "RECORD WAPPEN 롱슬리브 black",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20201007/1639176/1639176_1_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1639176"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 램스울 니트 베스트 [네이비]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20210831/2100516/2100516_17673417118967_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2100516"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "토템",
+      "name": "트위스트 심 데님 팬츠 - 다크 블루 / 223232741404",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230816/3466215/3466215_16929281351268_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3466215"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "에이지오디",
+      "name": "2_WAY 스웨트 후디드 집업 [블랙]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230817/3469896/3469896_17669913181992_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3469896"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "엔지니어드가먼츠",
+      "name": "버킷햇 - 올리브 / QT231ZT216",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250516/5120813/5120813_17485711322582_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5120813"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "버던트",
+      "name": "니트데님 워싱 스웨트 셔츠 [인디고]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5320204/5320204_17687906012437_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5320204"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "클락스 오리지널스",
+      "name": "(남성) 왈라비 - 스모크 그레이 스웨이드 / 26185564",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260311/6111429/6111429_17737266217436_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6111429"
     },
     {
       "section": "72시간 특가",
