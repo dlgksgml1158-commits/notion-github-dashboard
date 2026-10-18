@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-18T12:20:43.494839+00:00",
+  "updatedAt": "2026-10-18T16:17:24.084385+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -20,15 +20,6 @@
       "finalPrice": 145000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20241015/4519576/4519576_17298148181869_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4519576"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "요세미티",
-      "name": "커브드 벌룬 카펜터 데님팬츠 더스트블루 YLP-603",
-      "discountRate": 53,
-      "finalPrice": 24900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250819/5336677/5336677_17561742073220_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5336677"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -140,6 +131,15 @@
     },
     {
       "section": "한정수량 선착순 특가",
+      "brand": "요세미티",
+      "name": "커브드 벌룬 카펜터 데님팬츠 더스트블루 YLP-603",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250819/5336677/5336677_17561742073220_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5336677"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "클락스 오리지널스",
       "name": "(남성) 왈라비 - 스모크 그레이 스웨이드 / 26185564",
       "discountRate": 0,
@@ -227,15 +227,6 @@
       "finalPrice": 52360,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20251017/5606171/5606171_17606646517430_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5606171"
-    },
-    {
-      "section": "72시간 특가",
-      "brand": "컨버스",
-      "name": "척 테일러 올스타 번트 허니 A02785C",
-      "discountRate": 71,
-      "finalPrice": 19900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251031/5674323/5674323_17621517656971_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5674323"
     },
     {
       "section": "72시간 특가",
@@ -650,6 +641,15 @@
       "finalPrice": 159200,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260916/7348894/7348894_17913529615117_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7348894"
+    },
+    {
+      "section": "72시간 특가",
+      "brand": "빼빼",
+      "name": "오버핏 투웨이 집업 후드 티셔츠 4COLOR",
+      "discountRate": 10,
+      "finalPrice": 67410,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260917/7351486/7351486_17896018273842_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7351486"
     },
     {
       "section": "72시간 특가",
@@ -1897,8 +1897,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "케라시스",
       "name": "닥터루티어 비듬 쿨샷 탈모증상완화 샴푸 쿨멘솔 800ml 2개",
-      "discountRate": 62,
-      "finalPrice": 13500,
+      "discountRate": 58,
+      "finalPrice": 14900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260624/6721646/6721646_17836640438289_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6721646"
     },
