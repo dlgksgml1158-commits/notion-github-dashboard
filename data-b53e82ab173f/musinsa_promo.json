@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-19T11:45:13.860981+00:00",
+  "updatedAt": "2026-10-19T18:05:49.659674+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -29,15 +29,6 @@
       "finalPrice": 214000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240919/4444746/4444746_17278360657686_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4444746"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "데싱디바",
-      "name": "데싱디바 다이아하드너 손톱강화제",
-      "discountRate": 20,
-      "finalPrice": 8000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6324901/6324901_17769309321934_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6324901"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -131,6 +122,15 @@
     },
     {
       "section": "한정수량 선착순 특가",
+      "brand": "데싱디바",
+      "name": "데싱디바 다이아하드너 손톱강화제",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260416/6324901/6324901_17769309321934_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6324901"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "썸바이미",
       "name": "아하바하파하 미라클 카밍 바디로션 200ml",
       "discountRate": 0,
@@ -152,7 +152,7 @@
       "brand": "토리든",
       "name": "다이브인 저분자 히알루론산 세럼 50ml (+다이브인 세럼 2ml*2개)",
       "discountRate": 12,
-      "finalPrice": 19400,
+      "finalPrice": 19350,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20220525/2582843/2582843_17865202615999_500.png",
       "productUrl": "https://www.musinsa.com/products/2582843"
     },
@@ -1168,8 +1168,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "메디힐",
       "name": "[2pack] 에센셜 마스크팩 진정듀오 (티트리 10매/마데카소사이드 10매)",
-      "discountRate": 48,
-      "finalPrice": 21000,
+      "discountRate": 50,
+      "finalPrice": 19950,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20230130/3046025/3046025_17905747153055_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3046025"
     },
@@ -1258,8 +1258,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "메디힐",
       "name": "[200매] 더마 토너 패드 본품 100매 + 리필 100매 (교차가능)",
-      "discountRate": 38,
-      "finalPrice": 29900,
+      "discountRate": 41,
+      "finalPrice": 28410,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240314/3953077/3953077_17896085202881_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3953077"
     },
@@ -1582,8 +1582,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "메디힐",
       "name": "[2개] 마데카소사이드 수분 선세럼 흔적 리페어 더블 기획세트",
-      "discountRate": 32,
-      "finalPrice": 23900,
+      "discountRate": 35,
+      "finalPrice": 22710,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20251217/5837298/5837298_17884037023231_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5837298"
     },
@@ -1798,8 +1798,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "메디힐",
       "name": "[300매] 더마 토너 패드 리필 3개 기획세트 (교차가능)",
-      "discountRate": 38,
-      "finalPrice": 41000,
+      "discountRate": 41,
+      "finalPrice": 38950,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260518/6497741/6497741_17921288533093_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6497741"
     },
@@ -1861,8 +1861,8 @@
       "section": "무뷰페 시그니처 특가",
       "brand": "메디힐",
       "name": "[총 30매] 에센셜 마스크 팩 7종 30매 (7종 택 3/교차 가능)",
-      "discountRate": 50,
-      "finalPrice": 29900,
+      "discountRate": 53,
+      "finalPrice": 28410,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260622/6707858/6707858_17884036331533_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6707858"
     },
@@ -2562,15 +2562,6 @@
     {
       "section": "쿠폰으로 만나는\n잡화 인기 브랜드",
       "brand": "블랙 퍼플",
-      "name": "벨튼 로고 미니 토트백_스톤 그레이 Velton Logo Mini Tote Bag_Stone Gray",
-      "discountRate": 10,
-      "finalPrice": 97200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260916/7343897/7343897_17906551280568_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7343897"
-    },
-    {
-      "section": "쿠폰으로 만나는\n잡화 인기 브랜드",
-      "brand": "블랙 퍼플",
       "name": "포지 투웨이 뮬 부츠 _캐러멜 브라운 Forge Two-Way Mule Boots_Caramel Brown",
       "discountRate": 20,
       "finalPrice": 182400,
@@ -2729,6 +2720,15 @@
       "finalPrice": 140400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260929/7414764/7414764_17906497595292_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7414764"
+    },
+    {
+      "section": "쿠폰으로 만나는\n잡화 인기 브랜드",
+      "brand": "블랙 퍼플",
+      "name": "벨튼 커브 토트백_머스타드 Velton Curve Tote Bag_Mustard",
+      "discountRate": 10,
+      "finalPrice": 133200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260619/6702557/6702557_17818523124105_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6702557"
     }
   ]
 }
