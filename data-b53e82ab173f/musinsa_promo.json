@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-18T22:08:03.715457+00:00",
+  "updatedAt": "2026-10-19T00:39:41.488020+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -1130,6 +1130,15 @@
     },
     {
       "section": "무뷰페 시그니처 특가",
+      "brand": "에스트라",
+      "name": "아토베리어365 바디로션 400ml",
+      "discountRate": 24,
+      "finalPrice": 25080,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20220303/2395890/2395890_17337211171131_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2395890"
+    },
+    {
+      "section": "무뷰페 시그니처 특가",
       "brand": "헤라",
       "name": "실키 스테이 24H 롱웨어 파운데이션 SPF20/PA++ 30g (옵션)",
       "discountRate": 19,
@@ -1730,15 +1739,6 @@
       "finalPrice": 7800,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6364207/6364207_17907442929765_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6364207"
-    },
-    {
-      "section": "무뷰페 시그니처 특가",
-      "brand": "티핏",
-      "name": "트렌스루센트 셋 피니싱 파우더 7g 8colors + 파우더 브러시 증정",
-      "discountRate": 40,
-      "finalPrice": 8400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6368594/6368594_17908200643741_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6368594"
     },
     {
       "section": "무뷰페 시그니처 특가",
