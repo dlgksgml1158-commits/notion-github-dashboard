@@ -1,17 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-19T05:33:34.557263+00:00",
+  "updatedAt": "2026-10-19T11:45:13.860981+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 램스울 리브드 니트 집업 [네이비]",
-      "discountRate": 45,
-      "finalPrice": 43910,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20210831/2100520/2100520_17318958238902_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2100520"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "스탠드 스튜디오",
@@ -83,6 +74,15 @@
       "finalPrice": 41300,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20261013/7500438/7500438_17918705863290_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7500438"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 램스울 리브드 니트 집업 [네이비]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20210831/2100520/2100520_17318958238902_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/2100520"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -272,15 +272,6 @@
       "finalPrice": 33900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250822/5355236/5355236_17558465575334_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5355236"
-    },
-    {
-      "section": "48시간 특가",
-      "brand": "애습",
-      "name": "울 블렌드 해링턴 패디드 자켓 - 브라운",
-      "discountRate": 25,
-      "finalPrice": 148000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251105/5691143/5691143_17623436757507_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5691143"
     },
     {
       "section": "48시간 특가",
@@ -524,6 +515,15 @@
       "finalPrice": 53900,
       "imgUrl": "https://image.msscdn.net/images/prd_img/20260825/7158123/detail_7158123_17897182322193_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7158123"
+    },
+    {
+      "section": "48시간 특가",
+      "brand": "어반디타입",
+      "name": "유타 플리스 하프 스냅 풀오버_틸",
+      "discountRate": 22,
+      "finalPrice": 53900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7158129/7158129_17899635679061_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7158129"
     },
     {
       "section": "48시간 특가",
@@ -2210,273 +2210,273 @@
     },
     {
       "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[넌블랭크X패션플래닛] 발마칸 코트_BLACK",
-      "discountRate": 17,
-      "finalPrice": 282120,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251014/5588860/5588860_17617222446643_500.png",
-      "productUrl": "https://www.musinsa.com/products/5588860"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[SAINT YEAR] 세미 오버 핏 셋업 수트_GREY",
+      "brand": "노티카",
+      "name": "세일링 후디드 다운 자켓(6colors) NDW1086",
       "discountRate": 15,
-      "finalPrice": 169290,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220520/2572705/2572705_17769899182977_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2572705"
+      "finalPrice": 152150,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250807/5301746/5301746_17920466379160_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5301746"
     },
     {
       "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[현킴 SET-UP] 세미 오버 핏 셋업 수트_CHARCOAL GREY",
+      "brand": "노티카",
+      "name": "폴라 퍼프 후디드 자켓(3colors) NFL2306",
       "discountRate": 15,
-      "finalPrice": 186390,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240117/3800193/3800193_17770089950518_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3800193"
+      "finalPrice": 84150,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967592/6967592_17899698778779_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967592"
     },
     {
       "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[넌블랭크x패션플래닛] 싱글 롱 코트_BLACK",
-      "discountRate": 25,
-      "finalPrice": 246440,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251014/5588847/5588847_17617928490931_500.png",
-      "productUrl": "https://www.musinsa.com/products/5588847"
+      "brand": "노티카",
+      "name": "83플래그 리버시블 요트 다운 파카 NDW1095",
+      "discountRate": 20,
+      "finalPrice": 207200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250917/5477024/5477024_17688895847273_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5477024"
     },
     {
       "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "W11 세미 오버 핏 셋업 수트_CHARCOAL GREY",
+      "brand": "노티카",
+      "name": "폴라 퍼프 집업 자켓(2colors) NFL2296",
       "discountRate": 15,
-      "finalPrice": 191520,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240119/3809740/3809740_17770091932615_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3809740"
+      "finalPrice": 84150,
+      "imgUrl": "https://image.msscdn.net/images/prd_img/20260731/6967591/detail_6967591_17890924853441_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967591"
     },
     {
       "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[SAINT YEAR] 세미 오버 핏 셋업 수트_BLACK",
-      "discountRate": 15,
-      "finalPrice": 169290,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220520/2572700/2572700_17769897170778_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2572700"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "W11 세미 오버 핏 셋업 수트_BLACK",
-      "discountRate": 15,
-      "finalPrice": 191520,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240119/3809952/3809952_17770091548529_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3809952"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[SAINT YEAR] 세미 오버 핏 셋업 수트_DARK NAVY",
-      "discountRate": 15,
-      "finalPrice": 169290,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240627/4222258/4222258_17770087868938_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4222258"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "크롭 플리스 자켓_DARK GREY",
-      "discountRate": 14,
-      "finalPrice": 162370,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260916/7342854/7342854_17907345420801_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7342854"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "DN 컴포트 셋업_DARK GREY",
-      "discountRate": 14,
-      "finalPrice": 247010,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5391949/5391949_17572988404516_500.png",
-      "productUrl": "https://www.musinsa.com/products/5391949"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[SET UP] 버티컬 루즈 핏 셋업_DARK GREY",
-      "discountRate": 14,
-      "finalPrice": 239230,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7309942/7309942_17891033647921_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7309942"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "W11 세미 오버 핏 셋업 수트_DARK NAVY",
-      "discountRate": 15,
-      "finalPrice": 191520,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240119/3809891/3809891_17770092380906_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3809891"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[넌블랭크XOJG][SAINT YEAR]루즈핏 셋업_GREY",
-      "discountRate": 14,
-      "finalPrice": 188020,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260305/6085523/6085523_17770088692714_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6085523"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[넌블랭크XOJG][SAINT YEAR]루즈핏 셋업_GREY STRIPE",
-      "discountRate": 14,
-      "finalPrice": 188020,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260305/6085589/6085589_17769921270641_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6085589"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "울 플란넬 루즈핏 자켓_BROWN",
-      "discountRate": 14,
-      "finalPrice": 188020,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7312024/7312024_17891096547583_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7312024"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[SET UP] 세미 오버사이즈 핏 셋업 수트_CHARCOAL GREY",
-      "discountRate": 15,
-      "finalPrice": 169290,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220520/2572322/2572322_17140687589631_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2572322"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "크롭 플리스 자켓_MUD BEIGE",
-      "discountRate": 14,
-      "finalPrice": 162370,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260916/7342855/7342855_17907352045959_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7342855"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "초어 자켓_BLACK",
-      "discountRate": 14,
-      "finalPrice": 162370,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250205/4761337/4761337_17388435870939_500.png",
-      "productUrl": "https://www.musinsa.com/products/4761337"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "울 플란넬 세미 오버 핏 블레이저_DARK GREY",
+      "brand": "노티카",
+      "name": "셰르파 아노락(2colors) NFL2336",
       "discountRate": 10,
-      "finalPrice": 157500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240827/4373650/4373650_17249330653215_500.png",
-      "productUrl": "https://www.musinsa.com/products/4373650"
+      "finalPrice": 80100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967903/6967903_17900701968362_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967903"
     },
     {
       "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[SAINT YEAR] 세미 오버 핏 블레이저_BLACK",
-      "discountRate": 14,
-      "finalPrice": 118850,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220209/2350270/2350270_17769892801690_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2350270"
+      "brand": "노티카",
+      "name": "오션 토템 폴라 자켓(2colors) NFL2176",
+      "discountRate": 10,
+      "finalPrice": 80100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967896/6967896_17900607224213_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967896"
     },
     {
       "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "세미 오버사이즈 핏 블레이저_BLACK",
-      "discountRate": 14,
-      "finalPrice": 118850,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20210831/2100931/2100931_17301747064127_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2100931"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "세미 오버사이즈 핏 블레이저_BRICK",
-      "discountRate": 14,
-      "finalPrice": 118850,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20210831/2101052/2101052_17140667982339_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2101052"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "라운드 가디건 니트_BEIGE",
-      "discountRate": 14,
-      "finalPrice": 70880,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240122/3812690/3812690_17083258233126_500.png",
-      "productUrl": "https://www.musinsa.com/products/3812690"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "울 블렌드 리브드 세미오버핏 블레이저_GREY",
-      "discountRate": 14,
-      "finalPrice": 163220,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260911/7310424/7310424_17891046362070_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7310424"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[CARREMAN] 세미 오버 핏 셋업 수트_GREY",
-      "discountRate": 15,
-      "finalPrice": 169290,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240827/4373361/4373361_17770087194837_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4373361"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "윈드브레이커_BLACK",
-      "discountRate": 14,
-      "finalPrice": 170920,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230801/3438581/3438581_16950236415636_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3438581"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[넌블랭크X패션플래닛] 발마칸 코트_DARK NAVY",
-      "discountRate": 25,
-      "finalPrice": 253910,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251014/5588865/5588865_17617252578044_500.png",
-      "productUrl": "https://www.musinsa.com/products/5588865"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[넌블랭크x삭형] 캐시미어 블렌드 블루종_BLACK",
+      "brand": "노티카",
+      "name": "아치 로고 후디드 집업(기모) NJK0865",
       "discountRate": 30,
-      "finalPrice": 230930,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251014/5588810/5588810_17606641263423_500.png",
-      "productUrl": "https://www.musinsa.com/products/5588810"
+      "finalPrice": 69300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5356735/5356735_17828684516590_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5356735"
     },
     {
       "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "[넌블랭크x패션플래닛] 싱글 롱 코트_GREY",
-      "discountRate": 25,
-      "finalPrice": 246440,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251014/5588852/5588852_17617932604969_500.png",
-      "productUrl": "https://www.musinsa.com/products/5588852"
+      "brand": "노티카",
+      "name": "패디드 하버 파카 NPD0614",
+      "discountRate": 50,
+      "finalPrice": 124500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240827/4374974/4374974_17769282093593_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4374974"
     },
     {
       "section": "아우터 페스티벌",
-      "brand": "넌블랭크",
-      "name": "숏 워크 자켓_KHAKI BROWN",
-      "discountRate": 14,
-      "finalPrice": 162370,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250205/4761318/4761318_17388318946908_500.png",
-      "productUrl": "https://www.musinsa.com/products/4761318"
+      "brand": "노티카",
+      "name": "패디드 덱 블루종",
+      "discountRate": 50,
+      "finalPrice": 119500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240827/4375421/4375421_17768442647312_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4375421"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "에어리 요트 자켓(4colors) NJK0996",
+      "discountRate": 20,
+      "finalPrice": 111200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260211/6011866/6011866_17755226473558_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6011866"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "83플래그 리버시블 써멀 후드 자켓 NFL2085",
+      "discountRate": 40,
+      "finalPrice": 101400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5356730/5356730_17732094388305_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5356730"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "하버 파카 NJK0695",
+      "discountRate": 50,
+      "finalPrice": 89500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250206/4763709/4763709_17828897591254_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4763709"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "폴라 퍼프 퓨전 자켓(2colors) NFL2316",
+      "discountRate": 15,
+      "finalPrice": 84150,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967594/6967594_17895398864510_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967594"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "네이비 챌린지 해링턴 자켓 NJK0845",
+      "discountRate": 50,
+      "finalPrice": 84500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5356742/5356742_17828671883977_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5356742"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "스프린트 요트 자켓(3colors) NJK0986",
+      "discountRate": 30,
+      "finalPrice": 83300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260129/5953441/5953441_17719122582590_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5953441"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "오션 토템 후디드 폴라 자켓(2colors) NFL2186",
+      "discountRate": 10,
+      "finalPrice": 80100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967897/6967897_17900612208291_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967897"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "패디드 하버 자켓",
+      "discountRate": 50,
+      "finalPrice": 124500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240827/4374895/4374895_17769284771072_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4374895"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "데님 해링턴 자켓(2colors) JJK1376",
+      "discountRate": 10,
+      "finalPrice": 161100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260323/6176122/6176122_17762197857164_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6176122"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "[UV차단]덱 트랜싯 자켓(6colors) NJK0926",
+      "discountRate": 10,
+      "finalPrice": 89100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250206/4763740/4763740_17778563112945_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4763740"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "아크틱 요트 파카(2colors) NJK1646",
+      "discountRate": 15,
+      "finalPrice": 186150,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908666/6908666_17882460318890_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6908666"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "리버서블 요트 블루종(2colors) NJK0966",
+      "discountRate": 20,
+      "finalPrice": 143200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260129/5953439/5953439_17743159580502_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5953439"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "패디드 요트 파카",
+      "discountRate": 50,
+      "finalPrice": 134500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240827/4374825/4374825_17769286887970_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4374825"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "83플래그 다운 자켓(2colors) NDW1736",
+      "discountRate": 15,
+      "finalPrice": 203150,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967582/6967582_17890893695646_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967582"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "셰르파 후디드 자켓(2colors) NFL2326",
+      "discountRate": 10,
+      "finalPrice": 89100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967902/6967902_17901202843870_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967902"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "X 언더마이카 유틸리티 파카",
+      "discountRate": 50,
+      "finalPrice": 119500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250206/4762151/4762151_17744825320700_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4762151"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "후디드 요트 파카",
+      "discountRate": 50,
+      "finalPrice": 119500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240823/4363727/4363727_17769885198480_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4363727"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "에어로메쉬 후디드 집업 자켓(2colors) NJK1276",
+      "discountRate": 30,
+      "finalPrice": 90300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6245409/6245409_17834911097693_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6245409"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "[UV차단]83플래그 세일링 윈드브레이커(3colors) NJK0936",
+      "discountRate": 10,
+      "finalPrice": 89100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260129/5953433/5953433_17770059458319_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5953433"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "퀼티드 숏 블루종 자켓 JJK1175",
+      "discountRate": 30,
+      "finalPrice": 167300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20251112/5719372/5719372_17640320908231_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5719372"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "83플래그 버튼 다운 베스트(2colors) NDW1556",
+      "discountRate": 15,
+      "finalPrice": 143650,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908652/6908652_17883989858301_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6908652"
     },
     {
       "section": "쿠폰으로 만나는\n잡화 인기 브랜드",
