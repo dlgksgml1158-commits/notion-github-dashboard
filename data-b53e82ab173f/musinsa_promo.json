@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-20T06:57:38.303495+00:00",
+  "updatedAt": "2026-10-20T12:32:55.476273+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -29,15 +29,6 @@
       "finalPrice": 173000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240816/4335609/4335609_17258627421345_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4335609"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "아워 레가시",
-      "name": "롯지 가디건 - 애틱 워시 / W4246LA",
-      "discountRate": 84,
-      "finalPrice": 132000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241015/4519568/4519568_17298154305000_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4519568"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -160,8 +151,8 @@
       "section": "48시간 특가",
       "brand": "토리든",
       "name": "다이브인 저분자 히알루론산 세럼 50ml (+다이브인 세럼 2ml*2개)",
-      "discountRate": 17,
-      "finalPrice": 18250,
+      "discountRate": 12,
+      "finalPrice": 19400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20220525/2582843/2582843_17865202615999_500.png",
       "productUrl": "https://www.musinsa.com/products/2582843"
     },
@@ -236,6 +227,15 @@
       "finalPrice": 31390,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250218/4798760/4798760_17398591846330_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4798760"
+    },
+    {
+      "section": "48시간 특가",
+      "brand": "유라이프지",
+      "name": "노멀 워싱 와이드 코튼 팬츠 6 Color [ULZP_0002]",
+      "discountRate": 35,
+      "finalPrice": 36400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250318/4908970/4908970_17896304400298_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4908970"
     },
     {
       "section": "48시간 특가",
@@ -515,15 +515,6 @@
       "finalPrice": 53900,
       "imgUrl": "https://image.msscdn.net/images/prd_img/20260825/7158123/detail_7158123_17897182322193_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7158123"
-    },
-    {
-      "section": "48시간 특가",
-      "brand": "어반디타입",
-      "name": "유타 플리스 하프 스냅 풀오버_틸",
-      "discountRate": 22,
-      "finalPrice": 53900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260825/7158129/7158129_17899635679061_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7158129"
     },
     {
       "section": "48시간 특가",
@@ -2670,6 +2661,15 @@
     {
       "section": "쿠폰으로 만나는\n잡화 인기 브랜드",
       "brand": "블랙 퍼플",
+      "name": "맥스포트 비키 백 MaxxPort  Vicky Bag_BROWN",
+      "discountRate": 20,
+      "finalPrice": 94400,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250729/5278263/5278263_17738796187473_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5278263"
+    },
+    {
+      "section": "쿠폰으로 만나는\n잡화 인기 브랜드",
+      "brand": "블랙 퍼플",
       "name": "위켄더 포켓 백_베이지 Weekender Pocket Bag_Beige",
       "discountRate": 15,
       "finalPrice": 142800,
@@ -2720,15 +2720,6 @@
       "finalPrice": 182400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260903/7238753/7238753_17906555803137_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7238753"
-    },
-    {
-      "section": "쿠폰으로 만나는\n잡화 인기 브랜드",
-      "brand": "블랙 퍼플",
-      "name": "벨튼 커브 토트백_라이트 그레이 Velton Curve Tote Bag_Light Gray",
-      "discountRate": 10,
-      "finalPrice": 133200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260619/6702547/6702547_17818510661479_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6702547"
     }
   ]
 }
