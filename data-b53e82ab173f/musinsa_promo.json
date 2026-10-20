@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-20T12:32:55.476273+00:00",
+  "updatedAt": "2026-10-20T17:41:09.736836+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -20,15 +20,6 @@
       "finalPrice": 29950,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240703/4230724/4230724_17322544881367_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4230724"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "스튜디오니콜슨",
-      "name": "진 5GG 크루넥 니트 - 페블 / JEANSNM1095PEBBLE",
-      "discountRate": 83,
-      "finalPrice": 173000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240816/4335609/4335609_17258627421345_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4335609"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -83,6 +74,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240809/4312725/4312725_17241462397002_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4312725"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "스튜디오니콜슨",
+      "name": "진 5GG 크루넥 니트 - 페블 / JEANSNM1095PEBBLE",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240816/4335609/4335609_17258627421345_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4335609"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -349,8 +349,8 @@
       "section": "48시간 특가",
       "brand": "드로우시",
       "name": "DW 베이직 절개 테이핑 트랙 팬츠 2Color",
-      "discountRate": 42,
-      "finalPrice": 31340,
+      "discountRate": 39,
+      "finalPrice": 32790,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260403/6253671/6253671_17751976241729_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6253671"
     },
