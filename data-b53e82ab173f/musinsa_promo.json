@@ -1,17 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-21T10:57:31.954004+00:00",
+  "updatedAt": "2026-10-21T15:49:52.486928+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 트랜스폼 라운드 넥 라이트 다운 베스트 [블랙]",
-      "discountRate": 38,
-      "finalPrice": 37430,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20190809/1114855/1114855_17625009396289_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/1114855"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드 우먼",
@@ -29,15 +20,6 @@
       "finalPrice": 44930,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20220426/2516038/2516038_17139419882260_500.jpg",
       "productUrl": "https://www.musinsa.com/products/2516038"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "골든구스",
-      "name": "레귤러 메리노 울 니트 - 네이비 / GWP00952P00066550501",
-      "discountRate": 80,
-      "finalPrice": 107000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240722/4264568/4264568_17231956764648_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4264568"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -83,6 +65,15 @@
       "finalPrice": 25740,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20261013/7500760/7500760_17918730442900_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7500760"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 트랜스폼 라운드 넥 라이트 다운 베스트 [블랙]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20190809/1114855/1114855_17625009396289_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/1114855"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -1060,8 +1051,8 @@
       "section": "48시간 특가",
       "brand": "토리든",
       "name": "[SET] 다이브인 무기자차 마일드 선크림 60ml x 2개 (+모이스처 선크림 20ml)",
-      "discountRate": 33,
-      "finalPrice": 33400,
+      "discountRate": 37,
+      "finalPrice": 31390,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20221124/2959830/2959830_17745065232533_500.jpg",
       "productUrl": "https://www.musinsa.com/products/2959830"
     },
@@ -1253,6 +1244,15 @@
       "finalPrice": 33990,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250728/5276012/5276012_17545474694715_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5276012"
+    },
+    {
+      "section": "48시간 특가",
+      "brand": "미세키서울",
+      "name": "Slash button long sleeves BLACK",
+      "discountRate": 30,
+      "finalPrice": 44100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250729/5278121/5278121_17572938421995_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5278121"
     },
     {
       "section": "48시간 특가",
@@ -1523,15 +1523,6 @@
       "finalPrice": 93800,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260206/5992259/5992259_17708088528590_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5992259"
-    },
-    {
-      "section": "48시간 특가",
-      "brand": "후브스",
-      "name": "드레이프 L2B 자켓[블랙]",
-      "discountRate": 30,
-      "finalPrice": 93800,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260206/5992266/5992266_17708088636380_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5992266"
     },
     {
       "section": "48시간 특가",
@@ -2003,15 +1994,6 @@
     },
     {
       "section": "무뷰페 시그니처 특가",
-      "brand": "라보에이치",
-      "name": "탈모증상완화 샴푸 두피강화 (본품+리필) 400ml 2입 기획 + 증정",
-      "discountRate": 48,
-      "finalPrice": 25130,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20220630/2640858/2640858_17806206556181_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2640858"
-    },
-    {
-      "section": "무뷰페 시그니처 특가",
       "brand": "헤라",
       "name": "센슈얼 파우더 매트 립스틱 3g (옵션)",
       "discountRate": 27,
@@ -2405,6 +2387,15 @@
       "finalPrice": 22950,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250527/5149111/5149111_17799362044958_500.png",
       "productUrl": "https://www.musinsa.com/products/5149111"
+    },
+    {
+      "section": "무뷰페 시그니처 특가",
+      "brand": "미쟝센",
+      "name": "오래가는 예쁜컬러 헬로버블 셀프 염색 26종 1입",
+      "discountRate": 43,
+      "finalPrice": 9110,
+      "imgUrl": "https://image.msscdn.net/images/prd_img/20250610/5173332/detail_5173332_17881439248086_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5173332"
     },
     {
       "section": "무뷰페 시그니처 특가",
