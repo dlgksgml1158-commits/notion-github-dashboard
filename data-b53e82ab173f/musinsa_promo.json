@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-25T20:14:03.933290+00:00",
+  "updatedAt": "2026-10-25T22:57:31.682482+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -1032,20 +1032,29 @@
     {
       "section": "아우터 페스티벌",
       "brand": "노티카",
-      "name": "오션 토템 폴라 자켓(2colors) NFL2176",
-      "discountRate": 10,
-      "finalPrice": 80100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967896/6967896_17900607224213_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6967896"
+      "name": "셰르파 아노락(2colors) NFL2336",
+      "discountRate": 15,
+      "finalPrice": 75650,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967903/6967903_17900701968362_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967903"
     },
     {
       "section": "아우터 페스티벌",
       "brand": "노티카",
-      "name": "세일링 클럽 후드 집업 자켓(3colors) NJK1696",
-      "discountRate": 15,
-      "finalPrice": 92650,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967904/6967904_17900695506467_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6967904"
+      "name": "세일링 패디드 자켓(2colors) NPD1576",
+      "discountRate": 10,
+      "finalPrice": 161100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908653/6908653_17884005376342_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6908653"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "오션 토템 후디드 폴라 자켓(2colors) NFL2186",
+      "discountRate": 10,
+      "finalPrice": 80100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967897/6967897_17900612208291_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967897"
     },
     {
       "section": "아우터 페스티벌",
@@ -1068,38 +1077,47 @@
     {
       "section": "아우터 페스티벌",
       "brand": "노티카",
-      "name": "오션 토템 후디드 폴라 자켓(2colors) NFL2186",
+      "name": "네이비 챌린지 블루종 NJK0835",
+      "discountRate": 55,
+      "finalPrice": 76050,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5356741/5356741_17828724369443_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5356741"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "오션 토템 폴라 자켓(2colors) NFL2176",
       "discountRate": 10,
       "finalPrice": 80100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967897/6967897_17900612208291_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6967897"
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967896/6967896_17900607224213_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967896"
     },
     {
       "section": "아우터 페스티벌",
       "brand": "노티카",
-      "name": "세일링 다운 자켓(2colors) NDW1726",
+      "name": "83플래그 버튼 다운 자켓(2colors) NDW1716",
+      "discountRate": 10,
+      "finalPrice": 251100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908651/6908651_17887394045919_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6908651"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "패디드 덱 블루종",
+      "discountRate": 50,
+      "finalPrice": 119500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240827/4375421/4375421_17768442647312_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4375421"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "세일링 클럽 후드 집업 자켓(3colors) NJK1696",
       "discountRate": 15,
-      "finalPrice": 169150,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250807/5301756/5301756_17884806339161_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5301756"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "노티카",
-      "name": "덱 유틸리티 자켓(3colors) NJK1686",
-      "discountRate": 10,
-      "finalPrice": 134100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908675/6908675_17882305077640_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6908675"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "노티카",
-      "name": "아크틱 요트 파카(2colors) NJK1646",
-      "discountRate": 10,
-      "finalPrice": 197100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908666/6908666_17882460318890_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6908666"
+      "finalPrice": 92650,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967904/6967904_17900695506467_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967904"
     },
     {
       "section": "아우터 페스티벌",
@@ -1113,6 +1131,24 @@
     {
       "section": "아우터 페스티벌",
       "brand": "노티카",
+      "name": "셰르파 후디드 자켓(2colors) NFL2326",
+      "discountRate": 15,
+      "finalPrice": 84150,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967902/6967902_17901202843870_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6967902"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "세일링 다운 자켓(2colors) NDW1726",
+      "discountRate": 15,
+      "finalPrice": 169150,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250807/5301756/5301756_17884806339161_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5301756"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
       "name": "퀼티드 숏 블루종 자켓 JJK1175",
       "discountRate": 30,
       "finalPrice": 167300,
@@ -1122,11 +1158,11 @@
     {
       "section": "아우터 페스티벌",
       "brand": "노티카",
-      "name": "셰르파 아노락(2colors) NFL2336",
-      "discountRate": 15,
-      "finalPrice": 75650,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967903/6967903_17900701968362_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6967903"
+      "name": "83플래그 폴라 자켓 NFL2055",
+      "discountRate": 20,
+      "finalPrice": 79200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5356727/5356727_17568678613452_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5356727"
     },
     {
       "section": "아우터 페스티벌",
@@ -1149,29 +1185,29 @@
     {
       "section": "아우터 페스티벌",
       "brand": "노티카",
-      "name": "아치 로고 후디드 집업(기모) NJK0865",
-      "discountRate": 30,
-      "finalPrice": 69300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5356735/5356735_17828684516590_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5356735"
+      "name": "프리즘 다운 베스트(2colors) NDW1586",
+      "discountRate": 10,
+      "finalPrice": 143100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908654/6908654_17896247379524_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6908654"
     },
     {
       "section": "아우터 페스티벌",
       "brand": "노티카",
-      "name": "패디드 덱 블루종",
-      "discountRate": 50,
-      "finalPrice": 119500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240827/4375421/4375421_17768442647312_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4375421"
+      "name": "세일링 3레이어 자켓(2colors) NJK1676",
+      "discountRate": 10,
+      "finalPrice": 134100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908671/6908671_17882451012531_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6908671"
     },
     {
       "section": "아우터 페스티벌",
       "brand": "노티카",
-      "name": "X 언더마이카 유틸리티 파카",
-      "discountRate": 50,
-      "finalPrice": 119500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250206/4762151/4762151_17744825320700_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4762151"
+      "name": "가먼트 뉴 블리치드 히든로고 풀 집업 후드",
+      "discountRate": 20,
+      "finalPrice": 111200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250411/5015596/5015596_17770013398900_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5015596"
     },
     {
       "section": "아우터 페스티벌",
@@ -1194,6 +1230,15 @@
     {
       "section": "아우터 페스티벌",
       "brand": "노티카",
+      "name": "에어로메쉬 후디드 집업 자켓(2colors) NJK1276",
+      "discountRate": 30,
+      "finalPrice": 90300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6245409/6245409_17834911097693_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6245409"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
       "name": "폴라 퍼프 집업 자켓(2colors) NFL2296",
       "discountRate": 10,
       "finalPrice": 89100,
@@ -1203,11 +1248,29 @@
     {
       "section": "아우터 페스티벌",
       "brand": "노티카",
-      "name": "셰르파 후디드 자켓(2colors) NFL2326",
-      "discountRate": 15,
-      "finalPrice": 84150,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967902/6967902_17901202843870_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6967902"
+      "name": "네이비 챌린지 블레이저 NJK0825",
+      "discountRate": 55,
+      "finalPrice": 85050,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5356740/5356740_17567972504293_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5356740"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "83플래그 하프 집업 아노락 NHD5045",
+      "discountRate": 30,
+      "finalPrice": 76300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250807/5301747/5301747_17828688714386_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5301747"
+    },
+    {
+      "section": "아우터 페스티벌",
+      "brand": "노티카",
+      "name": "[UV차단]83플래그 세일링 윈드브레이커(3colors) NJK0936",
+      "discountRate": 10,
+      "finalPrice": 89100,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260129/5953433/5953433_17770059458319_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5953433"
     },
     {
       "section": "아우터 페스티벌",
@@ -1221,74 +1284,11 @@
     {
       "section": "아우터 페스티벌",
       "brand": "노티카",
-      "name": "패디드 요트 파카",
-      "discountRate": 50,
-      "finalPrice": 134500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240827/4374825/4374825_17769286887970_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4374825"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "노티카",
-      "name": "83플래그 다운 자켓(2colors) NDW1736",
-      "discountRate": 10,
-      "finalPrice": 215100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6967582/6967582_17890893695646_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6967582"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "노티카",
-      "name": "세일링 패디드 자켓(2colors) NPD1576",
-      "discountRate": 10,
-      "finalPrice": 161100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908653/6908653_17884005376342_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6908653"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "노티카",
-      "name": "[UV차단]덱 트랜싯 자켓(6colors) NJK0926",
-      "discountRate": 10,
-      "finalPrice": 89100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250206/4763740/4763740_17778563112945_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4763740"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "노티카",
-      "name": "네이비 챌린지 해링턴 자켓 NJK0845",
-      "discountRate": 55,
-      "finalPrice": 76050,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250825/5356742/5356742_17828671883977_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5356742"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "노티카",
-      "name": "덱 패디드 파카(2colors) NPD1626",
-      "discountRate": 10,
-      "finalPrice": 179100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6908658/6908658_17888242232390_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6908658"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "노티카",
-      "name": "덕 패턴 봄버 자켓 JJK1145",
+      "name": "83플래그 리버시블 요트 다운 베스트 NDW1105",
       "discountRate": 30,
-      "finalPrice": 195300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251112/5719365/5719365_17640308453453_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5719365"
-    },
-    {
-      "section": "아우터 페스티벌",
-      "brand": "노티카",
-      "name": "에어로메쉬 후디드 집업 자켓(2colors) NJK1276",
-      "discountRate": 30,
-      "finalPrice": 90300,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260402/6245409/6245409_17834911097693_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6245409"
+      "finalPrice": 125300,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250917/5477025/5477025_17586775004549_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5477025"
     },
     {
       "section": "오직 무신사 뷰티",
@@ -1298,15 +1298,6 @@
       "finalPrice": 16500,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240220/3882622/3882622_17923705198700_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3882622"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "오드타입",
-      "name": "언씬 블러 틴트 14종",
-      "discountRate": 41,
-      "finalPrice": 13090,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230316/3153848/3153848_17855429698554_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3153848"
     },
     {
       "section": "오직 무신사 뷰티",
@@ -1329,6 +1320,15 @@
     {
       "section": "오직 무신사 뷰티",
       "brand": "오드타입",
+      "name": "젠틀 블렌딩 립 라이너 5종",
+      "discountRate": 8,
+      "finalPrice": 12900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5975294/5975294_17850784905799_500.png",
+      "productUrl": "https://www.musinsa.com/products/5975294"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "오드타입",
       "name": "언씬 듀 글로우 밤 9종",
       "discountRate": 45,
       "finalPrice": 13260,
@@ -1338,11 +1338,11 @@
     {
       "section": "오직 무신사 뷰티",
       "brand": "오드타입",
-      "name": "락시 젤리 틴트 8종",
-      "discountRate": 38,
-      "finalPrice": 14880,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260122/5924336/5924336_17855428813206_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5924336"
+      "name": "언씬 블러 틴트 14종",
+      "discountRate": 41,
+      "finalPrice": 13090,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230316/3153848/3153848_17855429698554_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3153848"
     },
     {
       "section": "오직 무신사 뷰티",
@@ -1356,15 +1356,6 @@
     {
       "section": "오직 무신사 뷰티",
       "brand": "오드타입",
-      "name": "언베일드 스킨 하이라이터 2종",
-      "discountRate": 30,
-      "finalPrice": 18200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230808/3450029/3450029_17773381927569_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3450029"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "오드타입",
       "name": "언씬 미러 틴트 10종",
       "discountRate": 41,
       "finalPrice": 13090,
@@ -1374,20 +1365,11 @@
     {
       "section": "오직 무신사 뷰티",
       "brand": "오드타입",
-      "name": "언프레임드 하이드로 블로우 틴트 6종",
-      "discountRate": 39,
-      "finalPrice": 10970,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250618/5191865/5191865_17912473048986_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5191865"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "오드타입",
-      "name": "젠틀 블렌딩 립 라이너 5종",
-      "discountRate": 8,
-      "finalPrice": 12900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260203/5975294/5975294_17850784905799_500.png",
-      "productUrl": "https://www.musinsa.com/products/5975294"
+      "name": "락시 젤리 틴트 8종",
+      "discountRate": 38,
+      "finalPrice": 14880,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260122/5924336/5924336_17855428813206_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5924336"
     },
     {
       "section": "오직 무신사 뷰티",
@@ -1401,6 +1383,33 @@
     {
       "section": "오직 무신사 뷰티",
       "brand": "오드타입",
+      "name": "언프레임드 하이드로 블로우 틴트 6종",
+      "discountRate": 39,
+      "finalPrice": 10970,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250618/5191865/5191865_17912473048986_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5191865"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "오드타입",
+      "name": "오드타입 소 젠틀 터치 블렌더",
+      "discountRate": 15,
+      "finalPrice": 11900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230904/3527939/3527939_17496017173524_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3527939"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "오드타입",
+      "name": "미러 파우치 [실버]",
+      "discountRate": 15,
+      "finalPrice": 10200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230410/3218770/3218770_17496017814752_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3218770"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "오드타입",
       "name": "뮤트 슬릭 아이 팔레트 3종",
       "discountRate": 30,
       "finalPrice": 22400,
@@ -1410,11 +1419,29 @@
     {
       "section": "오직 무신사 뷰티",
       "brand": "오드타입",
+      "name": "언베일드 스킨 하이라이터 2종",
+      "discountRate": 30,
+      "finalPrice": 18200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230808/3450029/3450029_17773381927569_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3450029"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "오드타입",
       "name": "언씬 벌룬 틴트 + 허그 프렌즈 캡 기획세트",
       "discountRate": 30,
       "finalPrice": 54600,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260629/6748528/6748528_17875516770053_500.png",
       "productUrl": "https://www.musinsa.com/products/6748528"
+    },
+    {
+      "section": "오직 무신사 뷰티",
+      "brand": "오드타입",
+      "name": "뉴 페르소나 핸드미러",
+      "discountRate": 10,
+      "finalPrice": 10800,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240909/4421607/4421607_17496015746722_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4421607"
     },
     {
       "section": "오직 무신사 뷰티",
@@ -1437,38 +1464,11 @@
     {
       "section": "오직 무신사 뷰티",
       "brand": "오드타입",
-      "name": "미러 파우치 [실버]",
-      "discountRate": 15,
-      "finalPrice": 10200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230410/3218770/3218770_17496017814752_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3218770"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "오드타입",
-      "name": "뉴 페르소나 핸드미러",
-      "discountRate": 10,
-      "finalPrice": 10800,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240909/4421607/4421607_17496015746722_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4421607"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "오드타입",
       "name": "베이비 하프 문 백",
       "discountRate": 37,
       "finalPrice": 20100,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20230622/3378483/3378483_17496017673281_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3378483"
-    },
-    {
-      "section": "오직 무신사 뷰티",
-      "brand": "오드타입",
-      "name": "오드타입 소 젠틀 터치 블렌더",
-      "discountRate": 15,
-      "finalPrice": 11900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230904/3527939/3527939_17496017173524_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3527939"
     },
     {
       "section": "오직 무신사 뷰티",
@@ -1616,15 +1616,6 @@
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
-      "brand": "미쏘",
-      "name": "클래식 플랩 숄더백(2WAY)_MIABGGT04B",
-      "discountRate": 10,
-      "finalPrice": 53910,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260922/7391468/7391468_17900538050453_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7391468"
-    },
-    {
-      "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "바이바이섭",
       "name": "보트넥 져지 롱 원피스 블랙 [T63]",
       "discountRate": 24,
@@ -1649,6 +1640,15 @@
       "finalPrice": 81320,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260922/7397183/7397183_17900811049045_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7397183"
+    },
+    {
+      "section": "쿠폰으로 만나는 인기 추천템",
+      "brand": "엔트로피 메이크업",
+      "name": "참틴트 루비참 + 푸드레젬 + 퍼글러키링",
+      "discountRate": 20,
+      "finalPrice": 26320,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260923/7399270/7399270_17918856150393_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7399270"
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
