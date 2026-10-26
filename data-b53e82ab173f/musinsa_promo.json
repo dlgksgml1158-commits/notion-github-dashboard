@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-26T05:52:01.911136+00:00",
+  "updatedAt": "2026-10-26T12:01:23.457078+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -11,15 +11,6 @@
       "finalPrice": 480000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240719/4260135/4260135_17241349183642_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4260135"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 헤어리 오버사이즈 가디건 [크림]",
-      "discountRate": 70,
-      "finalPrice": 23890,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240919/4443928/4443928_17301793134038_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4443928"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -119,6 +110,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240702/4227333/4227333_17290431098398_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4227333"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 헤어리 오버사이즈 가디건 [크림]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240919/4443928/4443928_17301793134038_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4443928"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -511,8 +511,8 @@
       "section": "48시간 특가",
       "brand": "아모우",
       "name": "Trouble Half T-Shirts Gray",
-      "discountRate": 61,
-      "finalPrice": 18770,
+      "discountRate": 60,
+      "finalPrice": 19200,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260319/6164272/6164272_17754384876789_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6164272"
     },
@@ -578,15 +578,6 @@
       "finalPrice": 49990,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6970704/6970704_17885027917839_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6970704"
-    },
-    {
-      "section": "48시간 특가",
-      "brand": "필루미네이트",
-      "name": "[필루미네이트 X 정혁] MA-1 봄버 자켓-3Color",
-      "discountRate": 22,
-      "finalPrice": 92900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260804/6992032/6992032_17899561700645_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6992032"
     },
     {
       "section": "48시간 특가",
@@ -677,6 +668,15 @@
       "finalPrice": 135200,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260904/7247660/7247660_17912920470560_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7247660"
+    },
+    {
+      "section": "48시간 특가",
+      "brand": "센테어",
+      "name": "[2PACK] 리브드 반목 집업_4color",
+      "discountRate": 30,
+      "finalPrice": 55900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260909/7287773/7287773_17906408077414_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7287773"
     },
     {
       "section": "48시간 특가",
@@ -1851,15 +1851,6 @@
     {
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "레이지비",
-      "name": "더블 트랙 스트럭처 오버핏 투웨이 스트링 바람막이 자켓 W (3컬러)",
-      "discountRate": 39,
-      "finalPrice": 53100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260918/7366170/7366170_17917863793762_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7366170"
-    },
-    {
-      "section": "쿠폰으로 만나는 인기 추천템",
-      "brand": "레이지비",
       "name": "더블 트랙 밴딩 스트럭처 와이드 스트링 팬츠 W (3컬러)",
       "discountRate": 40,
       "finalPrice": 44100,
@@ -1901,6 +1892,15 @@
       "finalPrice": 59420,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260922/7391439/7391439_17900537307296_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7391439"
+    },
+    {
+      "section": "쿠폰으로 만나는 인기 추천템",
+      "brand": "미쏘",
+      "name": "클래식 플랩 숄더백(2WAY)_MIABGGT04B",
+      "discountRate": 10,
+      "finalPrice": 53910,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260922/7391468/7391468_17900538050453_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7391468"
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
