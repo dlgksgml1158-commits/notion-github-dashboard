@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-10-31T07:50:28.491327+00:00",
+  "updatedAt": "2026-10-31T14:09:05.168492+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -11,24 +11,6 @@
       "finalPrice": 9900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260701/6761551/6761551_17871222606841_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6761551"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 패널 슬릿 니 렝스 스커트 [카키]",
-      "discountRate": 60,
-      "finalPrice": 18290,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240702/4229176/4229176_17466829430009_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4229176"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 미니 더플 슬링 백 [블랙]",
-      "discountRate": 70,
-      "finalPrice": 23890,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250610/5175173/5175173_17582519445947_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5175173"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -47,15 +29,6 @@
       "finalPrice": 43450,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240108/3781446/3781446_17047744711165_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3781446"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 키즈",
-      "name": "[힛탠다드] 기모 릴렉스드 터틀 넥 긴소매 티셔츠 [블랙]",
-      "discountRate": 50,
-      "finalPrice": 9900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230728/3431693/3431693_17588535224587_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3431693"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -113,6 +86,15 @@
     },
     {
       "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 패널 슬릿 니 렝스 스커트 [카키]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240702/4229176/4229176_17466829430009_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4229176"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드",
       "name": "원 턱 와이드 밴딩 슬랙스 [블랙]",
       "discountRate": 0,
@@ -122,12 +104,30 @@
     },
     {
       "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 미니 더플 슬링 백 [블랙]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250610/5175173/5175173_17582519445947_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5175173"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "에이지오디",
       "name": "사이드 빅 포켓 와이드 스웨트 팬츠 [블랙]",
       "discountRate": 0,
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5319937/5319937_17846864973626_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5319937"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 키즈",
+      "name": "[힛탠다드] 기모 릴렉스드 터틀 넥 긴소매 티셔츠 [블랙]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230728/3431693/3431693_17588535224587_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3431693"
     },
     {
       "section": "37시간 특가",
