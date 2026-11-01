@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-11-01T15:39:05.564259+00:00",
+  "updatedAt": "2026-11-01T20:01:30.204962+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -770,15 +770,6 @@
     },
     {
       "section": "멤버스데이 72시간 특가",
-      "brand": "후브스",
-      "name": "울블랜드 라운드 크롭 니트 [레드]",
-      "discountRate": 37,
-      "finalPrice": 38430,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250902/5391993/5391993_17582861380273_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5391993"
-    },
-    {
-      "section": "멤버스데이 72시간 특가",
       "brand": "드릭스",
       "name": "메탈 로고 데님 코듀로이 셔츠_3color",
       "discountRate": 43,
@@ -1010,6 +1001,15 @@
       "finalPrice": 39900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260909/7282189/7282189_17897090388279_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7282189"
+    },
+    {
+      "section": "멤버스데이 72시간 특가",
+      "brand": "폴스부띠끄",
+      "name": "BLOCK_3colors",
+      "discountRate": 59,
+      "finalPrice": 53040,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260201/5965150/5965150_17931588098480_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5965150"
     },
     {
       "section": "월간 입점회",
