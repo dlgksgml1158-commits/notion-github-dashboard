@@ -1,17 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-11-01T08:30:58.972669+00:00",
+  "updatedAt": "2026-11-01T15:39:05.564259+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 캐시미어 블렌드 하이 넥 로브 코트 [초코 브라운]",
-      "discountRate": 60,
-      "finalPrice": 99000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250528/5151479/5151479_17603425315431_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5151479"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "질 샌더",
@@ -20,15 +11,6 @@
       "finalPrice": 385000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240708/4237518/4237518_17231609367006_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4237518"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 캔버스 워크 재킷 [크림]",
-      "discountRate": 70,
-      "finalPrice": 32890,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240620/4209454/4209454_17286141001779_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4209454"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -68,12 +50,30 @@
     },
     {
       "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 캐시미어 블렌드 하이 넥 로브 코트 [초코 브라운]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250528/5151479/5151479_17603425315431_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5151479"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "버던트",
       "name": "가먼트다잉 하프 집업 플리스 스웨트 티셔츠 [모카]",
       "discountRate": 0,
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250813/5320213/5320213_17687888860769_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5320213"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 캔버스 워크 재킷 [크림]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240620/4209454/4209454_17286141001779_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4209454"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -101,15 +101,6 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20191008/1180666/1180666_17930863368443_500.jpg",
       "productUrl": "https://www.musinsa.com/products/1180666"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "반스",
-      "name": "어센틱 - (팻 레이스 체커) 레드 / VN000CRTCJH1",
-      "discountRate": 0,
-      "finalPrice": 0,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240819/4341452/4341452_17248256680099_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4341452"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -788,15 +779,6 @@
     },
     {
       "section": "멤버스데이 72시간 특가",
-      "brand": "미세키서울",
-      "name": "Layered pleats one piece SET CHARCOAL",
-      "discountRate": 28,
-      "finalPrice": 135360,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260821/7126183/7126183_17917842701329_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7126183"
-    },
-    {
-      "section": "멤버스데이 72시간 특가",
       "brand": "드릭스",
       "name": "메탈 로고 데님 코듀로이 셔츠_3color",
       "discountRate": 43,
@@ -1019,6 +1001,15 @@
       "finalPrice": 84900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260115/5899308/5899308_17775309300435_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5899308"
+    },
+    {
+      "section": "멤버스데이 72시간 특가",
+      "brand": "디미트리블랙",
+      "name": "© 모두의 SUPIMA® 코튼 니트_(헨리넥) 3COLOR",
+      "discountRate": 28,
+      "finalPrice": 39900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260909/7282189/7282189_17897090388279_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7282189"
     },
     {
       "section": "월간 입점회",
@@ -1796,15 +1787,6 @@
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
-      "brand": "후아유",
-      "name": "N2B Padded Jumper / WHJPG4T27F",
-      "discountRate": 25,
-      "finalPrice": 96500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20261012/7487193/7487193_17917892409904_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7487193"
-    },
-    {
-      "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "그로우하이드",
       "name": "멜트 하이넥 버튼 슬림 골지 긴팔 니트_블랙",
       "discountRate": 15,
@@ -2027,6 +2009,15 @@
       "finalPrice": 104170,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20261008/7477314/7477314_17914409205380_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7477314"
+    },
+    {
+      "section": "쿠폰으로 만나는 인기 추천템",
+      "brand": "유라고",
+      "name": "Stripe logo boxy t-shirt",
+      "discountRate": 34,
+      "finalPrice": 49210,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260921/7384730/7384730_17909083627247_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7384730"
     }
   ]
 }
