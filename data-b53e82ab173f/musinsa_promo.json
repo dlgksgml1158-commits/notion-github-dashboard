@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-11-05T10:32:53.305766+00:00",
+  "updatedAt": "2026-11-05T18:25:03.665180+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -20,15 +20,6 @@
       "finalPrice": 46000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6239517/6239517_17751058101391_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6239517"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "닉 기어",
-      "name": "[무신사 단독] 3D 플라워 볼캡 - 네이비 / 3DFLOWERMNA",
-      "discountRate": 60,
-      "finalPrice": 79200,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260220/6035296/6035296_17731952962110_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6035296"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -146,6 +137,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250911/5443620/5443620_17588727459036_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5443620"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "닉 기어",
+      "name": "[무신사 단독] 3D 플라워 볼캡 - 네이비 / 3DFLOWERMNA",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260220/6035296/6035296_17731952962110_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6035296"
     },
     {
       "section": "48시간 특가",
@@ -371,15 +371,6 @@
       "finalPrice": 18400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20230210/3075503/3075503_17017438960268_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3075503"
-    },
-    {
-      "section": "48시간 특가",
-      "brand": "디미트리블랙",
-      "name": "어드저스트 투턱 와이드 슬랙스_스트라이프 차콜",
-      "discountRate": 40,
-      "finalPrice": 29900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250811/5310984/5310984_17551515636020_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5310984"
     },
     {
       "section": "48시간 특가",
@@ -1048,6 +1039,15 @@
       "productUrl": "https://www.musinsa.com/products/6077253"
     },
     {
+      "section": "48시간 특가",
+      "brand": "디미트리블랙",
+      "name": "[10주년기획] © 모두의 코듀로이 데님 팬츠_2 COLOR",
+      "discountRate": 40,
+      "finalPrice": 29900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260915/7337513/7337513_17897083538458_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7337513"
+    },
+    {
       "section": "패션위크",
       "brand": "미세키서울",
       "name": "Diagonal reversible shearing jacket BLACK",
@@ -1105,8 +1105,8 @@
       "section": "패션위크",
       "brand": "미세키서울",
       "name": "Hoodie double button coat CHARCOAL",
-      "discountRate": 15,
-      "finalPrice": 236300,
+      "discountRate": 20,
+      "finalPrice": 222400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250923/5515190/5515190_17904146919467_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5515190"
     },
@@ -1114,8 +1114,8 @@
       "section": "패션위크",
       "brand": "미세키서울",
       "name": "Side button knit CHARCOAL",
-      "discountRate": 15,
-      "finalPrice": 117300,
+      "discountRate": 20,
+      "finalPrice": 110400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240821/4351636/4351636_17582666246402_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4351636"
     },
@@ -1294,8 +1294,8 @@
       "section": "패션위크",
       "brand": "미세키서울",
       "name": "Big collar button coat CHARCOAL",
-      "discountRate": 10,
-      "finalPrice": 250200,
+      "discountRate": 20,
+      "finalPrice": 222400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260930/7428540/7428540_17923749390182_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7428540"
     },
@@ -1672,8 +1672,8 @@
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "썸웨어버터",
       "name": "Alden Wool Raglan Knit - Grey(Black)",
-      "discountRate": 10,
-      "finalPrice": 98100,
+      "discountRate": 30,
+      "finalPrice": 76300,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20261008/7477487/7477487_17918735077583_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7477487"
     },
