@@ -1,26 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-11-06T04:34:05.408641+00:00",
+  "updatedAt": "2026-11-06T12:38:12.699579+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 심리스 드로즈 2팩",
-      "discountRate": 45,
-      "finalPrice": 14250,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240319/3966498/3966498_17761477526143_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3966498"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "웰던",
-      "name": "로고 집업 후드 - 블랙 / WDTJ026931UBK",
-      "discountRate": 55,
-      "finalPrice": 159600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260312/6122575/6122575_17748511943935_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6122575"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "무신사 스탠다드 우먼",
@@ -74,6 +56,24 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20241120/4626230/4626230_17362322383832_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4626230"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 심리스 드로즈 2팩",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240319/3966498/3966498_17761477526143_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3966498"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "웰던",
+      "name": "로고 집업 후드 - 블랙 / WDTJ026931UBK",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260312/6122575/6122575_17748511943935_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6122575"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -232,8 +232,8 @@
       "section": "72시간 특가",
       "brand": "제너럴아이디어",
       "name": "온도업 크루넥 가디건 [4COL] / GF4LKC536",
-      "discountRate": 36,
-      "finalPrice": 45750,
+      "discountRate": 37,
+      "finalPrice": 45700,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20261021/7575502/7575502_17925591360083_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7575502"
     },
@@ -304,8 +304,8 @@
       "section": "72시간 특가",
       "brand": "무아무아",
       "name": "오버랩 헨리넥 피그먼트 와플 긴팔티 [차콜]",
-      "discountRate": 59,
-      "finalPrice": 29610,
+      "discountRate": 54,
+      "finalPrice": 32900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260910/7296122/7296122_17923957251508_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7296122"
     },
@@ -371,6 +371,15 @@
       "finalPrice": 49000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260324/6183062/6183062_17760413753090_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6183062"
+    },
+    {
+      "section": "72시간 특가",
+      "brand": "유젠",
+      "name": "후드 하프 코트_2 COLOR",
+      "discountRate": 19,
+      "finalPrice": 89900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20261020/7569524/7569524_17939396916359_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7569524"
     },
     {
       "section": "72시간 특가",
@@ -700,8 +709,8 @@
       "section": "72시간 특가",
       "brand": "언노운 플라넷",
       "name": "오프 숄더 모헤어 스트라이프 니트 블루-브라운",
-      "discountRate": 43,
-      "finalPrice": 42640,
+      "discountRate": 49,
+      "finalPrice": 38150,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20251017/5608822/5608822_17606839494826_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5608822"
     },
@@ -988,8 +997,8 @@
       "section": "72시간 특가",
       "brand": "무아무아",
       "name": "오버랩 헨리넥 피그먼트 와플 긴팔티 [브라운]",
-      "discountRate": 59,
-      "finalPrice": 29610,
+      "discountRate": 54,
+      "finalPrice": 32900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260910/7296158/7296158_17917872376293_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7296158"
     },
@@ -1042,8 +1051,8 @@
       "section": "패션위크",
       "brand": "미세키서울",
       "name": "Side button knit CHARCOAL",
-      "discountRate": 20,
-      "finalPrice": 110400,
+      "discountRate": 32,
+      "finalPrice": 93840,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240821/4351636/4351636_17582666246402_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4351636"
     },
@@ -1105,8 +1114,8 @@
       "section": "패션위크",
       "brand": "미세키서울",
       "name": "Unbalanced cowl button knit CHARCOAL",
-      "discountRate": 10,
-      "finalPrice": 110700,
+      "discountRate": 23,
+      "finalPrice": 94100,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7096566/7096566_17917694207228_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7096566"
     },
@@ -1132,8 +1141,8 @@
       "section": "패션위크",
       "brand": "미세키서울",
       "name": "Double placket slim hoodie CHARCOAL",
-      "discountRate": 19,
-      "finalPrice": 79380,
+      "discountRate": 31,
+      "finalPrice": 67480,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260731/6968276/6968276_17877244078964_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6968276"
     },
@@ -1240,8 +1249,8 @@
       "section": "패션위크",
       "brand": "미세키서울",
       "name": "Unbalanced cowl button knit BLACK",
-      "discountRate": 10,
-      "finalPrice": 110700,
+      "discountRate": 23,
+      "finalPrice": 94100,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260818/7096600/7096600_17901486535657_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7096600"
     },
@@ -1273,6 +1282,276 @@
       "productUrl": "https://www.musinsa.com/products/7096379"
     },
     {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "니시 - 아우라커피:크림화이트 / LA6438",
+      "discountRate": 30,
+      "finalPrice": 61990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7074243/7074243_17871085701512_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7074243"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "니시 - 그린:크림화이트 / LA6437",
+      "discountRate": 30,
+      "finalPrice": 61990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260813/7074242/7074242_17871085475394_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7074242"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "슈퍼스타 II - 블랙 / IH1612",
+      "discountRate": 30,
+      "finalPrice": 103990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260311/6114140/6114140_17732832564949_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6114140"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "도쿄 - 화이트:블랙 / JQ0597",
+      "discountRate": 15,
+      "finalPrice": 117990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260424/6371070/6371070_17772581581189_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6371070"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "삼바 OG 뮬 - 코어블랙:화이트 / LB3815",
+      "discountRate": 30,
+      "finalPrice": 96990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260723/6907041/6907041_17853143421948_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6907041"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "도쿄 - 블랙:화이트 / JQ0598",
+      "discountRate": 20,
+      "finalPrice": 110990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260424/6371071/6371071_17772581869738_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6371071"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "슈퍼스타 II - 블랙 / KK3297",
+      "discountRate": 30,
+      "finalPrice": 103990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6937806/6937806_17854777122226_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6937806"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "삼바 OG 뮬 - 화이트:블랙 / LB3814",
+      "discountRate": 15,
+      "finalPrice": 117990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260724/6918834/6918834_17853138022278_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6918834"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "도쿄 메리제인 - 블랙:크림화이트 / JR4790",
+      "discountRate": 26,
+      "finalPrice": 103090,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260323/6174864/6174864_17743168987622_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6174864"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "파리 - 빅토리레드:화이트 / KJ4898",
+      "discountRate": 30,
+      "finalPrice": 96990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260721/6887347/6887347_17848609133779_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6887347"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "아디폼 메가제인 - 화이트 / KH7889",
+      "discountRate": 30,
+      "finalPrice": 89990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6233622/6233622_17785738437029_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6233622"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "니시 - 카키식스:화이트 / KK0359",
+      "discountRate": 30,
+      "finalPrice": 61990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7116116/7116116_17877307774243_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7116116"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "핸드볼 스페지알 - 그레이 / KZ6705",
+      "discountRate": 30,
+      "finalPrice": 103990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6947640/6947640_17854792389087_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6947640"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "핸드볼 스페지알 - 웜바닐라:아우라커피 / KK0932",
+      "discountRate": 40,
+      "finalPrice": 89660,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6947629/6947629_17854789181953_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6947629"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "아디폼 메가제인 - 차콜 / KH7911",
+      "discountRate": 30,
+      "finalPrice": 89990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6233623/6233623_17785740177902_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6233623"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "핸드볼 스페지알 - 블렌치브라운 / KJ9852",
+      "discountRate": 30,
+      "finalPrice": 110990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6876217/6876217_17852260548558_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6876217"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "토바코 - 올리브스트라타:샌드 / IH9113",
+      "discountRate": 30,
+      "finalPrice": 103990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260423/6365122/6365122_17772530870588_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6365122"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "슈퍼스타 II - 카키 / KJ4654",
+      "discountRate": 30,
+      "finalPrice": 103990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6937801/6937801_17854777042532_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6937801"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "토바코 - 블루:아이스텐저린 / IH9114",
+      "discountRate": 30,
+      "finalPrice": 103990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260424/6371066/6371066_17772580532327_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6371066"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "니시 - 마룬:웜바닐라 / KK0360",
+      "discountRate": 30,
+      "finalPrice": 61990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260820/7116117/7116117_17877307991796_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7116117"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "삼바 제인 - 블랙 / KJ3970",
+      "discountRate": 30,
+      "finalPrice": 103990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260313/6130504/6130504_17736503028549_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6130504"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "슈퍼스타 II - 스톤카키 / IH1611",
+      "discountRate": 30,
+      "finalPrice": 103990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260311/6114138/6114138_17732832321171_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6114138"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "파리 - 블랙:화이트 / KJ4899",
+      "discountRate": 30,
+      "finalPrice": 96990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6897445/6897445_17848615747241_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6897445"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "도쿄 메리제인 - 화이트:블랙 / KJ8378",
+      "discountRate": 40,
+      "finalPrice": 83640,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260728/6937803/6937803_17854777042556_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6937803"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "핸드볼 스페지알 - 카본 / KJ9853",
+      "discountRate": 30,
+      "finalPrice": 110990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260720/6876218/6876218_17852259715817_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6876218"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "아디폼 메가제인 - 그레이 / KH7912",
+      "discountRate": 30,
+      "finalPrice": 89990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260401/6233624/6233624_17785740909739_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6233624"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "도쿄 메리제인 - 레드:화이트 / KI3031",
+      "discountRate": 20,
+      "finalPrice": 110990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260424/6371094/6371094_17772588463765_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6371094"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "삼바 제인 - 화이트:실버 / KJ3785",
+      "discountRate": 40,
+      "finalPrice": 89390,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260409/6282003/6282003_17757844692730_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6282003"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "리버티 런던 삼바 제인 - 초크펄:실버 / IH6978",
+      "discountRate": 40,
+      "finalPrice": 89390,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260427/6381699/6381699_17772811516937_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6381699"
+    },
+    {
+      "section": "놓치면 아쉬운 인기 스니커즈 쿠폰 혜택",
+      "brand": "아디다스",
+      "name": "고스트 스프린트 발레 - 얼스스트라타 / KI0436",
+      "discountRate": 30,
+      "finalPrice": 96990,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260722/6897447/6897447_17848614986612_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6897447"
+    },
+    {
       "section": "쿠폰으로 만나는\n겨울 준비 아이템",
       "brand": "알리스",
       "name": "데님 레이어드 크롭 니트 풀오버 [블랙]",
@@ -1287,7 +1566,7 @@
       "name": "브로든 레더 하이넥 무스탕 자켓 [블랙]",
       "discountRate": 25,
       "finalPrice": 148500,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20261014/7520144/7520144_17919823687057_500.jpg",
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20261014/7520144/7520144_17939455804779_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7520144"
     },
     {
@@ -1906,8 +2185,8 @@
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "크록스",
       "name": "텐트 모크 - 블랙:블랙 / 213604-060",
-      "discountRate": 15,
-      "finalPrice": 76420,
+      "discountRate": 18,
+      "finalPrice": 73420,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260907/7263421/7263421_17889200501420_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7263421"
     },
@@ -2012,6 +2291,15 @@
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
+      "brand": "드로우핏 우먼",
+      "name": "헤어리 울 싱글 블레이저 [CHARCOAL]",
+      "discountRate": 28,
+      "finalPrice": 167760,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20261014/7515743/7515743_17919579929820_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7515743"
+    },
+    {
+      "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "로라로라",
       "name": "HOODIE MUSTANG MINT BEIGE",
       "discountRate": 24,
@@ -2066,21 +2354,12 @@
     },
     {
       "section": "쿠폰으로 만나는 인기 추천템",
-      "brand": "탄산마그네슘",
-      "name": "안녕자두야X탄산 마운틴 자두 레이어드 롱슬리브 (네이비)",
-      "discountRate": 24,
-      "finalPrice": 67640,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260921/7385457/7385457_17914465555058_500.jpeg",
-      "productUrl": "https://www.musinsa.com/products/7385457"
-    },
-    {
-      "section": "쿠폰으로 만나는 인기 추천템",
-      "brand": "미치코런던 코시노",
-      "name": "브러쉬 울 발마칸 코트 차콜 그레이",
-      "discountRate": 10,
-      "finalPrice": 242100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20261023/7599160/7599160_17927185720279_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7599160"
+      "brand": "드로우핏 우먼",
+      "name": "소프트 캐시미어 벨티드 발마칸 롱 코트 [BLACK]",
+      "discountRate": 28,
+      "finalPrice": 197280,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260921/7377822/7377822_17912651293928_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7377822"
     }
   ]
 }
