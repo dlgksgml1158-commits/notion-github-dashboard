@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-11-07T03:59:18.552381+00:00",
+  "updatedAt": "2026-11-07T10:56:17.595019+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -11,15 +11,6 @@
       "finalPrice": 410000,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240903/4397758/4397758_17261902439262_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4397758"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "코튼 멀티 포켓 파라슈트 카고 팬츠 [블랙]",
-      "discountRate": 66,
-      "finalPrice": 24090,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20231215/3758239/3758239_17104786205162_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3758239"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -38,15 +29,6 @@
       "finalPrice": 87910,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240621/4213376/4213376_17262132434796_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4213376"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "푸마",
-      "name": "스피드캣 고 우먼스 - 페르시안 블루:웜화이트 / 403589-05",
-      "discountRate": 47,
-      "finalPrice": 63600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6002028/6002028_17707748154655_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6002028"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -104,6 +86,15 @@
     },
     {
       "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "코튼 멀티 포켓 파라슈트 카고 팬츠 [블랙]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20231215/3758239/3758239_17104786205162_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3758239"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "팀버랜드",
       "name": "(남성) 헤리티지 목토 GTX 미드 - 라이트 베이지:블랙 / A2JU5-AAM",
       "discountRate": 0,
@@ -119,6 +110,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240502/4102951/4102951_17146410968251_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4102951"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "푸마",
+      "name": "스피드캣 고 우먼스 - 페르시안 블루:웜화이트 / 403589-05",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260210/6002028/6002028_17707748154655_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6002028"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -2212,8 +2212,8 @@
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "크록스",
       "name": "텐트 모크 - 블랙:블랙 / 213604-060",
-      "discountRate": 18,
-      "finalPrice": 73420,
+      "discountRate": 15,
+      "finalPrice": 76420,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260907/7263421/7263421_17889200501420_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7263421"
     },
