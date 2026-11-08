@@ -1,26 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-11-08T06:51:34.574298+00:00",
+  "updatedAt": "2026-11-08T13:59:37.697812+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "푸마",
-      "name": "스피드캣 고 우먼스 - 블랙:화이트 / 403589-01",
-      "discountRate": 47,
-      "finalPrice": 63600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250922/5502507/5502507_17586903896920_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5502507"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "태오앤더",
-      "name": "태오앤더 세라믹 한강선셋 블러셔",
-      "discountRate": 50,
-      "finalPrice": 8000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260403/6253985/6253985_17866059577894_500.png",
-      "productUrl": "https://www.musinsa.com/products/6253985"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "웰던",
@@ -41,12 +23,12 @@
     },
     {
       "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "램스울 니트 비니 바라클라바 [블랙]",
-      "discountRate": 50,
-      "finalPrice": 21810,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240919/4443919/4443919_17320787669763_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4443919"
+      "brand": "푸마",
+      "name": "스피드캣 고 우먼스 - 블랙:화이트 / 403589-01",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250922/5502507/5502507_17586903896920_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5502507"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -74,6 +56,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240628/4223497/4223497_17799355130519_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4223497"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "태오앤더",
+      "name": "태오앤더 세라믹 한강선셋 블러셔",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260403/6253985/6253985_17866059577894_500.png",
+      "productUrl": "https://www.musinsa.com/products/6253985"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -110,6 +101,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260311/6111433/6111433_17737264441113_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6111433"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "램스울 니트 비니 바라클라바 [블랙]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240919/4443919/4443919_17320787669763_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4443919"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -317,15 +317,6 @@
       "finalPrice": 32900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260910/7296122/7296122_17923957251508_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7296122"
-    },
-    {
-      "section": "72시간 특가",
-      "brand": "트릴리온",
-      "name": "비건 레더 투 포켓 블루종 자켓 [브라운]",
-      "discountRate": 66,
-      "finalPrice": 22990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250120/4729524/4729524_17386478176640_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4729524"
     },
     {
       "section": "72시간 특가",
@@ -1019,6 +1010,15 @@
       "finalPrice": 19990,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260729/6948481/6948481_17853044768380_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6948481"
+    },
+    {
+      "section": "72시간 특가",
+      "brand": "효지",
+      "name": "26 FW 세미 커브드 워머 카치온 팬츠 (4컬러)",
+      "discountRate": 32,
+      "finalPrice": 53900,
+      "imgUrl": "https://image.msscdn.net/images/prd_img/20260914/7326129/detail_7326129_17921140833557_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7326129"
     },
     {
       "section": "패션위크",
