@@ -1,17 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-11-14T02:50:13.872594+00:00",
+  "updatedAt": "2026-11-14T09:41:38.699112+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드",
-      "name": "헤어리 알파카 가디건 [블랙]",
-      "discountRate": 75,
-      "finalPrice": 29990,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240826/4368661/4368661_17328473262871_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4368661"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "포레덤",
@@ -20,15 +11,6 @@
       "finalPrice": 31400,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6204044/6204044_17762309694048_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6204044"
-    },
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "무신사 스탠다드 우먼",
-      "name": "우먼즈 속바지 3팩",
-      "discountRate": 45,
-      "finalPrice": 14250,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230308/3130821/3130821_17764129694507_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3130821"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -68,6 +50,15 @@
     },
     {
       "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드",
+      "name": "헤어리 알파카 가디건 [블랙]",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20240826/4368661/4368661_17328473262871_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/4368661"
+    },
+    {
+      "section": "한정수량 선착순 특가",
       "brand": "노말",
       "name": "제락 브루트 블랙 / 252N1ZKSM1-002",
       "discountRate": 0,
@@ -92,6 +83,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250310/4876177/4876177_17442591261877_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4876177"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "무신사 스탠다드 우먼",
+      "name": "우먼즈 속바지 3팩",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20230308/3130821/3130821_17764129694507_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3130821"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -932,15 +932,6 @@
     },
     {
       "section": "72시간 특가",
-      "brand": "디미트리블랙",
-      "name": "2WAY 크롭 데님 블루종 자켓_라이트 인디고",
-      "discountRate": 74,
-      "finalPrice": 12900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230816/3469204/3469204_16965761659652_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3469204"
-    },
-    {
-      "section": "72시간 특가",
       "brand": "엔와이엑스엑스",
       "name": "RIBBED HIGH NECK JACKET KHAKI",
       "discountRate": 40,
@@ -1055,6 +1046,15 @@
       "finalPrice": 39800,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20250915/5460072/5460072_17927350207649_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5460072"
+    },
+    {
+      "section": "72시간 특가",
+      "brand": "마인드브릿지",
+      "name": "두굿_미니멀 하이넥 숏 다운 점퍼 - 2color",
+      "discountRate": 20,
+      "finalPrice": 239200,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260916/7349033/7349033_17926360403986_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7349033"
     },
     {
       "section": "무배당발 플러스오더",
