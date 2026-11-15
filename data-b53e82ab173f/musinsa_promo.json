@@ -1,17 +1,8 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-11-14T21:01:38.477772+00:00",
+  "updatedAt": "2026-11-15T01:27:42.577076+00:00",
   "items": [
-    {
-      "section": "한정수량 선착순 특가",
-      "brand": "포레덤",
-      "name": "EGF 리바이탈 리프트 크림",
-      "discountRate": 60,
-      "finalPrice": 31400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6204044/6204044_17762309694048_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/6204044"
-    },
     {
       "section": "한정수량 선착순 특가",
       "brand": "그로브",
@@ -56,6 +47,15 @@
       "finalPrice": 0,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20240826/4368661/4368661_17328473262871_500.jpg",
       "productUrl": "https://www.musinsa.com/products/4368661"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "포레덤",
+      "name": "EGF 리바이탈 리프트 크림",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260326/6204044/6204044_17762309694048_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6204044"
     },
     {
       "section": "한정수량 선착순 특가",
