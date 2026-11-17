@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-11-17T09:57:54.823283+00:00",
+  "updatedAt": "2026-11-17T18:57:42.722856+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가 마감",
@@ -200,15 +200,6 @@
       "finalPrice": 159200,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260917/7352728/7352728_17930799647921_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7352728"
-    },
-    {
-      "section": "48시간 특가",
-      "brand": "엘엑스티",
-      "name": "케이블 하이넥 크롭 하프 집업 니트 [베이지]",
-      "discountRate": 76,
-      "finalPrice": 10000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20261012/7491731/7491731_17917857098981_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7491731"
     },
     {
       "section": "48시간 특가",
@@ -746,7 +737,7 @@
       "brand": "다미쉬",
       "name": "M-65 피쉬테일 야상 패딩 코트_블랙",
       "discountRate": 45,
-      "finalPrice": 101750,
+      "finalPrice": 101700,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20261102/7681447/7681447_17936027295488_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7681447"
     },
@@ -851,15 +842,6 @@
     },
     {
       "section": "48시간 특가",
-      "brand": "어널러코드",
-      "name": "헤어리 믹스 니트 (브라운)",
-      "discountRate": 55,
-      "finalPrice": 31950,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240912/4438543/4438543_17659364573877_500.png",
-      "productUrl": "https://www.musinsa.com/products/4438543"
-    },
-    {
-      "section": "48시간 특가",
       "brand": "유라이프지",
       "name": "노멀 카펜더 벌룬 와이드 팬츠 4 Color [ULZD_0004]",
       "discountRate": 38,
@@ -956,6 +938,24 @@
       "finalPrice": 159200,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260916/7349016/7349016_17942749132509_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7349016"
+    },
+    {
+      "section": "48시간 특가",
+      "brand": "레테르코모",
+      "name": "소프트 쉘 오라 슬리브 긴팔티셔츠 블랙",
+      "discountRate": 38,
+      "finalPrice": 26900,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20250908/5414046/5414046_17592139612558_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/5414046"
+    },
+    {
+      "section": "48시간 특가",
+      "brand": "아메스 월드와이드",
+      "name": "STARRY BOA PANTS DEEP PINK",
+      "discountRate": 25,
+      "finalPrice": 70500,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20260923/7401191/7401191_17907528771034_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/7401191"
     },
     {
       "section": "무배당발 플러스오더",
@@ -1282,168 +1282,6 @@
       "productUrl": "https://www.musinsa.com/products/7096740"
     },
     {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "1958 MA-1 3rd Model Flight Jacket (Black Label)",
-      "discountRate": 10,
-      "finalPrice": 278100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20261001/7434062/7434062_17920414539724_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7434062"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "MA-1 Flight Jacket 1970s Model KR ver. Olive",
-      "discountRate": 10,
-      "finalPrice": 242100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241023/4549992/4549992_17610232133312_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4549992"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "U.S. Army M-65 Parka",
-      "discountRate": 10,
-      "finalPrice": 224100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250819/5339768/5339768_17887619448406_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5339768"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "Lot 44806XX WWII Type 1 Selvedge Denim Jacket",
-      "discountRate": 10,
-      "finalPrice": 183600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230818/3475418/3475418_17818359677858_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3475418"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "WWII USMC Type P-42 Duck Hunter Camo Jacket",
-      "discountRate": 10,
-      "finalPrice": 149400,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20261027/7631021/7631021_17937603268642_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/7631021"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "MA-1 Flight Jacket 1970s Model KR ver. Black",
-      "discountRate": 10,
-      "finalPrice": 242100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241023/4549982/4549982_17610226404285_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4549982"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "17.5 oz Terry Cloth 2Way Zip-Up Hoodie Kr Ver. Vintage Black",
-      "discountRate": 15,
-      "finalPrice": 79900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20230911/3550811/3550811_17556606075839_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3550811"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "WW2 Lot S101J Cowboys Jacket",
-      "discountRate": 10,
-      "finalPrice": 153000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241114/4614595/4614595_17737255953621_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4614595"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "1950s Reversible Acetate Souvenir Jacket - Falcon + Tiger",
-      "discountRate": 10,
-      "finalPrice": 215100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20240110/3786803/3786803_17642942084867_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3786803"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "Wind Break Quilting Vest Black",
-      "discountRate": 10,
-      "finalPrice": 80100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251106/5693060/5693060_17623978777689_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5693060"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "US Army M-41 HBT Fatigue Jacket",
-      "discountRate": 10,
-      "finalPrice": 116100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5921311/5921311_17761474874210_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5921311"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "1936 Lot 101J Cowboys Jacket",
-      "discountRate": 10,
-      "finalPrice": 156600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20241114/4614163/4614163_17761479287854_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/4614163"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "Vietnam War US Army OG-107 Fatigue Utility Shirt",
-      "discountRate": 10,
-      "finalPrice": 75600,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250819/5339817/5339817_17737255365206_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5339817"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "Wind Break Quilting Vest Beige",
-      "discountRate": 10,
-      "finalPrice": 80100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251106/5692486/5692486_17623977613882_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5692486"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "S806XX 1943 War Simplified Model 1st Selvedge Denim Jacket",
-      "discountRate": 10,
-      "finalPrice": 215100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20260121/5921428/5921428_17818364350610_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5921428"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "Wind Break Quilting Vest Olive",
-      "discountRate": 10,
-      "finalPrice": 80100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20251106/5692835/5692835_17623978196227_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5692835"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "1969 M-65 Field Jacket - Taxi Driver",
-      "discountRate": 10,
-      "finalPrice": 233100,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20250908/5414075/5414075_17579013518927_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/5414075"
-    },
-    {
-      "section": "쿠폰으로 만나는\n지금 입기 좋은 아우터",
-      "brand": "브론슨",
-      "name": "17.5 oz Terry Cloth 2Way Zip-Up Hoodie Kr Ver. Grey",
-      "discountRate": 15,
-      "finalPrice": 79900,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20210302/1821465/1821465_17556634257880_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/1821465"
-    },
-    {
       "section": "오직 무신사 뷰티",
       "brand": "닥터엘시아",
       "name": "퓨어 그라인딩 클렌징밤 듀오 SET",
@@ -1591,8 +1429,8 @@
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "룩캐스트",
       "name": "알파카 울 발마칸 코트 / ALPACA WOOL BALMACAAN COAT_2colors",
-      "discountRate": 25,
-      "finalPrice": 276740,
+      "discountRate": 30,
+      "finalPrice": 256370,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20261021/7576655/7576655_17930774329391_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7576655"
     },
