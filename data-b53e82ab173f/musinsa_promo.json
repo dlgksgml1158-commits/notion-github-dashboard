@@ -1,7 +1,7 @@
 {
   "platform": "musinsa",
   "source": "https://api.musinsa.com/api2/hm/web/v3/pans/sale/modules?storeCode=musinsa",
-  "updatedAt": "2026-11-19T08:15:03.975877+00:00",
+  "updatedAt": "2026-11-19T17:52:48.092299+00:00",
   "items": [
     {
       "section": "한정수량 선착순 특가",
@@ -14,21 +14,21 @@
     },
     {
       "section": "한정수량 선착순 특가",
-      "brand": "디젤",
-      "name": "K 플로이드 니트 - 화이트 / A124470BNBD129",
-      "discountRate": 75,
-      "finalPrice": 153000,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20231122/3729212/3729212_17025224075479_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/3729212"
-    },
-    {
-      "section": "한정수량 선착순 특가",
       "brand": "오리온",
       "name": "비쵸비 딸기 5P 125g 3개 + 비쵸비 초코 5P 125g 3개",
       "discountRate": 11,
       "finalPrice": 20200,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20260623/6718076/6718076_17828026360760_500.jpg",
       "productUrl": "https://www.musinsa.com/products/6718076"
+    },
+    {
+      "section": "한정수량 선착순 특가",
+      "brand": "디젤",
+      "name": "K 플로이드 니트 - 화이트 / A124470BNBD129",
+      "discountRate": 0,
+      "finalPrice": 0,
+      "imgUrl": "https://image.msscdn.net/images/goods_img/20231122/3729212/3729212_17025224075479_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/3729212"
     },
     {
       "section": "한정수량 선착순 특가",
@@ -128,6 +128,15 @@
       "finalPrice": 48450,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20230824/3495915/3495915_17267953295640_500.jpg",
       "productUrl": "https://www.musinsa.com/products/3495915"
+    },
+    {
+      "section": "48시간 특가",
+      "brand": "지프",
+      "name": "레트로 마운틴 1941 스트라이프 카라 맨투맨 (JR5TSU825MG)",
+      "discountRate": 39,
+      "finalPrice": 65990,
+      "imgUrl": "https://image.msscdn.net/images/prd_img/20260703/6777832/detail_6777832_17950489146991_500.jpg",
+      "productUrl": "https://www.musinsa.com/products/6777832"
     },
     {
       "section": "48시간 특가",
@@ -521,7 +530,7 @@
       "brand": "멜로토리",
       "name": "핸드메이드 울 하프 코트 (2color)",
       "discountRate": 29,
-      "finalPrice": 123100,
+      "finalPrice": 123090,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20251111/5712441/5712441_17628286554053_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5712441"
     },
@@ -611,7 +620,7 @@
       "brand": "멜로토리",
       "name": "리버시블 덤블 점퍼 (2color)",
       "discountRate": 29,
-      "finalPrice": 98330,
+      "finalPrice": 98240,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20251103/5679864/5679864_17647447970995_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5679864"
     },
@@ -938,15 +947,6 @@
       "finalPrice": 13900,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20251121/5763565/5763565_17637104302206_500.jpg",
       "productUrl": "https://www.musinsa.com/products/5763565"
-    },
-    {
-      "section": "48시간 특가",
-      "brand": "엠티체르마트",
-      "name": "리모스 남여공용 방한슬리퍼 털 실내화 멀티",
-      "discountRate": 54,
-      "finalPrice": 22800,
-      "imgUrl": "https://image.msscdn.net/images/goods_img/20221124/2960031/2960031_1_500.jpg",
-      "productUrl": "https://www.musinsa.com/products/2960031"
     },
     {
       "section": "무배당발 플러스오더",
@@ -1529,7 +1529,7 @@
       "brand": "에잇세컨즈",
       "name": "기모 본딩 코듀로이 커브드 팬츠  카키",
       "discountRate": 21,
-      "finalPrice": 35570,
+      "finalPrice": 35480,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20261026/7619211/7619211_17949915162086_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7619211"
     },
@@ -1591,8 +1591,8 @@
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "에잇세컨즈",
       "name": "배색 헨리넥 긴소매 티셔츠  라이트 그레이",
-      "discountRate": 15,
-      "finalPrice": 33920,
+      "discountRate": 19,
+      "finalPrice": 32320,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20261029/7659451/7659451_17932598216656_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7659451"
     },
@@ -1654,8 +1654,8 @@
       "section": "쿠폰으로 만나는 인기 추천템",
       "brand": "에잇세컨즈",
       "name": "기모 본딩 코듀로이 커브드 팬츠  아이보리",
-      "discountRate": 15,
-      "finalPrice": 38170,
+      "discountRate": 19,
+      "finalPrice": 36370,
       "imgUrl": "https://image.msscdn.net/images/goods_img/20261026/7619134/7619134_17948775624276_500.jpg",
       "productUrl": "https://www.musinsa.com/products/7619134"
     },
