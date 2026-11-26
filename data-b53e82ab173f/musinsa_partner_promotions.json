@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T21:04:38.717339+00:00",
+  "updatedAt": "2026-11-26T03:56:26.120487+00:00",
   "items": [
     {
       "promotionId": 18955,
@@ -24,6 +24,15 @@
       "name": "[글로벌] 12월 도쿄 팝업 연계 캠페인 - 브랜드데이(전기간)",
       "status": "READY",
       "from": "2026-12-17T02:00:00.000Z",
+      "to": "2026-12-27T15:00:00.000Z",
+      "minPercent": null,
+      "recruitDeadline": null
+    },
+    {
+      "promotionId": 18955,
+      "name": "[글로벌] 12월 도쿄 팝업 연계 캠페인 - 팝업 참여 브랜드(전기간)",
+      "status": "READY",
+      "from": "2026-12-14T15:00:00.000Z",
       "to": "2026-12-27T15:00:00.000Z",
       "minPercent": null,
       "recruitDeadline": null
@@ -125,15 +134,6 @@
       "from": "2026-12-21T02:00:00.000Z",
       "to": "2026-12-31T02:00:00.000Z",
       "minPercent": 10,
-      "recruitDeadline": null
-    },
-    {
-      "promotionId": 18913,
-      "name": "[글로벌] 26 연말 결산 빅세일 캠페인 - 쿠폰 할인 브랜드_20% 전기간 쿠폰",
-      "status": "READY",
-      "from": "2026-12-07T02:00:00.000Z",
-      "to": "2026-12-17T02:00:00.000Z",
-      "minPercent": 15,
       "recruitDeadline": null
     }
   ]
