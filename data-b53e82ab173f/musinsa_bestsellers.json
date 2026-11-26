@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T03:57:28.059386+00:00",
+  "updatedAt": "2026-11-26T13:27:34.444209+00:00",
   "startDate": "2026-08-28",
   "endDate": "2026-11-26",
   "items": [
@@ -16,8 +16,8 @@
       "goodsNo": "3635002",
       "name": "하이넥 라인 무스탕 자켓 (4Color)",
       "styleNo": "EKM31_EIM3233_EJM21",
-      "qty": 124,
-      "salesAmt": 16149500
+      "qty": 127,
+      "salesAmt": 16478290
     },
     {
       "rank": 3,
@@ -93,6 +93,14 @@
     },
     {
       "rank": 12,
+      "goodsNo": "3782365",
+      "name": "[스트레이트] 데님 팬츠 (미디엄 블루)",
+      "styleNo": "EKP63L018",
+      "qty": 14,
+      "salesAmt": 532370
+    },
+    {
+      "rank": 13,
       "goodsNo": "5357952",
       "name": "벨벳 크롭 트러커 자켓 [블랙]",
       "styleNo": "EKJ02A019",
@@ -100,20 +108,12 @@
       "salesAmt": 1454240
     },
     {
-      "rank": 13,
+      "rank": 14,
       "goodsNo": "5357949",
       "name": "벨벳 플레어 데님 팬츠 [블랙]",
       "styleNo": "EKP03L019",
       "qty": 14,
       "salesAmt": 937140
-    },
-    {
-      "rank": 14,
-      "goodsNo": "3782365",
-      "name": "[스트레이트] 데님 팬츠 (미디엄 블루)",
-      "styleNo": "EKP63L018",
-      "qty": 13,
-      "salesAmt": 507880
     },
     {
       "rank": 15,
@@ -245,9 +245,27 @@
     }
   ],
   "byDate": {
+    "2026-11-25": [
+      {
+        "rank": 1,
+        "goodsNo": "4175736",
+        "name": "[2PACK] 수피마 코튼 릴렉스드 긴팔 티셔츠 (3Color)",
+        "styleNo": "EHT3436_2PACK",
+        "qty": 1,
+        "salesAmt": 19600
+      }
+    ],
     "2026-11-24": [
       {
         "rank": 1,
+        "goodsNo": "3635002",
+        "name": "하이넥 라인 무스탕 자켓 (4Color)",
+        "styleNo": "EKM31_EIM3233_EJM21",
+        "qty": 1,
+        "salesAmt": 105680
+      },
+      {
+        "rank": 2,
         "goodsNo": "4175736",
         "name": "[2PACK] 수피마 코튼 릴렉스드 긴팔 티셔츠 (3Color)",
         "styleNo": "EHT3436_2PACK",
@@ -261,8 +279,8 @@
         "goodsNo": "3635002",
         "name": "하이넥 라인 무스탕 자켓 (4Color)",
         "styleNo": "EKM31_EIM3233_EJM21",
-        "qty": 2,
-        "salesAmt": 223110
+        "qty": 4,
+        "salesAmt": 446220
       },
       {
         "rank": 2,
@@ -282,6 +300,14 @@
       },
       {
         "rank": 4,
+        "goodsNo": "3782365",
+        "name": "[스트레이트] 데님 팬츠 (미디엄 블루)",
+        "styleNo": "EKP63L018",
+        "qty": 1,
+        "salesAmt": 24490
+      },
+      {
+        "rank": 5,
         "goodsNo": "3782368",
         "name": "[스트레이트] 데님 팬츠 (블랙)",
         "styleNo": "ELP61L018",
@@ -289,7 +315,7 @@
         "salesAmt": 24490
       },
       {
-        "rank": 5,
+        "rank": 6,
         "goodsNo": "7579604",
         "name": "Natural Cowhide Stone-Washed Bomber Jacket (BROWN)",
         "styleNo": "LMX52",
@@ -328,83 +354,11 @@
     "2026-11-20": [
       {
         "rank": 1,
-        "goodsNo": "3782367",
-        "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
-        "styleNo": "ELP60L018",
-        "qty": 4,
-        "salesAmt": 180120
-      },
-      {
-        "rank": 2,
-        "goodsNo": "5357926",
-        "name": "베어 칼라 니트 가디건 [멜란지그레이]",
-        "styleNo": "EKW11L319",
-        "qty": 2,
-        "salesAmt": 48150
-      },
-      {
-        "rank": 3,
         "goodsNo": "5357925",
         "name": "클린 넥 니트 가디건 [블랙]",
         "styleNo": "EKW02L319",
         "qty": 1,
         "salesAmt": 29910
-      },
-      {
-        "rank": 4,
-        "goodsNo": "4135049",
-        "name": "루즈 스트레이트 데님팬츠 (라이트 그레이)",
-        "styleNo": "EHQ37L010",
-        "qty": 1,
-        "salesAmt": 47600
-      },
-      {
-        "rank": 5,
-        "goodsNo": "4379970",
-        "name": "오버사이즈 발마칸코트 (블랙)",
-        "styleNo": "EIO90S0M9",
-        "qty": 1,
-        "salesAmt": 131510
-      },
-      {
-        "rank": 6,
-        "goodsNo": "4752872",
-        "name": "스트레이트 데님 팬츠 (에크루)",
-        "styleNo": "EJP66L018",
-        "qty": 1,
-        "salesAmt": 59250
-      },
-      {
-        "rank": 7,
-        "goodsNo": "3635002",
-        "name": "하이넥 라인 무스탕 자켓 (4Color)",
-        "styleNo": "EKM31_EIM3233_EJM21",
-        "qty": 1,
-        "salesAmt": 203410
-      },
-      {
-        "rank": 8,
-        "goodsNo": "3576898",
-        "name": "[세미와이드] 원 턱 코듀로이 저지 팬츠 (네이비)",
-        "styleNo": "EG308L1M7",
-        "qty": 1,
-        "salesAmt": 42000
-      },
-      {
-        "rank": 9,
-        "goodsNo": "4752883",
-        "name": "[2PACK] 워시드 루즈핏 밴딩 데님팬츠 (3Color)",
-        "styleNo": "EJP40422",
-        "qty": 1,
-        "salesAmt": 96600
-      },
-      {
-        "rank": 10,
-        "goodsNo": "3782368",
-        "name": "[스트레이트] 데님 팬츠 (블랙)",
-        "styleNo": "ELP61L018",
-        "qty": 1,
-        "salesAmt": 45030
       }
     ],
     "2026-11-19": [
