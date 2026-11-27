@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-26T22:45:15.092181+00:00",
-  "startDate": "2026-08-28",
-  "endDate": "2026-11-26",
+  "updatedAt": "2026-11-27T04:43:38.334533+00:00",
+  "startDate": "2026-08-29",
+  "endDate": "2026-11-27",
   "items": [
     {
       "rank": 1,
@@ -9,15 +9,15 @@
       "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
       "styleNo": "ELP60L018",
       "qty": 194,
-      "salesAmt": 7662660
+      "salesAmt": 7642120
     },
     {
       "rank": 2,
       "goodsNo": "3635002",
       "name": "하이넥 라인 무스탕 자켓 (4Color)",
       "styleNo": "EKM31_EIM3233_EJM21",
-      "qty": 129,
-      "salesAmt": 16777260
+      "qty": 132,
+      "salesAmt": 17107880
     },
     {
       "rank": 3,
@@ -48,24 +48,24 @@
       "goodsNo": "3856208",
       "name": "[리얼 레더] 카우 스웨이드 트러커 자켓 (브라운)",
       "styleNo": "EKX31J018",
-      "qty": 27,
-      "salesAmt": 3570620
+      "qty": 26,
+      "salesAmt": 3465970
     },
     {
       "rank": 7,
-      "goodsNo": "4047159",
-      "name": "[2PACK][스트레이트] 데님 팬츠 (5Color)",
-      "styleNo": "EGP6064",
-      "qty": 23,
-      "salesAmt": 1403150
-    },
-    {
-      "rank": 8,
       "goodsNo": "5357918",
       "name": "[리얼 레더] 스웨이드 해링턴 재킷 [브라운]",
       "styleNo": "EKX02L119",
       "qty": 22,
       "salesAmt": 5075090
+    },
+    {
+      "rank": 8,
+      "goodsNo": "4047159",
+      "name": "[2PACK][스트레이트] 데님 팬츠 (5Color)",
+      "styleNo": "EGP6064",
+      "qty": 22,
+      "salesAmt": 1332050
     },
     {
       "rank": 9,
@@ -93,14 +93,6 @@
     },
     {
       "rank": 12,
-      "goodsNo": "3782365",
-      "name": "[스트레이트] 데님 팬츠 (미디엄 블루)",
-      "styleNo": "EKP63L018",
-      "qty": 14,
-      "salesAmt": 532370
-    },
-    {
-      "rank": 13,
       "goodsNo": "5357952",
       "name": "벨벳 크롭 트러커 자켓 [블랙]",
       "styleNo": "EKJ02A019",
@@ -108,12 +100,20 @@
       "salesAmt": 1454240
     },
     {
-      "rank": 14,
+      "rank": 13,
       "goodsNo": "5357949",
       "name": "벨벳 플레어 데님 팬츠 [블랙]",
       "styleNo": "EKP03L019",
       "qty": 14,
       "salesAmt": 937140
+    },
+    {
+      "rank": 14,
+      "goodsNo": "3782365",
+      "name": "[스트레이트] 데님 팬츠 (미디엄 블루)",
+      "styleNo": "EKP63L018",
+      "qty": 13,
+      "salesAmt": 487340
     },
     {
       "rank": 15,
@@ -197,14 +197,6 @@
     },
     {
       "rank": 25,
-      "goodsNo": "5357910",
-      "name": "[리얼 레더] 스웨이드 3버튼 블레이저 재킷 [브라운]",
-      "styleNo": "EKB02J119",
-      "qty": 8,
-      "salesAmt": 2276830
-    },
-    {
-      "rank": 26,
       "goodsNo": "5357942",
       "name": "세미 플레어 워시드 데님 팬츠 [블랙]",
       "styleNo": "EKQ01L017",
@@ -212,12 +204,20 @@
       "salesAmt": 388630
     },
     {
-      "rank": 27,
+      "rank": 26,
       "goodsNo": "5600176",
       "name": "[SET] 워시드 크롭 트러커 세미 플레어 데님 [2Color]",
       "styleNo": "EKU0102_EKQ0102",
       "qty": 8,
       "salesAmt": 838760
+    },
+    {
+      "rank": 27,
+      "goodsNo": "5357910",
+      "name": "[리얼 레더] 스웨이드 3버튼 블레이저 재킷 [브라운]",
+      "styleNo": "EKB02J119",
+      "qty": 7,
+      "salesAmt": 2000270
     },
     {
       "rank": 28,
@@ -245,9 +245,43 @@
     }
   ],
   "byDate": {
+    "2026-11-26": [
+      {
+        "rank": 1,
+        "goodsNo": "3635002",
+        "name": "하이넥 라인 무스탕 자켓 (4Color)",
+        "styleNo": "EKM31_EIM3233_EJM21",
+        "qty": 3,
+        "salesAmt": 303410
+      },
+      {
+        "rank": 2,
+        "goodsNo": "3576896",
+        "name": "[세미와이드] 원 턱 코듀로이 저지 팬츠 (베이지)",
+        "styleNo": "EG307L1M7",
+        "qty": 1,
+        "salesAmt": 36000
+      },
+      {
+        "rank": 3,
+        "goodsNo": "3782367",
+        "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
+        "styleNo": "ELP60L018",
+        "qty": 1,
+        "salesAmt": 24490
+      }
+    ],
     "2026-11-25": [
       {
         "rank": 1,
+        "goodsNo": "3782367",
+        "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
+        "styleNo": "ELP60L018",
+        "qty": 1,
+        "salesAmt": 24490
+      },
+      {
+        "rank": 2,
         "goodsNo": "4175736",
         "name": "[2PACK] 수피마 코튼 릴렉스드 긴팔 티셔츠 (3Color)",
         "styleNo": "EHT3436_2PACK",
@@ -279,8 +313,8 @@
         "goodsNo": "3635002",
         "name": "하이넥 라인 무스탕 자켓 (4Color)",
         "styleNo": "EKM31_EIM3233_EJM21",
-        "qty": 4,
-        "salesAmt": 446220
+        "qty": 7,
+        "salesAmt": 776840
       },
       {
         "rank": 2,
@@ -6061,64 +6095,6 @@
         "styleNo": "ELJ02_ELP0203",
         "qty": 1,
         "salesAmt": 105840
-      }
-    ],
-    "2026-08-28": [
-      {
-        "rank": 1,
-        "goodsNo": "3856208",
-        "name": "[리얼 레더] 카우 스웨이드 트러커 자켓 (브라운)",
-        "styleNo": "EKX31J018",
-        "qty": 1,
-        "salesAmt": 104650
-      },
-      {
-        "rank": 2,
-        "goodsNo": "4379860",
-        "name": "[2PACK] 핑거홀 울 라운드 니트 가디건 (5color)",
-        "styleNo": "EIW50542",
-        "qty": 1,
-        "salesAmt": 100640
-      },
-      {
-        "rank": 3,
-        "goodsNo": "3782365",
-        "name": "[스트레이트] 데님 팬츠 (미디엄 블루)",
-        "styleNo": "EKP63L018",
-        "qty": 1,
-        "salesAmt": 45030
-      },
-      {
-        "rank": 4,
-        "goodsNo": "3782454",
-        "name": "코튼/나일론 에센셜 셔츠 (퍼플)",
-        "styleNo": "EGD57L018",
-        "qty": 1,
-        "salesAmt": 49500
-      },
-      {
-        "rank": 5,
-        "goodsNo": "3782367",
-        "name": "[스트레이트] 데님 팬츠 (워시드 블랙)",
-        "styleNo": "ELP60L018",
-        "qty": 1,
-        "salesAmt": 45030
-      },
-      {
-        "rank": 6,
-        "goodsNo": "5357910",
-        "name": "[리얼 레더] 스웨이드 3버튼 블레이저 재킷 [브라운]",
-        "styleNo": "EKB02J119",
-        "qty": 1,
-        "salesAmt": 276560
-      },
-      {
-        "rank": 7,
-        "goodsNo": "4047159",
-        "name": "[2PACK][스트레이트] 데님 팬츠 (5Color)",
-        "styleNo": "EGP6064",
-        "qty": 1,
-        "salesAmt": 71100
       }
     ]
   }
